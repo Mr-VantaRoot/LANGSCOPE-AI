@@ -11,8 +11,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score
 
 
-DATA_DIR = Path("data/flores_plus/dev")
-ARTIFACT_DIR = Path("artifacts")
+PROJECT_DIR = Path(__file__).resolve().parent
+DATA_DIR = PROJECT_DIR / "data" / "flores_plus" / "dev"
+ARTIFACT_DIR = PROJECT_DIR / "artifacts"
 SEED = 42
 VALIDATION_FRACTION = 0.20
 

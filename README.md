@@ -1,68 +1,141 @@
 # LANGSCOPE AI
 
+LANGSCOPE AI is a language identification demo for the AI + Languages track of the VERITAS AI International High School Hackathon 2026. It uses a trained machine learning model to rank text against ten supported FLORES+ language configurations.
+
 ## Problem
 
-Language identification can be difficult for short text and for languages that are less commonly supported by general purpose tools. LANGSCOPE AI is a small, reproducible classifier for ten languages, built for the AI + Languages track of the VERITAS AI International High School Hackathon 2026.
+Short text can be difficult to identify reliably, especially across languages with different scripts and character patterns. This project provides a transparent, small language classifier and reports uncertainty instead of treating every model score as certain.
 
-The current data represents West Central Oromo (`gaz_Latn`), Simplified Mandarin (`cmn_Hans`), and the named FLORES+ varieties/configurations. Results therefore describe this benchmark and these varieties; they do not establish performance across every dialect, writing style, or source.
+## Supported languages
+
+The classifier has exactly these ten labels:
+
+- Amharic (`amh_Ethi`)
+- Afaan Oromo, West Central Oromo variety (`gaz_Latn`)
+- Mandarin Chinese, Simplified/Beijing (`cmn_Hans`)
+- Japanese (`jpn_Jpan`)
+- Finnish (`fin_Latn`)
+- Georgian (`kat_Geor`)
+- Thai (`tha_Thai`)
+- Swahili (`swh_Latn`)
+- Basque (`eus_Latn`)
+- Turkish (`tur_Latn`)
+
+These configurations do not represent every dialect or variety. The classifier is closed-set: it always ranks these ten labels. It cannot establish that an input is in one of them, and an unsupported language can be assigned to a supported label. A high score is not proof of language membership.
 
 ## What we built
 
-A Gradio app that accepts text and shows the predicted language, the model's maximum class probability, the top three classes and probabilities, and a validation-calibrated uncertainty message. Predictions come from a trained character n-gram TF-IDF vectorizer and multinomial logistic regression classifier. The app has no script-detection or keyword rules.
+The Gradio interface accepts text and displays a predicted label, top model score, three highest-ranked labels, and an uncertainty/limitations message. The prediction itself comes from the saved character n-gram TF-IDF vectorizer and logistic regression classifier. There are no script lookup or keyword rules used to choose the predicted language.
 
-## What we added
+The UI rejects blank, non-string, and punctuation/number-only input, warns when there are fewer than 20 characters, and shows the closed-set limitation on scored predictions. The 20-character advisory reflects the short-prefix evaluation below; it is a usability warning, not a guarantee about an individual input.
 
-- A Phase 1 data verification script and an exporter for the official FLORES+ `dev` and `devtest` splits.
-- A reproducible training and validation-tuning script, with fixed seed 42.
-- A one-time held-out test evaluation, comparison baselines, confusion matrix, short-prefix measurements, and real failure examples.
-- A validation-only confidence threshold selection script.
-- Ten real `dev` input/output examples in `artifacts/input_output_examples.json`.
-- Saved model and vectorizer in `artifacts/`.
+## Architecture and pipeline
 
-## How it works
+```mermaid
+flowchart LR
+    A[FLORES+ dev] --> B[Shared seeded sentence-ID split]
+    B --> C[Character n-gram TF-IDF]
+    C --> D[Logistic Regression]
+    B --> E[Validation tuning and score threshold]
+    D --> F[Saved vectorizer and classifier]
+    F --> G[Gradio app]
+    H[FLORES+ devtest] --> I[One-time held-out evaluation]
+    F --> I
+```
 
-FLORES+ supplies parallel sentences in ten configurations. The `dev` split has 997 sentences per language. A seeded split of shared sentence IDs gives 798 training and 199 validation sentences per language; `devtest` is reserved for the final test, with 1,012 per language. Phase 1 inspection found zero empty rows, zero within-split exact duplicate sentences, and zero exact sentence matches between `dev` and `devtest` for these configurations.
+`phase1_verify.py` inspects dataset configs and quality. `export_flores.py` exports only IDs and text for selected dataset splits. `phase2_train.py` chooses n-gram range and regularization on validation data and saves the selected pipeline. `phase4_calibrate.py` selects an uncertainty threshold from the same validation partition. `phase3_evaluate.py` performs the held-out evaluation and saves metrics, predictions, confusion matrix, and failures. `app.py` loads the saved model artifacts. The `artifacts/` directory contains those model files and outputs.
 
-The training script selects settings using validation macro-F1, with validation accuracy as a tie-breaker. It compares character n-gram ranges `(1, 3)`, `(2, 4)`, `(3, 5)` and logistic regression `C` values `0.1`, `1`, and `10`. The selected settings were `(1, 3)` and `C=0.1`; all nine tested settings tied at validation accuracy and macro-F1 of 1.0. The saved final model was fit on the training split only.
+The FLORES+ `dev` split has 997 examples per language. With seed 42, a shared split of sentence IDs gives 798 train and 199 validation examples per language. The `devtest` split, with 1,012 examples per language, is reserved for final evaluation. Phase 1 reported zero empty rows, zero within-split exact duplicate sentences, and zero exact duplicates between `dev` and `devtest` for the selected configurations.
 
-The confidence threshold is chosen on validation data to maximize accuracy among accepted predictions while maintaining at least 95% coverage, with ties resolved in favor of the higher threshold. The resulting threshold is `0.4757289252041075`; validation coverage was 0.950251256281407 and selective accuracy was 1.0. Predictions below the threshold are marked uncertain. This is a closed-set classifier: it always ranks the ten known classes, and the threshold is not a general detector for languages outside those classes.
+Training tried character n-gram ranges `(1, 3)`, `(2, 4)`, `(3, 5)` and logistic regression `C` values `0.1`, `1`, and `10`. The selection metric was validation macro-F1, with accuracy as a tie-breaker. The selected settings were `(1, 3)` and `C=0.1`; all nine candidates tied at validation accuracy and macro-F1 of `1.0`. The final model was fit using training examples only.
 
-## Results
+The validation-only threshold is `0.4757289252041075`. The rule maximized selective accuracy while requiring at least 95% validation coverage, breaking ties with the higher threshold. Observed validation coverage was `0.950251256281407` and selective accuracy was `1.0`. Logistic regression's `predict_proba` scores are shown as model scores; they are not guaranteed to be calibrated probabilities.
 
-The test set was evaluated once after settings were fixed. The classifier got 10,119 of 10,120 examples correct (accuracy `0.9999011857707509`). It made one error: a Basque sentence was predicted as Simplified Mandarin. Per-language precision, recall, F1, and the full confusion matrix are in `artifacts/phase3_metrics.json` and `artifacts/confusion_matrix.csv`.
+## Installation
 
-The majority-class baseline accuracy was `0.1`. `langid` 1.1.6 scored `0.9997804128238911` accuracy on its 9,108 supported test examples; Afaan Oromo was unsupported and excluded from that comparison.
-
-Accuracy on prefixes taken from each real test sentence was:
-
-| Prefix length (Unicode code points) | Accuracy | Examples |
-| --- | ---: | ---: |
-| 5 | 0.3268774703557312 | 10,120 |
-| 10 | 0.6575098814229249 | 10,120 |
-| 20 | 0.9354743083003952 | 10,120 |
-
-These measurements show that very short fragments are much harder. The five saved real failure cases are in `artifacts/failure_cases.json`, with possible explanations; those explanations are interpretations, not additional measured findings. The saved app examples are illustrative `dev` records, not test results.
-
-## What we'd do next
-
-- Evaluate on naturally occurring user text and additional varieties, with the same strict separation of training, validation, and test data.
-- Explore more robust calibration and an explicit out-of-scope response using validation-only decisions.
-- Have Oromo speakers review the chosen West Central Oromo data and test examples.
-- Run the Gradio app locally in a normal terminal and verify the browser interaction; the development sandbox used for this session denied socket creation, so an HTTP/browser-level check could not be completed here.
-
-## Sources
-
-- Dataset: [FLORES+ dataset card](https://huggingface.co/datasets/openlanguagedata/flores_plus); data license: CC BY-SA 4.0, as stated in its dataset card.
-- External detector baseline: [langid.py](https://github.com/saffsd/langid.py), version 1.1.6. Its supported language list does not include Oromo (`om`).
-- Library, model and tool references and licenses: see [CREDITS.md](CREDITS.md).
-
-## Run it
-
-Install the pinned packages and launch the UI:
+The project was developed with Python 3.14 and pinned package versions in `requirements.txt`. In a fresh checkout:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
+
+On Windows PowerShell, activate with `.venv\\Scripts\\Activate.ps1` instead of the `source` command.
+
+## Run the application
+
+From the repository root, with the environment activated:
+
+```bash
 python app.py
 ```
 
-To reproduce training and evaluation, first export the two dataset splits using the authenticated Hugging Face account with FLORES+ access, then run `phase2_train.py`, `phase4_calibrate.py`, and `phase3_evaluate.py` in that order. The test evaluation script is intended to be run once after model and threshold choices are finalized. Raw exports under `data/flores_plus/` are not committed.
+Open the local URL printed by Gradio. The saved model artifacts must exist under `artifacts/`. This project session verified artifact loading and predictions in-process, but could not verify browser access because the development sandbox denied local socket creation.
+
+## Reproduce data preparation, training, and evaluation
+
+FLORES+ is a gated Hugging Face dataset. First request/accept its terms and authenticate your own Hugging Face CLI account with access. Then, from the repository root:
+
+```bash
+python export_flores.py dev
+python export_flores.py devtest
+python phase2_train.py
+python phase4_calibrate.py
+python phase3_evaluate.py
+```
+
+The exporter stops if a download fails or sentence counts differ from the recorded counts. Training uses `dev`; `devtest` must remain untouched until settings and the threshold are finalized. `phase3_evaluate.py` is the final evaluation script and should only be run once for a given finalized model. Re-running training/calibration replaces corresponding files in `artifacts/`; keep a backup if you need to preserve a specific run. Raw exports in `data/flores_plus/` are ignored by Git and are not included in this repository.
+
+Run the local automated smoke tests with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The seven tests passed in both the project environment and a fresh dependency target installed from `requirements.txt`. Coverage included artifact loading, one real saved example for each of the ten language labels, empty and invalid inputs, punctuation-only text, a short Unicode prefix, a real English out-of-scope request phrase, and long Unicode text. These are app smoke tests; they do not rerun the held-out evaluation.
+
+## Existing evaluation results
+
+These are the results already saved in `artifacts/phase3_metrics.json`; the test set was evaluated once. On 10,120 held-out examples, the classifier got 10,119 correct: accuracy `0.9999011857707509`. The single error was a Basque sentence predicted as Simplified Mandarin. Per-language metrics are in that JSON file, and `artifacts/confusion_matrix.csv` contains the confusion matrix.
+
+The majority-class baseline accuracy was `0.1`. The external detector `langid` 1.1.6 scored `0.9997804128238911` accuracy on 9,108 supported examples. Afaan Oromo was unsupported by that detector and was excluded from its score.
+
+On prefixes from each real test sentence, accuracy was:
+
+| Prefix length | Accuracy | Examples |
+| ---: | ---: | ---: |
+| 5 Unicode code points | 0.3268774703557312 | 10,120 |
+| 10 Unicode code points | 0.6575098814229249 | 10,120 |
+| 20 Unicode code points | 0.9354743083003952 | 10,120 |
+
+The five saved failure cases and cautious, qualitative explanations are in `artifacts/failure_cases.json`. The ten sample inputs and outputs in `artifacts/input_output_examples.json` are real FLORES+ `dev` examples for demonstration; they are not test metrics.
+
+Example input/output (one saved `dev` example):
+
+```text
+Input: 周一，斯坦福大学医学院的科学家宣布，他们发明了一种可以将细胞按类型分类的新型诊断工具：一种可打印的微型芯片。这种芯片可以使用标准喷墨打印机制造，每片价格可能在一美分左右。
+Predicted language: Mandarin Chinese (Simplified/Beijing)
+Top model score: 0.558547
+Other top candidates: Japanese 0.132334; Amharic 0.073337
+```
+
+This is one real FLORES+ `dev` sentence, not an evaluation result. The full stored values are in `artifacts/input_output_examples.json`.
+
+## Limitations and next steps
+
+- The benchmark uses parallel FLORES+ sentences and does not establish performance on conversational, mixed-language, misspelled, or domain-specific text.
+- Prefix accuracy drops considerably for short input. The app warns below 20 characters, but longer text can still be ambiguous.
+- The model only knows ten labels; the uncertainty threshold is not an out-of-distribution detector. Unsupported inputs can receive a confident-looking score.
+- `gaz_Latn` represents West Central Oromo; it is not evidence of coverage across all Afaan Oromo varieties.
+- The one full-sentence test error and all saved short-prefix failures remain visible in the artifacts.
+- Before a public demo, run the app and smoke tests in a normal local environment, then deploy only after choosing a hosting service and reviewing public exposure of the model/data artifacts.
+
+## Data attribution and source-code license
+
+The dataset is [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus). Its card identifies the data license as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); attribution, model/library references, and other credits are in [CREDITS.md](CREDITS.md). Dataset terms apply to the dataset and are not a license for this project's original source code. No separate license for the original source code has been selected in this repository.
+
+## Deployment later
+
+No deployment or external account setup has been performed. See [DEPLOYMENT.md](DEPLOYMENT.md) for manual Hugging Face Spaces preparation steps. No GitHub branches or settings are changed by those instructions.

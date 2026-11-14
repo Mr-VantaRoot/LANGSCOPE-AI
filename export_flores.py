@@ -7,6 +7,7 @@ from datasets import load_dataset
 
 
 DATASET_ID = "openlanguagedata/flores_plus"
+PROJECT_DIR = Path(__file__).resolve().parent
 LANGUAGE_CONFIGS = [
     "amh_Ethi",
     "gaz_Latn",
@@ -26,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("split", choices=EXPECTED_SENTENCES)
     split_name = parser.parse_args().split
-    output_dir = Path("data") / "flores_plus" / split_name
+    output_dir = PROJECT_DIR / "data" / "flores_plus" / split_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for config in LANGUAGE_CONFIGS:

@@ -1,4 +1,4 @@
-"""Gradio app for the trained LANGSCOPE AI language identifier."""
+"""Gradio interface for the trained LANGSCOPE AI language identifier."""
 
 import json
 from pathlib import Path
@@ -15,69 +15,107 @@ threshold_data = json.loads(
     (ARTIFACT_DIR / "uncertainty_threshold.json").read_text(encoding="utf-8")
 )
 CONFIDENCE_THRESHOLD = float(threshold_data["threshold"])
+SHORT_TEXT_CHARACTERS = 20
+SUPPORTED_LANGUAGES = tuple(str(label) for label in classifier.classes_)
 
 
 def predict_language(text):
-    """Return model prediction, confidence, top three, and uncertainty status."""
-    if text is None or not text.strip():
+    """Return the model's top label, score, alternatives, and cautious guidance."""
+    if not isinstance(text, str):
+        return "", "", "", "Enter text as a string to identify its language."
+
+    cleaned_text = text.strip()
+    if not cleaned_text:
         return "", "", "", "Enter text to identify its language."
 
-    # The trained TF-IDF vectorizer and logistic regression model do the prediction.
-    features = vectorizer.transform([text])
-    probabilities = classifier.predict_proba(features)[0]
+    # Punctuation and numbers alone do not contain enough language signal to score.
+    # This is input validation only; it does not choose a language.
+    if not any(character.isalpha() for character in cleaned_text):
+        return "", "", "", "Enter text containing letters; punctuation alone is not enough."
+
+    try:
+        features = vectorizer.transform([cleaned_text])
+        scores = classifier.predict_proba(features)[0]
+    except UnicodeError:
+        return "", "", "", "The input contains text that could not be processed."
+
     ranked_indices = sorted(
-        range(len(probabilities)),
-        key=lambda index: probabilities[index],
+        range(len(scores)),
+        key=lambda index: float(scores[index]),
         reverse=True,
     )[:3]
-
     best_index = ranked_indices[0]
     predicted_language = str(classifier.classes_[best_index])
-    confidence = float(probabilities[best_index])
+    top_score = float(scores[best_index])
     top_three = "\n".join(
-        f"{classifier.classes_[index]}: {float(probabilities[index])}"
+        f"{classifier.classes_[index]} — model score {float(scores[index]):.6f}"
         for index in ranked_indices
     )
 
-    if confidence < CONFIDENCE_THRESHOLD:
-        status = (
-            "Uncertain: confidence is below the validation-selected threshold "
-            f"({CONFIDENCE_THRESHOLD})."
+    messages = []
+    if top_score < CONFIDENCE_THRESHOLD:
+        messages.append(
+            "Uncertain: the top model score is below the threshold selected on "
+            f"validation data ({CONFIDENCE_THRESHOLD:.12f})."
         )
     else:
-        status = (
-            "Confidence meets the validation-selected threshold "
-            f"({CONFIDENCE_THRESHOLD})."
+        messages.append(
+            "The top model score meets the threshold selected on validation data "
+            f"({CONFIDENCE_THRESHOLD:.12f})."
         )
 
-    return predicted_language, str(confidence), top_three, status
+    if len(cleaned_text) < SHORT_TEXT_CHARACTERS:
+        messages.append(
+            f"This is very short text ({len(cleaned_text)} characters). In the "
+            "held-out benchmark, accuracy was lower on short prefixes; add more "
+            "text for a more reliable result."
+        )
+
+    messages.append(
+        "This model only compares the ten supported languages. It may assign an "
+        "unsupported language to one of them; a high score does not prove the "
+        "input belongs to a supported language."
+    )
+    return predicted_language, f"{top_score:.6f}", top_three, "\n\n".join(messages)
 
 
-with gr.Blocks(title="LANGSCOPE AI", analytics_enabled=False) as demo:
+with gr.Blocks(
+    title="LANGSCOPE AI — Language Identification",
+    analytics_enabled=False,
+) as demo:
     gr.Markdown(
         "# LANGSCOPE AI\n"
-        "Enter text to identify its language. Predictions come from the trained "
-        "character n-gram TF-IDF and logistic regression model."
+        "Identify text in ten languages with a character n-gram TF-IDF and "
+        "logistic regression model trained on FLORES+."
     )
 
-    text_input = gr.Textbox(
-        label="Text",
-        lines=5,
-        placeholder="Paste text here",
-    )
-    identify_button = gr.Button("Identify language", variant="primary")
+    with gr.Row():
+        with gr.Column(scale=3):
+            text_input = gr.Textbox(
+                label="Text to identify",
+                lines=7,
+                max_lines=16,
+                placeholder="Paste a sentence or more. Longer text is usually easier to identify.",
+            )
+            with gr.Row():
+                identify_button = gr.Button("Detect Language", variant="primary")
+                clear_button = gr.Button("Clear")
+        with gr.Column(scale=2):
+            predicted_output = gr.Textbox(
+                label="Predicted language", interactive=False
+            )
+            score_output = gr.Textbox(
+                label="Top model score (not a calibrated probability)",
+                interactive=False,
+            )
+            top_three_output = gr.Textbox(
+                label="Top three candidates (model scores)",
+                lines=4,
+                interactive=False,
+            )
 
-    predicted_output = gr.Textbox(label="Predicted language", interactive=False)
-    confidence_output = gr.Textbox(label="Confidence score", interactive=False)
-    top_three_output = gr.Textbox(label="Top 3 predictions", lines=3, interactive=False)
     status_output = gr.Markdown()
-
-    outputs = [
-        predicted_output,
-        confidence_output,
-        top_three_output,
-        status_output,
-    ]
+    outputs = [predicted_output, score_output, top_three_output, status_output]
     identify_button.click(
         predict_language,
         inputs=text_input,
@@ -90,7 +128,23 @@ with gr.Blocks(title="LANGSCOPE AI", analytics_enabled=False) as demo:
         outputs=outputs,
         api_name="predict_language_on_submit",
     )
+    clear_button.click(
+        lambda: ("", "", "", "", ""),
+        inputs=None,
+        outputs=[text_input, *outputs],
+        api_name=False,
+    )
+
+    with gr.Accordion("Supported languages and limitations", open=False):
+        gr.Markdown(
+            "\n".join(f"- {language}" for language in SUPPORTED_LANGUAGES)
+            + "\n\nThe model always ranks these ten classes. Its score is not a "
+            "guaranteed probability or a reliable test for languages outside "
+            "this list. Evaluation used FLORES+ benchmark sentences; performance "
+            "on casual messages, dialects, mixed-language text, names, and "
+            "very short input may differ."
+        )
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(theme=gr.themes.Soft())

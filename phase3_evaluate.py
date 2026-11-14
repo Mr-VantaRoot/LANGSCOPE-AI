@@ -11,8 +11,9 @@ from importlib.metadata import version
 from sklearn.metrics import confusion_matrix
 
 
-TEST_DIR = Path("data/flores_plus/devtest")
-ARTIFACT_DIR = Path("artifacts")
+PROJECT_DIR = Path(__file__).resolve().parent
+TEST_DIR = PROJECT_DIR / "data" / "flores_plus" / "devtest"
+ARTIFACT_DIR = PROJECT_DIR / "artifacts"
 LANGUAGES = [
     ("Amharic", "amh_Ethi"),
     ("Afaan Oromo (West Central Oromo)", "gaz_Latn"),

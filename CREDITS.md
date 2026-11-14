@@ -16,11 +16,19 @@
 | [Hugging Face `datasets`](https://github.com/huggingface/datasets) | 5.2.0 | Access and export FLORES+ | [Apache 2.0](https://github.com/huggingface/datasets/blob/main/LICENSE) |
 | [scikit-learn](https://scikit-learn.org/) | 1.9.1 | TF-IDF features, logistic regression, and evaluation metrics | [BSD 3-Clause](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING) |
 | [SciPy](https://scipy.org/) | 1.18.1 | Numerical dependency used by scikit-learn | [BSD 3-Clause](https://github.com/scipy/scipy/blob/main/LICENSE.txt) |
+| [NumPy](https://numpy.org/) | 2.5.4 | Array operations used by scikit-learn and langid | [BSD 3-Clause](https://github.com/numpy/numpy/blob/main/LICENSE.txt) |
+| [pandas](https://pandas.pydata.org/) | 3.1.1 | DataFrame dependency used by the dataset tooling | [BSD 3-Clause](https://github.com/pandas-dev/pandas/blob/main/LICENSE) |
+| [PyArrow](https://arrow.apache.org/) | 26.0.1 | Arrow data support for Hugging Face datasets | [Apache 2.0](https://github.com/apache/arrow/blob/main/LICENSE.txt) |
+| [Hugging Face Hub](https://huggingface.co/docs/huggingface_hub/) | 2.4.0 | Hub access/authentication dependency used by `datasets` | [Apache 2.0](https://github.com/huggingface/huggingface_hub/blob/main/LICENSE) |
 | [Gradio](https://www.gradio.app/) | 6.32.0 | Web interface | [Apache 2.0](https://github.com/gradio-app/gradio/blob/main/LICENSE) |
 | [joblib](https://joblib.readthedocs.io/) | 1.6.0 | Save and load model artifacts | [BSD 3-Clause](https://github.com/joblib/joblib/blob/main/LICENSE.txt) |
 | [langid](https://pypi.org/project/langid/) | 1.1.6 | External benchmark baseline | BSD, as stated on its PyPI page |
 
 The pinned runtime dependencies are listed in `requirements.txt`. The environment also reported SciPy 1.18.1; scikit-learn uses SciPy as a dependency.
+
+## Project source license
+
+No separate license has been selected for the original project source code. The FLORES+ CC BY-SA 4.0 terms apply to that dataset and should not be read as a license grant for this repository's source code.
 
 ## AI tool
 

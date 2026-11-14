@@ -7,8 +7,9 @@ from pathlib import Path
 import joblib
 
 
-DATA_DIR = Path("data/flores_plus/dev")
-ARTIFACT_DIR = Path("artifacts")
+PROJECT_DIR = Path(__file__).resolve().parent
+DATA_DIR = PROJECT_DIR / "data" / "flores_plus" / "dev"
+ARTIFACT_DIR = PROJECT_DIR / "artifacts"
 SEED = 42
 VALIDATION_FRACTION = 0.20
 MINIMUM_COVERAGE = 0.95
