@@ -1,0 +1,11 @@
+true_label/predicted_label,Amharic,Afaan Oromo (West Central Oromo),Mandarin Chinese (Simplified/Beijing),Japanese,Finnish,Georgian,Thai,Swahili,Basque,Turkish
+Amharic,1012,0,0,0,0,0,0,0,0,0
+Afaan Oromo (West Central Oromo),0,1012,0,0,0,0,0,0,0,0
+Mandarin Chinese (Simplified/Beijing),0,0,1012,0,0,0,0,0,0,0
+Japanese,0,0,0,1012,0,0,0,0,0,0
+Finnish,0,0,0,0,1012,0,0,0,0,0
+Georgian,0,0,0,0,0,1012,0,0,0,0
+Thai,0,0,0,0,0,0,1012,0,0,0
+Swahili,0,0,0,0,0,0,0,1012,0,0
+Basque,0,0,1,0,0,0,0,0,1011,0
+Turkish,0,0,0,0,0,0,0,0,0,1012

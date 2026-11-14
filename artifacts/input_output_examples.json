@@ -1,0 +1,142 @@
+[
+  {
+    "source": "FLORES+ dev",
+    "config": "amh_Ethi",
+    "true_language": "Amharic",
+    "text": "ሰኞ እለት፣ በስታንፎርድ ዩኒቨርሲቲ የህክምና ትምህርት ቤት ህዋሶችን በአይነት የሚያስቀምጥ አዲስ የምርመራ መሳሪያ እንደተፈጠረ አስታውቋል፡ እያንዳንዱን በአንደ የዩ.ኤስ ሳንቲም የሚሆን መደበኛ የኢንክጄት አታሚዎችን በመጠቀም ሊፈበረክ የሚችል ትንሽ መታተም የሚችል ቺፕ።",
+    "predicted_language": "Amharic",
+    "confidence": "0.7822424066806887",
+    "top_three": [
+      "Amharic: 0.7822424066806887",
+      "Mandarin Chinese (Simplified/Beijing): 0.058276316159133756",
+      "Japanese: 0.044194650680859704"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "gaz_Latn",
+    "true_language": "Afaan Oromo (West Central Oromo)",
+    "text": "Wixata, saayintistootni yuunivasitii Stanfordii kan kutaa barnoota fayyaa meeshaa haaraa yaaliif ta’uu kan seelii gosa gosaan adda addaa baasu beeksisan: waan xiqqaa maxxanfamuu danda’uu kan maxxansituu inkjeeti fayyadamuun maxxaansu kan tokkon tokko isaanii saantimaa U.S tokko ta’uu malaa.",
+    "predicted_language": "Afaan Oromo (West Central Oromo)",
+    "confidence": "0.713225907477131",
+    "top_three": [
+      "Afaan Oromo (West Central Oromo): 0.713225907477131",
+      "Finnish: 0.06704463812547598",
+      "Swahili: 0.05899509497784975"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "cmn_Hans",
+    "true_language": "Mandarin Chinese (Simplified/Beijing)",
+    "text": "周一，斯坦福大学医学院的科学家宣布，他们发明了一种可以将细胞按类型分类的新型诊断工具：一种可打印的微型芯片。这种芯片可以使用标准喷墨打印机制造，每片价格可能在一美分左右。",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "confidence": "0.5585469152880178",
+    "top_three": [
+      "Mandarin Chinese (Simplified/Beijing): 0.5585469152880178",
+      "Japanese: 0.1323335697393506",
+      "Amharic: 0.07333670715706458"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "jpn_Jpan",
+    "true_language": "Japanese",
+    "text": "月曜日にスタンフォード大学医学部の科学者たちは、細胞を種類別に分類できる新しい診断ツールを発明したと発表しました。それは標準的なインクジェットプリンタで印刷して製造できる小型チップであり、原価は1枚あたり1円ほどす。",
+    "predicted_language": "Japanese",
+    "confidence": "0.6544738762680514",
+    "top_three": [
+      "Japanese: 0.6544738762680514",
+      "Mandarin Chinese (Simplified/Beijing): 0.12261929990547814",
+      "Amharic: 0.05038979668053625"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "fin_Latn",
+    "true_language": "Finnish",
+    "text": "Stanfordin yliopiston lääketieteen laitoksen tutkijat ilmoittivat maanantaina uuden diagnostiikkatyökalun keksimisestä: solut tyypin mukaan lajitteleva pienenpieni tulostettava siru, joka voidaan valmistaa normaaleilla mustesuihkutulostimilla mahdollisesti noin yhden Yhdysvaltain sentin kappalehintaan.",
+    "predicted_language": "Finnish",
+    "confidence": "0.8136225599346932",
+    "top_three": [
+      "Finnish: 0.8136225599346932",
+      "Afaan Oromo (West Central Oromo): 0.03818571710401976",
+      "Basque: 0.03222361617461263"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "kat_Geor",
+    "true_language": "Georgian",
+    "text": "ორშაბათს, სტენფორდის უნივერსიტეტის სამედიცინო კათედრის მეცნიერებმა გააკეთეს განცხადება ახალი დიაგნოსტიკური ხელსაწყოს გამოგონების შესახებ, რომელსაც უჯრედის ტიპებად დაყოფა შეუძლია: წვრილი, დასაბეჭდი ჩიპი, რომლის წარმოებაც შესაძლებელია ჩვეულებრივი ჭავლური პრინტერის საშუალებით. ერთი ცალის სავარაუდო ღირებულება აშშ ცენტს შეადგენს.",
+    "predicted_language": "Georgian",
+    "confidence": "0.8885484330632933",
+    "top_three": [
+      "Georgian: 0.8885484330632933",
+      "Mandarin Chinese (Simplified/Beijing): 0.025457927531387092",
+      "Japanese: 0.020085594005298933"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "tha_Thai",
+    "true_language": "Thai",
+    "text": "เมื่อวันจันทร์ที่ผ่านมา นักวิทยาศาสตร์จากโรงเรียนการแพทย์แห่งมหาวิทยาลัยสแตนฟอร์ดได้ประกาศถึงการประดิษฐ์เครื่องมือวินิจฉัยใหม่ที่สามารถจัดเรียงเซลล์ตามประเภทได้ ซึ่งก็คือชิปขนาดเล็กซึ่งสามารถผลิตได้โดยใช้เครื่องพิมพ์อิงค์เจ็ตแบบมาตรฐานในราคาประมาณชิ้นละหนึ่งเซ็นต์ดอลลาร์สหรัฐ",
+    "predicted_language": "Thai",
+    "confidence": "0.8411740370782563",
+    "top_three": [
+      "Thai: 0.8411740370782563",
+      "Mandarin Chinese (Simplified/Beijing): 0.03956582087739962",
+      "Japanese: 0.030641701399870436"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "swh_Latn",
+    "true_language": "Swahili",
+    "text": "Mnamo Jumatatu, wanasayansi kutoka Shule ya Tiba ya Chuo Kikuu cha Stanford walitangaza uvumbuzi wa kifaa kipya cha utambuzi ambacho kinaweza kupanga seli kwa aina: kidude kidogo kinachoweza kuchapwa, na ambacho kinaweza kutengenezwa kwa kutumia printa ya kawaida ya kupuliza rangi, yawezekana kwa takribani senti moja ya Marekani kwa kila moja.",
+    "predicted_language": "Swahili",
+    "confidence": "0.8296678948426685",
+    "top_three": [
+      "Swahili: 0.8296678948426685",
+      "Afaan Oromo (West Central Oromo): 0.034898047232835086",
+      "Basque: 0.030393300278214797"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "eus_Latn",
+    "true_language": "Basque",
+    "text": "Astelehenean, Stanford Unibertsitateko Medikuntza Eskolako ikerlariek iragarri zuten tresna diagnostiko berri bat asmatu zutela zelulak motaren arabera sailkatzeko: txip inprimagarri txiki bat da, tinta inprimagailu estandarrak erabiliz sor daitekeena, dolar amerikar baten zentimo baten truke.",
+    "predicted_language": "Basque",
+    "confidence": "0.7658558217464767",
+    "top_three": [
+      "Basque: 0.7658558217464767",
+      "Turkish: 0.05814460791468401",
+      "Finnish: 0.041503709497312885"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  },
+  {
+    "source": "FLORES+ dev",
+    "config": "tur_Latn",
+    "true_language": "Turkish",
+    "text": "Stanford Üniversitesi Tıp Fakültesi’nde görev alan bilim insanları, pazartesi günü hücreleri cinslerine göre sıraya koyabilen yeni bir teşhis aracının bulunduğunu duyurdu. Bu araç, standart mürekkep püskürtmeli yazıcılar kullanılarak her biri tahminen yaklaşık bir sente imal edilebilen küçük bir yazdırılabilir çipti.",
+    "predicted_language": "Turkish",
+    "confidence": "0.7968198314524526",
+    "top_three": [
+      "Turkish: 0.7968198314524526",
+      "Basque: 0.04151713254916846",
+      "Finnish: 0.03196601622076777"
+    ],
+    "status": "Confidence meets the validation-selected threshold (0.4757289252041075)."
+  }
+]

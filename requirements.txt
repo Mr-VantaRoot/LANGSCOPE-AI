@@ -1,0 +1,5 @@
+datasets==5.2.0
+scikit-learn==1.9.1
+gradio==6.32.0
+joblib==1.6.0
+langid==1.1.6

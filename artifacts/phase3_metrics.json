@@ -1,0 +1,168 @@
+{
+  "test_examples": 10120,
+  "test_per_language": {
+    "Amharic": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Afaan Oromo (West Central Oromo)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Mandarin Chinese (Simplified/Beijing)": {
+      "precision": 0.9990128331688055,
+      "recall": 1.0,
+      "f1": 0.9995061728395062,
+      "support": 1012
+    },
+    "Japanese": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Finnish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Georgian": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Thai": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Swahili": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    },
+    "Basque": {
+      "precision": 1.0,
+      "recall": 0.9990118577075099,
+      "f1": 0.9995056846267919,
+      "support": 1012
+    },
+    "Turkish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1012
+    }
+  },
+  "test_accuracy": 0.9999011857707509,
+  "confusion_matrix_labels": [
+    "Amharic",
+    "Afaan Oromo (West Central Oromo)",
+    "Mandarin Chinese (Simplified/Beijing)",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "majority_baseline": {
+    "predicted_label": "Amharic",
+    "accuracy": 0.1
+  },
+  "external_detector": {
+    "name": "langid",
+    "version": "1.1.6",
+    "supported_examples": 9108,
+    "unsupported_languages": [
+      "Afaan Oromo (West Central Oromo)"
+    ],
+    "accuracy_on_supported_examples": 0.9997804128238911,
+    "per_language": {
+      "Amharic": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      },
+      "Afaan Oromo (West Central Oromo)": "unsupported",
+      "Mandarin Chinese (Simplified/Beijing)": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      },
+      "Japanese": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      },
+      "Finnish": {
+        "precision": 1.0,
+        "recall": 0.9990118577075099,
+        "f1": 0.9995056846267919,
+        "support": 1012
+      },
+      "Georgian": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      },
+      "Thai": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      },
+      "Swahili": {
+        "precision": 0.9980276134122288,
+        "recall": 1.0,
+        "f1": 0.9990128331688055,
+        "support": 1012
+      },
+      "Basque": {
+        "precision": 1.0,
+        "recall": 0.9990118577075099,
+        "f1": 0.9995056846267919,
+        "support": 1012
+      },
+      "Turkish": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1012
+      }
+    }
+  },
+  "short_prefix_results": {
+    "5": {
+      "input_definition": "first 5 Unicode code points of each test sentence",
+      "accuracy": 0.3268774703557312,
+      "examples": 10120
+    },
+    "10": {
+      "input_definition": "first 10 Unicode code points of each test sentence",
+      "accuracy": 0.6575098814229249,
+      "examples": 10120
+    },
+    "20": {
+      "input_definition": "first 20 Unicode code points of each test sentence",
+      "accuracy": 0.9354743083003952,
+      "examples": 10120
+    }
+  },
+  "full_sentence_failure_count": 1,
+  "short_prefix_failure_count": 10931,
+  "test_evaluated_once": true
+}

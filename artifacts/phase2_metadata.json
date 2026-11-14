@@ -1,0 +1,127 @@
+{
+  "dataset": "openlanguagedata/flores_plus",
+  "dataset_configs": [
+    "amh_Ethi",
+    "gaz_Latn",
+    "cmn_Hans",
+    "jpn_Jpan",
+    "fin_Latn",
+    "kat_Geor",
+    "tha_Thai",
+    "swh_Latn",
+    "eus_Latn",
+    "tur_Latn"
+  ],
+  "label_names": [
+    "Amharic",
+    "Afaan Oromo (West Central Oromo)",
+    "Mandarin Chinese (Simplified/Beijing)",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "seed": 42,
+  "train_sentence_ids": 798,
+  "validation_sentence_ids": 199,
+  "validation_split_method": "one seeded split of shared dev sentence IDs",
+  "tuning_metric": "validation macro-F1, accuracy as tie-breaker",
+  "selected_settings": {
+    "ngram_range": [
+      1,
+      3
+    ],
+    "C": 0.1
+  },
+  "selected_validation_accuracy": 1.0,
+  "selected_validation_macro_f1": 1.0,
+  "validation_grid": [
+    {
+      "ngram_range": [
+        1,
+        3
+      ],
+      "C": 0.1,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        1,
+        3
+      ],
+      "C": 1.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        1,
+        3
+      ],
+      "C": 10.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        2,
+        4
+      ],
+      "C": 0.1,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        2,
+        4
+      ],
+      "C": 1.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        2,
+        4
+      ],
+      "C": 10.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        3,
+        5
+      ],
+      "C": 0.1,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        3,
+        5
+      ],
+      "C": 1.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    },
+    {
+      "ngram_range": [
+        3,
+        5
+      ],
+      "C": 10.0,
+      "validation_accuracy": 1.0,
+      "validation_macro_f1": 1.0
+    }
+  ],
+  "scikit_learn_version": "1.9.1",
+  "final_fit_data": "train split only",
+  "test_split_used": false
+}

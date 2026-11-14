@@ -1,0 +1,12 @@
+{
+  "threshold": 0.4757289252041075,
+  "validation_coverage": 0.950251256281407,
+  "validation_selective_accuracy": 1.0,
+  "validation_examples": 1990,
+  "accepted_examples": 1891,
+  "uncertain_examples": 99,
+  "selection_rule": "maximize selective accuracy with at least 95% validation coverage; break ties by choosing the highest threshold",
+  "seed": 42,
+  "validation_split": "20% of shared FLORES+ dev sentence IDs",
+  "test_split_used": false
+}

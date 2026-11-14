@@ -1,0 +1,46 @@
+[
+  {
+    "id": "230",
+    "input_type": "full sentence",
+    "text": "Programa 8:30ean (pm) hasi zen (15:00 UTC).",
+    "true_language": "Basque",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "likely_reason": "Likely because this short sentence is dominated by time and numeric tokens (8:30, 15:00, pm, UTC) and contains little Basque character context. The model assigned its strongest n-gram evidence to Mandarin Chinese."
+  },
+  {
+    "id": "1",
+    "input_type": "5-character prefix",
+    "text": "ዶክተር ",
+    "source_test_sentence": "ዶክተር ኢሁድ ኡር፣ በሃሊፉሽ፣ ኖቫስኮሽያ ውስጥ በሚገኘው በዳልሃውዚ ዩኒቨርሲቲ የህክምና ፕሮፌሰር፣ እና የካናዳዊ የስኳር ህመ ማህበር የክሊኒካዊ እና ሳይንሳዊ ክፍል ሊቀመንበር ጥናቱ ገና በጅማሬ ወቅቱ እንደሆነ አስታውቋል።",
+    "true_language": "Amharic",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "likely_reason": "Likely because the input is only one title word with no surrounding sentence context. The learned scores for this short prefix favored Mandarin Chinese despite its true Amharic label."
+  },
+  {
+    "id": "3",
+    "input_type": "5-character prefix",
+    "text": "ሰኞ ዕለ",
+    "source_test_sentence": "ሰኞ ዕለት፣ ሳራ ዳኒየስ፣ ለኖቤል ኮሚቴ ለስነ ጽሁፍ በስዊድናዊ አካዳሚ ቋሚ ጸሃፊ የሆነቸው፣ በስዊድን ውስጥ በስቨሪጅስ ሬድዮ ፕሮግራም ላይ ኮሚቴው፣ ቦብ ዲላንን ስለ በስነ ጽሁፍ የ2016 የኖቤል ሽልማቱን ስለማሸንፍ ማግኘት ስላልቻለ፣ እርሱን ለመድረስ ጥረቶችን እንሚያቋረጥ በግልጽ ተናገረ።",
+    "true_language": "Amharic",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "likely_reason": "Likely because the prefix ends in the middle of the opening phrase, before the sentence provides more Amharic context. The available character n-grams favored Mandarin Chinese."
+  },
+  {
+    "id": "5",
+    "input_type": "5-character prefix",
+    "text": "ከዚህ ቀ",
+    "source_test_sentence": "ከዚህ ቀደም፣ የሪንግ ዋና ሥራ አስኪያጅ፣ ጄሚ ሲሚኖፍ፣ ኩባንያው የጀመው የበር ደውሉ መኪና ማቆሚያው ውስጥ በሚገኘው ሱቅ ውስጥ አልሰማ ሲለው እንደሆነ ተናግሯል።",
+    "true_language": "Amharic",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "likely_reason": "Likely because this is only the beginning of an Amharic phrase and the prefix cuts off as the next word starts. There is little context to distinguish the language, and the model favored Mandarin Chinese."
+  },
+  {
+    "id": "7",
+    "input_type": "5-character prefix",
+    "text": "ፓናሉ ለ",
+    "source_test_sentence": "ፓናሉ ለንግድ መጀመር ገንዘብ በተከለከለበት በ2013 በሻርክ ታንክ ምዕራፍ ላይ ከቀረበ ወዲህ ሽያጭ እንደጨመረ ሲሚኖፍ ተነግሯል።",
+    "true_language": "Amharic",
+    "predicted_language": "Mandarin Chinese (Simplified/Beijing)",
+    "likely_reason": "Likely because the prefix contains only a short opening phrase and the start of another word. Those few character n-grams provided insufficient evidence, and the model favored Mandarin Chinese."
+  }
+]
