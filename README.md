@@ -27,7 +27,11 @@ Tatoeba sentence rows contain IDs, three-letter language codes, and text. Tatoeb
 
 The model is `TfidfVectorizer(analyzer="char", ngram_range=(1, 3))` followed by `LogisticRegression(C=10.0)`. Validation macro-F1 selected C from 0.1, 1.0, and 10.0. The app displays the top language, its raw model score, and three candidates. The score is not a calibrated probability.
 
-A separate score gate leaves low-scoring inputs unassigned. It was calibrated with the ten-language validation examples and separate French Tatoeba examples. It is only a caution filter: unsupported text may still pass as one of the ten languages. “How are you?” now ranks **English** first with a raw score of **0.841009**, above the **0.660368** gate.
+### Reading the prediction
+
+**Top three candidates (model scores)** lists the three supported languages with the highest Logistic Regression scores, in descending order. Each score is the model's relative class score for that input; it is not a calibrated probability, and the three scores should not be interpreted as certainty percentages.
+
+**“Uncertain — no supported language assigned”** means the highest score was below the rejection threshold (**0.660368**). The app then withholds a language assignment, although it still shows the model's top candidates for context. The threshold was chosen using in-language validation examples and separate French Tatoeba examples. It can reject difficult or short text even when it is one of the ten supported languages, and it can still accept unsupported text. For example, “How are you?” ranks **English** first with a raw score of **0.841009**, above the threshold. This gate is a caution, not a guarantee that the input is or is not one of the supported languages.
 
 ```mermaid
 flowchart LR
@@ -36,7 +40,8 @@ flowchart LR
     C --> D[Balanced train / validation / fresh test]
     D --> E[Character TF-IDF 1–3]
     E --> F[Logistic Regression]
-    D --> G[Validation-only model and threshold selection]
+    D --> G[Validation-only model selection and ID score validation]
+    X[Separate French OOD calibration] --> G
     F --> H[One-time held-out evaluation]
     H --> I[langdetect on identical test sentences]
     F --> J[Saved ten-language artifacts]
