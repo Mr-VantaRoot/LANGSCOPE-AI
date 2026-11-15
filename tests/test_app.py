@@ -21,16 +21,16 @@ class PredictionTests(unittest.TestCase):
         example_path = (
             PROJECT_DIR
             / "artifacts"
-            / "tatoeba_nine"
+            / "tatoeba_ten"
             / "input_output_examples.json"
         )
         cls.examples = json.loads(example_path.read_text(encoding="utf-8"))
 
     def test_artifacts_load_and_labels_match_examples(self):
-        self.assertEqual(len(app.SUPPORTED_LANGUAGES), 9)
+        self.assertEqual(len(app.SUPPORTED_LANGUAGES), 10)
         self.assertTrue(app.vectorizer.vocabulary_)
         self.assertEqual(set(app.classifier.classes_), set(app.SUPPORTED_LANGUAGES))
-        self.assertEqual(len(self.examples), 9)
+        self.assertEqual(len(self.examples), 10)
 
     def test_real_example_for_each_supported_language(self):
         for example in self.examples:
@@ -39,7 +39,7 @@ class PredictionTests(unittest.TestCase):
                     example["text"]
                 )
                 self.assertIn(example["true_language"], app.SUPPORTED_LANGUAGES)
-                self.assertIn(prediction, app.SUPPORTED_LANGUAGES)
+                self.assertEqual(prediction, example["true_language"])
                 self.assertGreaterEqual(float(score), 0.0)
                 self.assertLessEqual(float(score), 1.0)
                 self.assertEqual(len(top_three.splitlines()), 3)
@@ -71,44 +71,40 @@ class PredictionTests(unittest.TestCase):
         self.assertEqual(len(alternatives.splitlines()), 3)
         self.assertIn("very short text", status)
 
-    def test_unsupported_language_sample_shows_closed_set_warning(self):
-        # This English phrase is quoted from the user's project requirements.
-        text = (
-            "The application must not blindly claim that every input belongs "
-            "to one of the nine languages."
-        )
+    def test_unsupported_french_sample_can_be_rejected(self):
+        audit_path = PROJECT_DIR / "artifacts" / "tatoeba_ten" / "ood_audit_predictions.csv"
+        with audit_path.open(encoding="utf-8", newline="") as file:
+            text = next(
+                row["text"] for row in csv.DictReader(file)
+                if row["accepted_as_supported"] == "False"
+            )
         prediction, score, alternatives, status = app.predict_language(text)
         self.assertEqual(prediction, app.UNASSIGNED_PREDICTION)
-        self.assertIn("unsupported language", status)
+        self.assertIn("French out-of-domain", status)
         self.assertEqual(len(alternatives.splitlines()), 3)
 
-    def test_how_are_you_is_not_assigned_to_turkish(self):
+    def test_how_are_you_is_classified_as_english(self):
         prediction, score, top_three, status = app.predict_language("How are you?")
-        self.assertEqual(prediction, app.UNASSIGNED_PREDICTION)
-        self.assertLess(float(score), app.OOD_SCORE_THRESHOLD)
-        self.assertIn("Turkish — model score", top_three.splitlines()[0])
-        self.assertIn("raw top candidate is Turkish", status)
-        self.assertIn("Rejected as uncertain", status)
+        self.assertEqual(prediction, "English")
+        self.assertGreater(float(score), app.OOD_SCORE_THRESHOLD)
+        self.assertIn("English — model score", top_three.splitlines()[0])
+        self.assertIn("No OOD rejection was triggered", status)
 
-    def test_real_english_and_french_audit_sentences_are_rejected(self):
+    def test_real_french_audit_sentence_can_be_rejected(self):
         audit_path = (
-            PROJECT_DIR / "artifacts" / "tatoeba_nine" / "ood_audit_predictions.csv"
+            PROJECT_DIR / "artifacts" / "tatoeba_ten" / "ood_audit_predictions.csv"
         )
         with audit_path.open(encoding="utf-8", newline="") as file:
             rows = list(csv.DictReader(file))
-        for code in ("eng", "fra"):
-            sample = next(
-                row for row in rows
-                if row["language_code"] == code
-                and row["accepted_as_supported"] == "False"
-            )
-            with self.subTest(language_code=code, sentence_id=sample["sentence_id"]):
-                prediction, score, _alternatives, status = app.predict_language(
-                    sample["text"]
-                )
-                self.assertEqual(prediction, app.UNASSIGNED_PREDICTION)
-                self.assertLess(float(score), app.OOD_SCORE_THRESHOLD)
-                self.assertIn("Rejected as uncertain", status)
+        sample = next(
+            row for row in rows
+            if row["language_code"] == "fra"
+            and row["accepted_as_supported"] == "False"
+        )
+        prediction, score, _alternatives, status = app.predict_language(sample["text"])
+        self.assertEqual(prediction, app.UNASSIGNED_PREDICTION)
+        self.assertLess(float(score), app.OOD_SCORE_THRESHOLD)
+        self.assertIn("Rejected as uncertain", status)
 
     def test_low_model_score_triggers_validation_threshold_message(self):
         low_scores = [[0.20] + [0.10] * (len(app.SUPPORTED_LANGUAGES) - 1)]
@@ -137,7 +133,7 @@ class PredictionTests(unittest.TestCase):
 class TatoebaArtifactTests(unittest.TestCase):
     def test_completed_pipeline_refuses_to_reuse_the_final_test_set(self):
         result = subprocess.run(
-            [sys.executable, "phase_tatoeba_nine_train.py"],
+            [sys.executable, "phase_tatoeba_ten_train.py"],
             cwd=PROJECT_DIR,
             capture_output=True,
             text=True,
@@ -148,7 +144,7 @@ class TatoebaArtifactTests(unittest.TestCase):
         self.assertIn("Refusing to rerun", result.stderr)
 
     def test_tatoeba_model_artifacts_load_with_required_features_and_labels(self):
-        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_nine"
+        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_ten"
         vectorizer = joblib.load(artifact_dir / "vectorizer.joblib")
         classifier = joblib.load(artifact_dir / "classifier.joblib")
         metadata = json.loads(
@@ -157,8 +153,9 @@ class TatoebaArtifactTests(unittest.TestCase):
 
         self.assertEqual(vectorizer.analyzer, "char")
         self.assertEqual(vectorizer.ngram_range, (1, 3))
-        self.assertEqual(len(classifier.classes_), 9)
+        self.assertEqual(len(classifier.classes_), 10)
         self.assertEqual(set(classifier.classes_), set(metadata["languages"]))
+        self.assertIn("English", classifier.classes_)
         self.assertNotIn("Afaan Oromo (West Central Oromo)", classifier.classes_)
         for split in ("train_per_language", "validation_per_language"):
             counts = metadata[split]
@@ -166,7 +163,7 @@ class TatoebaArtifactTests(unittest.TestCase):
         self.assertFalse(metadata["fresh_test_set_required"])
 
     def test_final_test_metrics_and_split_manifest_are_complete(self):
-        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_nine"
+        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_ten"
         metadata = json.loads(
             (artifact_dir / "training_metadata.json").read_text(encoding="utf-8")
         )
@@ -179,7 +176,7 @@ class TatoebaArtifactTests(unittest.TestCase):
         self.assertEqual(
             set(metrics["test"]["per_language"]), set(app.SUPPORTED_LANGUAGES)
         )
-        self.assertEqual(len(metrics["test"]["confusion_matrix"]), 9)
+        self.assertEqual(len(metrics["test"]["confusion_matrix"]), 10)
         failures = json.loads(
             (artifact_dir / "failure_cases.json").read_text(encoding="utf-8")
         )
@@ -227,20 +224,26 @@ class TatoebaArtifactTests(unittest.TestCase):
         self.assertTrue(metadata["fresh_test_set_required"] is False)
         self.assertTrue(metadata["final_test_evaluation_completed"])
         self.assertTrue(metadata["previously_scored_test_ids_excluded"])
-        self.assertEqual(set(metadata["test_per_language"].values()), {39})
+        self.assertEqual(set(metadata["test_per_language"].values()), {33})
 
     def test_ood_calibration_is_separate_from_final_test_evaluation(self):
-        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_nine"
+        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_ten"
         gate = json.loads((artifact_dir / "ood_rejection.json").read_text())
         report = json.loads(
             (artifact_dir / "ood_rejection_evaluation.json").read_text()
         )
         original_metrics = json.loads((artifact_dir / "metrics.json").read_text())
-        self.assertEqual(gate["ood_languages_for_calibration"], ["eng", "fra"])
+        self.assertEqual(gate["ood_languages_for_calibration"], ["fra"])
         self.assertFalse(gate["uses_final_test_set"])
-        self.assertFalse(report["final_nine_language_test_used"])
-        self.assertTrue(report["regression_probe"]["rejected_by_gate"])
-        self.assertEqual(original_metrics["test"]["test_examples"], 351)
+        self.assertFalse(report["ten_language_test_used"])
+        self.assertFalse(report["regression_probe"]["rejected_by_gate"])
+        self.assertEqual(report["regression_probe"]["top_prediction"], "English")
+        old_metrics = json.loads(
+            (PROJECT_DIR / "artifacts" / "tatoeba_nine" / "metrics.json").read_text()
+        )
+        self.assertEqual(old_metrics["test"]["test_examples"], 351)
+        self.assertAlmostEqual(old_metrics["test"]["accuracy"], 350 / 351)
+        self.assertEqual(original_metrics["test"]["test_examples"], 330)
         calibration_path = artifact_dir / "ood_calibration_predictions.csv"
         audit_path = artifact_dir / "ood_audit_predictions.csv"
         self.assertTrue(calibration_path.is_file())
@@ -249,8 +252,8 @@ class TatoebaArtifactTests(unittest.TestCase):
             calibration_rows = list(csv.DictReader(file))
         with audit_path.open(encoding="utf-8", newline="") as file:
             audit_rows = list(csv.DictReader(file))
-        self.assertEqual(len(calibration_rows), 1000)
-        self.assertEqual(len(audit_rows), 1000)
+        self.assertEqual(len(calibration_rows), 500)
+        self.assertEqual(len(audit_rows), 500)
         calibration_ids = {row["sentence_id"] for row in calibration_rows}
         audit_ids = {row["sentence_id"] for row in audit_rows}
         self.assertTrue(calibration_ids.isdisjoint(audit_ids))
@@ -259,15 +262,8 @@ class TatoebaArtifactTests(unittest.TestCase):
         audit_texts = {normalize(row["text"]) for row in audit_rows}
         self.assertTrue(calibration_texts.isdisjoint(audit_texts))
         self.assertNotIn(normalize("How are you?"), calibration_texts | audit_texts)
-        self.assertEqual(
-            {row["language_code"] for row in calibration_rows}, {"eng", "fra"}
-        )
-        self.assertEqual(
-            {row["language_code"] for row in audit_rows}, {"eng", "fra"}
-        )
-        self.assertAlmostEqual(
-            original_metrics["test"]["accuracy"], 350 / 351, places=12
-        )
+        self.assertEqual({row["language_code"] for row in calibration_rows}, {"fra"})
+        self.assertEqual({row["language_code"] for row in audit_rows}, {"fra"})
 
 
 if __name__ == "__main__":

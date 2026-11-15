@@ -9,12 +9,12 @@ from app import SUPPORTED_LANGUAGES, predict_language
 PROJECT_DIR = Path(__file__).resolve().parent
 def main():
     training_path = (
-        PROJECT_DIR / "artifacts" / "tatoeba_nine" / "training_examples.json"
+        PROJECT_DIR / "artifacts" / "tatoeba_ten" / "training_examples.json"
     )
     if not training_path.is_file():
         raise FileNotFoundError(
             "Saved current-model training examples are missing. Recreate the "
-            "model and its split artifacts with phase_tatoeba_nine_train.py."
+            "model and its split artifacts with phase_tatoeba_ten_train.py."
         )
     train_rows = json.loads(training_path.read_text(encoding="utf-8"))
     examples = []
@@ -44,7 +44,7 @@ def main():
         )
 
     output_path = (
-        PROJECT_DIR / "artifacts" / "tatoeba_nine" / "input_output_examples.json"
+        PROJECT_DIR / "artifacts" / "tatoeba_ten" / "input_output_examples.json"
     )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(

@@ -1,0 +1,11 @@
+true_label/predicted_label,Amharic,Mandarin Chinese,Japanese,Finnish,Georgian,Thai,Swahili,Basque,Turkish,English
+Amharic,33,0,0,0,0,0,0,0,0,0
+Mandarin Chinese,0,33,0,0,0,0,0,0,0,0
+Japanese,0,0,33,0,0,0,0,0,0,0
+Finnish,0,0,0,33,0,0,0,0,0,0
+Georgian,0,0,0,0,33,0,0,0,0,0
+Thai,0,0,0,0,0,33,0,0,0,0
+Swahili,0,0,0,0,0,0,33,0,0,0
+Basque,0,0,0,1,0,0,0,32,0,0
+Turkish,0,0,0,0,0,0,0,0,33,0
+English,0,0,0,0,0,0,0,0,0,33

@@ -1,0 +1,142 @@
+[
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "4451304",
+    "true_language": "Amharic",
+    "text": "ምንም ሰው አየ",
+    "predicted_language": "Amharic",
+    "confidence": "0.940786",
+    "top_three": [
+      "Amharic — model score 0.940786",
+      "Mandarin Chinese — model score 0.017957",
+      "Japanese — model score 0.011321"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis is very short text (9 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "6058138",
+    "true_language": "Basque",
+    "text": "Kantatzea baino, bibolina jotzea nahiago du.",
+    "predicted_language": "Basque",
+    "confidence": "0.957368",
+    "top_three": [
+      "Basque — model score 0.957368",
+      "Swahili — model score 0.030500",
+      "Finnish — model score 0.004189"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "1954740",
+    "true_language": "English",
+    "text": "You can't really expect me to do your homework for you.",
+    "predicted_language": "English",
+    "confidence": "0.990927",
+    "top_three": [
+      "English — model score 0.990927",
+      "Turkish — model score 0.003632",
+      "Basque — model score 0.002342"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "8620833",
+    "true_language": "Finnish",
+    "text": "Senkin typerä törppö.",
+    "predicted_language": "Finnish",
+    "confidence": "0.877787",
+    "top_three": [
+      "Finnish — model score 0.877787",
+      "English — model score 0.029404",
+      "Turkish — model score 0.025824"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "6878160",
+    "true_language": "Georgian",
+    "text": "შენ გჭირდება ჩემი ნებართვა",
+    "predicted_language": "Georgian",
+    "confidence": "0.992732",
+    "top_three": [
+      "Georgian — model score 0.992732",
+      "Mandarin Chinese — model score 0.001635",
+      "Amharic — model score 0.001326"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "111393",
+    "true_language": "Japanese",
+    "text": "彼はなんて親切な少年でしょう。",
+    "predicted_language": "Japanese",
+    "confidence": "0.936248",
+    "top_three": [
+      "Japanese — model score 0.936248",
+      "Mandarin Chinese — model score 0.027880",
+      "Amharic — model score 0.009512"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis is very short text (15 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "1551034",
+    "true_language": "Mandarin Chinese",
+    "text": "我叫Luis。",
+    "predicted_language": "Mandarin Chinese",
+    "confidence": "0.890201",
+    "top_three": [
+      "Mandarin Chinese — model score 0.890201",
+      "Japanese — model score 0.027003",
+      "Finnish — model score 0.021162"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis is very short text (7 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "10891364",
+    "true_language": "Swahili",
+    "text": "Nilidhania mimi na wewe tutaandamana.",
+    "predicted_language": "Swahili",
+    "confidence": "0.986680",
+    "top_three": [
+      "Swahili — model score 0.986680",
+      "Finnish — model score 0.004978",
+      "Basque — model score 0.002748"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "4558286",
+    "true_language": "Thai",
+    "text": "ไม่นะ! พาสปอร์ดฉันหายไปแล้ว!",
+    "predicted_language": "Thai",
+    "confidence": "0.985355",
+    "top_three": [
+      "Thai — model score 0.985355",
+      "Mandarin Chinese — model score 0.003198",
+      "Amharic — model score 0.002605"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "6367552",
+    "true_language": "Turkish",
+    "text": "Tom kazanamayacağını söylüyor.",
+    "predicted_language": "Turkish",
+    "confidence": "0.987393",
+    "top_three": [
+      "Turkish — model score 0.987393",
+      "Swahili — model score 0.004745",
+      "Finnish — model score 0.001613"
+    ],
+    "status": "No OOD rejection was triggered by the validation-calibrated score gate (0.660368). This does not prove the input is one of the supported languages.\n\nThis model only compares the 10 supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  }
+]

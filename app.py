@@ -8,7 +8,7 @@ import joblib
 
 
 PROJECT_DIR = Path(__file__).resolve().parent
-ARTIFACT_DIR = PROJECT_DIR / "artifacts" / "tatoeba_nine"
+ARTIFACT_DIR = PROJECT_DIR / "artifacts" / "tatoeba_ten"
 vectorizer = joblib.load(ARTIFACT_DIR / "vectorizer.joblib")
 classifier = joblib.load(ARTIFACT_DIR / "classifier.joblib")
 OOD_REJECTION_DATA = json.loads(
@@ -68,8 +68,9 @@ def predict_language(text):
         display_language = UNASSIGNED_PREDICTION
         messages.append(
             "Rejected as uncertain: the highest supported-language score is below "
-            "the OOD threshold calibrated on separate English and French validation "
-            f"examples ({OOD_SCORE_THRESHOLD:.6f}). The raw top candidate is "
+            "the OOD threshold calibrated on validation examples from supported "
+            "languages and separate French out-of-domain examples "
+            f"({OOD_SCORE_THRESHOLD:.6f}). The raw top candidate is "
             f"{predicted_language}; this is not a reliable language assignment."
         )
     else:
@@ -88,7 +89,8 @@ def predict_language(text):
         )
 
     messages.append(
-        "This model only compares the nine supported languages. It may assign an "
+        f"This model only compares the {len(SUPPORTED_LANGUAGES)} supported "
+        "languages. It may assign an "
         "unsupported language to one of them; a high score does not prove the "
         "input belongs to a supported language."
     )
@@ -101,7 +103,7 @@ with gr.Blocks(
 ) as demo:
     gr.Markdown(
         "# LANGSCOPE AI\n"
-        "Identify text in nine languages with a character n-gram TF-IDF and "
+        "Identify text in ten languages with a character n-gram TF-IDF and "
         "logistic regression model trained on Tatoeba sentences."
     )
 
@@ -121,7 +123,7 @@ with gr.Blocks(
                 label="Predicted language", interactive=False
             )
             score_output = gr.Textbox(
-            label="Highest raw class score (not a calibrated probability)",
+                label="Highest raw class score (not a calibrated probability)",
                 interactive=False,
             )
             top_three_output = gr.Textbox(
@@ -154,7 +156,7 @@ with gr.Blocks(
     with gr.Accordion("Supported languages and limitations", open=False):
         gr.Markdown(
             "\n".join(f"- {language}" for language in SUPPORTED_LANGUAGES)
-            + "\n\nThe model always ranks these nine classes. Its score is not a "
+            + "\n\nThe model always ranks these ten classes. Its score is not a "
             "guaranteed probability or a reliable test for languages outside "
             "this list. Final held-out evaluation and its limitations are described "
             "in the project README. Performance on casual "

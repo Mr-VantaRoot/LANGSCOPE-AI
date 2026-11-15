@@ -1,0 +1,501 @@
+sentence_id,language_code,text,split,top_prediction,top_score,second_prediction,second_score,accepted_as_supported
+4070090,fra,Je vais protéger Dan.,calibration,English,0.6351751043558523,Basque,0.14553389315115428,False
+5988822,fra,C'est bon pour ta santé.,calibration,English,0.7239956482719314,Finnish,0.1456520590909895,True
+4462837,fra,Mon chat a tué une grosse araignée dans la cour.,calibration,English,0.7585871337793094,Basque,0.1144322694931323,True
+1499663,fra,Les bonnes volontés ne manquent pas.,calibration,English,0.5969642402723322,Finnish,0.22545665182572916,False
+9396685,fra,Pourquoi Tom et Manon étaient-ils là ?,calibration,Finnish,0.5531521714533592,English,0.33590634387761464,False
+12177992,fra,Millie a un livre.,calibration,Finnish,0.3428551021324131,Swahili,0.2078920077542063,False
+1088407,fra,Vous vous y habituerez.,calibration,English,0.5346910272492088,Basque,0.09509223870012222,False
+12816541,fra,Tom doit toujours avoir le dernier mot.,calibration,English,0.8899553646163816,Finnish,0.043410459671332904,True
+10506277,fra,Le chat a dormi.,calibration,English,0.6345870898131537,Basque,0.09139399124886263,False
+10332407,fra,Emilie habite chez Mélanie.,calibration,Swahili,0.34046898535287656,English,0.25948881622981973,False
+1478163,fra,Nous naviguâmes une bonne partie de la nuit.,calibration,English,0.4804787594219218,Turkish,0.16766388574819985,False
+12449067,fra,Elles n’ont pas encore pris leur décision.,calibration,English,0.8759155284920037,Finnish,0.05490962610249204,True
+12449098,fra,Nous avons tous laissés faire.,calibration,English,0.7671210361062007,Finnish,0.14963308610005988,True
+13974500,fra,Ils se sont mariés quand il avait seize ans.,calibration,English,0.7322043030684998,Finnish,0.17356990561493185,True
+6813936,fra,Je ne pense pas que nous ayons à faire cela.,calibration,English,0.8803355696825707,Finnish,0.03307790745720196,True
+13469764,fra,Je dois acheter le livre de l'histoire de Kabylie.,calibration,English,0.882001604446557,Basque,0.043770259884074195,True
+10707771,fra,La douleur est constante.,calibration,English,0.583424610037498,Basque,0.23583138932999728,False
+2071385,fra,Tu auras raison.,calibration,Basque,0.3202498326479319,Finnish,0.24188122139995777,False
+2089827,fra,J'abats des arbres.,calibration,English,0.6435223156200114,Basque,0.12629913109720325,False
+10609747,fra,C'est quelqu’un de droit.,calibration,English,0.5866336525727721,Basque,0.16145477057106844,False
+3878115,fra,J'aime bien l'astrologie.,calibration,English,0.30623785649495977,Turkish,0.29768893129072976,False
+9549230,fra,Jean ne fume plus.,calibration,English,0.36525235332142464,Finnish,0.16126205170275804,False
+10474792,fra,Engage-le !,calibration,Basque,0.459128964357037,English,0.12256911929879055,False
+4009434,fra,Dan a échappé à la police.,calibration,English,0.32553395116098205,Swahili,0.3079254311368596,False
+1077751,fra,"Bonjour ! Vous êtes notre nouvelle voisine, si je ne me trompe pas ?",calibration,English,0.73202508271331,Finnish,0.2174471919151836,True
+11958609,fra,L'acide ne s'évapore pas.,calibration,English,0.6088169743948967,Turkish,0.18634808265114353,False
+7477584,fra,Ah oui !,calibration,Finnish,0.18734688489722204,English,0.16094336861750824,False
+5991409,fra,Un aller-retour s'il vous plaît.,calibration,English,0.6389504301644442,Finnish,0.17969640837710169,False
+4281,fra,On l'a averti à plusieurs reprises.,calibration,English,0.6476845201398621,Finnish,0.17141803925230747,False
+8438396,fra,Tom voulait poser une question mais ne l'a pas fait.,calibration,English,0.6233039976278918,Finnish,0.2574417112858247,False
+12437946,fra,Tu es très assidu.,calibration,English,0.6427268346331598,Finnish,0.11130425491718846,False
+10476529,fra,Il a pris peur.,calibration,English,0.5061726212263696,Turkish,0.11614114730428692,False
+400411,fra,Je t'aime beaucoup.,calibration,English,0.6795333611785498,Basque,0.07971363312529196,True
+11153348,fra,Le cheval s'est levé sur ses pattes arrières.,calibration,English,0.9243405112318392,Finnish,0.036680855773265165,True
+10792385,fra,Elles n'ont rien remarqué.,calibration,English,0.5525229434792404,Finnish,0.15848801747452518,False
+2899196,fra,Nous nous sommes accrochées à la branche.,calibration,English,0.9467427063701874,Turkish,0.01025898436761418,True
+5666503,fra,Tom est le coureur le plus rapide de notre équipe.,calibration,English,0.9085916985338158,Basque,0.029195453859378814,True
+6947532,fra,Avez-vous un problème avec moi ?,calibration,English,0.641042086075903,Finnish,0.12478171402464351,False
+14083245,fra,Le coussin gris clair va parfaitement avec le sofa.,calibration,English,0.6959176874354375,Finnish,0.13660853171707052,True
+8900089,fra,Ils ont tous un point commun.,calibration,English,0.666624451209287,Finnish,0.2593431470461463,True
+7242743,fra,Tom voulait de nouveau divorcer.,calibration,English,0.6188239858489017,Basque,0.17496685100615436,False
+11168099,fra,Ils étaient armés jusqu'aux dents.,calibration,English,0.5143219775040975,Finnish,0.20769532439861269,False
+12225808,fra,Cela pourrait l’intéresser.,calibration,English,0.39043541435107326,Basque,0.3704514059762636,False
+602034,fra,Je ne veux pas des excuses. Je veux une explication.,calibration,English,0.8172458480183691,Finnish,0.05472730447353675,True
+4003336,fra,"Avec les ordinateurs, beaucoup de travail peut être effectué.",calibration,English,0.8471047549509501,Basque,0.08299408817367106,True
+4462786,fra,Montre-moi ton petit chat.,calibration,English,0.6101270183067483,Finnish,0.2508265234260035,False
+8126663,fra,Je vous attendrai à la station.,calibration,Finnish,0.3902557440465509,English,0.37873040988874657,False
+2431813,fra,Il m'a fallu sortir d'ici.,calibration,Turkish,0.45478323749623306,English,0.24369459754952166,False
+3644798,fra,Le chat grimpa à l'arbre.,calibration,English,0.5786168466302817,Turkish,0.14836217901858076,False
+13875118,fra,Vous les lui avez finies.,calibration,English,0.5829031465625504,Finnish,0.1690732970115434,False
+5133531,fra,N'est-ce pas parfaitement évident pour tout le monde ?,calibration,English,0.8944113062473869,Finnish,0.042423431344239024,True
+13323854,fra,Les gens sous-estiment souvent l'importance du sommeil.,calibration,English,0.8309271879011969,Finnish,0.0698829129493791,True
+8984405,fra,Soyez curieuse.,calibration,Basque,0.27665413522071575,English,0.26920602000466576,False
+5503561,fra,Je l'ai appelé Tom.,calibration,English,0.4064251932113399,Finnish,0.36022295234426055,False
+11756779,fra,Il a décidé d'apprendre le berbère.,calibration,English,0.6057543499801216,Basque,0.24718386605275228,False
+468385,fra,Que me recommandes-tu ?,calibration,English,0.47420668317944037,Turkish,0.17674870666934947,False
+15722,fra,Les aveugles ont souvent une perception auditive accrue.,calibration,English,0.8750773289079674,Finnish,0.05829694495634235,True
+4779720,fra,Nous sommes restés silencieux.,calibration,English,0.8014720373423256,Finnish,0.09586240602698111,True
+6951358,fra,Chaque pays a sa pensée.,calibration,English,0.558232707494873,Swahili,0.20014564305748805,False
+9007389,fra,Ma voiture a été démolie dans l'accident.,calibration,English,0.5495933000821064,Basque,0.21438391171811486,False
+1049808,fra,Sa femme a eu des jumeaux.,calibration,English,0.33054389848587773,Basque,0.2526987924743788,False
+13279852,fra,"Dans un pot de yaourt en verre, je mets des graines de chia avec du lait de coco et une petite cuillère de coulis de figue de Barbarie.",calibration,English,0.9095162041810755,Basque,0.06376031520933846,True
+1682532,fra,Ce n'était pas supposé se produire.,calibration,English,0.894494555677901,Finnish,0.058198103086269735,True
+1420317,fra,Sculpte la vie dans le bois dont tu disposes.,calibration,English,0.8465578734985102,Finnish,0.06118405864440586,True
+10728801,fra,Attrape-moi si tu peux !,calibration,Finnish,0.4949676770923425,English,0.1825067044694242,False
+6885587,fra,Passage interdit !,calibration,English,0.35386072481895653,Basque,0.35224729221582113,False
+3194422,fra,"Morbleu ! criait d’une voix de tonnerre le général de Rouvray en frappant violemment sur la table du conseil, quels maudits bavards ! j’aimerais mieux lutter de poumons avec une pièce de vingt-quatre.",calibration,English,0.8626624271913044,Basque,0.0618079441486873,True
+12550526,fra,Nous sommes allés à Tizi Mennus.,calibration,English,0.7094555870351718,Finnish,0.1687115605510575,True
+1987128,fra,Femmes et filles traversaient la rue plutôt que de le rencontrer.,calibration,English,0.8978780949327689,Basque,0.035887471885870784,True
+8222361,fra,Tom s'est excusé pour ce qui s'était passé.,calibration,English,0.8582579228785726,Finnish,0.08407059593546727,True
+1133973,fra,"Hommes et femmes sont faits pour vivre et créer, vivre et créer. Jusqu’aux larmes.",calibration,English,0.8722254003076892,Finnish,0.04864169424698502,True
+12753213,fra,Le fer se rouille à l'humidité.,calibration,English,0.663663475310602,Finnish,0.1071450176723062,True
+4565630,fra,Il est rompu au compromis.,calibration,English,0.5725128377876316,Finnish,0.14024849340445641,False
+10320124,fra,Je dois revenir.,calibration,English,0.7037288373310406,Turkish,0.11322582082056329,True
+1214617,fra,Il passe pour le meilleur avocat de cette ville.,calibration,English,0.6538810841780215,Finnish,0.2215487073532162,False
+13449310,fra,Il me faut une calculatrice.,calibration,English,0.5948053957137839,Swahili,0.09750425004307449,False
+1744496,fra,"À ma grande surprise, ce sont des quadruplés que j'ai mis au monde.",calibration,English,0.8237222306705243,Turkish,0.052266628152665855,True
+3272519,fra,Elle va faire en sorte qu'il puisse aller au concert.,calibration,English,0.6391934259281243,Finnish,0.16082813484409128,False
+13105374,fra,Il a un mauvais caractère.,calibration,English,0.34867099819297664,Swahili,0.21267563813418727,False
+3514671,fra,Tout est allé de travers.,calibration,English,0.9273747426617346,Finnish,0.027095434717152683,True
+11964229,fra,Ziri est un gentleman.,calibration,Basque,0.4207935756754128,Turkish,0.21465416500978943,False
+1735868,fra,Par quel moyen vous rendez-vous à votre travail ?,calibration,English,0.5814165486667765,Finnish,0.1587065903430971,False
+6887687,fra,J'ai déjà fini de manger.,calibration,Swahili,0.2512232329305375,English,0.23324155327220933,False
+12200139,fra,La photo a été traitée.,calibration,English,0.602976654353983,Finnish,0.17821205202127843,False
+13094832,fra,La demoiselle était belle et bien faite.,calibration,Finnish,0.35064549120669647,Basque,0.31472867774753416,False
+10627478,fra,La langue maternelle de Tom n'est pas le français.,calibration,English,0.7782948771415005,Finnish,0.08109887161245422,True
+13989623,fra,Nous devons essayer de consoler Tom.,calibration,English,0.8901996660525903,Turkish,0.05413131519693514,True
+11426952,fra,Cette vidéo explique comment fabriquer un ney professionnel à partir d'un roseau.,calibration,English,0.7282170564155697,Turkish,0.12710295922342946,True
+12645876,fra,Les jours nous ont rendus malades.,calibration,English,0.8492577410110221,Finnish,0.05388498193293498,True
+4244464,fra,Ma mère sait comment faire les gâteaux.,calibration,English,0.729451116239205,Basque,0.13330758323834185,True
+3979654,fra,J'apprends un texte par cœur.,calibration,English,0.6988851876789093,Turkish,0.12555234445143887,True
+1137451,fra,Sa vie est en danger.,calibration,Basque,0.4784625782990083,English,0.27106085466219243,False
+5304711,fra,Tu regardes une belle poule.,calibration,English,0.5392308237137975,Basque,0.19156259833651107,False
+12245453,fra,Pélage a gagné la bataille de Covadonga en 722.,calibration,Basque,0.5598342199113291,English,0.1890189157262796,False
+13460649,fra,Vous n'avez rien à dire pour l’instant.,calibration,English,0.6238017820966976,Basque,0.23450550008338542,False
+532415,fra,Je suis en train de survoler son rapport.,calibration,English,0.7063722581226428,Finnish,0.16781197608724321,True
+10710981,fra,Elle était dans l'hôpital pour six semaines à cause qu'elle était malade.,calibration,English,0.6136420437519168,Finnish,0.2510795363931611,False
+3692447,fra,Je ne veux pas perdre.,calibration,English,0.7665035846704845,Turkish,0.09009436674096707,True
+12287830,fra,Je campai ici.,calibration,Swahili,0.2600583647129912,English,0.23360782511435477,False
+10090204,fra,Quelle distance devons-nous parcourir avant d'admettre que nous sommes perdus ?,calibration,English,0.8763728720560116,Turkish,0.04160483469717238,True
+1851981,fra,Vous n'êtes pas supposées manger sur le lieu de travail.,calibration,English,0.9386064290431151,Finnish,0.030089245982804356,True
+5924746,fra,"Plus c'est interdit, plus les gens sont attirés.",calibration,English,0.911491361428411,Finnish,0.046568393248557015,True
+12997526,fra,Il faisait plus chaud hier.,calibration,English,0.5793651543278096,Finnish,0.10701295926067561,False
+10887694,fra,Je t'ai dit que c'était trop tôt.,calibration,English,0.8589453984022847,Finnish,0.05450240561762085,True
+1232094,fra,J'ignore comment on utilise un fichier avec une extension « .art ».,calibration,English,0.8056686181399206,Finnish,0.08113476199303818,True
+6468587,fra,"Va, maintenant.",calibration,Finnish,0.33950822611790843,Basque,0.2823813680738324,False
+8099917,fra,J'ai menti à Tom.,calibration,Finnish,0.34526981134048856,English,0.30151160647714303,False
+3573311,fra,"Ces derniers temps, j’arrête pas de me malmener.",calibration,English,0.7869970308205814,Turkish,0.1384973554896152,True
+1422521,fra,Fais-le attendre un moment.,calibration,English,0.47451451506102105,Finnish,0.17214025904753258,False
+132091,fra,"Il a fait de son mieux, autrement il n'aurait pas eu le premier prix.",calibration,English,0.7065283729825567,Basque,0.1252094893933564,True
+11310436,fra,J'ai besoin d'une carte de la Grèce.,calibration,English,0.49753191146967635,Basque,0.32354342668082126,False
+12387715,fra,Il a la capacité de repérer et de pallier les failles des textes à traduire.,calibration,English,0.9162254272478985,Basque,0.03710422885864799,True
+869005,fra,La fille saute.,calibration,Finnish,0.3319025159878985,English,0.21790396202354062,False
+5453207,fra,De quoi avez-vous parlé avec elle ?,calibration,English,0.5600581396745792,Finnish,0.19168670073462254,False
+14063962,fra,Tu connais ce zinc ?,calibration,English,0.4747208300633624,Basque,0.14603098234172238,False
+5660311,fra,Ceux qui veulent rester le peuvent.,calibration,English,0.6627108783242558,Finnish,0.1312729146029847,True
+4206203,fra,Marie a fait un avion de papier.,calibration,English,0.315796761418254,Basque,0.2549896616348989,False
+9151572,fra,Parle-t-elle néerlandais ?,calibration,English,0.28829481325207074,Turkish,0.2713985762952302,False
+11685670,fra,Ma grand-mère m'a offert ces pendentifs.,calibration,English,0.7444073368550178,Turkish,0.12227581993961094,True
+11944927,fra,C'est certainement un signe d'espoir.,calibration,English,0.6202471307176481,Turkish,0.12438771257482396,False
+13435448,fra,Il nous a divertis.,calibration,English,0.6635443313203361,Basque,0.1176474817698417,True
+12453578,fra,Les citations sont les fleurs par lesquelles on déclare son amour.,calibration,English,0.8430539604049286,Finnish,0.07608422367235743,True
+7360629,fra,Je le fais uniquement parce que c'est toi.,calibration,English,0.818407144204655,Finnish,0.07418144035642144,True
+10727447,fra,Vous devez changer de vêtements.,calibration,English,0.7664681490450675,Basque,0.11766123172130032,True
+11958241,fra,La bande son était une vraie merde.,calibration,Basque,0.32208343087042346,English,0.31361277601367266,False
+1475931,fra,Il suffit d'un rayon de soleil pour que les aires de pique-nique soient prises d'assaut.,calibration,English,0.8590983584660296,Finnish,0.06212852251377812,True
+13731485,fra,Nous avons des jumelles.,calibration,English,0.6434001628807569,Finnish,0.20621237899252895,False
+12730115,fra,Je vais recouvrir ce mur de photos de vacances.,calibration,English,0.8871303642226511,Turkish,0.051359630338654726,True
+11561729,fra,Vous le reconnaîtrez quand vous le verrez.,calibration,English,0.7221853510308467,Basque,0.11977347006235194,True
+9595148,fra,"Non, elle est enseignante.",calibration,Finnish,0.33192066073657484,English,0.2952046821272284,False
+7701156,fra,On y va à pied ou en voiture ?,calibration,Finnish,0.4368463285627389,English,0.37769057760141733,False
+13352664,fra,J'étudie actuellement de manière très intensive.,calibration,English,0.7966462965439616,Basque,0.07558476805651906,True
+13660320,fra,Va-t-il venir avec moi à présent ?,calibration,English,0.41721291015651435,Finnish,0.24887892132157144,False
+12096921,fra,Tu vas me précéder à Seddouk.,calibration,English,0.8546121373831911,Turkish,0.06679805580314431,True
+9969349,fra,Ça m’excite de parler en espéranto.,calibration,English,0.39457489498034726,Turkish,0.27781290361902455,False
+13877397,fra,Tom a peur de l'eau et n'aime pas nager.,calibration,English,0.7291616313387363,Basque,0.1273284908136513,True
+3213208,fra,Je suis en train de faire mes lacets. Attends-moi !,calibration,English,0.8202467284427991,Finnish,0.07285533746997505,True
+2080775,fra,"Je pensais être seule, ici.",calibration,English,0.7161365560600347,Finnish,0.14231451034009227,True
+3648978,fra,Il ne reste plus de lait.,calibration,English,0.701744927433008,Basque,0.08844005270579805,True
+7647404,fra,Tout le monde sait que Tom était à Boston.,calibration,English,0.7775934045047521,Finnish,0.13169540049682124,True
+3979828,fra,Lui avez-vous manqué de respect ?,calibration,English,0.6978171513510929,Basque,0.08234938958415179,True
+4775366,fra,Elle est actuellement en train de pratiquer le violon.,calibration,English,0.46809212719593657,Finnish,0.2798789251879392,False
+12179969,fra,Il demande de tes nouvelles.,calibration,English,0.7315519465116223,Turkish,0.12487373938324198,True
+3326529,fra,"Et si le vicomte, pétillant d’entrain, charmait les cavaliers par ses propos, Béniowski attirait sur lui l’intérêt des jeunes femmes.",calibration,English,0.8748443165108101,Finnish,0.082508845215141,True
+12189152,fra,Il est invité à Laazib Zaamoum.,calibration,Basque,0.23831282457633646,Finnish,0.21615745201391537,False
+14044493,fra,Tom avait mal à la tête.,calibration,Finnish,0.49117954296611477,English,0.30583976175908967,False
+12598241,fra,Elles ne veulent pas de toi ici.,calibration,English,0.8171382273628061,Finnish,0.121346974008718,True
+1865757,fra,Vous êtes un étudiant.,calibration,English,0.5058617485571966,Finnish,0.22133829400641541,False
+11147388,fra,"Dans la plupart des cas, nous avons dû céder à leurs exigences.",calibration,English,0.9511199251653495,Basque,0.02036349443206167,True
+13927851,fra,Tom garde les enfants.,calibration,English,0.5639089994087697,Turkish,0.20001653231374875,False
+11687533,fra,"« Les règles de grammaire diffèrent entre l’allemand et le français. Mais c’est toi le locuteur natif. » « Personne ne détient la science infuse, pas même les natifs. » « En revanche, un natif peut toujours dire : c’est comme ça que je le dirais, et on n’y peut rien. » « Tu sais comme moi qu’un natif doit toujours rester courtois. »",calibration,English,0.9650033398808434,Finnish,0.014824312401333235,True
+817332,fra,Beaucoup d'étrangers savent apprécier le Kabuki.,calibration,English,0.7773533402355554,Turkish,0.06831024017336464,True
+12651413,fra,Réalise-le tant que tu es là.,calibration,English,0.6316352417382791,Finnish,0.16435710641670298,False
+1791371,fra,"Si on ne peut pas s'amuser à lire un livre encore et encore, il n'y a pas d'utilité à le lire du tout.",calibration,English,0.9206676985970375,Finnish,0.028757256259829184,True
+772178,fra,Mets-toi à sa place.,calibration,English,0.37984021333594,Finnish,0.3089562653392763,False
+1567810,fra,Marie est anorexique.,calibration,English,0.3820297658277583,Basque,0.3441466192771589,False
+1482934,fra,On prétend que c'est cancérogène.,calibration,English,0.920280195877952,Basque,0.02119732552252789,True
+11571617,fra,Elle a gardé les cordons de la bourse bien serrés.,calibration,English,0.8116588931399085,Turkish,0.08923804751011116,True
+5953349,fra,Nous ne devons pas laisser ces observations nous induire en erreur.,calibration,English,0.876920695304824,Basque,0.042928243663110814,True
+1339575,fra,Mon collège comporte un dortoir.,calibration,English,0.6054323873121358,Turkish,0.14164034899076633,False
+11989959,fra,Nous râlons.,calibration,English,0.4587798514061888,Finnish,0.13843659235077635,False
+1199066,fra,Ne t'es-tu pas encore décidé ?,calibration,English,0.901898885539144,Basque,0.04315727157933422,True
+12528683,fra,L'Algérie ne mourra pas.,calibration,English,0.34702510745823545,Basque,0.19207551318491925,False
+955568,fra,Je n'arrive pas à comprendre comment supprimer ce que je viens de publier.,calibration,English,0.9493285649751652,Turkish,0.025461344269388897,True
+612922,fra,Devrions-nous manger ce Pocky depuis ses deux extrémités ?,calibration,English,0.9342205791091295,Turkish,0.024837265656927576,True
+13391029,fra,Ça aussi n'est pas mal du tout.,calibration,English,0.6257715411245729,Finnish,0.17052087539857447,False
+412100,fra,C'était une nuit calme.,calibration,English,0.4652644913391487,Finnish,0.18162421297672537,False
+8700646,fra,Il aimerait devenir kinésithérapeute.,calibration,Basque,0.2798631266565098,English,0.27506441799358344,False
+11585367,fra,Il apprend le malayalam.,calibration,Turkish,0.41078521332519047,Swahili,0.2229473303942809,False
+10568678,fra,Les scientifiques vont jusqu'à utiliser les propriétés immatérielles de leur conscience pour nier l'existence d'une telle conscience immatérielle.,calibration,English,0.9181604964751588,Finnish,0.04267756109204101,True
+1101794,fra,"En ce qui concerne ça, je suis le fautif.",calibration,English,0.8147871642715478,Turkish,0.050684225583698055,True
+2132081,fra,Retrouvons-nous à une heure.,calibration,English,0.7220646887062887,Finnish,0.08466220835170786,True
+9844908,fra,Vous devriez avoir fait un séjour linguistique à l'étranger.,calibration,English,0.5954871494646217,Basque,0.16134404321786797,False
+6918467,fra,"L'été s'ouvrait à peine ; à l'orageux Neptune / mon père me pressait de livrer ma fortune. / D'un peuple fugitif j'assemble les débris ; / les yeux en pleurs, je pars ; je fuis ces bords chéris, / ces antiques remparts dont Vulcain fit sa proie, / et les toits paternels, et les champs où fut Troie ; / et, sur l'onde exilé, j'emmène en d'autres lieux, / et mon père, et mon fils, et mon peuple, et mes dieux.",calibration,English,0.9637769277090718,Finnish,0.01827906522896981,True
+8308013,fra,Je t'avais pourtant prévenu de ne pas jouer au petit malin avec moi.,calibration,English,0.7855868968245255,Finnish,0.13420192414587953,True
+9746002,fra,Génial. Où ça ?,calibration,Turkish,0.2584895747747072,Swahili,0.19553477868422967,False
+13832505,fra,Il a une maison à lui.,calibration,Finnish,0.5055391125158093,Swahili,0.20439255366342046,False
+7802610,fra,Vous êtes une vraie comère.,calibration,English,0.8575254687293066,Finnish,0.04967663951515693,True
+14017065,fra,Sami aimait tout bonnement la vie.,calibration,Finnish,0.38743774641355294,English,0.3417369887065911,False
+1120657,fra,Aucune des voitures n'est à moi.,calibration,English,0.692546411196137,Finnish,0.15283404584935256,True
+10537752,fra,On m'a retiré mon permis.,calibration,Turkish,0.35932754468980643,Finnish,0.2519623233974638,False
+8646408,fra,"Je ne comprends pas l'anglais, et encore moins l'allemand.",calibration,English,0.8680652696245101,Turkish,0.04209777583303864,True
+12421570,fra,Vous ne vous êtes pas empressés d'aller à Ait ifrek.,calibration,English,0.9313887129832527,Finnish,0.03300440425311571,True
+12399731,fra,Il n’est pas nécessaire que tu sois seule.,calibration,English,0.7727481186839164,Finnish,0.15779813166163642,True
+12602181,fra,"J'ai soif, je cherche de l'eau.",calibration,English,0.8598070923822336,Basque,0.038279578786621075,True
+4196718,fra,J'ignore si je peux y parvenir sans toi.,calibration,English,0.7743649620292468,Finnish,0.09931909193716348,True
+969257,fra,Ils ne pouvaient qu'écouter.,calibration,English,0.713037587540541,Finnish,0.12283969350869801,True
+128534,fra,Un professionnel peint cette maison.,calibration,Finnish,0.48174422226264324,English,0.3896619624526692,False
+1039240,fra,Tu me prêterais pour un jour ou deux ton vélo ?,calibration,English,0.7250690613039713,Finnish,0.10383209992847182,True
+7063963,fra,Nous avons encore beaucoup à faire.,calibration,English,0.8566539969490121,Basque,0.07191460160365384,True
+3393705,fra,"Au bout d'un quart d'heure, elle commença à s'ennuyer.",calibration,English,0.5688826868253599,Turkish,0.17737894438296606,False
+9083119,fra,Il ne veut pas se délier !,calibration,English,0.8068492385383466,Finnish,0.07435742058022227,True
+3220910,fra,Tom doit de l’argent à Marie.,calibration,English,0.7290694737196002,Basque,0.13776337092363877,True
+9701875,fra,Pourquoi les singes sont-ils si amusants ?,calibration,English,0.6420564100227432,Finnish,0.22544367462219236,False
+969520,fra,"Toute occasion de détester les Français et de le leur faire savoir est bonne à prendre. Si en plus on peut s'en payer un, c'est encore mieux !",calibration,English,0.9300116215163875,Finnish,0.026794710579993893,True
+7915158,fra,Il a peur d'être tué.,calibration,English,0.6590846000338305,Basque,0.14490452851863284,False
+1302798,fra,"Ce que le paysan ne connaît pas, il ne le bouffe pas. Si le citadin savait ce qu'il bouffe, il deviendrait immédiatement paysan.",calibration,English,0.7355126321350216,Turkish,0.09931495534116148,True
+2720352,fra,"Comme il ne voit pas bien, Tom est toujours assis au tout premier rang dans la salle de classe.",calibration,English,0.958033946170496,Finnish,0.02714393475477378,True
+7823527,fra,Je ne mangerai pas.,calibration,Swahili,0.29478702284345715,English,0.21801634554551674,False
+12359122,fra,Regardons le film.,calibration,English,0.433727893143298,Turkish,0.25104590129872845,False
+846120,fra,"Personne d'entre nous ne voudrait partir, mais soit vous, soit votre femme doit partir.",calibration,English,0.7889585071143583,Finnish,0.12505472485055183,True
+8362043,fra,Est-ce que tu veux vraiment que j'y aille ?,calibration,English,0.48918393260177195,Finnish,0.20329207605526314,False
+10468018,fra,Quel type d'essence mettez-vous dans ce véhicule ?,calibration,English,0.8448694396194996,Finnish,0.05857510865889677,True
+12663815,fra,J'ai envoyé un message à mon amie.,calibration,Finnish,0.4119523578209687,English,0.17903715523509137,False
+12431346,fra,"J'ai faim ! Viens, on va prendre le dîner, s'il te plaît.",calibration,English,0.6465858697094805,Finnish,0.16818062383408375,False
+7831050,fra,À qui l'as-tu dit ?,calibration,Basque,0.3023325769388802,English,0.21258774631377275,False
+13767469,fra,Ils courront vers Tigrourin.,calibration,English,0.868392166815395,Turkish,0.04184113772695466,True
+6178237,fra,J'ai donc pensé qu'il t'avait oublié.,calibration,English,0.5374733926516473,Finnish,0.25597001639461764,False
+5316269,fra,Nous regardons sa belle image.,calibration,English,0.6680151877161746,Basque,0.14308959540143887,True
+6843499,fra,"Allez, vous pouvez le faire.",calibration,English,0.4228193748643005,Basque,0.2152510785641559,False
+11627608,fra,Il y a même des enfants.,calibration,English,0.7142272862556145,Turkish,0.10433253194239829,True
+7548784,fra,J’ai volé un peu de ton temps.,calibration,Finnish,0.5795386767154591,English,0.2825360626807055,False
+7702009,fra,La fille l'aime.,calibration,Finnish,0.22924866515251494,English,0.19017643459152922,False
+9710561,fra,J'ai déjà appelé une dépanneuse.,calibration,Finnish,0.28578094887422206,English,0.26441452027094736,False
+3446068,fra,Qui était en train de séduire qui ?,calibration,Basque,0.38366045349441674,English,0.2909669004160805,False
+1690422,fra,"Je sors faire une promenade tous les jours, sauf quand il pleut.",calibration,English,0.944311347719565,Finnish,0.017919962990914674,True
+12947636,fra,Je suis un spécialiste en histoire médiévale.,calibration,English,0.45550115480941966,Finnish,0.4071195790666146,False
+12451075,fra,Je suis encore puceau.,calibration,English,0.8213992057435917,Basque,0.04800009804064136,True
+5246775,fra,Janine mange ton gâteau.,calibration,Swahili,0.2605988560263922,English,0.22045273085814837,False
+12141311,fra,Jonas peut aider la fille.,calibration,English,0.5439988390763857,Finnish,0.18395653176982427,False
+2043268,fra,Je veux que tu ailles dans ta chambre et que tu emballes tes affaires.,calibration,English,0.8132573752773354,Basque,0.06084237050085643,True
+12369873,fra,Essayez d’expliquer cela à une personne éloignée de la science.,calibration,English,0.675260538621402,Basque,0.15463383493373092,True
+6832991,fra,"Continuer, poursuivre quelque chose, c'est lutter contre tout.",calibration,English,0.9177343639743728,Finnish,0.03236444132663571,True
+2490583,fra,Je veux que vous alliez voir si c'est toujours là.,calibration,English,0.7976126735485157,Finnish,0.14272497104853646,True
+2076666,fra,Ne me parlez pas ainsi !,calibration,English,0.34999303746651383,Finnish,0.21136637091814198,False
+10489827,fra,Mes frères et sœurs sont plus jeunes que moi.,calibration,English,0.9033303480291711,Finnish,0.04566550057574444,True
+11044137,fra,Magnus Carlsen a remporté son troisième titre mondial d'échecs.,calibration,English,0.8770725806982587,Turkish,0.047405738676102385,True
+5662825,fra,"S'il te plaît, maman ! Je veux un écureuil en pain d'épices !",calibration,English,0.5110224544709954,Finnish,0.2372720078531015,False
+524544,fra,Le garçon a commencé sa nouvelle vie à Barcelone d'une manière excellente.,calibration,English,0.6464899766894464,Turkish,0.14779587266674346,False
+12143414,fra,Yanni avait la tête dans les nuages et ça se comprend.,calibration,English,0.7813202850078429,Finnish,0.08523899073200907,True
+5251444,fra,Il lava une pomme.,calibration,Finnish,0.3468137110855743,Turkish,0.19411939635842365,False
+9405518,fra,Tom a l'air déterminé.,calibration,Turkish,0.41710723720173476,English,0.3297783529106381,False
+12525543,fra,Connais-tu quelqu'un d'Australie ?,calibration,Basque,0.3051755159727025,English,0.20384752996842345,False
+13853320,fra,"Alors, elle s'enfuira au Mexique.",calibration,Basque,0.3280398559662622,English,0.23566562120409212,False
+3995164,fra,Tom a saisi cette occasion à deux mains.,calibration,English,0.5497202212048606,Finnish,0.295978120217163,False
+8620386,fra,"Si j'écris ça, ma carrière est finie.",calibration,English,0.6850531646394058,Basque,0.08840336637133857,True
+1419952,fra,Cela m'inquiète de ne plus te voir en ligne de toute la journée.,calibration,English,0.8056180403623566,Basque,0.06933451646095203,True
+4856896,fra,Ne le disons à personne !,calibration,English,0.6362846679956561,Finnish,0.12756750867774455,False
+417438,fra,Ne sais-tu pas qu'il est mort depuis deux ans ?,calibration,English,0.7879362291259522,Finnish,0.08849203060916373,True
+429482,fra,Elle s'en alla sans dire au revoir.,calibration,English,0.47703401968250975,Finnish,0.20993452165481122,False
+7410888,fra,Tom est intelligent et drôle.,calibration,English,0.7310503409286682,Finnish,0.131313939154834,True
+2425663,fra,Les passagers doivent rester dans la zone d'embarquement.,calibration,English,0.7378925697014866,Basque,0.17249356336449145,True
+13766973,fra,Je connais tout le monde dans le village.,calibration,English,0.8374333044636036,Finnish,0.08537349642397819,True
+1845903,fra,Sors les détritus.,calibration,English,0.7336631701845502,Finnish,0.0695230172530369,True
+749632,fra,Il y a des routes et des autoroutes peu importe où tu vas en Amérique.,calibration,English,0.8979030180802917,Basque,0.04152603258037984,True
+1049613,fra,Voudras-tu couper tous les arbres ici ?,calibration,English,0.9482011250506301,Basque,0.014929898888388124,True
+1970273,fra,John ne peut pas supporter le bruit.,calibration,English,0.7963089563105727,Finnish,0.0972104561018689,True
+12624390,fra,Voici de belles fleurs.,calibration,English,0.6386245287470895,Turkish,0.10997563196591491,False
+8827542,fra,Vous jouez au football avec vos amis ?,calibration,English,0.7612820373173637,Finnish,0.10385340849982622,True
+825222,fra,C'est une personne d'une influence considérable.,calibration,English,0.812449224031957,Turkish,0.08136201199853682,True
+9549300,fra,Nous ne pouvons que le déplorer.,calibration,English,0.8076269829083043,Turkish,0.05163896609855468,True
+12248398,fra,Je ne prends plus aucun risque.,calibration,English,0.7916937955563894,Finnish,0.06279459235851706,True
+832748,fra,"On a trois ou quatre fois dans sa vie l'occasion d'être brave, et tous les jours, celle de ne pas être lâche.",calibration,English,0.9823301694544911,Finnish,0.00832080229445482,True
+2424518,fra,Je deviens nerveuse lorsque je parle devant une foule nombreuse.,calibration,English,0.7651440609647538,Turkish,0.09090549698660794,True
+13396774,fra,On s'est rencontré sur le chemin du village.,calibration,English,0.7666687445894932,Finnish,0.10222365181326691,True
+5316282,fra,Elles regardent votre belle image.,calibration,English,0.5598188475172129,Basque,0.17707034693802245,False
+11036744,fra,"C'est que je sors du pays du charbon avec ses usines aux pieds sales, ses fourneaux au dos triste, les rouleaux de fumée, la crasse des mines, un horizon à couper au couteau, à nettoyer à coups de balai.",calibration,English,0.9619669090679387,Basque,0.017136853024151417,True
+12644156,fra,Quel est le montant de la facture ?,calibration,English,0.527412015539464,Basque,0.2701807972063218,False
+12044017,fra,Cette obsolescence du matériel nous empêche d'innover.,calibration,English,0.9038069374354638,Turkish,0.03209515914616034,True
+12408177,fra,Ce fut le roman le plus intéressant que j'aie jamais lu.,calibration,English,0.7093168878181685,Finnish,0.18457116497598142,True
+13040421,fra,Elle était complètement désabusée.,calibration,English,0.6167553176373538,Finnish,0.20588144279908757,False
+11216113,fra,Le couteau a un tranchant très aiguisé.,calibration,English,0.8130547348011488,Basque,0.05510038942264643,True
+1534448,fra,Ne me faites pas perdre patience.,calibration,English,0.8453421636824853,Basque,0.04936498742947878,True
+13290380,fra,Ils boivent beaucoup de thé.,calibration,English,0.9383178419226023,Basque,0.017302895408636144,True
+9437039,fra,J'aime venir à Boston.,calibration,Turkish,0.5674561942253906,English,0.17990010901885614,False
+1099409,fra,Détestes-tu les enfants pauvres ?!,calibration,English,0.6294423496886549,Finnish,0.13500164303026335,False
+9010613,fra,Le brouillard a empêché les avions de décoller.,calibration,English,0.8067704822471664,Turkish,0.0990072417933011,True
+12690230,fra,Je ne te souhaite que du bien.,calibration,English,0.5512310597106853,Basque,0.2710973019450202,False
+13368144,fra,Bonjour à tous. Je suis Tom.,calibration,English,0.8980307841777762,Finnish,0.05683359414485421,True
+6202238,fra,Elle ne recommence point.,calibration,English,0.6489953468324531,Finnish,0.13915437897667443,False
+13257654,fra,À qui fais-tu référence ?,calibration,English,0.3543537595948852,Basque,0.17573165367260002,False
+5820442,fra,"Le mieux pour vous, c'est de suivre les conseils du médecin.",calibration,English,0.9321469976706214,Finnish,0.02811750550366255,True
+12575830,fra,Tu le verras demain.,calibration,Basque,0.33708218979199916,English,0.3209243436247755,False
+808941,fra,Tu ne devrais pas la couver autant. Elle a besoin d'apprendre à être indépendante.,calibration,English,0.880135315311208,Basque,0.07267714414024437,True
+11652275,fra,La route était verglacée.,calibration,English,0.5170708533796974,Basque,0.24130918382547237,False
+2105173,fra,Je cherche mon passeport. L'as-tu vu ?,calibration,English,0.7530636197086602,Finnish,0.07497410347861073,True
+11936447,fra,J'ai une mauvaise grippe.,calibration,Finnish,0.42045659911403754,Swahili,0.18458466771519624,False
+7102108,fra,Tom aime le rock.,calibration,English,0.6084663993795314,Turkish,0.14658004991570908,False
+547933,fra,Il a remarqué ma présence.,calibration,English,0.3843101065930865,Turkish,0.21509611662118305,False
+4758219,fra,Elle est chanceuse.,calibration,English,0.6720452881080368,Finnish,0.13563392069004085,True
+13978006,fra,Tom pensait que Mary voulait qu'il l'embrasse.,calibration,English,0.5359547684780953,Finnish,0.23861705351195284,False
+5724220,fra,Tout le monde le sait déjà de toute façon.,calibration,English,0.8567324042700425,Basque,0.04866966147108106,True
+11183,fra,La brique ne remplacera jamais le béton armé ici.,calibration,English,0.38487726214543533,Turkish,0.27338134581358947,False
+10536065,fra,À quelle profondeur ?,calibration,English,0.424653965675169,Turkish,0.15206624152992387,False
+7696353,fra,Je ne vis plus à Boston.,calibration,English,0.6377526088833905,Finnish,0.19499727339380932,False
+12463693,fra,Tom déteste les poivrons.,calibration,English,0.7544725509252653,Finnish,0.15340459106322574,True
+11535377,fra,Ils m'ont montré la maison.,calibration,Finnish,0.3563537409612293,English,0.2932924894044544,False
+12909217,fra,Puisse Dieu vous ôter cette colère.,calibration,English,0.8702755065883696,Finnish,0.05660400067107854,True
+11987940,fra,Combien de concerts le groupe va-t-il jouer pendant sa tournée ?,calibration,English,0.9105358460490897,Basque,0.0338691640531935,True
+11757050,fra,Gabriel ne voyait rien d'autre que des arbres hauts et des branches.,calibration,English,0.8621241988017507,Basque,0.08743092957223232,True
+5655432,fra,"Tom est, en général, beaucoup plus occupé que Marie.",calibration,English,0.7543790607559853,Basque,0.09057157880558095,True
+12328137,fra,Ils ont formé un nouveau parti politique.,calibration,English,0.3882154289021437,Finnish,0.332908909730143,False
+1124870,fra,Elle prend toujours en note chaque mot que son professeur dit.,calibration,English,0.9363675146656744,Finnish,0.026119644858774667,True
+1449669,fra,"Je suis parti de rien, je suis arrivé à rien, mais je ne dois rien à personne.",calibration,English,0.822677050068741,Finnish,0.0849193257290403,True
+10708735,fra,Je dois voir un médecin.,calibration,English,0.3656739797221892,Finnish,0.25194884205989,False
+12448071,fra,Est-ce qu'il est là ?,calibration,English,0.5661828231446535,Finnish,0.10822811928509428,False
+1140498,fra,Je resterai en contact.,calibration,English,0.5159282734871722,Basque,0.2886558725804995,False
+12888412,fra,Rappelle-toi que tu n'as qu'une seule vie.,calibration,English,0.45648038185224965,Finnish,0.361819896166707,False
+12599487,fra,Je ne vais rien boire parce que c'est moi qui conduis.,calibration,English,0.7731666601599434,Finnish,0.08935150937203891,True
+4912452,fra,Ils nous ont vues hier.,calibration,English,0.8217994630046283,Finnish,0.07946306449312741,True
+12354875,fra,Notre conflit est terminé.,calibration,English,0.8598736340205804,Finnish,0.05664733178600644,True
+11561391,fra,Je souhaite poser ma candidature pour un poste dans votre entreprise.,calibration,English,0.8081063308659353,Basque,0.10855911150312793,True
+11837567,fra,Les serviettes sentent mauvais.,calibration,English,0.45743595637841583,Finnish,0.4321820065933112,False
+9698115,fra,"Si tu utilises ton téléphone portable sur ton vélo, tu peux te voir infliger une lourde amende.",calibration,English,0.804485060468221,Finnish,0.12726432412217623,True
+11482648,fra,Je n'ai encore jamais eu d'amie telle que toi.,calibration,English,0.6344273679583082,Finnish,0.15837905302301727,False
+4855532,fra,Nous ne sommes pas vraiment sûrs.,calibration,English,0.8805280949008747,Finnish,0.0571996671279287,True
+1908348,fra,Es-tu sûr que c'est nécessaire ?,calibration,English,0.7115263113611757,Basque,0.09829234795096087,True
+10277309,fra,On peut utiliser un décompilateur pour récupérer le code en assembleur d'un fichier compilé.,calibration,English,0.8061411404265505,Turkish,0.07507797387238176,True
+8685576,fra,"Je n'y vois pas grand-chose, il fait très sombre.",calibration,English,0.9487280411839707,Finnish,0.02223697736114952,True
+11716428,fra,Il faut écouter attentivement pour comprendre.,calibration,English,0.8894021304481217,Basque,0.03830486067019663,True
+2914608,fra,Nous nous affairions à préparer le dîner.,calibration,English,0.8454540940400401,Basque,0.054365855629203104,True
+8201037,fra,Le corbeau est noir comme du charbon.,calibration,English,0.6858933325846562,Basque,0.14273741350772237,True
+8420915,fra,Elle tient une louche dans sa main droite.,calibration,English,0.7610068304705387,Finnish,0.12770359355721259,True
+3643634,fra,"Le prix de l'action a marqué un record historique de cent-quinze dollars, hier.",calibration,English,0.7124587254390106,Basque,0.1413780729518946,True
+12150,fra,À ce moment-là j'ai vraiment compris que les gorilles ont des sentiments.,calibration,English,0.8661641870208229,Finnish,0.058591949424789784,True
+668389,fra,Je suis là depuis déjà deux heures.,calibration,English,0.8350963929266072,Basque,0.051773625198203846,True
+13078726,fra,J'ai eu besoin de quatre cachets pour pouvoir enfin dormir.,calibration,English,0.7180735992352995,Basque,0.12534673568827662,True
+12288599,fra,J'avais une crise psychotique.,calibration,English,0.5496204064143424,Finnish,0.2871068062180648,False
+9011157,fra,Tu loueras une maison ou un appartement ?,calibration,Finnish,0.33077657162867014,English,0.3067693074615662,False
+1587819,fra,Il n'avait aucune raison particulière d'y aller.,calibration,English,0.44313776225130186,Finnish,0.23114636304317743,False
+11659671,fra,Le criminel s'est rendu de lui-même à la police.,calibration,English,0.6869421976884167,Turkish,0.12297393007119947,True
+8703570,fra,Ce genre de travail demande beaucoup de patience.,calibration,English,0.6846622183880132,Basque,0.14263273443355728,True
+1816478,fra,"Contre la bêtise, même les dieux sont impuissants.",calibration,English,0.6787103782931717,Finnish,0.1708722188760024,True
+11942672,fra,J'ai failli oublier de poster la lettre.,calibration,English,0.5361284738172689,Finnish,0.15971854239925065,False
+12019950,fra,L'arc-en-ciel forme un arc dans le ciel.,calibration,English,0.5304750488077217,Turkish,0.18080496196681906,False
+4606945,fra,Les Palestiniens ont-ils le droit de revendiquer la libération de leurs détenus ?,calibration,English,0.8080394330106184,Basque,0.07565598494176029,True
+13592527,fra,Elle ne s'est toujours pas rendu compte.,calibration,English,0.9594154647513826,Finnish,0.02126149151735828,True
+12504790,fra,Arrête d'être si adorable !,calibration,Basque,0.42088312340011846,English,0.4170554657989804,False
+6299282,fra,Vous êtes en vacances ici ?,calibration,English,0.8065403517587677,Finnish,0.07578189595577811,True
+2161561,fra,Il ne rit jamais.,calibration,Finnish,0.424573997127066,English,0.15985812440498554,False
+10687100,fra,J’aime modeler ton corps fragile.,calibration,English,0.6875405346429386,Turkish,0.13210084062842364,True
+9093471,fra,Ai-je répondu à ta question ?,calibration,Finnish,0.3293972060764061,Basque,0.25696360145946495,False
+4551157,fra,Tu vas prendre une tarte !,calibration,English,0.6985980987054841,Basque,0.12690411799892518,True
+13912461,fra,Je sais que Tom est groggy.,calibration,English,0.8741099655873387,Finnish,0.039514822033011564,True
+3273774,fra,Est-ce que vous prenez souvent des photos ?,calibration,English,0.9190150674806365,Finnish,0.03310847094701677,True
+8661000,fra,Elle a dormi dans l'avion.,calibration,English,0.37543790642509306,Basque,0.24550752031286846,False
+3489099,fra,Tom a ouvert l'eau.,calibration,English,0.7289713192727755,Basque,0.08157210185197541,True
+5844667,fra,"Il lui saisit la main, ne songeant pas à contenir son enthousiasme.",calibration,English,0.5202011664959311,Finnish,0.30306965815700815,False
+12485073,fra,Ils se foutent des autres choses.,calibration,English,0.9614762817693183,Finnish,0.01327416563023368,True
+1517654,fra,J'ai reçu le billet gratuitement.,calibration,Basque,0.24744496050928996,English,0.2443014414364084,False
+13526189,fra,Nous avons fait un avion en papier.,calibration,Finnish,0.40575320441845664,English,0.3888856781606751,False
+1461615,fra,Mon frère cadet nage tous les jours durant l'été.,calibration,English,0.9437378530175807,Basque,0.031116184171998854,True
+2398977,fra,Nous devons résister à l'invasion de la langue anglaise.,calibration,English,0.5649739335514878,Finnish,0.1986493124907739,False
+12687954,fra,Je lui ai demandé d'être ici à six heures.,calibration,English,0.7237277400563525,Basque,0.11539608023365358,True
+1102604,fra,Tu veux prendre des escargots pour le dîner ?,calibration,English,0.8579243920051688,Basque,0.0859428449674893,True
+1582291,fra,Le récit est parcellaire.,calibration,English,0.5342414425396272,Finnish,0.19210601081528567,False
+5667621,fra,Je pense que je pourrais m'y habituer.,calibration,English,0.7201104973601897,Basque,0.07957448853389239,True
+13384318,fra,Je vous les ai blessées.,calibration,English,0.6566872915150557,Finnish,0.18199025435309338,False
+1836884,fra,Ne tombe pas dans son piège !,calibration,English,0.8880712434723366,Finnish,0.046334820013534374,True
+10834790,fra,C'est que tu n'avais pas affaire à un vrai humain !,calibration,English,0.5145675622516562,Finnish,0.23843148864732533,False
+468822,fra,Tu ne dois pas mentir.,calibration,English,0.7067444453901236,Turkish,0.10679369841328586,True
+2597119,fra,Nous sommes toujours heureuses.,calibration,English,0.9215011726239296,Finnish,0.03314451410028126,True
+6098580,fra,Il ne mange pas de pommes.,calibration,English,0.6378561871704392,Turkish,0.17290464509675543,False
+7388,fra,C'est bon pour moi.,calibration,English,0.6240020563982214,Finnish,0.13071360655392458,False
+4961496,fra,Nous avons embarqué.,calibration,English,0.48276981930927493,Finnish,0.11235854235343819,False
+1347751,fra,L'Union Européenne est l'espace économique le plus puissant au monde.,calibration,English,0.705374822110725,Finnish,0.18360298612449671,True
+12929719,fra,Cela va aussi avec ceci.,calibration,English,0.2684410454470136,Finnish,0.22370770865384995,False
+12905122,fra,Je voudrais leur rendre hommage.,calibration,English,0.6959059516589845,Basque,0.13394170331433305,True
+8207677,fra,Je vais le rencontrer.,calibration,English,0.6826650538520131,Finnish,0.10085912787384202,True
+12964496,fra,L’éclat de la fête contrastait brutalement avec la tristesse qu’elle cachait au fond d’elle.,calibration,English,0.8277362572298784,Basque,0.07179435146408446,True
+2328927,fra,Il est mal élevé.,calibration,English,0.282600177831331,Finnish,0.25232518716122826,False
+181182,fra,Je ne peux pas penser à tout.,calibration,English,0.878791869461215,Finnish,0.05548846946533581,True
+1891830,fra,Qu'est-ce que vous aimez chez lui ?,calibration,English,0.5032829742428873,Basque,0.1723570695299396,False
+2837897,fra,"S'ils n'aiment que pour l'argent, on ne les aime que pour l'heure.",calibration,English,0.7587385379394039,Basque,0.07475018932732469,True
+525108,fra,Il s’est habitué à son nouveau mode de vie.,calibration,English,0.711321580153541,Finnish,0.09215642325435083,True
+2254265,fra,J'aimerais pouvoir m'attarder.,calibration,Turkish,0.360159591725295,English,0.2608009206749,False
+13424268,fra,Nous mangerons les fruits printaniers.,calibration,English,0.8618342753852225,Finnish,0.0491288564209216,True
+12751080,fra,Les séances de feedback régulières permettent de détecter les tensions avant qu’elles ne dégénèrent.,calibration,English,0.9487955116472677,Basque,0.021063518533167066,True
+459468,fra,Nous attendons les résultats de l'expérience en retenant notre souffle.,calibration,English,0.9602790291168573,Basque,0.017457417180806144,True
+11301225,fra,C'est juste pour rire.,calibration,English,0.7889494993230037,Finnish,0.08014498232245047,True
+6201945,fra,Tom joue à ralentir.,calibration,English,0.31023186527530633,Turkish,0.28543895173026596,False
+14076413,fra,Sais-tu comment aller à la papeterie ?,calibration,English,0.5595489505104803,Finnish,0.1826642922824711,False
+9064,fra,C'était judicieux de ta part de prendre un parapluie avec toi.,calibration,English,0.7553701123536033,Basque,0.09880736069510389,True
+4192397,fra,Il aime regarder par la fenêtre.,calibration,Basque,0.33880473405919226,Turkish,0.3005183839420388,False
+9636369,fra,Les salles de classe devraient être rénovées.,calibration,English,0.8784788860874563,Finnish,0.03726694974135759,True
+13099319,fra,Enfilez un pantalon.,calibration,Basque,0.363663622664266,Finnish,0.2572576726757874,False
+12238400,fra,Vous faites chier.,calibration,English,0.7946018291342967,Basque,0.043405917227724286,True
+9609,fra,Plusieurs voitures sont garées devant chez moi.,calibration,English,0.7374058024047946,Finnish,0.1123361089700379,True
+9163262,fra,Tom a menti à tout le monde.,calibration,English,0.7914501443696678,Finnish,0.09823002432649693,True
+12759078,fra,On pourrait discuter des différentes techniques pour conduire une analyse thématique.,calibration,English,0.9280521460913674,Basque,0.047238441538954505,True
+6667733,fra,Il doit y avoir quelqu'un derrière cette affaire.,calibration,English,0.6270303035976119,Basque,0.2017120151310078,False
+1741332,fra,Cet étudiant étudie l'ingénierie.,calibration,English,0.44826134261172096,Basque,0.26581704537028383,False
+8553189,fra,C'est un problème trop difficile pour que je puisse le résoudre.,calibration,English,0.9383311419845155,Finnish,0.02487874646523642,True
+1050936,fra,Il vit l'accident sur le chemin de l'école.,calibration,English,0.8407152160305007,Finnish,0.056623792306058934,True
+10471531,fra,Est-ce que tu peux atteindre le haut de l'étagère ?,calibration,English,0.80560441062591,Basque,0.1074782497963978,True
+9025532,fra,Pas exactement.,calibration,English,0.5429759757799485,Basque,0.11181333022144138,False
+1921924,fra,Je me refuse à répondre.,calibration,English,0.7741280195843107,Turkish,0.058324221650542116,True
+13795899,fra,Tu le leur as guerri.,calibration,Basque,0.4408851000482416,English,0.3100996193532832,False
+2306267,fra,Le canard en plastique de mon fils est jaune.,calibration,English,0.665520141964,Finnish,0.1405142165962069,True
+12429464,fra,Il s'est promené à Tinzawatin.,calibration,English,0.526920037380918,Finnish,0.1889451556425412,False
+12076068,fra,Regarde-les donc !,calibration,English,0.4004841863264004,Basque,0.33509050493315495,False
+7698338,fra,Évitez de boire de l'alcool.,calibration,English,0.4072465756795599,Basque,0.35109258217129147,False
+12052223,fra,Nous passerons à Béjaia.,calibration,English,0.4949493088765838,Finnish,0.22012043623149777,False
+1202567,fra,Ne fais pas autant de bruit dans la pièce.,calibration,English,0.840997769365386,Basque,0.06803451668682461,True
+971418,fra,Je me sens étouffé.,calibration,English,0.8409640461611979,Finnish,0.05249567074412819,True
+2489594,fra,Le chien ne pouvait aboyer.,calibration,English,0.5956680077068998,Turkish,0.14031359970485843,False
+404356,fra,Quelle plaie.,calibration,Finnish,0.3920066871592951,English,0.145334840089683,False
+5689619,fra,Tom a abattu l'arbre avec sa tronçonneuse.,calibration,English,0.6397613174630478,Turkish,0.13358234156996848,False
+2271445,fra,Il est accro à la malbouffe.,calibration,English,0.697515242427826,Swahili,0.07881050004479645,True
+2426469,fra,Je suppose que je devrais m'en aller.,calibration,English,0.7394370024649632,Finnish,0.11024108453559599,True
+129349,fra,La Chine est riche en ressources naturelles.,calibration,English,0.833638877056086,Basque,0.06632925194085418,True
+13200112,fra,Pourquoi les humains sourient-ils ?,calibration,English,0.6099231317457364,Finnish,0.21510647420184692,False
+13087082,fra,Ce jeune a perdu la tête.,calibration,English,0.5381228824419848,Basque,0.19245188755341872,False
+12752727,fra,Le propriétaire alloue un budget pour les réparations.,calibration,English,0.7207642341101959,Basque,0.10407174001041843,True
+9402726,fra,Tom a levé les yeux.,calibration,English,0.578060489329544,Turkish,0.1681791800082462,False
+1135687,fra,Tu as deux fleurs.,calibration,English,0.5549605469664981,Basque,0.17731513910783286,False
+1740337,fra,"N'aie pas honte de te repentir d'un acte, aie honte de persister dans l'erreur.",calibration,English,0.8100896069097739,Basque,0.13283342422772798,True
+11683802,fra,Ce sont elles qui ont parlé de tout ça.,calibration,English,0.8130434590331651,Finnish,0.10816832521154926,True
+5403486,fra,Tom est le jumeau de John.,calibration,English,0.47262740323712893,Finnish,0.19711321461101913,False
+12513537,fra,Elles sont allées à Tibane.,calibration,English,0.7043079039766181,Finnish,0.19277320861910022,True
+13427993,fra,Je ne vous prends pas de photos.,calibration,English,0.9253341465924657,Finnish,0.03196822892294717,True
+10374420,fra,Des dos d'âne peuvent être placés en travers de la route pour ralentir la circulation.,calibration,English,0.9280740400808196,Basque,0.03343484017874238,True
+10521999,fra,Ça ne me dérange pas d'être assis à l'arrière.,calibration,English,0.8164054632519484,Basque,0.08923486414512757,True
+9697284,fra,C'est une mangeuse de poisson.,calibration,English,0.6451459160627107,Finnish,0.1693017583166556,False
+8848044,fra,"Moi qui m’imaginais me marier avec elle, je me suis pris un gros râteau.",calibration,English,0.739583974721023,Finnish,0.09317384274935704,True
+8394290,fra,"Merci, mon enfant.",calibration,English,0.27730986491763393,Turkish,0.21204464711847507,False
+129957,fra,Je ne prête pas attention à ce qu'il fait.,calibration,English,0.8302793668559973,Finnish,0.07375495130193871,True
+12726201,fra,Les filles jouent souvent dans le parc.,calibration,English,0.8657502090479382,Finnish,0.06596170381767527,True
+12594658,fra,Il est tombé dans la boue.,calibration,English,0.7201255421418016,Basque,0.12181705050473021,True
+11600478,fra,Le fromage est jaune.,calibration,English,0.4634656807386521,Basque,0.18953880932135608,False
+6536129,fra,Ce doit être connu ainsi.,calibration,English,0.7230449860729342,Finnish,0.1128999076599301,True
+12019478,fra,Vous embarquerez à Ifnayen.,calibration,Basque,0.4441795419456639,English,0.24025332680873707,False
+5641582,fra,"Tom est professeur, et moi aussi.",calibration,English,0.47188850793365894,Finnish,0.36557472261385654,False
+13789651,fra,"Rien n'a changé, ni hier ni aujourd'hui.",calibration,Swahili,0.6088253824452077,English,0.16999742901535464,False
+1335916,fra,Il n'est pas nécessaire de se dépêcher.,calibration,English,0.9303116861628332,Turkish,0.02544843080613283,True
+1252680,fra,"Il a tout avalé : l'hameçon, la canne et le plomb.",calibration,English,0.6829100871844078,Finnish,0.14877771721532265,True
+4963757,fra,Ai-je la syphilis ?,calibration,Swahili,0.290713164692517,Finnish,0.24451663071858046,False
+10614144,fra,N'oublie pas de lui demander son avis !,calibration,English,0.698857917867758,Turkish,0.12845256171382757,True
+9155355,fra,Vous êtes objectif.,calibration,English,0.7209305407716715,Finnish,0.08557274330826503,True
+13644478,fra,"Juste est l'Éternel en toutes ses voies, et plein de bonté en toutes ses œuvres.",calibration,English,0.8855592942008799,Finnish,0.0839646832746174,True
+2172904,fra,"Je pensais que les lumières seraient éteintes à cette heure-là, mais le porche était toujours éclairé.",calibration,English,0.9375345205846806,Finnish,0.03968759922502914,True
+10206808,fra,Elle croule sous les dettes.,calibration,English,0.9048751824880851,Finnish,0.046472774355890145,True
+10117941,fra,Est-il possible de faire de la poésie en toki pona ? Certainement. La poésie est dans les choses les plus simples.,calibration,English,0.8644265304596678,Finnish,0.0739419129245355,True
+9195125,fra,Tom et Marie aiment se rencontrer dans le parc.,calibration,English,0.837017824475936,Turkish,0.07098609655075307,True
+1364507,fra,À quelle heure vous levez-vous chaque jour ?,calibration,English,0.70919869029927,Finnish,0.10339850417636234,True
+5331223,fra,Elle aime la pluie.,calibration,Finnish,0.4275430799185052,English,0.21682822174523236,False
+6463103,fra,Nous n'avons que deux dollars.,calibration,English,0.6608077972256705,Basque,0.0896642415256729,True
+10512228,fra,N'approchez pas !,calibration,English,0.376544415311597,Basque,0.1283431126542468,False
+1403489,fra,Elle découvrit un nouveau monde bariolé.,calibration,English,0.5057443138973882,Basque,0.20327678977311728,False
+9398644,fra,"Dans Tatoeba, c'est celui qui traduit le plus de l'anglais au kabyle ou du kabyle à l'anglais.",calibration,English,0.6824745422342942,Finnish,0.10293675230068029,True
+5349915,fra,Monsieur Vauquelin est toujours dans son cabinet ou dans son laboratoire.,calibration,English,0.6819771788600458,Finnish,0.15384790953869423,True
+12174633,fra,Qu'est-ce qui te rend si sûr que je veux être ton ami ?,calibration,English,0.8423232846348928,Finnish,0.06546577492023173,True
+800526,fra,Elle a acheté un appareil photo pendant qu'elle était au Japon.,calibration,English,0.43371274490567285,Finnish,0.43229618612485526,False
+10698205,fra,Comment peux-tu t'apitoyer sur ton pire ennemi ?,calibration,English,0.7467556297205494,Finnish,0.11815052922318645,True
+12761402,fra,Il a creusé un trou dans le sable.,calibration,English,0.797902071366799,Basque,0.057080665343739824,True
+12744975,fra,Les gravimètres à coin de cube mesurent les variations de gravité le long de l'orbite des satellites.,calibration,English,0.882853036951848,Basque,0.04924028295470609,True
+12314773,fra,Il perdit la nouvelle montre qu'elle avait.,calibration,English,0.4859509416726079,Finnish,0.3218906799044185,False
+1347653,fra,Voudrais-tu une tasse de lait ?,calibration,English,0.39291553131960144,Finnish,0.2868930754695897,False
+9847051,fra,Comment sais-tu que je ne le sais pas ?,calibration,English,0.6152247488511003,Finnish,0.23376529766176996,False
+13338161,fra,L'enfant malade sera soignée par le voisin.,calibration,English,0.37172130251310836,Finnish,0.30100601596826565,False
+3679646,fra,Rien ne semble coller.,calibration,English,0.4799332915032891,Turkish,0.30500193307478896,False
+1133838,fra,Il pensait à lui-même en dernier.,calibration,English,0.3524539579469202,Basque,0.26954096889367546,False
+12622667,fra,"Malheureusement, tu ne pourras jamais lui faire voir raison et encore moins tenter de le raisonner.",calibration,English,0.6417311148880669,Finnish,0.15636986824008964,False
+12736581,fra,L'apprentissage transformationnel modifie les cadres de référence.,calibration,English,0.8753525492009987,Turkish,0.05199783614014874,True
+1086345,fra,Merci pour la chaleur de tes mots.,calibration,English,0.8219246009958509,Turkish,0.05871282040271869,True
+13115247,fra,Il m’a mordu au pied.,calibration,Turkish,0.2997324743131643,Swahili,0.1917640329901092,False
+9552422,fra,Tu peux dormir dans la chambre d'hôtes.,calibration,English,0.6256929672417643,Basque,0.20019404600248444,False
+10499999,fra,Sauvez moi.,calibration,Basque,0.27889203057911727,Finnish,0.18567030234349757,False
+6883443,fra,Je pense que c'est plus que raisonnable.,calibration,English,0.6673315107733889,Finnish,0.15403864821856927,True
+7706396,fra,Je suis un ami de ton frère.,calibration,English,0.8412680367969221,Finnish,0.0643772827241468,True
+13304209,fra,C'est un homme robuste.,calibration,English,0.677208640386167,Finnish,0.12464580164187372,True
+5489914,fra,J'ai demandé conseil à Tom.,calibration,English,0.5851053195642245,Turkish,0.1928664114432058,False
+1190537,fra,La tondeuse à gazon a besoin d'essence pour fonctionner.,calibration,English,0.6607813875639303,Basque,0.1520533654992815,True
+2565856,fra,"J'ai besoin d'un peu d'aide, là.",calibration,Basque,0.33910411065596185,English,0.22452850124416124,False
+9793541,fra,"La compassion, c'est pour les idiots.",calibration,English,0.7717050053717263,Finnish,0.10899099075669062,True
+13088385,fra,C'est au bord de la mer que souffle le vent fort.,calibration,English,0.9084468168805532,Turkish,0.03924873016706245,True
+6584696,fra,Je pèse moins que toi.,calibration,English,0.6279972313182879,Finnish,0.22626589833190147,False
+499070,fra,Les dragons sont des animaux imaginaires.,calibration,English,0.6074720516890311,Basque,0.187983705538101,False
+561340,fra,Ma sœur n'a pas une très grande culture.,calibration,English,0.7391949044371963,Turkish,0.10749673659281213,True
+8532923,fra,Je suspecte que Tom n'est pas heureux ici.,calibration,English,0.9459052534285813,Finnish,0.023032878918683584,True
+12342887,fra,Il était victime de brimades de la part de ses camarades de classe.,calibration,English,0.7658496127075408,Turkish,0.13845378692117558,True
+1281024,fra,Tu ne peux pas juste venir ici et commencer à donner des ordres aux gens alentour.,calibration,English,0.9250016288137467,Turkish,0.03901354073202311,True
+13446127,fra,Ils n'ont rien pris du tout.,calibration,English,0.8729637455699424,Finnish,0.059422382678379085,True
+10033309,fra,Pas là.,calibration,English,0.49898650034129016,Finnish,0.11853415932529765,False
+7696123,fra,Tom est cameraman.,calibration,English,0.42173980407006384,Turkish,0.3045805990220241,False
+13508294,fra,Je viens de perdre un ami à qui je tenais.,calibration,English,0.6394531261012945,Finnish,0.14882665113896762,False
+11903350,fra,Pourquoi es-tu en train de rigoler ?,calibration,Basque,0.5263215713744401,English,0.29578221232119173,False
+5959712,fra,Je sais que je peux compter sur chacun de vous.,calibration,English,0.917196003603051,Finnish,0.025096956736654467,True
+8241618,fra,Quelqu'un a dit: « J'ai rencontré deux très belles femmes en train de chuchoter. Je n'ai pipé mot. »,calibration,English,0.8871767914219935,Basque,0.05308386995223423,True
+8080157,fra,Est-ce que tu peux répondre à ça ?,calibration,English,0.6595260872845833,Basque,0.10790757142664353,False
+1781706,fra,Je me suis rendu sur le lieu dont elle parlait dans son discours.,calibration,English,0.8897111154584193,Basque,0.04544095208870518,True
+12379489,fra,Sa terre est abandonnée.,calibration,English,0.601818541768304,Basque,0.247131285141652,False
+12468731,fra,Est-ce que vous les avez averties ?,calibration,English,0.8089132923225474,Finnish,0.05602538093243437,True
+9111180,fra,Vous avez éteint le feu ?,calibration,English,0.655371748378388,Finnish,0.118978351439029,False
+8695868,fra,Il se meurt à petit feu.,calibration,English,0.5377434136952957,Finnish,0.18085921429815344,False
+8701591,fra,Tom s'approchait de Marie.,calibration,English,0.7714230838206896,Turkish,0.0726280567574608,True
+3473553,fra,Cours aussi vite que tu peux et ne me lâche pas la main !,calibration,English,0.7854090345731983,Finnish,0.12022097731778963,True
+3602517,fra,Ce n'est vraiment pas ce que je voulais dire.,calibration,English,0.8831611186598323,Finnish,0.04217280993058197,True
+8090662,fra,"« Qu'est-ce que tu penses du réchauffement climatique ? » « Tant mieux ! Du coup, la mer sera peut-être aussi plus proche, puisque l'eau des océans monte. »",calibration,English,0.9256977408251469,Basque,0.028859475177354207,True
+8654494,fra,Je pense que Tom ira à Boston.,calibration,English,0.6792050876694905,Finnish,0.10997985028614174,True
+4041225,fra,Tom m'a dit que tu aimais la cuisine piquante.,calibration,English,0.3905784505388881,Finnish,0.26972372905186714,False
+1331052,fra,Tu ne devrais jamais mépriser quelqu'un juste parce qu'il est pauvre.,calibration,English,0.6131340892827458,Finnish,0.17376845120791914,False
+12043999,fra,Elles sont inertes.,calibration,English,0.671902533852542,Finnish,0.18216737101705333,True
+4082886,fra,Ta famille a besoin de toi.,calibration,English,0.38372620377576233,Finnish,0.29098513435174883,False
+6481810,fra,Appelle le maire.,calibration,Finnish,0.43177788231970127,English,0.18124726510768496,False
+11490969,fra,Elle est revenue.,calibration,English,0.5182788275823791,Finnish,0.22428835981002904,False
+7814196,fra,"Je trouve le nouveau collègue très sympathique, il me plaît.",calibration,English,0.9398312616357546,Finnish,0.023793889688124743,True
+13102426,fra,Comment va-t-elle faire ?,calibration,English,0.3770267753621762,Finnish,0.25510232462890314,False
+1787770,fra,Mon sort est entre tes mains.,calibration,English,0.7765630944558797,Finnish,0.11379353800005657,True
+1646845,fra,Je dois traduire cette lettre en français pour demain.,calibration,English,0.8125581957864094,Basque,0.10179981825335416,True

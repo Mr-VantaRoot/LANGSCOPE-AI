@@ -24,7 +24,7 @@ Hugging Face Spaces uses a YAML metadata block at the top of the Space repositor
    ```yaml
    ---
    title: LANGSCOPE AI
-   short_description: Nine-language text identification with character n-gram TF-IDF.
+   short_description: Ten-language text identification with character n-gram TF-IDF.
    sdk: gradio
    sdk_version: 6.32.0
    python_version: "3.14"
@@ -41,9 +41,9 @@ Hugging Face Spaces uses a YAML metadata block at the top of the Space repositor
    requirements.txt
    CREDITS.md
    README.md
-   artifacts/tatoeba_nine/classifier.joblib
-   artifacts/tatoeba_nine/vectorizer.joblib
-   artifacts/tatoeba_nine/ood_rejection.json
+   artifacts/tatoeba_ten/classifier.joblib
+   artifacts/tatoeba_ten/vectorizer.joblib
+   artifacts/tatoeba_ten/ood_rejection.json
    ```
 
    The app loads these exact paths relative to `app.py`. Do not upload the legacy artifacts or raw `data/` exports. The metrics, OOD evaluation, split manifest, and failure cases may be included for transparency, but are not required at runtime.

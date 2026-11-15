@@ -1,0 +1,67 @@
+{
+  "purpose": "separate French OOD rejection calibration and audit for the ten-language model",
+  "calibration": {
+    "in_distribution_validation_examples": 330,
+    "in_distribution_accepted": 314,
+    "in_distribution_coverage": 0.9515151515151515,
+    "out_of_distribution_examples": 500,
+    "out_of_distribution_rejected": 232,
+    "out_of_distribution_rejection_rate": 0.464,
+    "balanced_accuracy": 0.7077575757575758
+  },
+  "audit": {
+    "fra": {
+      "examples": 500,
+      "rejected": 217,
+      "rejection_rate": 0.434,
+      "accepted_as_supported": 283
+    }
+  },
+  "sources": {
+    "fra": {
+      "archive": "fra_sentences.tsv.bz2",
+      "source_rows": 730700,
+      "eligible_rows_per_partition": [
+        365018,
+        365682
+      ],
+      "sample_rows_per_partition": [
+        500,
+        500
+      ],
+      "excluded_overlap_with_train_or_validation": 0,
+      "excluded_regression_probe_text": 0,
+      "sha256": "102b245952878f647d101ce4b38fc60ffb9b289df22b0aeb59415c25e6341cc6"
+    }
+  },
+  "sampling": {
+    "seed": 20261115,
+    "samples_per_language_per_partition": 500,
+    "partition": "stable SHA-256 of Tatoeba sentence ID selects calibration or audit; seeded reservoir sampling within each partition",
+    "overlap_check": "exact normalized texts matching in-distribution train/validation and the retained English regression phrase were excluded"
+  },
+  "threshold": 0.6603682803886747,
+  "ten_language_test_used": false,
+  "regression_probe": {
+    "text": "How are you?",
+    "true_language": "English",
+    "top_prediction": "English",
+    "top_score": 0.8410087931938803,
+    "second_prediction": "Turkish",
+    "second_score": 0.03459376899381076,
+    "all_class_scores": {
+      "Amharic": 0.018716441332348004,
+      "Basque": 0.02878504366376483,
+      "English": 0.8410087931938803,
+      "Finnish": 0.007915612866437943,
+      "Georgian": 0.00807048378999251,
+      "Japanese": 0.012514009247302492,
+      "Mandarin Chinese": 0.018876996356343923,
+      "Swahili": 0.021327967547336832,
+      "Thai": 0.008190883008782264,
+      "Turkish": 0.03459376899381076
+    },
+    "rejected_by_gate": false,
+    "excluded_from_ood_calibration_and_audit": true
+  }
+}

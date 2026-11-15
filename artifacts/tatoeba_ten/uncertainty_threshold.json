@@ -1,0 +1,8 @@
+{
+  "threshold": 0.6603682803886747,
+  "validation_coverage": 0.9515151515151515,
+  "validation_selective_accuracy": 1.0,
+  "validation_examples": 330,
+  "minimum_coverage": 0.95,
+  "test_split_used": false
+}
