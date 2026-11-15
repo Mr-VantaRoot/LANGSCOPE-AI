@@ -17,7 +17,7 @@ A ten-language text identifier for the AI + Languages track of the VERITAS AI In
 | Turkish | `tur` | 750,286 |
 | English | `eng` | 2,041,097 |
 
-Afaan Oromo is excluded because its Tatoeba export had only 10 sentences. English was added as the tenth supported language so the app can identify ordinary English input such as “How are you?”.
+English is one of the ten supported languages, so the app can identify ordinary English input such as “How are you?”.
 
 The balanced ten-language run uses **219 unique sentences per language** (2,190 total): 153 train, 33 validation, and 33 test per language. Amharic is the limiting source. To create a fresh test set, 95 previously scored IDs in each of the original nine language exports and 1,000 English IDs already scored by the former OOD experiment were excluded. Exact repeated text within a class and 43 cross-language text collision groups were removed. Train, validation, and test have no normalized exact-text overlap. Dataset counts, checksums, and IDs are recorded in `artifacts/tatoeba_ten/`.
 
