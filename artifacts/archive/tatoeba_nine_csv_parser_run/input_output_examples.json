@@ -1,0 +1,128 @@
+[
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "9145950",
+    "true_language": "Amharic",
+    "text": "ያሜሪካን ኤምባሲ በስተቀኝዎ ነው።",
+    "predicted_language": "Amharic",
+    "confidence": "0.784077",
+    "top_three": [
+      "Amharic — model score 0.784077",
+      "Mandarin Chinese — model score 0.061578",
+      "Japanese — model score 0.043890"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "6700701",
+    "true_language": "Basque",
+    "text": "MasterCard txartela onartzen dute?",
+    "predicted_language": "Basque",
+    "confidence": "0.791221",
+    "top_three": [
+      "Basque — model score 0.791221",
+      "Turkish — model score 0.095370",
+      "Finnish — model score 0.046442"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "4805557",
+    "true_language": "Finnish",
+    "text": "Pois päältäni!",
+    "predicted_language": "Finnish",
+    "confidence": "0.745314",
+    "top_three": [
+      "Finnish — model score 0.745314",
+      "Mandarin Chinese — model score 0.060707",
+      "Japanese — model score 0.043204"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis is very short text (14 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "10392348",
+    "true_language": "Georgian",
+    "text": "ტომი არ ჭამს თევზს.",
+    "predicted_language": "Georgian",
+    "confidence": "0.850664",
+    "top_three": [
+      "Georgian — model score 0.850664",
+      "Mandarin Chinese — model score 0.034236",
+      "Amharic — model score 0.027398"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis is very short text (19 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "237351",
+    "true_language": "Japanese",
+    "text": "私が昨晩家へ帰ったときはすっかり暗くなっていた。",
+    "predicted_language": "Japanese",
+    "confidence": "0.837674",
+    "top_three": [
+      "Japanese — model score 0.837674",
+      "Mandarin Chinese — model score 0.055432",
+      "Amharic — model score 0.028051"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "1790035",
+    "true_language": "Mandarin Chinese",
+    "text": "你认识我吗？",
+    "predicted_language": "Mandarin Chinese",
+    "confidence": "0.737479",
+    "top_three": [
+      "Mandarin Chinese — model score 0.737479",
+      "Japanese — model score 0.073992",
+      "Amharic — model score 0.052703"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis is very short text (6 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "10898434",
+    "true_language": "Swahili",
+    "text": "Yeye ni mwongo tu.",
+    "predicted_language": "Swahili",
+    "confidence": "0.452612",
+    "top_three": [
+      "Swahili — model score 0.452612",
+      "Turkish — model score 0.133345",
+      "Finnish — model score 0.103639"
+    ],
+    "status": "Uncertain: the top model score is below the threshold selected on validation data (0.495422728577).\n\nThis is very short text (18 Unicode code points). Short text contains less character context; add more text for a more reliable result.\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "10333820",
+    "true_language": "Thai",
+    "text": "คุณว่ายน้ำได้ไกลแค่ไหน",
+    "predicted_language": "Thai",
+    "confidence": "0.873825",
+    "top_three": [
+      "Thai — model score 0.873825",
+      "Mandarin Chinese — model score 0.034282",
+      "Japanese — model score 0.025578"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  },
+  {
+    "source": "Tatoeba training split",
+    "sentence_id": "12080887",
+    "true_language": "Turkish",
+    "text": "Kalman anne ve babasının odasına koştu.",
+    "predicted_language": "Turkish",
+    "confidence": "0.745881",
+    "top_three": [
+      "Turkish — model score 0.745881",
+      "Finnish — model score 0.070780",
+      "Swahili — model score 0.065007"
+    ],
+    "status": "The top model score meets the threshold selected on validation data (0.495422728577).\n\nThis model only compares the nine supported languages. It may assign an unsupported language to one of them; a high score does not prove the input belongs to a supported language."
+  }
+]

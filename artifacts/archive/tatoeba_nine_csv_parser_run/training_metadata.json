@@ -1,0 +1,199 @@
+{
+  "dataset": "Tatoeba per-language sentence exports",
+  "languages": [
+    "Amharic",
+    "Mandarin Chinese",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "seed": 20261115,
+  "training_source": "Tatoeba only",
+  "training_examples": 1908,
+  "validation_examples": 414,
+  "test_examples": 414,
+  "train_per_language": {
+    "Amharic": 212,
+    "Mandarin Chinese": 212,
+    "Japanese": 212,
+    "Finnish": 212,
+    "Georgian": 212,
+    "Thai": 212,
+    "Swahili": 212,
+    "Basque": 212,
+    "Turkish": 212
+  },
+  "validation_per_language": {
+    "Amharic": 46,
+    "Mandarin Chinese": 46,
+    "Japanese": 46,
+    "Finnish": 46,
+    "Georgian": 46,
+    "Thai": 46,
+    "Swahili": 46,
+    "Basque": 46,
+    "Turkish": 46
+  },
+  "test_per_language": {
+    "Amharic": 46,
+    "Mandarin Chinese": 46,
+    "Japanese": 46,
+    "Finnish": 46,
+    "Georgian": 46,
+    "Thai": 46,
+    "Swahili": 46,
+    "Basque": 46,
+    "Turkish": 46
+  },
+  "previous_test_set_scored": false,
+  "fresh_test_set_required": false,
+  "model": {
+    "vectorizer": "TfidfVectorizer(analyzer='char', ngram_range=(1, 3))",
+    "classifier": "LogisticRegression",
+    "selected_C": 1.0,
+    "validation_grid": [
+      {
+        "C": 0.1,
+        "accuracy": 0.9830917874396136,
+        "macro_f1": 0.9830118715111702
+      },
+      {
+        "C": 1.0,
+        "accuracy": 0.9927536231884058,
+        "macro_f1": 0.9927519289221417
+      },
+      {
+        "C": 10.0,
+        "accuracy": 0.9927536231884058,
+        "macro_f1": 0.9927518916766229
+      }
+    ],
+    "selection_metric": "validation macro-F1, then validation accuracy"
+  },
+  "threshold": {
+    "threshold": 0.4954227285766154,
+    "validation_coverage": 0.9516908212560387,
+    "validation_selective_accuracy": 1.0,
+    "validation_examples": 414,
+    "minimum_coverage": 0.95,
+    "test_split_used": false
+  },
+  "data": {
+    "seed": 20261115,
+    "languages": [
+      "Amharic",
+      "Mandarin Chinese",
+      "Japanese",
+      "Finnish",
+      "Georgian",
+      "Thai",
+      "Swahili",
+      "Basque",
+      "Turkish"
+    ],
+    "source_rows_per_language": {
+      "Amharic": 314,
+      "Mandarin Chinese": 84305,
+      "Japanese": 248989,
+      "Finnish": 155021,
+      "Georgian": 7710,
+      "Thai": 6853,
+      "Swahili": 4559,
+      "Basque": 6438,
+      "Turkish": 747624
+    },
+    "previously_evaluated_test_rows_excluded": {
+      "Amharic": 10,
+      "Mandarin Chinese": 10,
+      "Japanese": 10,
+      "Finnish": 10,
+      "Georgian": 10,
+      "Thai": 10,
+      "Swahili": 10,
+      "Basque": 10,
+      "Turkish": 10
+    },
+    "within_language_duplicate_texts_removed": {
+      "Amharic": 0,
+      "Mandarin Chinese": 0,
+      "Japanese": 0,
+      "Finnish": 1,
+      "Georgian": 0,
+      "Thai": 0,
+      "Swahili": 0,
+      "Basque": 0,
+      "Turkish": 3
+    },
+    "cross_language_ambiguous_text_groups_removed": 11,
+    "cross_language_ambiguous_rows_removed": {
+      "Amharic": 0,
+      "Mandarin Chinese": 6,
+      "Japanese": 6,
+      "Finnish": 4,
+      "Georgian": 0,
+      "Thai": 0,
+      "Swahili": 0,
+      "Basque": 1,
+      "Turkish": 5
+    },
+    "balanced_unique_sentences_per_language": 304,
+    "split_counts_per_language": {
+      "train": {
+        "Amharic": 212,
+        "Mandarin Chinese": 212,
+        "Japanese": 212,
+        "Finnish": 212,
+        "Georgian": 212,
+        "Thai": 212,
+        "Swahili": 212,
+        "Basque": 212,
+        "Turkish": 212
+      },
+      "validation": {
+        "Amharic": 46,
+        "Mandarin Chinese": 46,
+        "Japanese": 46,
+        "Finnish": 46,
+        "Georgian": 46,
+        "Thai": 46,
+        "Swahili": 46,
+        "Basque": 46,
+        "Turkish": 46
+      },
+      "test": {
+        "Amharic": 46,
+        "Mandarin Chinese": 46,
+        "Japanese": 46,
+        "Finnish": 46,
+        "Georgian": 46,
+        "Thai": 46,
+        "Swahili": 46,
+        "Basque": 46,
+        "Turkish": 46
+      }
+    },
+    "normalized_text_overlap_between_splits": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "previous_test_ids_excluded": 100,
+    "archive_sha256": {
+      "amh": "c50ddf0ac78465d3d055b2b2ed3052a0d44cc0643cefa7530e64a720e631040b",
+      "cmn": "1884ca590750e6678da7c73996fe35ae8f26bff478a46253aa4470d4c0e7e366",
+      "jpn": "bf7ad05ade124312ca686de0209204b77c6e5ba3d808637b93906727d780f515",
+      "fin": "433edde56abd5774c9d8bce0862cc393fc6412213f3eea6f5a5223f77cd5974e",
+      "kat": "644f2fed9b280221cd57feb63e312669d86a634baf9f7f43d6c3d6964996c8d2",
+      "tha": "b5552db91f626bd2a9ab1ddf1802412754ce2d3559e3932f109185663c148be2",
+      "swh": "96e7daeb5b34a86bc0cd26a30b9888991f5be84c9e6236983d418fae4125bb0e",
+      "eus": "1779c343b45eb91a028d16e30fe3c68ed17413fb4f25e3c236ecf036d88cd5a7",
+      "tur": "ed4d6e2d4002fd0a10576ad3e3574e052a683afff4e0f0bbcb543ad32b84aa62"
+    },
+    "split_policy": "After excluding all IDs in the archived evaluated test predictions and all exact normalized cross-language text collisions, shuffle each language deterministically, take equal class counts, and split into disjoint train, validation, and test partitions.",
+    "max_sentences_per_language": 2000
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "sentence_id": "8698978",
+    "text": "Miten absurdia!",
+    "true_language": "Finnish",
+    "predicted_language": "Basque",
+    "top_model_score": 0.3650062286578455,
+    "text_length_characters": 15
+  },
+  {
+    "sentence_id": "9754074",
+    "text": "Moi, Maria.",
+    "true_language": "Finnish",
+    "predicted_language": "Swahili",
+    "top_model_score": 0.2100385814719089,
+    "text_length_characters": 11
+  },
+  {
+    "sentence_id": "14006623",
+    "text": "British",
+    "true_language": "Georgian",
+    "predicted_language": "Mandarin Chinese",
+    "top_model_score": 0.173617953712457,
+    "text_length_characters": 7
+  },
+  {
+    "sentence_id": "10848289",
+    "text": "Komesha.",
+    "true_language": "Swahili",
+    "predicted_language": "Finnish",
+    "top_model_score": 0.22019582330074494,
+    "text_length_characters": 8
+  },
+  {
+    "sentence_id": "3372076",
+    "text": "Egun on.",
+    "true_language": "Basque",
+    "predicted_language": "Finnish",
+    "top_model_score": 0.22294144638788194,
+    "text_length_characters": 8
+  },
+  {
+    "sentence_id": "11372228",
+    "text": "Kaixo, ni Tina naiz.",
+    "true_language": "Basque",
+    "predicted_language": "Swahili",
+    "top_model_score": 0.37970999952205403,
+    "text_length_characters": 20
+  }
+]

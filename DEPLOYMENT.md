@@ -1,35 +1,54 @@
-# Deploying LANGSCOPE AI later
+# Deploying LANGSCOPE AI to Hugging Face Spaces
 
-No hosted deployment has been created or tested. These steps describe a manual Hugging Face Spaces deployment; they do not create an account, Space, or public endpoint. Check the official [Spaces overview](https://huggingface.co/docs/hub/en/spaces-overview) and [Gradio Spaces guide](https://huggingface.co/docs/hub/spaces-sdks-gradio) for current account, hardware, and SDK requirements before creating one.
+**Deployment has not been performed or tested.** These are preparation instructions only; they do not create a Space, account, or public endpoint.
 
-## Before deployment
+Hugging Face Spaces uses a YAML metadata block at the top of the Space repository's README to select the SDK, Python version, Gradio version, and app file. See the official [Spaces configuration reference](https://huggingface.co/docs/hub/spaces-config-reference), [Gradio Spaces guide](https://huggingface.co/docs/hub/spaces-sdks-gradio), and [dependency guide](https://huggingface.co/docs/hub/spaces-dependencies).
 
-1. Run the local checks from the repository root:
+## Before creating a Space
+
+1. Run the tests in a normal local environment:
 
    ```bash
    python -m unittest discover -s tests -v
-   python app.py
    ```
 
-2. Confirm the browser opens and test representative inputs from all ten supported labels. Review the closed-set limitation and score wording before showing the demo.
-3. Decide whether the Space should be public or private. A public Space exposes the app and its bundled model artifacts. Do not upload raw FLORES+ exports; they are unnecessary at runtime and are ignored by Git.
+2. Launch `python app.py`, open the local Gradio URL, and try one saved sample per language, plus blank, punctuation-only, short, overlong, and unsupported-language text.
+3. Review [README.md](README.md) and [CREDITS.md](CREDITS.md). In particular, explain that the model is closed-set and the score is not a calibrated probability.
+4. Decide whether the Space should be public or private. A public Space exposes its source files and bundled model artifacts. Keep raw dataset archives out of the Space.
 
-## Create the Space manually
+## Create the Space
 
-1. Sign in to Hugging Face and create a new Space using the **Gradio** SDK. Choose visibility and hardware appropriate for the event.
-2. Upload or push the following runtime files to the Space repository:
+1. Create a new Space manually on Hugging Face and select the **Gradio** SDK. Choose its visibility and hardware deliberately.
+2. In the Space repository's root `README.md`, add this YAML block at the top (do not add a software license unless the team chooses one):
+
+   ```yaml
+   ---
+   title: LANGSCOPE AI
+   short_description: Nine-language text identification with character n-gram TF-IDF.
+   sdk: gradio
+   sdk_version: 6.32.0
+   python_version: "3.14"
+   app_file: app.py
+   ---
+   ```
+
+   The platform's accepted metadata can change; check the linked configuration reference before creation.
+
+3. Copy the following files and directories into the Space repository:
 
    ```text
    app.py
    requirements.txt
-   artifacts/classifier.joblib
-   artifacts/vectorizer.joblib
-   artifacts/uncertainty_threshold.json
+   CREDITS.md
+   README.md
+   artifacts/tatoeba_nine/classifier.joblib
+   artifacts/tatoeba_nine/vectorizer.joblib
+   artifacts/tatoeba_nine/ood_rejection.json
    ```
 
-   The evaluation JSON and CSV files are not needed to launch the UI. Include `README.md` and `CREDITS.md` for project context and attribution.
-3. Let the Space build from `requirements.txt`. The Gradio SDK starts the app from `app.py`; if the Space build interface asks for an app entry file, select `app.py`.
-4. Check the build logs for dependency or artifact-loading errors. Open the Space URL and verify one real example for each language, blank input, punctuation-only input, and an unsupported-language example. Confirm the uncertainty and short-text notices appear as expected.
-5. Share the hosted URL only after those checks pass and the visibility setting is intentional.
+   The app loads these exact paths relative to `app.py`. Do not upload the legacy artifacts or raw `data/` exports. The metrics, OOD evaluation, split manifest, and failure cases may be included for transparency, but are not required at runtime.
 
-Deployment may require adjustments if the hosting platform changes its current SDK or build conventions. No GitHub branches, repository settings, or external accounts are changed by this project.
+4. Commit the files to the Space repository. The Space will install `requirements.txt` and start `app.py`.
+5. Review build logs. After a successful build, open the Space and manually check prediction output, the short-text warning, and the low-score uncertainty message. Confirm that the share visibility is intentional before presenting the URL.
+
+No deployment, external account creation, or changes to GitHub branches/settings have been performed.

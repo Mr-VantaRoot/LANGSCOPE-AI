@@ -1,10 +1,8 @@
-"""Train and evaluate a balanced Tatoeba based LANGSCOPE experiment.
+"""Archived ten-language Tatoeba experiment; report-only, reruns disabled.
 
-Tatoeba supplies the held out test sentences for all ten labels. Its current
-West Central Oromo export has only ten rows, so Oromo training and validation
-examples come from the already exported FLORES+ dev split. This source
-difference is recorded in the output and must be mentioned when interpreting
-the results.
+This historical experiment mixed Tatoeba with FLORES+ for Oromo and already
+scored its test examples. It remains for provenance and archived-report output;
+it must not be used to make or report current project results.
 """
 
 import csv
@@ -315,6 +313,13 @@ def main():
             raise FileNotFoundError(f"No saved Tatoeba metrics found: {metrics_path}")
         print_report(json.loads(metrics_path.read_text(encoding="utf-8")))
         return
+
+    raise SystemExit(
+        "This ten-language experiment is archived and its test examples have "
+        "already been scored. Rerunning is disabled to prevent test-set reuse. "
+        "Use phase_tatoeba_nine_train.py for the current nine-language run; "
+        "its saved metrics guard against reevaluation."
+    )
 
     DetectorFactory.seed = SEED
     train_rows, validation_rows, test_rows, split_counts = build_splits()

@@ -1,0 +1,428 @@
+{
+  "dataset": "Tatoeba per-language sentence exports",
+  "languages": [
+    "Amharic",
+    "Mandarin Chinese",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "training": {
+    "model": "LogisticRegression",
+    "vectorizer": "TfidfVectorizer(analyzer='char', ngram_range=(1, 3))",
+    "selected_C": 10.0,
+    "validation_grid": [
+      {
+        "C": 0.1,
+        "accuracy": 0.9857549857549858,
+        "macro_f1": 0.9856782106782107
+      },
+      {
+        "C": 1.0,
+        "accuracy": 0.9914529914529915,
+        "macro_f1": 0.991440329218107
+      },
+      {
+        "C": 10.0,
+        "accuracy": 0.9943019943019943,
+        "macro_f1": 0.9942982456140351
+      }
+    ],
+    "selection_metric": "validation macro-F1, then validation accuracy"
+  },
+  "uncertainty_calibration": {
+    "threshold": 0.43064271005190197,
+    "validation_coverage": 0.9829059829059829,
+    "validation_selective_accuracy": 0.9971014492753624,
+    "validation_examples": 351,
+    "minimum_coverage": 0.95,
+    "test_split_used": false
+  },
+  "data": {
+    "seed": 20261115,
+    "languages": [
+      "Amharic",
+      "Mandarin Chinese",
+      "Japanese",
+      "Finnish",
+      "Georgian",
+      "Thai",
+      "Swahili",
+      "Basque",
+      "Turkish"
+    ],
+    "source_rows_per_language": {
+      "Amharic": 314,
+      "Mandarin Chinese": 89315,
+      "Japanese": 248989,
+      "Finnish": 155021,
+      "Georgian": 7710,
+      "Thai": 6853,
+      "Swahili": 4583,
+      "Basque": 6438,
+      "Turkish": 750286
+    },
+    "previously_evaluated_test_rows_excluded": {
+      "Amharic": 56,
+      "Mandarin Chinese": 56,
+      "Japanese": 56,
+      "Finnish": 56,
+      "Georgian": 56,
+      "Thai": 56,
+      "Swahili": 56,
+      "Basque": 56,
+      "Turkish": 56
+    },
+    "within_language_duplicate_texts_removed": {
+      "Amharic": 0,
+      "Mandarin Chinese": 0,
+      "Japanese": 0,
+      "Finnish": 0,
+      "Georgian": 0,
+      "Thai": 0,
+      "Swahili": 0,
+      "Basque": 0,
+      "Turkish": 0
+    },
+    "cross_language_ambiguous_text_groups_removed": 14,
+    "cross_language_ambiguous_rows_removed": {
+      "Amharic": 0,
+      "Mandarin Chinese": 9,
+      "Japanese": 9,
+      "Finnish": 4,
+      "Georgian": 0,
+      "Thai": 0,
+      "Swahili": 0,
+      "Basque": 1,
+      "Turkish": 5
+    },
+    "balanced_unique_sentences_per_language": 258,
+    "split_counts_per_language": {
+      "train": {
+        "Amharic": 180,
+        "Mandarin Chinese": 180,
+        "Japanese": 180,
+        "Finnish": 180,
+        "Georgian": 180,
+        "Thai": 180,
+        "Swahili": 180,
+        "Basque": 180,
+        "Turkish": 180
+      },
+      "validation": {
+        "Amharic": 39,
+        "Mandarin Chinese": 39,
+        "Japanese": 39,
+        "Finnish": 39,
+        "Georgian": 39,
+        "Thai": 39,
+        "Swahili": 39,
+        "Basque": 39,
+        "Turkish": 39
+      },
+      "test": {
+        "Amharic": 39,
+        "Mandarin Chinese": 39,
+        "Japanese": 39,
+        "Finnish": 39,
+        "Georgian": 39,
+        "Thai": 39,
+        "Swahili": 39,
+        "Basque": 39,
+        "Turkish": 39
+      }
+    },
+    "normalized_text_overlap_between_splits": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "previous_test_ids_excluded": 514,
+    "archive_sha256": {
+      "amh": "c50ddf0ac78465d3d055b2b2ed3052a0d44cc0643cefa7530e64a720e631040b",
+      "cmn": "1884ca590750e6678da7c73996fe35ae8f26bff478a46253aa4470d4c0e7e366",
+      "jpn": "bf7ad05ade124312ca686de0209204b77c6e5ba3d808637b93906727d780f515",
+      "fin": "433edde56abd5774c9d8bce0862cc393fc6412213f3eea6f5a5223f77cd5974e",
+      "kat": "644f2fed9b280221cd57feb63e312669d86a634baf9f7f43d6c3d6964996c8d2",
+      "tha": "b5552db91f626bd2a9ab1ddf1802412754ce2d3559e3932f109185663c148be2",
+      "swh": "96e7daeb5b34a86bc0cd26a30b9888991f5be84c9e6236983d418fae4125bb0e",
+      "eus": "1779c343b45eb91a028d16e30fe3c68ed17413fb4f25e3c236ecf036d88cd5a7",
+      "tur": "ed4d6e2d4002fd0a10576ad3e3574e052a683afff4e0f0bbcb543ad32b84aa62"
+    },
+    "split_policy": "After excluding all IDs in the archived evaluated test predictions and all exact normalized cross-language text collisions, shuffle each language deterministically, take equal class counts, and split into disjoint train, validation, and test partitions.",
+    "max_sentences_per_language": 2000
+  },
+  "libraries": {
+    "scikit-learn": "1.9.1",
+    "langdetect": "1.0.9",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "test": {
+    "test_examples": 351,
+    "accuracy": 0.9971509971509972,
+    "macro_precision": 0.9972222222222222,
+    "macro_recall": 0.9971509971509972,
+    "macro_f1": 0.9971505287960984,
+    "majority_class_baseline_accuracy": 0.1111111111111111,
+    "per_language": {
+      "Amharic": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Mandarin Chinese": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Japanese": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Finnish": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Georgian": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Thai": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Swahili": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 0.975,
+        "recall": 1.0,
+        "f1": 0.9873417721518988
+      },
+      "Basque": {
+        "support": 39,
+        "accuracy": 0.9743589743589743,
+        "precision": 1.0,
+        "recall": 0.9743589743589743,
+        "f1": 0.987012987012987
+      },
+      "Turkish": {
+        "support": 39,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix_labels": [
+      "Amharic",
+      "Mandarin Chinese",
+      "Japanese",
+      "Finnish",
+      "Georgian",
+      "Thai",
+      "Swahili",
+      "Basque",
+      "Turkish"
+    ],
+    "confusion_matrix": [
+      [
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        38,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        39
+      ]
+    ],
+    "langdetect": {
+      "version": "1.0.9",
+      "supported_languages": [
+        "Finnish",
+        "Japanese",
+        "Mandarin Chinese",
+        "Swahili",
+        "Thai",
+        "Turkish"
+      ],
+      "unsupported_languages": [
+        "Amharic",
+        "Georgian",
+        "Basque"
+      ],
+      "scored_examples": 234,
+      "coverage": 0.6666666666666666,
+      "accuracy_on_supported_examples": 0.9188034188034188,
+      "per_language": {
+        "Finnish": {
+          "support": 39,
+          "accuracy": 0.9743589743589743,
+          "precision": 1.0,
+          "recall": 0.9743589743589743,
+          "f1": 0.987012987012987
+        },
+        "Japanese": {
+          "support": 39,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Mandarin Chinese": {
+          "support": 39,
+          "accuracy": 0.6153846153846154,
+          "precision": 1.0,
+          "recall": 0.6153846153846154,
+          "f1": 0.7619047619047619
+        },
+        "Swahili": {
+          "support": 39,
+          "accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "Thai": {
+          "support": 39,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Turkish": {
+          "support": 39,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "text_length_groups": {
+      "1-10 characters": {
+        "examples": 46,
+        "accuracy": 0.9782608695652174
+      },
+      "11-20 characters": {
+        "examples": 101,
+        "accuracy": 1.0
+      },
+      "over 20 characters": {
+        "examples": 204,
+        "accuracy": 1.0
+      }
+    },
+    "failure_count": 1
+  }
+}

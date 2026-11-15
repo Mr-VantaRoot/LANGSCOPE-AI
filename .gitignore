@@ -1,4 +1,4 @@
-# Local Python environment and downloaded FLORES+ data exports.
+# Local Python environment and downloaded dataset exports.
 .venv/
 data/flores_plus/
 data/tatoeba/

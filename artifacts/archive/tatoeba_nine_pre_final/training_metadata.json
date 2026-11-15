@@ -1,0 +1,112 @@
+{
+  "dataset": "Tatoeba per-language sentence exports",
+  "languages": [
+    "Amharic",
+    "Mandarin Chinese",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "removed_from_scope": "Afaan Oromo (West Central Oromo)",
+  "seed": 42,
+  "training_source": "Tatoeba only",
+  "training_examples": 2187,
+  "validation_examples": 549,
+  "train_per_language": {
+    "Amharic": 243,
+    "Mandarin Chinese": 243,
+    "Japanese": 243,
+    "Finnish": 243,
+    "Georgian": 243,
+    "Thai": 243,
+    "Swahili": 243,
+    "Basque": 243,
+    "Turkish": 243
+  },
+  "validation_per_language": {
+    "Amharic": 61,
+    "Mandarin Chinese": 61,
+    "Japanese": 61,
+    "Finnish": 61,
+    "Georgian": 61,
+    "Thai": 61,
+    "Swahili": 61,
+    "Basque": 61,
+    "Turkish": 61
+  },
+  "previous_test_set_scored": false,
+  "fresh_test_set_required": true,
+  "model": {
+    "vectorizer": "TfidfVectorizer(analyzer='char', ngram_range=(1, 3))",
+    "classifier": "LogisticRegression",
+    "selected_C": 10.0,
+    "validation_grid": [
+      {
+        "C": 0.1,
+        "accuracy": 0.9927140255009107,
+        "macro_f1": 0.9927130462032631
+      },
+      {
+        "C": 1.0,
+        "accuracy": 0.9927140255009107,
+        "macro_f1": 0.9927130462032631
+      },
+      {
+        "C": 10.0,
+        "accuracy": 0.9963570127504554,
+        "macro_f1": 0.9963567679753932
+      }
+    ],
+    "selection_metric": "validation macro-F1, then validation accuracy"
+  },
+  "threshold": {
+    "threshold": 0.7884329824438988,
+    "validation_coverage": 0.9508196721311475,
+    "validation_selective_accuracy": 1.0,
+    "validation_examples": 549,
+    "minimum_coverage": 0.95,
+    "test_split_used": false
+  },
+  "archived_split_counts_reference": {
+    "train_per_language": {
+      "Amharic": 243,
+      "Afaan Oromo (West Central Oromo)": 243,
+      "Mandarin Chinese": 243,
+      "Japanese": 243,
+      "Finnish": 243,
+      "Georgian": 243,
+      "Thai": 243,
+      "Swahili": 243,
+      "Basque": 243,
+      "Turkish": 243
+    },
+    "validation_per_language": {
+      "Amharic": 61,
+      "Afaan Oromo (West Central Oromo)": 61,
+      "Mandarin Chinese": 61,
+      "Japanese": 61,
+      "Finnish": 61,
+      "Georgian": 61,
+      "Thai": 61,
+      "Swahili": 61,
+      "Basque": 61,
+      "Turkish": 61
+    },
+    "test_per_language": {
+      "Amharic": 10,
+      "Afaan Oromo (West Central Oromo)": 10,
+      "Mandarin Chinese": 10,
+      "Japanese": 10,
+      "Finnish": 10,
+      "Georgian": 10,
+      "Thai": 10,
+      "Swahili": 10,
+      "Basque": 10,
+      "Turkish": 10
+    }
+  }
+}

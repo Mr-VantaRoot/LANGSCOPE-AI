@@ -1,0 +1,87 @@
+{
+  "purpose": "separate OOD rejection calibration and audit; not a replacement for the nine-language final evaluation",
+  "calibration": {
+    "in_distribution_validation_examples": 351,
+    "in_distribution_accepted": 334,
+    "in_distribution_coverage": 0.9515669515669516,
+    "out_of_distribution_examples": 1000,
+    "out_of_distribution_rejected": 875,
+    "out_of_distribution_rejection_rate": 0.875,
+    "balanced_accuracy": 0.9132834757834758
+  },
+  "audit": {
+    "eng": {
+      "examples": 500,
+      "rejected": 437,
+      "rejection_rate": 0.874,
+      "accepted_as_supported": 63
+    },
+    "fra": {
+      "examples": 500,
+      "rejected": 435,
+      "rejection_rate": 0.87,
+      "accepted_as_supported": 65
+    }
+  },
+  "sources": {
+    "eng": {
+      "archive": "eng_sentences.tsv.bz2",
+      "source_rows": 2041097,
+      "eligible_rows_per_partition": [
+        1020931,
+        1020162
+      ],
+      "sample_rows_per_partition": [
+        500,
+        500
+      ],
+      "excluded_overlap_with_train_or_validation": 0,
+      "excluded_regression_probe_text": 1,
+      "sha256": "3b5b3ecfcac5037b09f81ef048fa16fedc4d24838db5b6fbeedca1dfab374cbf"
+    },
+    "fra": {
+      "archive": "fra_sentences.tsv.bz2",
+      "source_rows": 730700,
+      "eligible_rows_per_partition": [
+        365018,
+        365682
+      ],
+      "sample_rows_per_partition": [
+        500,
+        500
+      ],
+      "excluded_overlap_with_train_or_validation": 0,
+      "excluded_regression_probe_text": 0,
+      "sha256": "102b245952878f647d101ce4b38fc60ffb9b289df22b0aeb59415c25e6341cc6"
+    }
+  },
+  "sampling": {
+    "seed": 20261115,
+    "samples_per_language_per_partition": 500,
+    "partition": "stable SHA-256 of Tatoeba sentence ID selects calibration or audit; seeded reservoir sampling within each partition",
+    "overlap_check": "exact normalized texts matching in-distribution train/validation and the requested regression phrase were excluded"
+  },
+  "threshold": 0.6264018184006261,
+  "final_nine_language_test_used": false,
+  "regression_probe": {
+    "text": "How are you?",
+    "true_language": "English",
+    "top_prediction": "Turkish",
+    "top_score": 0.28722143715190945,
+    "second_prediction": "Swahili",
+    "second_score": 0.19313366544399455,
+    "all_class_scores": {
+      "Amharic": 0.08147575442088188,
+      "Basque": 0.1833927871727717,
+      "Finnish": 0.06644556798648553,
+      "Georgian": 0.028403083627032904,
+      "Japanese": 0.05114603808592751,
+      "Mandarin Chinese": 0.07676430055376814,
+      "Swahili": 0.19313366544399455,
+      "Thai": 0.032017365557228214,
+      "Turkish": 0.28722143715190945
+    },
+    "rejected_by_gate": true,
+    "excluded_from_ood_calibration_and_audit": true
+  }
+}

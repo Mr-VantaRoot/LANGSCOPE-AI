@@ -1,0 +1,352 @@
+sentence_id,true_language,text,text_length_characters,model_prediction,top_model_score,langdetect_prediction,langdetect_code
+6804707,Amharic,እንኳን ለአለም አቀፍ የሴቶች ቀን አደረሰን,27,Amharic,0.9961593394259769,no detection,
+12403684,Amharic,አማርኛ ቆንጆ ቋንቋ ነው።,16,Amharic,0.9872121614154054,no detection,
+2722291,Amharic,ጤናማ ልጅ ነበርኩ።,12,Amharic,0.9605275636716373,no detection,
+3868720,Amharic,ምንኛ ቋንቋ ይናገራል?,14,Amharic,0.9070235072707749,no detection,
+3784750,Amharic,ወደ ትምህርት ቤት እየሄድክ ነው?,21,Amharic,0.991805693422039,no detection,
+2968329,Amharic,አስተማሪ የለሁም።,11,Amharic,0.984908667928934,no detection,
+2968246,Amharic,ነጭ ድመት አለኝ።,11,Amharic,0.9775443023067318,no detection,
+3085600,Amharic,እርስዎ ወደ አዲስ አበባ መቸ ይሄዳሉ?,24,Amharic,0.9845505600977701,no detection,
+10967163,Amharic,ምን እየሰሩ ነው?,11,Amharic,0.9898252372813507,no detection,
+3764070,Amharic,እኔም አስተማሪ ነኝ።,13,Amharic,0.993164066680752,no detection,
+3644988,Amharic,እሄዳለሁ።,6,Amharic,0.9264241380174522,no detection,
+12975464,Amharic,ምን ይሆናል፧,8,Amharic,0.9660849335228006,no detection,
+3714021,Amharic,በባሕሩ ውስጥ ደሴቶች አሉ።,17,Amharic,0.9607126105684394,no detection,
+3206570,Amharic,እንጃ።,4,Amharic,0.9694319444312108,no detection,
+3108396,Amharic,አንተ ማን ነህ?,10,Amharic,0.9847564654562844,no detection,
+9145954,Amharic,ወደፊት ይህዱና ወደ ግራ ይዙሩ።,20,Amharic,0.9527761780277391,no detection,
+9145961,Amharic,ደህና ሆቴል የት አለ?,14,Amharic,0.9752989047687233,no detection,
+12975603,Amharic,ደረሰኝ አለኝ።,9,Amharic,0.9679948297957554,no detection,
+3645001,Amharic,እማራለሁ።,6,Amharic,0.980449301440746,no detection,
+10967184,Amharic,አንቺ በጣም ቆንጆ ነሽ።,15,Amharic,0.9785328689960978,no detection,
+3085610,Amharic,ቤቱን ዛሬ ታያላችሁ።,13,Amharic,0.929320043513063,no detection,
+12403659,Amharic,ወርቅ አገኘሁ።,9,Amharic,0.9253319418057449,no detection,
+3642351,Amharic,ስሜ ቁዘይ አይደለም።,13,Amharic,0.9558545626730164,no detection,
+3642774,Amharic,ወደ ትምሕርት ቤት እየሄድኩ ነው።,21,Amharic,0.9939708490166096,no detection,
+3108373,Amharic,አንተ ተማሪ ነህ።,11,Amharic,0.9822297069489776,no detection,
+3642370,Amharic,እሱም አማርኛን እየተመርኩ ነው።,20,Amharic,0.9976445187513436,no detection,
+12403487,Amharic,ድመቶች አሉኝ።,9,Amharic,0.9181771962392689,no detection,
+3085371,Amharic,ከቤቱ እስከ ባቡር ጣቢያ ድረስ ሄደ።,23,Amharic,0.9482977939982471,no detection,
+12119908,Amharic,ለንደን ውስጥ ለሁለት ሳምንታት ቆየን።,24,Amharic,0.9977278043390492,no detection,
+12977438,Amharic,ስሜ ማን ነው፧,9,Amharic,0.9712451735206652,no detection,
+12403457,Amharic,ወላንዶን ማብረር አደገኛ ሊሆን ይችላል።,25,Amharic,0.9849321173422619,no detection,
+3642809,Amharic,ፓሊስ ነኝ።,7,Amharic,0.9843267120521181,no detection,
+3644428,Amharic,ተማሪ አይደለሁም።,11,Amharic,0.9790602211598073,no detection,
+3644119,Amharic,እኔ ከብራዚል ነኝ።,12,Amharic,0.9896727790242826,no detection,
+3644976,Amharic,ሰዉ ወጣት አይደለም።,13,Amharic,0.9666830537382063,no detection,
+12403452,Amharic,አዲስ የጊዜ ማሽን መግዛት እፈልጋለሁ።,24,Amharic,0.9964706972956555,no detection,
+3642810,Amharic,እኔ ፓሊስ ነኝ።,10,Amharic,0.9908437312275912,no detection,
+12403463,Amharic,አዲስ ኮምፒውተር እገዛዋለሁ።,18,Amharic,0.9939309217855034,no detection,
+3642392,Amharic,ገደልኩው።,6,Amharic,0.9393515254151186,no detection,
+9955767,Mandarin Chinese,我变灰了。,5,Mandarin Chinese,0.9991781447032493,Mandarin Chinese,zh-cn
+8517162,Mandarin Chinese,他说英语很大声。,8,Mandarin Chinese,0.8801824848618218,Mandarin Chinese,zh-cn
+798047,Mandarin Chinese,艾美每天早上走路到車站。,12,Mandarin Chinese,0.8642643302428433,Mandarin Chinese,zh-cn
+10731288,Mandarin Chinese,我为你建了这个。,8,Mandarin Chinese,0.9863953433037298,Mandarin Chinese,zh-cn
+6884328,Mandarin Chinese,我唱歌很好听。,7,Mandarin Chinese,0.9767368148508773,Mandarin Chinese,zh-cn
+9456208,Mandarin Chinese,她是保加利亞人。,8,Mandarin Chinese,0.9547879142035959,Mandarin Chinese,zh-tw
+755520,Mandarin Chinese,美国政府一直视英国为美国的宠物。,16,Mandarin Chinese,0.8963006723710601,Mandarin Chinese,zh-cn
+6101263,Mandarin Chinese,我聽說湯姆自殺沒成。,10,Mandarin Chinese,0.978217540636058,unsupported prediction,ko
+437287,Mandarin Chinese,你一到那儿就写信给我。,11,Mandarin Chinese,0.9768300898654416,Mandarin Chinese,zh-cn
+811820,Mandarin Chinese,別人聽得懂你說的法語嗎？,12,Mandarin Chinese,0.9822416209211119,unsupported prediction,ko
+363879,Mandarin Chinese,他承认有罪。,6,Mandarin Chinese,0.9928938461233932,Mandarin Chinese,zh-cn
+903772,Mandarin Chinese,牠們正面臨絕種的危機。,11,Mandarin Chinese,0.8878205965933054,unsupported prediction,ko
+501206,Mandarin Chinese,這塊球拍多少錢？,8,Mandarin Chinese,0.7467149687539317,unsupported prediction,ko
+8854123,Mandarin Chinese,我的房子外面有二十六只家畜。,14,Mandarin Chinese,0.9616834627295583,unsupported prediction,ko
+848605,Mandarin Chinese,你在派對上玩得開心嗎?,11,Mandarin Chinese,0.9303774214393993,unsupported prediction,ko
+398140,Mandarin Chinese,我们来得及。,6,Mandarin Chinese,0.9772665178166678,Mandarin Chinese,zh-cn
+716173,Mandarin Chinese,他把她叫到一边，把那个消息告诉了她。,18,Mandarin Chinese,0.9826554532743974,Mandarin Chinese,zh-cn
+848229,Mandarin Chinese,我喜歡看電影。,7,Mandarin Chinese,0.9369124646252366,unsupported prediction,ko
+469470,Mandarin Chinese,你有什么推荐？,7,Mandarin Chinese,0.9540599469809341,Mandarin Chinese,zh-cn
+13544435,Mandarin Chinese,於是，他們心滿意足地享用了美酒和野味，/ 恢復了體力。,27,Mandarin Chinese,0.9796742641790217,unsupported prediction,ko
+4859702,Mandarin Chinese,还有几个小时才到得了？,11,Mandarin Chinese,0.963273426775072,Mandarin Chinese,zh-cn
+729944,Mandarin Chinese,我們急忙跑向火。,8,Mandarin Chinese,0.9604726558819927,Mandarin Chinese,zh-tw
+6016063,Mandarin Chinese,托馬斯想去大學。,8,Mandarin Chinese,0.8849326288680943,Mandarin Chinese,zh-tw
+2555638,Mandarin Chinese,我们之所以爱自然——其原由之一，至少是由于它不像我们人那样既嫉妒又欺骗。,36,Mandarin Chinese,0.9895447710273935,Mandarin Chinese,zh-cn
+813491,Mandarin Chinese,旗子升起了。,6,Mandarin Chinese,0.9815905025901558,unsupported prediction,ko
+13587165,Mandarin Chinese,老公說今天想吃回鍋肉，我就下廚炒了一盤，他吃光光！,25,Mandarin Chinese,0.9907047975418558,unsupported prediction,ko
+1691737,Mandarin Chinese,我忍无可忍了。,7,Mandarin Chinese,0.9978783742534904,unsupported prediction,ko
+6057675,Mandarin Chinese,請坐這裡。,5,Mandarin Chinese,0.7817259741285952,Mandarin Chinese,zh-tw
+13111709,Mandarin Chinese,好奢華！,4,Mandarin Chinese,0.8815975557741926,Mandarin Chinese,zh-tw
+13894731,Mandarin Chinese,我一点都不怪你。,8,Mandarin Chinese,0.9901884199311515,Mandarin Chinese,zh-cn
+502897,Mandarin Chinese,政治家总是因他们丑陋及不合时宜的行为受到惩罚。,23,Mandarin Chinese,0.9770793027951716,unsupported prediction,ko
+10303613,Mandarin Chinese,他是名好司機。,7,Mandarin Chinese,0.9341390449611372,Mandarin Chinese,zh-tw
+1388248,Mandarin Chinese,我的寵物生病了。,8,Mandarin Chinese,0.9917698953425241,unsupported prediction,ko
+335222,Mandarin Chinese,他误吞了洗衣粉。,8,Mandarin Chinese,0.9836299971203615,unsupported prediction,ko
+13543133,Mandarin Chinese,我們舉辦了一次素食漢堡野餐。,14,Mandarin Chinese,0.9740987167592247,Mandarin Chinese,zh-tw
+10040477,Mandarin Chinese,她說得足夠清楚明白。,10,Mandarin Chinese,0.8834466451740599,Mandarin Chinese,zh-cn
+13678191,Mandarin Chinese,我吃不下去了。,7,Mandarin Chinese,0.9965823724564375,unsupported prediction,ko
+431101,Mandarin Chinese,把土豆切一下。,7,Mandarin Chinese,0.8394277180844126,Mandarin Chinese,zh-cn
+3500969,Mandarin Chinese,這些藥是給我父親買的。,11,Mandarin Chinese,0.9659843118188867,Mandarin Chinese,zh-tw
+94856,Japanese,彼女に会える機会を逃してしまって残念だ。,20,Japanese,0.9837920960480758,Japanese,ja
+8670496,Japanese,トムは私を邪険に扱った。,12,Japanese,0.9942023542805796,Japanese,ja
+11216082,Japanese,あのレストランは好き。,11,Japanese,0.8101888293703512,Japanese,ja
+8642500,Japanese,あなたのケーキちょっと頂戴。私のも少しあげるから。,25,Japanese,0.9874202238822234,Japanese,ja
+208611,Japanese,その赤ちゃんはぐっすり眠っているようだった。,22,Japanese,0.9984639663577838,Japanese,ja
+168450,Japanese,子供達のお母さんが死んだ後、彼女がその子供達の世話をした。,29,Japanese,0.9873494841489849,Japanese,ja
+2495378,Japanese,月の裏側には秘密基地がある。,14,Japanese,0.9261399764874096,Japanese,ja
+176573,Japanese,兄は大企業に就職した。,11,Japanese,0.9578331869031592,Japanese,ja
+12630133,Japanese,こちらの用紙にご記入いただけますか？,18,Japanese,0.9881009974345764,Japanese,ja
+1483590,Japanese,相談してくれる友達がたくさんいます。,18,Japanese,0.989525198116357,Japanese,ja
+9488524,Japanese,色々とありがとうございました。,15,Japanese,0.9929175618714867,Japanese,ja
+199018,Japanese,なんか今日は気分が悪いな。,13,Japanese,0.9572932066438273,Japanese,ja
+9780798,Japanese,トムとメアリー両方とももう行っちゃったかなあ。,23,Japanese,0.9803796762641868,Japanese,ja
+8571240,Japanese,私の前に立たないで。,10,Japanese,0.9920929760233208,Japanese,ja
+9999111,Japanese,お昼過ぎたよ。ご飯食べようよ。,15,Japanese,0.9353352492837544,Japanese,ja
+165722,Japanese,私たちは私たちの犬をホワイトと名づけました。,22,Japanese,0.9890092394762674,Japanese,ja
+145314,Japanese,新しく道路を作るという決議が可決されました。,22,Japanese,0.9853419583803236,Japanese,ja
+175157,Japanese,見る人がすぐにそれだと気がつくように、私はオレンジ色のスカーフと白いスモックを非常に明るく描きました。,51,Japanese,0.9990006611892238,Japanese,ja
+230689,Japanese,あの人誰？,5,Japanese,0.6919582487758692,Japanese,ja
+117581,Japanese,彼の言ったことは何の重要性もない。,17,Japanese,0.9909479105321948,Japanese,ja
+13492188,Japanese,午後、友達と一緒に宿題を終わらせた。,18,Japanese,0.912464531302919,Japanese,ja
+9776862,Japanese,トムは腕利きの弁護士だよ。,13,Japanese,0.9376879301628938,Japanese,ja
+111962,Japanese,彼はちっとも幸福ではない。,13,Japanese,0.9910886573709262,Japanese,ja
+2139979,Japanese,今年は去年より雪が沢山降るかどうか、私は興味があります。,28,Japanese,0.9858675215243583,Japanese,ja
+167622,Japanese,私が生きている限り、君の親切を決して忘れないつもりです。,28,Japanese,0.9979909098684671,Japanese,ja
+10808915,Japanese,「この写真の人ってあなたなの？」「そうよ」「別人みたい」,28,Japanese,0.9738142731173847,Japanese,ja
+206422,Japanese,その問題は私に任せて下さい。,14,Japanese,0.988710458603332,Japanese,ja
+6018,Japanese,暇だったら、手伝ってください。,15,Japanese,0.9702453505191624,Japanese,ja
+122867,Japanese,日焼けして痛い。,8,Japanese,0.9838600650809884,Japanese,ja
+152912,Japanese,私は別にたいした音楽家ではないです。,18,Japanese,0.9977293992503472,Japanese,ja
+76478,Japanese,ハワイってさ、暖炉つきの家が多いじゃない？あっちも朝夕は冷えるから、寒がりの人は暖炉を焚くんだ。,48,Japanese,0.9993123258459634,Japanese,ja
+148561,Japanese,この手紙を書いてしまうまで待っていてください。,23,Japanese,0.9973077463658027,Japanese,ja
+1278136,Japanese,勝っても負けても恨みっこなしだぞ。,17,Japanese,0.9823077334093759,Japanese,ja
+225452,Japanese,クリント・イーストウッドの新しい映画をやっているんだ。,27,Japanese,0.9940051834945901,Japanese,ja
+160809,Japanese,ここは全く不案内です。,11,Japanese,0.9475731270643698,Japanese,ja
+93319,Japanese,彼女はいつもしゃべってばかりいた。,17,Japanese,0.9965795511506172,Japanese,ja
+98867,Japanese,彼は老婦人をごまかして金をまきあげた。,19,Japanese,0.9941950979633102,Japanese,ja
+10901998,Japanese,安いけど栄養価は抜群です。,13,Japanese,0.9586149371928684,Japanese,ja
+9286110,Japanese,ここは５時ごろ、日が沈むんだ。,15,Japanese,0.9636717311815657,Japanese,ja
+12748032,Finnish,Haluavatko Tom ja Mary mennä kanssamme eläintarhaan?,52,Finnish,0.9492587208607688,Finnish,fi
+12363779,Finnish,Muistakaa käyttäytyä!,21,Finnish,0.9413204797320484,Finnish,fi
+7047246,Finnish,Kissa nukkuu tuolilla.,22,Finnish,0.7829327479315685,Finnish,fi
+356382,Finnish,"Kumpi on vahvempi, tiikeri vai leijona?",39,Finnish,0.8581314372317391,Finnish,fi
+9833912,Finnish,Miksi elämä on yhtä tuskaa?,27,Finnish,0.9814500597092604,Finnish,fi
+2680920,Finnish,Hän ei ole oma itsensä tänään.,30,Finnish,0.9953136041341397,Finnish,fi
+11526599,Finnish,Mitä tekisin ilman teitä?,25,Finnish,0.9859672949660448,Finnish,fi
+9095704,Finnish,Milloin kekrijuhla on?,22,Finnish,0.7847777115827583,Finnish,fi
+3801262,Finnish,En itse asiassa ole tiennyt sitä.,33,Finnish,0.9584803403031342,Finnish,fi
+3966668,Finnish,"Minä olin unohtanut, että sinä olit unohtanut.",46,Finnish,0.9877671940515669,Finnish,fi
+8099678,Finnish,Tämä appelsiini on liian makea minun makuuni.,45,Finnish,0.9190927031072671,Finnish,fi
+3396112,Finnish,Miksi Tom on täällä?,20,Finnish,0.9863939574810375,Finnish,fi
+4441172,Finnish,Voitko kertoa minulle hänestä?,30,Finnish,0.9877096558922063,Finnish,fi
+9846698,Finnish,Puhuuko Tomi myös ranskaa?,26,Finnish,0.857074884016844,Finnish,fi
+10186642,Finnish,Alkaa ärsyttää.,15,Finnish,0.9515999258284149,Finnish,fi
+3221572,Finnish,Tom odotti henkeään pidätellen.,31,Finnish,0.9759761554422117,Finnish,fi
+8056040,Finnish,"Jos huomenna sataa, jätän tapaamisen väliin.",44,Finnish,0.9830313461765693,Finnish,fi
+10328248,Finnish,Katso! Tuolla on perhonen!,26,Finnish,0.8647145658054344,Finnish,fi
+6164726,Finnish,Sä oot mun läheisin ystävä.,27,Finnish,0.9925696148218272,Finnish,fi
+4142940,Finnish,Mali on yksi Saharan eteläpuolisen Afrikan köyhimpiä maita.,59,Finnish,0.9420845786284759,Finnish,fi
+13606159,Finnish,Onko jäätelöä vielä?,20,Finnish,0.9264652666604318,Finnish,fi
+3072825,Finnish,He ovat hyvin kireitä.,22,Finnish,0.9434577822976191,Finnish,fi
+7431704,Finnish,Tomi leipoo pitsaa.,19,Finnish,0.9298010259032933,unsupported prediction,et
+10688216,Finnish,Minä syötän.,12,Finnish,0.9372470043585068,Finnish,fi
+6837380,Finnish,Ovikello soi.,13,Finnish,0.6857612222101159,Finnish,fi
+9699693,Finnish,Ovatko huulesi kuivat?,22,Finnish,0.8188175679485348,Finnish,fi
+5517860,Finnish,Hän on ihastunut vaaleanvihreisiin rintaliiveihin.,50,Finnish,0.97185635386197,Finnish,fi
+9975162,Finnish,"Onko teille koskaan käynyt niin, että oltuanne pitkään ajamatta sekoitatte jarrun ja kaasun?",92,Finnish,0.9908066545012125,Finnish,fi
+6878947,Finnish,Asun Miamissa.,14,Finnish,0.7206320356547703,Finnish,fi
+9587227,Finnish,"En voi itse vaihtaa kelloni patteria, koska se on niin pieni.",61,Finnish,0.9595972708918322,Finnish,fi
+8306129,Finnish,Minä ostin sinulle jotain.,26,Finnish,0.9935645661121696,Finnish,fi
+10020778,Finnish,Älä koskaan valehtele!,22,Finnish,0.9588309133939951,Finnish,fi
+8670429,Finnish,Tomi ei tule varakkaasta perheestä.,35,Finnish,0.9699605588066642,Finnish,fi
+3966914,Finnish,Hän teki sen uteliaisuudesta.,29,Finnish,0.9022690315165742,Finnish,fi
+4248065,Finnish,Ihanaa nähdä sua.,17,Finnish,0.6670768694759324,Finnish,fi
+7141552,Finnish,Teidän täytyy työskennellä kovasti.,35,Finnish,0.9854446439569369,Finnish,fi
+3800891,Finnish,Tom aloitti ranskan opiskelun kolme vuotta sitten.,50,Finnish,0.9749587666093311,Finnish,fi
+6095282,Finnish,Lisääntyminen ei minua kiinnosta.,33,Finnish,0.9913163630805601,Finnish,fi
+1843705,Finnish,Rakkaus? Mitä se on? Olen orpo. En ole koskaan tuntenut rakkautta.,66,Finnish,0.9733175648500552,Finnish,fi
+8480377,Georgian,გილოცავ დაბადების დღეს!,23,Georgian,0.9868941524936736,unsupported prediction,et
+13076304,Georgian,მე მიყვარს შენი ქალიშვილი.,26,Georgian,0.9966278956219776,unsupported prediction,et
+8090905,Georgian,"მე არ მაქვს ფული, მაგრამ მაქვს ოცნებები.",40,Georgian,0.9955319462948382,unsupported prediction,et
+3755475,Georgian,"თუ შესაძლებლობა გვაქვს, შევწვათ ხორცი შამფურზე, თუ არადა - პირდაპირ ტაფაზე.",75,Georgian,0.9979931992532444,unsupported prediction,et
+8476050,Georgian,"ტომი სწრაფია, და აი მერი არა.",29,Georgian,0.9983016875200984,unsupported prediction,et
+8450340,Georgian,"თქვენ იცნობთ ადამიანს, მდგარს ხიდზე?",36,Georgian,0.9960724751340477,unsupported prediction,et
+8091006,Georgian,ტომს სჭირდება დრო.,18,Georgian,0.9530030584672649,unsupported prediction,et
+8493415,Georgian,აქ ღრმაა.,9,Georgian,0.820785677256502,unsupported prediction,et
+8470708,Georgian,ძალიან საყვარელია!,18,Georgian,0.9891678432760578,unsupported prediction,et
+2504507,Georgian,ლამაზი ხარ.,11,Georgian,0.9335831499072949,unsupported prediction,et
+13298502,Georgian,"ჩემი აზრით, ის წასვლას აპირებს.",31,Georgian,0.993578327167767,unsupported prediction,et
+348085,Georgian,"მის სატო, პრეზიდენტის ახალი მდივანია.",37,Georgian,0.9989486615137393,unsupported prediction,et
+8493797,Georgian,ჩვენ დავანებეთ თავი მოწევას.,28,Georgian,0.9967531642569052,unsupported prediction,et
+8487011,Georgian,მე მისგან არ მაქვს არანაირი სიახლე.,35,Georgian,0.9994227496753516,unsupported prediction,et
+13788910,Georgian,წითელი ვაშლი ვნახე.,19,Georgian,0.9819139331002548,unsupported prediction,et
+6878191,Georgian,ჩვენ მოვაგვარეთ პრობლემა.,25,Georgian,0.985611791305589,unsupported prediction,et
+2789155,Georgian,მე წვნიანს ვჭამ სამზარეულოში.,29,Georgian,0.9928652715942802,unsupported prediction,et
+8493776,Georgian,შენ გაათავისუფლე ტომი?,22,Georgian,0.9914964755096236,unsupported prediction,et
+8804239,Georgian,ხშირად დაიბანეთ ხელები!,23,Georgian,0.9896597920977135,unsupported prediction,et
+8470539,Georgian,მამის სიკვდილის შემდეგ მისი ცხოვრება რადიკლაურად შეიცვალა.,58,Georgian,0.9992493988344016,unsupported prediction,et
+8470701,Georgian,ტომს არ დართეს ნება შეერთებოდა გუნდს.,37,Georgian,0.9972515461438402,unsupported prediction,et
+8482728,Georgian,ტომი დადის ბიბლიოთეკაში მხოლოდ მერის გამო.,42,Georgian,0.9990260294054366,unsupported prediction,et
+10629306,Georgian,ამ ექიმმა არაფერი არ იცის.,26,Georgian,0.99608327777301,unsupported prediction,et
+8470503,Georgian,"მე დარწმუნებული ვარ, რა მინდა ვიცოდე.",37,Georgian,0.9977876205527837,unsupported prediction,et
+8465487,Georgian,ვმუშაობდი მთელი დღე.,20,Georgian,0.9592350574528681,unsupported prediction,et
+8482835,Georgian,როდის დამთავრდება საქმე ?,25,Georgian,0.9958915613541178,unsupported prediction,et
+8091050,Georgian,მე ყოველთვის სახლში ვარ.,24,Georgian,0.9935326665892407,unsupported prediction,et
+8464759,Georgian,მე არ შემიძლია დღეს ვნახო ტომი.,31,Georgian,0.9961588195580142,unsupported prediction,et
+7700771,Georgian,მე წასვლას ვაპირებ.,19,Georgian,0.9795303038442045,unsupported prediction,et
+13298519,Georgian,მინდა სხვა ენის სწავლა.,23,Georgian,0.9901187348274603,unsupported prediction,et
+8464071,Georgian,ბრაზობ?,7,Georgian,0.45549062969204823,unsupported prediction,et
+10007180,Georgian,შენ ხარ ძალიან ნელი.,20,Georgian,0.9882785724413667,unsupported prediction,et
+7749536,Georgian,პლაჟში მივდივარ.,16,Georgian,0.9822114643931428,unsupported prediction,et
+7749935,Georgian,შენ ძალიან დაბალი ხარ.,22,Georgian,0.9902573184933218,unsupported prediction,et
+12765952,Georgian,სადაურია ქლოე?,14,Georgian,0.9783523505230384,unsupported prediction,et
+12186183,Georgian,დღეს ღრუბლიანი ამინდია.,23,Georgian,0.9943471804211319,unsupported prediction,et
+8479162,Georgian,გასაკვირია!,11,Georgian,0.9681953488972371,unsupported prediction,et
+8593415,Georgian,ტომი არ სვამს ტკბილ ყავას.,26,Georgian,0.9953327181150591,unsupported prediction,et
+8483878,Georgian,"მე ვიყავი დაღლილი,მაგრამ, მიუხედავად ამისა,ვერ შევძელი ჩაძინება.",64,Georgian,0.999824847222527,unsupported prediction,et
+12715733,Thai,หล่อนไม่มีลูก,13,Thai,0.9751644355161249,Thai,th
+12632196,Thai,อย่าวางสายนะ,12,Thai,0.9731085309496018,Thai,th
+8692100,Thai,ฉันอาย,6,Thai,0.9685936956851373,Thai,th
+12727115,Thai,ขอเวลาฉันสักครู่ได้ไหม,22,Thai,0.9971718653596047,Thai,th
+8715733,Thai,ทอมพูดกับแมรี่,14,Thai,0.9838394303311483,Thai,th
+12581872,Thai,ฉันจะพยายามอย่างสุดความสามารถ,29,Thai,0.9934715879987803,Thai,th
+7878469,Thai,หลีกทาง,7,Thai,0.854125636345154,Thai,th
+11533406,Thai,ตั้งใจทำเต็มที่(แล้ว),21,Thai,0.9750763941020594,Thai,th
+10252895,Thai,การแต่งเพลงเป็นงานอดิเรกของผม,29,Thai,0.9970856623889389,Thai,th
+3752009,Thai,พบกันใหม่,9,Thai,0.9228194116625262,Thai,th
+10162192,Thai,ชามนี้เล็กเกินไป,16,Thai,0.9770871388951875,Thai,th
+4287129,Thai,มันจะไม่มีวันจบ,15,Thai,0.9733840465082081,Thai,th
+8715730,Thai,คุณอยากที่จะมาปาร์ตี้ของฉันหรือไม่?,35,Thai,0.9985397070347167,Thai,th
+8720350,Thai,ฉันพบดอลลาร์ในถนน,17,Thai,0.9813657182242244,Thai,th
+12579078,Thai,เด็กผู้หญิงถูกลักพาตัวไป,24,Thai,0.9711170200736592,Thai,th
+12579076,Thai,เขาชอบภูมิศาสตร์กับประวัติศาสตร์,32,Thai,0.9829626053535868,Thai,th
+8720089,Thai,ฉันชื่นชมความสามารถของเขา,25,Thai,0.9940627284787935,Thai,th
+10669181,Thai,ทอมลงมาทานอาหารเช้าในชุดนอน,27,Thai,0.9954497303237793,Thai,th
+12589576,Thai,ทอมอยากไปอเมริกา,16,Thai,0.9933635567208448,Thai,th
+11470640,Thai,เขาไม่อยากเห็นเด็กทารก,22,Thai,0.9923918482282598,Thai,th
+7878382,Thai,คุณมีเพื่อนสนิทกี่คน?,21,Thai,0.9828500666303249,Thai,th
+12572693,Thai,ทอมถูกไล่ออก,12,Thai,0.9757309330032692,Thai,th
+12849713,Thai,พ่อแม่รู้หรือปล่าว,18,Thai,0.9624060873342634,Thai,th
+7879023,Thai,ทอมกับฉันสบายดี,15,Thai,0.9924777136063346,Thai,th
+10670555,Thai,ผมไม่อยากทำงานให้ทอม,20,Thai,0.9924891864127576,Thai,th
+11466493,Thai,ไม่ว่าจะทำยังไงฉันนึกชื่อเพลงนั้นไม่ออก,39,Thai,0.9990968358632065,Thai,th
+4558475,Thai,ความรักของฉันสำหรับเขาลดลงแล้ว,30,Thai,0.9975056476625501,Thai,th
+12534019,Thai,คุณแพ้อาหารไหม,14,Thai,0.9810786786363745,Thai,th
+8717309,Thai,คุณพอใจกับผลลัพธ์หรือไม่?,25,Thai,0.986039231542231,Thai,th
+10264939,Thai,คุณจะไปทางไหน,13,Thai,0.9379913676349583,Thai,th
+12589193,Thai,ทอมไม่ได้เป็นคนรวย,18,Thai,0.9956676903024243,Thai,th
+8720354,Thai,ทอมไม่เคยใส่สีแดง,17,Thai,0.9708831235795529,Thai,th
+8714380,Thai,บางสิ่งบางอย่างไม่ถูกต้อง,25,Thai,0.9847081182303782,Thai,th
+8669191,Thai,แค่เท่านี้หรือ?,15,Thai,0.9779597065409624,Thai,th
+8673100,Thai,มันเย็นเกินกว่าที่จะว่ายไป,26,Thai,0.9942865636494592,Thai,th
+8675700,Thai,นั่นนานเกินไป,13,Thai,0.981395730220125,Thai,th
+12572723,Thai,ขอชื่อและเบอร์โทรศัพท์,22,Thai,0.9547735019216205,Thai,th
+8669257,Thai,เรื่องไร้สาระ!,14,Thai,0.9611197383229919,Thai,th
+10556481,Thai,ทอมอ้วนมากใช่ไหม,16,Thai,0.9926335546062665,Thai,th
+10804600,Swahili,Mara nyingi Billy hugonga uso wake madirishani.,47,Swahili,0.8875463480254601,Swahili,sw
+10875226,Swahili,"Meli bandarini iko salama, lakini meli hazikujengwa kwa kusudi hilo.",68,Swahili,0.9706473367757507,Swahili,sw
+10825369,Swahili,Nchi hizo mbili zitajadili maafikiano ya mgogoro.,49,Swahili,0.9060346639971509,Swahili,sw
+10865893,Swahili,Asante kwa mwongozo wako.,25,Swahili,0.9267711693369306,Swahili,sw
+10858950,Swahili,Nitatengeneza siagi ya njugu.,29,Swahili,0.6199190376661347,unsupported prediction,id
+10816022,Swahili,Vitabu viwili vimeibuka kati ya dazeni zilizochapishwa hivi karibuni kuhusu familia ya kifalme,94,Swahili,0.985628763653507,Swahili,sw
+10850639,Swahili,Nilimdokezea kitu lakini hakuelewa.,35,Swahili,0.7113155401104706,Swahili,sw
+10809136,Swahili,Thamani halisi ya kitu inaweza kuamuliwa tu kutoka kwa uzoefu au matokeo ya vitendo na sio kutoka kwa kuonekana au nadharia.,124,Swahili,0.9933686474642144,Swahili,sw
+3385287,Swahili,Maembe hayatoshi.,17,Swahili,0.46400068604063394,Swahili,sw
+10894435,Swahili,Wanawapapasa mbwa wao vichwani.,31,Swahili,0.9952935568240903,Swahili,sw
+3716282,Swahili,Kuna visiwa katika bahari.,26,Swahili,0.9726139764833959,Swahili,sw
+10889650,Swahili,Hakuna mtu katika familia yangu anayeweza kufanya hivyo.,56,Swahili,0.9969891586913299,Swahili,sw
+10843044,Swahili,"Sio ati sitaki mnicheke, bali ni kwa sababu napenda kukuchekelea.",65,Swahili,0.9765978323402056,Swahili,sw
+13295239,Swahili,Hali ya vita Sudan Kusini ni mbaya sana na mataifa ya Marekani na China ndio wanaosababisha.,92,Swahili,0.9955708362394174,Swahili,sw
+10884428,Swahili,"Mungu amemwekea kila binadamu kande yake, Roho Mlinzi, ambaye anamilnda.",72,Swahili,0.8910078870339905,Swahili,sw
+10875582,Swahili,"Je, amekuhadaa kufanya nini mara hii?",37,Swahili,0.9898600793023226,Swahili,sw
+10818976,Swahili,Hakuna aliyeshighulikia swala langu.,36,Swahili,0.9858809476305799,Swahili,sw
+10818986,Swahili,"Katika siku za joto, wazazi hutawilisha au hulalia migongo yao na miguu yao huweka hewani.",90,Swahili,0.9909195027640721,Swahili,sw
+10874976,Swahili,Niligundua kwamba alikuwa kuwadi.,33,Swahili,0.995464010786512,Swahili,sw
+10815790,Swahili,Hatuwezi kuwa waangalifu sana katika kuendesha kiwanda cha nguvu za nyuklia.,76,Swahili,0.998695228071109,Swahili,sw
+10818647,Swahili,Mapambano ya kufanikiwa wakati mwingine huwacha watu wakihisi tupu.,67,Swahili,0.9992351077290101,Swahili,sw
+10811751,Swahili,"Kuzungumzia Profesa Smith, msaidizi wake ni mgumu kusikiliza.",61,Swahili,0.9180064352754008,Swahili,sw
+2432693,Swahili,Adui ya mtu ni mtu.,19,Swahili,0.7658316202403725,Swahili,sw
+10845886,Swahili,Ni lazima tuzuie pigo hili ni hatari.,37,Swahili,0.8865208007920626,Swahili,sw
+10853470,Swahili,"Babu yangu alikuwa haramia yaani, mwindaji wa hazina.",53,Swahili,0.9967546983651511,Swahili,sw
+13348206,Swahili,Napenda kula mananasi.,22,Swahili,0.9719119339463779,unsupported prediction,id
+10898200,Swahili,Alishambuliwa na genge la watu. Walimpiga na kuchukua pochi yake.,65,Swahili,0.998010111016551,Swahili,sw
+10866338,Swahili,Mfalme John akampa baba yake mazishi ya ajabu.,46,Swahili,0.9482690687524261,Swahili,sw
+10807133,Swahili,"Naweza chukua kipimo chako, Mama?",33,Swahili,0.9855814338032489,Swahili,sw
+10892180,Swahili,Ninaweza kupanda ndege hii?,27,Swahili,0.9683584411325891,Swahili,sw
+10838017,Swahili,Muigizaji atacheza wahusika watano chini ya nusu saa.,53,Swahili,0.99012109191767,Swahili,sw
+10804764,Swahili,Ungependa matunda?,18,Swahili,0.6607711386758568,unsupported prediction,id
+10889389,Swahili,Sina nia hata kidogo.,21,Swahili,0.8656148182257107,Swahili,sw
+3175706,Swahili,"Je, kuna mashine ya kufulia nyumbani?",37,Swahili,0.9948018895933065,Swahili,sw
+10858411,Swahili,Watu wengine walizaliwa ili kutaabisha maisha ya watu.,54,Swahili,0.9971975017391184,Swahili,sw
+10811661,Swahili,"Kumbuka kwamba, katika hali kama hizi, hatuna njia nyingine ila kupata mnunuzi mwingine.",88,Swahili,0.9957003736765395,Swahili,sw
+10855693,Swahili,Tunatumahi kuwa utaungana nasi kwenye pekesheni yetu.,53,Swahili,0.9892028395143523,Swahili,sw
+10837563,Swahili,Wimbo wowote unaimbwa kwa Kifaransa hunifanya nihisi mapenzi.,61,Swahili,0.996234113766403,Swahili,sw
+10807320,Swahili,"Sherehe ya mshtuko kwa Laura sio usiku wa leo, lakini kesho usiku.",66,Swahili,0.9069488140420374,Swahili,sw
+1361084,Basque,Agur esatera etorri naun.,25,Basque,0.9677507375996853,unsupported prediction,ca
+1333151,Basque,Nire lagun bat da.,18,Basque,0.949721512234467,unsupported prediction,id
+5637197,Basque,Kale egin.,10,Basque,0.5247781836144823,unsupported prediction,af
+6782264,Basque,Ez diet pasatzen utziko.,24,Basque,0.9561076895911668,unsupported prediction,lv
+883725,Basque,"Sentitzen dut min eman izana, barka iezadazu.",45,Basque,0.9629507567214441,Turkish,tr
+6121468,Basque,Egin behar nuen guztia egin dut.,32,Basque,0.9748412583615307,unsupported prediction,de
+13896553,Basque,"Hau nirea da, eta hori zurea da.",32,Basque,0.9886527692658849,unsupported prediction,ro
+1332355,Basque,Joan-ek ezker besoa hautsi zian istripuan.,42,Basque,0.9149719116113818,unsupported prediction,nl
+13904708,Basque,Hau ez da Jainkoaren hitza.,27,Basque,0.9714194259617338,unsupported prediction,de
+6819803,Basque,Ezkerrean dago,14,Basque,0.9852394837888484,unsupported prediction,da
+3788332,Basque,Liburu hau Tonyrena da.,23,Basque,0.8805633611962449,unsupported prediction,id
+6072413,Basque,Bi ordutan egin dezaket.,24,Basque,0.8994868569466204,unsupported prediction,nl
+4085006,Basque,Hau da hiztegian aurkitu nuen hitza.,36,Basque,0.9793040677243329,unsupported prediction,id
+855519,Basque,Ez dut ulertzen.,16,Basque,0.9745002574666906,unsupported prediction,de
+2856936,Basque,Nekatuta nago!,14,Basque,0.8145460384818053,unsupported prediction,tl
+6771626,Basque,Tomek kafe gehiegi edaten ari da.,33,Basque,0.8665320099456554,unsupported prediction,id
+6018766,Basque,"Ahalegin guztiekin jokatzen ez badugu, nola irabaziko dugu?",59,Basque,0.9840381580150416,unsupported prediction,lv
+6618446,Basque,Kemen gutxirekin dago orain.,28,Basque,0.9476389995680056,unsupported prediction,id
+3800214,Basque,Azkenik iritsi da!,18,Basque,0.791486251712559,Turkish,tr
+6771645,Basque,Agian tom bihar etortzen da.,28,Basque,0.9101024609362216,unsupported prediction,id
+6885579,Basque,Hemen dembora asko nengoan.,27,Basque,0.9051923525262471,unsupported prediction,id
+13364123,Basque,Ingelesa ikasten ari zara?,26,Basque,0.8509100445354821,unsupported prediction,id
+3375833,Basque,Junko neska polita da.,22,Basque,0.7054714823486863,unsupported prediction,sl
+6827791,Basque,Zergatik ez zara bakarrik esertzen eta erlaxatzen?,50,Basque,0.9979576885450645,unsupported prediction,hu
+6831763,Basque,Tom eta Mary denbora asko eman dute elkar.,42,Basque,0.8268630856397318,unsupported prediction,sv
+4838215,Basque,Isilik!,7,Swahili,0.30362979501619863,unsupported prediction,id
+412616,Basque,Ez zait gustatzen aditz irregularrak ikastea.,45,Basque,0.9967318541730324,Turkish,tr
+6788055,Basque,Arrakasta ziurta dezaket.,25,Basque,0.9789508638426503,unsupported prediction,lv
+6043515,Basque,Zelako lorategi polita!,23,Basque,0.8587356915932034,unsupported prediction,sl
+11372308,Basque,Hogei urte ditut.,17,Basque,0.8879050443190067,unsupported prediction,ro
+896404,Basque,Ikasgela baten kontrola ikaslearen gaitasun osoak behar du.,59,Basque,0.9121784155673933,unsupported prediction,id
+6845182,Basque,Badakigu non dagoen Tom.,24,Basque,0.8462865395800596,unsupported prediction,id
+6072422,Basque,Erratzen da.,12,Basque,0.9970326596009224,unsupported prediction,de
+4839026,Basque,Azaltzeagatik eskerrik asko.,28,Basque,0.9798725135580985,unsupported prediction,hu
+916984,Basque,Lan eta lan ibili zen gaixotu arte.,35,Basque,0.8928612291775493,unsupported prediction,id
+855458,Basque,Errez aurkitu nuen bere bulegoa.,32,Basque,0.9746104175701759,unsupported prediction,de
+627530,Basque,"Barkatu, Xinqiao jatetzea hemendik urrun dago?",46,Basque,0.9801815792387817,unsupported prediction,id
+5151577,Basque,Non dago Tomen ikasgela?,24,Basque,0.7447971412201754,unsupported prediction,tl
+862632,Basque,A ze parea karakola eta barea.,30,Basque,0.8125339523082847,unsupported prediction,hr
+1664679,Turkish,"O çıkar çıkmaz, banka kapandı.",30,Turkish,0.8007512805401693,Turkish,tr
+11100206,Turkish,Şimdi yerinizi ayırtın! Sadece birkaç koltuk kaldı!,51,Turkish,0.9834957577303097,Turkish,tr
+5260242,Turkish,Tom bir sopa ile karınca yuvasını karıştırdı.,45,Turkish,0.9960908902439892,Turkish,tr
+6741582,Turkish,Hepiniz sorumlusunuz.,21,Turkish,0.5221364782879598,Turkish,tr
+1525117,Turkish,Ben akşam yemeğinden sonra piyano çalarım.,42,Turkish,0.9548907929785275,Turkish,tr
+4845545,Turkish,Sağlık servetten daha iyidir.,29,Turkish,0.8717131615377178,Turkish,tr
+3175143,Turkish,Tom Mary'ye bir bardak su ve iki aspirin verdi.,47,Turkish,0.9799472142671694,Turkish,tr
+1062020,Turkish,Göğsüne masaj yapmamı ister misin?,34,Turkish,0.8522273761931406,Turkish,tr
+9675671,Turkish,Önümüzdeki ay evimi boyayacağım.,32,Turkish,0.9401693720940681,Turkish,tr
+4475848,Turkish,Artık kendinizle böbürlenemeyeceksiniz.,39,Turkish,0.970851486771924,Turkish,tr
+4828927,Turkish,Askerler üslerine geri gönderildi.,34,Turkish,0.9207460656139566,Turkish,tr
+5880689,Turkish,"Fadıl, Facebook'ta faaldir.",27,Turkish,0.7405121520531388,Turkish,tr
+1489582,Turkish,Ben onun yanında yürüyorum.,27,Turkish,0.9869088629100637,Turkish,tr
+2712062,Turkish,Tom birçok insanın hoşlanmadığı adam türüdür.,45,Turkish,0.9952962900936148,Turkish,tr
+12893166,Turkish,Nereye gideceğini bilmiyorsan tüm yollar seni götürür.,54,Turkish,0.9942857726200657,Turkish,tr
+2730327,Turkish,Tom nerede olduğumuzu biliyor.,30,Turkish,0.9885983258507144,Turkish,tr
+6060255,Turkish,İnternetsiz bir hayatı hayal edemiyorum.,40,Turkish,0.9637903959909065,Turkish,tr
+4075657,Turkish,Bunu nereden biliyorsun ki?,27,Turkish,0.9822460256188454,Turkish,tr
+8270613,Turkish,"Tom niye gelemedi, biliyor musun?",33,Turkish,0.9844811249282477,Turkish,tr
+3674353,Turkish,Galiba şimdilik güvendeyiz.,27,Turkish,0.8952203642777347,Turkish,tr
+5601874,Turkish,Son günlerde çok yağmur yağdı.,30,Turkish,0.9804087613316632,Turkish,tr
+5806771,Turkish,Araban şimdi tamir ediliyor.,28,Turkish,0.9659104532780817,Turkish,tr
+4009647,Turkish,Onlara gerçekten güveniyor musun?,33,Turkish,0.9603432386106869,Turkish,tr
+6790310,Turkish,Bu kitabı çoktan bitirdin mi?,29,Turkish,0.8825610955655259,Turkish,tr
+3649307,Turkish,İngilizceden başka bir dil konuşabiliyor musun?,47,Turkish,0.9737322774782308,Turkish,tr
+5580334,Turkish,Gideceklerdi.,13,Turkish,0.8307230015504149,Turkish,tr
+7691889,Turkish,"""Kız kardeşleriniz nereliydi?"" ""Meksika.""",41,Turkish,0.9333684152736417,Turkish,tr
+8185184,Turkish,Tom telefonda birisiyle konuşuyor.,34,Turkish,0.9722254226424957,Turkish,tr
+4032965,Turkish,Günlerdir onu görmedim.,23,Turkish,0.9884086426012573,Turkish,tr
+9094113,Turkish,"Sen bir barbarsın, Tom.",23,Turkish,0.9440882958858602,Turkish,tr
+4559088,Turkish,"Tom siyah bir araba kullanıyor, değil mi?",41,Turkish,0.9717870817630783,Turkish,tr
+5313125,Turkish,Bu kitabı okumak gerçekten zamana değerdi.,42,Turkish,0.8480160350770114,Turkish,tr
+4817386,Turkish,Erkek çocuğu sanki bir kızmış gibi konuşuyor.,45,Turkish,0.98352357293258,Turkish,tr
+4976893,Turkish,Tom'la birkaç kez tenis oynadım.,32,Turkish,0.925650537687398,Turkish,tr
+4031862,Turkish,Neden seni oraya götürmüyoruz?,30,Turkish,0.9585162949668671,Turkish,tr
+6197735,Turkish,Onlar istasyona birkaç dakika arayla geldiler.,46,Turkish,0.8584942725240642,Turkish,tr
+7645416,Turkish,Tom üç kavanoz kornişon turşusu aldı.,37,Turkish,0.8733923340046965,Turkish,tr
+1393112,Turkish,"O, koalanın bir resmini çekti.",30,Turkish,0.9237053015538387,Turkish,tr
+6715004,Turkish,Ne tür problemlerin var?,24,Turkish,0.7561969725177056,Turkish,tr

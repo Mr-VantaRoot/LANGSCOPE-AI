@@ -11,11 +11,13 @@ PROJECT_DIR = Path(__file__).resolve().parent
 ARTIFACT_DIR = PROJECT_DIR / "artifacts" / "tatoeba_nine"
 vectorizer = joblib.load(ARTIFACT_DIR / "vectorizer.joblib")
 classifier = joblib.load(ARTIFACT_DIR / "classifier.joblib")
-threshold_data = json.loads(
-    (ARTIFACT_DIR / "uncertainty_threshold.json").read_text(encoding="utf-8")
+OOD_REJECTION_DATA = json.loads(
+    (ARTIFACT_DIR / "ood_rejection.json").read_text(encoding="utf-8")
 )
-CONFIDENCE_THRESHOLD = float(threshold_data["threshold"])
+OOD_SCORE_THRESHOLD = float(OOD_REJECTION_DATA["threshold"])
+UNASSIGNED_PREDICTION = "Uncertain — no supported language assigned"
 SHORT_TEXT_CHARACTERS = 20
+MAX_INPUT_CHARACTERS = 10000
 SUPPORTED_LANGUAGES = tuple(str(label) for label in classifier.classes_)
 
 
@@ -27,6 +29,15 @@ def predict_language(text):
     cleaned_text = text.strip()
     if not cleaned_text:
         return "", "", "", "Enter text to identify its language."
+
+    if len(cleaned_text) > MAX_INPUT_CHARACTERS:
+        return (
+            "",
+            "",
+            "",
+            f"Input is too long ({len(cleaned_text)} characters). Limit it to "
+            f"{MAX_INPUT_CHARACTERS} characters.",
+        )
 
     # Punctuation and numbers alone do not contain enough language signal to score.
     # This is input validation only; it does not choose a language.
@@ -53,20 +64,25 @@ def predict_language(text):
     )
 
     messages = []
-    if top_score < CONFIDENCE_THRESHOLD:
+    if top_score < OOD_SCORE_THRESHOLD:
+        display_language = UNASSIGNED_PREDICTION
         messages.append(
-            "Uncertain: the top model score is below the threshold selected on "
-            f"validation data ({CONFIDENCE_THRESHOLD:.12f})."
+            "Rejected as uncertain: the highest supported-language score is below "
+            "the OOD threshold calibrated on separate English and French validation "
+            f"examples ({OOD_SCORE_THRESHOLD:.6f}). The raw top candidate is "
+            f"{predicted_language}; this is not a reliable language assignment."
         )
     else:
+        display_language = predicted_language
         messages.append(
-            "The top model score meets the threshold selected on validation data "
-            f"({CONFIDENCE_THRESHOLD:.12f})."
+            "No OOD rejection was triggered by the validation-calibrated score gate "
+            f"({OOD_SCORE_THRESHOLD:.6f}). This does not prove the input is one of "
+            "the supported languages."
         )
 
     if len(cleaned_text) < SHORT_TEXT_CHARACTERS:
         messages.append(
-            f"This is very short text ({len(cleaned_text)} characters). Short "
+            f"This is very short text ({len(cleaned_text)} Unicode code points). Short "
             "text contains less character context; add more text for a more "
             "reliable result."
         )
@@ -76,7 +92,7 @@ def predict_language(text):
         "unsupported language to one of them; a high score does not prove the "
         "input belongs to a supported language."
     )
-    return predicted_language, f"{top_score:.6f}", top_three, "\n\n".join(messages)
+    return display_language, f"{top_score:.6f}", top_three, "\n\n".join(messages)
 
 
 with gr.Blocks(
@@ -105,7 +121,7 @@ with gr.Blocks(
                 label="Predicted language", interactive=False
             )
             score_output = gr.Textbox(
-                label="Top model score (not a calibrated probability)",
+            label="Highest raw class score (not a calibrated probability)",
                 interactive=False,
             )
             top_three_output = gr.Textbox(
@@ -140,7 +156,8 @@ with gr.Blocks(
             "\n".join(f"- {language}" for language in SUPPORTED_LANGUAGES)
             + "\n\nThe model always ranks these nine classes. Its score is not a "
             "guaranteed probability or a reliable test for languages outside "
-            "this list. Final held-out evaluation is pending; performance on casual "
+            "this list. Final held-out evaluation and its limitations are described "
+            "in the project README. Performance on casual "
             "messages, dialects, mixed-language text, names, and very short "
             "input has not been established."
         )

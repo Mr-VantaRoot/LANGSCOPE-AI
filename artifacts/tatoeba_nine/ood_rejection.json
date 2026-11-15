@@ -1,0 +1,17 @@
+{
+  "threshold": 0.6264018184006261,
+  "score": "maximum Logistic Regression class score",
+  "rule": "reject when maximum class score is below this threshold",
+  "selection_metric": "maximum balanced accuracy on ID/OOD calibration data",
+  "minimum_id_validation_coverage": 0.95,
+  "id_validation_coverage": 0.9515669515669516,
+  "ood_calibration_rejection_rate": 0.875,
+  "balanced_accuracy": 0.9132834757834758,
+  "ood_languages_for_calibration": [
+    "eng",
+    "fra"
+  ],
+  "samples_per_ood_language_per_partition": 500,
+  "seed": 20261115,
+  "uses_final_test_set": false
+}

@@ -1,0 +1,1001 @@
+sentence_id,language_code,text,split,top_prediction,top_score,second_prediction,second_score,accepted_as_supported
+10359642,eng,I'm not doing well today.,audit,Turkish,0.3811299503880389,Finnish,0.2769522150430792,False
+5769826,eng,Tom is a concert pianist.,audit,Finnish,0.4036338872714831,Turkish,0.3011620025555078,False
+10951180,eng,Ziri's mom always cheered him up.,audit,Turkish,0.5808163915111169,Swahili,0.2727091583365093,False
+9844302,eng,How would you put this sentence in French?,audit,Finnish,0.3661976888565297,Turkish,0.32682830980776795,False
+11917928,eng,Let's eat a lot.,audit,Finnish,0.45495299814849427,Basque,0.3481561736772705,False
+2173134,eng,Do you want to play with me?,audit,Swahili,0.4271507504569445,Finnish,0.281838547682294,False
+10557214,eng,Patriotic sentiment has taken the upper hand.,audit,Finnish,0.6140509085847833,Basque,0.18906026897241549,False
+3688997,eng,Don't forget your coat.,audit,Basque,0.3534113874970222,Turkish,0.3337815326692825,False
+5255810,eng,"Are you going to go with us, too?",audit,Basque,0.3066616296380982,Finnish,0.28374857486159377,False
+3920538,eng,Are you worried about them?,audit,Basque,0.44865305970675484,Turkish,0.26945425633898695,False
+7143949,eng,I didn't think that Tom would be permitted to do that.,audit,Finnish,0.4723919847179067,Basque,0.2402135638114453,False
+7396199,eng,He said he couldn't speak French.,audit,Turkish,0.36132070119445947,Finnish,0.22051151643990163,False
+2007639,eng,"Let's finish this, Tom.",audit,Finnish,0.5143278182313952,Turkish,0.30298825411970476,False
+12310889,eng,The French are our neighbours across the Channel.,audit,Turkish,0.3067938811367221,Basque,0.28865804166810605,False
+12128921,eng,Tom was afraid to ask.,audit,Basque,0.2781345027006032,Finnish,0.22979995289006777,False
+7170159,eng,I think that Tom will be reasonable.,audit,Finnish,0.536603214656885,Turkish,0.22402371817980243,False
+1642001,eng,This photograph reminds me of my childhood.,audit,Finnish,0.3440990212517894,Turkish,0.3145104038888376,False
+13589226,eng,Each word carries its own history.,audit,Turkish,0.3320398076403178,Basque,0.31941897834462984,False
+8007343,eng,Mennad tried diets and exercise to come over his depression.,audit,Turkish,0.4641048185616915,Basque,0.31121358401314286,False
+9367149,eng,I just bought some stuff that we use every day.,audit,Turkish,0.3231708562261498,Basque,0.2683567397734271,False
+12197157,eng,I met Tom this afternoon.,audit,Finnish,0.6697516740496333,Turkish,0.18478732272169449,True
+10260706,eng,Puppets are loved by everyone.,audit,Turkish,0.640793574194652,Basque,0.14363322547853846,True
+10610386,eng,Why are they watching me all the time?,audit,Swahili,0.4064786732169147,Finnish,0.24489205419352428,False
+10908719,eng,Try googling it.,audit,Basque,0.35025433761144786,Turkish,0.17652584961908657,False
+12047914,eng,Kalman had hardly any ammo left.,audit,Turkish,0.34785332007601194,Swahili,0.26313256863405854,False
+6241216,eng,"You weren't at home last night, were you?",audit,Basque,0.3520221376193753,Turkish,0.2336654184785785,False
+11429857,eng,I may collapse.,audit,Finnish,0.3404976141637064,Turkish,0.29577369406245974,False
+5079330,eng,This is a serious mistake.,audit,Finnish,0.5998346048745984,Swahili,0.11770288298284107,False
+10143395,eng,Tom couldn't bring himself to watch what was happening.,audit,Swahili,0.6603211528295109,Turkish,0.13533076414108405,True
+4014566,eng,Do you know anything about this matter?,audit,Finnish,0.3683823606990267,Swahili,0.28641639812041847,False
+306624,eng,They were scattered in all directions.,audit,Turkish,0.5899657037338986,Basque,0.23168121103047132,False
+7501130,eng,I didn't know that you were planning to do that while you were in Australia.,audit,Basque,0.29318219191570727,Finnish,0.26213928097529626,False
+9498726,eng,Tom dozed off during class.,audit,Turkish,0.43866311813564524,Basque,0.3720631454148646,False
+8526214,eng,"He's done, isn't he?",audit,Finnish,0.28592267191612636,Turkish,0.2283674147358442,False
+1992202,eng,"Nobody has asked you to agree, but can't you at least accept that there are people who hold different views from you?",audit,Basque,0.37744352375804585,Turkish,0.30988375628272613,False
+13039111,eng,Can't you tell?,audit,Finnish,0.45493873556785114,Turkish,0.2776186269651852,False
+2537381,eng,I'm sure Tom will lend you as much money as you need.,audit,Turkish,0.7537155096007483,Finnish,0.1130349540043264,True
+5915363,eng,I'm usually working this time of day.,audit,Turkish,0.4051047391380444,Finnish,0.26353423037656126,False
+64816,eng,"In Olympic competitions, a gold medal is for first place, a silver medal for second, and a bronze medal is for third place.",audit,Turkish,0.7975322457845812,Basque,0.08881523558863022,True
+6264976,eng,Tom just wants to stay at home.,audit,Finnish,0.7563678997707689,Basque,0.0776573938247509,True
+10986892,eng,"For a moment, everything was dark and scary.",audit,Turkish,0.46282474835817355,Basque,0.3238292615178502,False
+22882,eng,We deepened our friendship.,audit,Turkish,0.4352777720378048,Basque,0.3197688110830038,False
+273196,eng,The river is five feet deep.,audit,Turkish,0.5072375213674133,Finnish,0.23983833933769808,False
+5244740,eng,I'm glad I managed to do it.,audit,Basque,0.39843743028721923,Turkish,0.35980348858363703,False
+309465,eng,Her kind action strongly impressed me.,audit,Turkish,0.5615380329132951,Finnish,0.24608590277542594,False
+1126770,eng,I'd appreciate it if you could pay in cash.,audit,Turkish,0.5355049354004175,Swahili,0.16883475002215229,False
+7202505,eng,Sami is so unapologetic.,audit,Swahili,0.3573519825624092,Finnish,0.2832379026585722,False
+14075971,eng,He had been loved.,audit,Basque,0.3534652034667336,Turkish,0.3392731166303112,False
+6869748,eng,"Tom thinks that if he'd tried a little harder, he could have won the race.",audit,Finnish,0.4669347494058008,Turkish,0.3372677860225671,False
+6212542,eng,"Such were the delights which summer brought them, but when the autumn came, and the black grapes were covered with a thick bloom, some pirates of Tyre, who had put to sea in a Carian barque, so that they might not be taken for foreigners, approached the coast, and landed, armed with swords and bucklers.",audit,Turkish,0.36192800974062705,Basque,0.257853569932155,False
+26097,eng,I met with an old friend of mine at the station.,audit,Finnish,0.7710685847267192,Basque,0.09682559207039816,True
+11696044,eng,Flavio didn't see or hear anybody.,audit,Turkish,0.6135887287147906,Basque,0.21769766793691586,False
+1679462,eng,This is the first time I've killed a mouse.,audit,Finnish,0.48591940646458215,Turkish,0.359717786171008,False
+7391778,eng,He washes his car once a week.,audit,Swahili,0.6197704942943076,Turkish,0.16447188159909143,False
+41995,eng,Those children are potential customers.,audit,Turkish,0.3781144033829497,Basque,0.28050713465139093,False
+8478410,eng,He's a redneck.,audit,Turkish,0.4850652093021421,Basque,0.1934366137109188,False
+7201953,eng,Sami was disgusted with Layla.,audit,Swahili,0.3758597120147984,Finnish,0.22845590303025173,False
+6436042,eng,"Mary is kind of beautiful, isn't she?",audit,Turkish,0.4000738292674348,Finnish,0.2045727083159323,False
+8890257,eng,I danced with Tom.,audit,Turkish,0.5479961935637817,Basque,0.1538533697161066,False
+7400478,eng,She told me that she's retired.,audit,Finnish,0.3740145023335744,Turkish,0.370046116823953,False
+6560064,eng,Sami was sleeping just a dozen feet away.,audit,Swahili,0.3807751700541206,Finnish,0.26211632939193324,False
+6329227,eng,I did not cry in front of him.,audit,Turkish,0.5204400505935831,Finnish,0.17825027345891736,False
+6242358,eng,I didn't think that Tom was having fun.,audit,Finnish,0.3989157637462673,Swahili,0.21434378491475897,False
+7143957,eng,I didn't think that Tom would be home yesterday.,audit,Turkish,0.6026221575590861,Finnish,0.19132467605150447,False
+6909874,eng,Tom thought that I was serious.,audit,Finnish,0.5810371582852751,Basque,0.13425482895800733,False
+8546781,eng,No one understands how giraffes communicate with each other.,audit,Turkish,0.3410956287493237,Swahili,0.24436522449486242,False
+11621575,eng,We'd better fix it soon.,audit,Turkish,0.36869426317416826,Basque,0.3403555776395563,False
+2273921,eng,What do you expect?,audit,Basque,0.36554999012548967,Swahili,0.1479057080841872,False
+11244101,eng,"Don't be aloof, let's go together.",audit,Basque,0.35280364789548124,Turkish,0.3178804040050032,False
+11865372,eng,I still don't know who to ask to be the matron of honor at my wedding.,audit,Finnish,0.487940483033364,Turkish,0.20300530696394434,False
+1556933,eng,She looked for her ring earnestly.,audit,Turkish,0.43290181189272386,Basque,0.3076936103961285,False
+10967314,eng,There are considerable differences between vulgar Latin and classic Latin.,audit,Turkish,0.4927683449914678,Basque,0.3547061103584273,False
+7177631,eng,Tom said that Mary was hoping she could do that with John.,audit,Finnish,0.3794311468997122,Swahili,0.3236982127478735,False
+10775695,eng,Call for backup.,audit,Turkish,0.3614321349191791,Swahili,0.15496137529558782,False
+6260568,eng,Tom said Mary's parents seemed like nice people.,audit,Turkish,0.6218140487467452,Finnish,0.2596618833375992,False
+6248072,eng,Tom would never permit you to do that.,audit,Turkish,0.4808558688451137,Finnish,0.2923948787290912,False
+6650617,eng,Tom said that he'd think about it.,audit,Finnish,0.5970003290881812,Basque,0.19578528563345224,False
+6462259,eng,Sami didn't deny that he was having an affair.,audit,Swahili,0.3444765617279662,Basque,0.24374802147442673,False
+12645950,eng,A person can't be that stupid. It has to be intentional.,audit,Finnish,0.5168291414130436,Basque,0.30343586706986175,False
+9594632,eng,Yanni asked Skura to teach him Berber but she refused.,audit,Turkish,0.4354886353753759,Basque,0.3897777066026581,False
+6225953,eng,Tom drank about three times as much as Mary drank.,audit,Basque,0.2974225314753755,Turkish,0.29669389563383763,False
+7517842,eng,I know Tom knew Mary didn't do that.,audit,Turkish,0.44391571439903316,Basque,0.21518191570473602,False
+11793654,eng,Who logged in last?,audit,Basque,0.4019346546110925,Finnish,0.2834385000246718,False
+7732066,eng,Tom seldom talks about his girlfriend.,audit,Turkish,0.7255934311801095,Finnish,0.12359958502058185,True
+9822251,eng,Yanni wants more.,audit,Swahili,0.4957518461329578,Finnish,0.2097028509994597,False
+5170058,eng,She lives in the house over there.,audit,Finnish,0.6282731767715621,Turkish,0.21272215261517224,True
+7564674,eng,"The Knooks' duty is to watch over the beasts of the world, both gentle and wild.",audit,Turkish,0.37332293591372795,Finnish,0.3371542922930099,False
+10641805,eng,Tom hasn't got a television.,audit,Finnish,0.5915937961446438,Turkish,0.18524081419661095,False
+11394134,eng,Frogs are slimy.,audit,Turkish,0.6266385875136843,Basque,0.10203552834327774,True
+781117,eng,"That boy can't be very healthy, as he only eats fast foods.",audit,Finnish,0.44223079382772607,Turkish,0.2643756095399644,False
+1313263,eng,I can't see anything. The windshield is very dirty.,audit,Turkish,0.5201584363820556,Finnish,0.23200718123432384,False
+10326770,eng,I don't want to string you along.,audit,Finnish,0.36660645202870884,Basque,0.21366960387692102,False
+3151524,eng,Give me back my bottle.,audit,Turkish,0.539211812748553,Finnish,0.12452304675571421,False
+9246879,eng,I'll take the next flight.,audit,Finnish,0.4748746101580389,Turkish,0.20765456464199067,False
+10064657,eng,Yanni has a German Shepherd.,audit,Turkish,0.3959476520826075,Swahili,0.2457359494242661,False
+11943895,eng,Yuri landed beautifully.,audit,Turkish,0.3474088763322058,Basque,0.342854448239,False
+13691241,eng,I can't believe I'd never heard of it.,audit,Turkish,0.7922861110437185,Basque,0.11272773853489751,True
+8986474,eng,Whose boyfriend is that?,audit,Turkish,0.2887902280739192,Basque,0.2447696280327088,False
+2359436,eng,I've decided to serve only imported wine.,audit,Turkish,0.8196811565687666,Basque,0.07514114411977883,True
+7784943,eng,What language do they speak in Australia?,audit,Basque,0.5019910355757896,Finnish,0.2003858464775866,False
+12048488,eng,The plane Tom is on has been hijacked.,audit,Finnish,0.4930008780828442,Turkish,0.31970943215735226,False
+7159011,eng,I wish that I were back in Australia.,audit,Swahili,0.4750999671643866,Basque,0.22380155358572054,False
+1959970,eng,She lives in an apartment.,audit,Finnish,0.5869544201468468,Turkish,0.1726873489666111,False
+6350552,eng,I might be required to do that.,audit,Basque,0.6335503862984851,Turkish,0.16757439729208046,True
+11033293,eng,I like proofreading my sentences.,audit,Turkish,0.4600115020721404,Finnish,0.23974797359835423,False
+7387136,eng,She can't read without her glasses.,audit,Finnish,0.41963156834053567,Basque,0.2370883184317147,False
+9084722,eng,I'm getting closer.,audit,Turkish,0.6296180740288305,Finnish,0.10728177734688023,True
+9408381,eng,No one knows why Tom did it.,audit,Turkish,0.3905414642340489,Finnish,0.31337779950647443,False
+7231057,eng,I don't think that Tom has any classes today.,audit,Finnish,0.5942004794950456,Turkish,0.20264831587828427,False
+7130110,eng,Tom abandoned his car on the side of the road.,audit,Turkish,0.5997668767577488,Finnish,0.21861915146914201,False
+5078663,eng,I didn't want to cause a scene.,audit,Basque,0.27596108370419536,Swahili,0.23717252153187546,False
+1025057,eng,Tom is down with a cold.,audit,Turkish,0.41451856021273464,Finnish,0.18585316501496482,False
+9764628,eng,Tom found out Mary was planning a surprise birthday party for him.,audit,Turkish,0.6987220058160467,Swahili,0.10587502136998982,True
+11961102,eng,Has Boldi given up on his passion?,audit,Finnish,0.5227809235990404,Turkish,0.19950726219568357,False
+9371947,eng,I looked at the tenderness in his eyes.,audit,Finnish,0.4729029927478194,Turkish,0.3008550161228289,False
+7388385,eng,She's painted her room white.,audit,Finnish,0.439839621681374,Turkish,0.21640367253295464,False
+780859,eng,That makes sense.,audit,Finnish,0.48787097590779804,Basque,0.18586590188949575,False
+6495976,eng,Tom and Mary said that they'd be gone by the time we got there.,audit,Turkish,0.5829623271120731,Finnish,0.17800470125697612,False
+7290642,eng,They were eating.,audit,Basque,0.3005450656392281,Turkish,0.24346230399424776,False
+10867589,eng,Only one's own thoughts have truth and life; for only one's own thoughts are fully understood.,audit,Finnish,0.5048492868225463,Turkish,0.29636053994736145,False
+477582,eng,I was thrown out of the house with everything I owned.,audit,Finnish,0.5560625670335053,Swahili,0.1674914723268677,False
+13136008,eng,"Just at daybreak, I was awakened by a series of awful screams from Bill. They weren’t yells, or howls, or shouts, or whoops, or yawps, such as you’d expect from a manly set of vocal organs — they were simply indecent, terrifying, humiliating screams, such as women emit when they see ghosts or caterpillars. It’s an awful thing to hear a strong, desperate, fat man scream incontinently in a cave at daybreak.",audit,Turkish,0.4717669930416829,Finnish,0.2503571872313797,False
+2537413,eng,Tom put his briefcase on the floor next to his desk.,audit,Finnish,0.5277393925892965,Turkish,0.27958252518702975,False
+6872927,eng,I'm going to be thirty in October.,audit,Turkish,0.5807296302174998,Basque,0.19667575318145594,False
+6226558,eng,Tom told Mary that he didn't think John was heartbroken.,audit,Finnish,0.44549676053110365,Turkish,0.2634902335117838,False
+6649090,eng,Tom said that he thought that he'd be able to do that on Monday.,audit,Finnish,0.484439771873111,Basque,0.22601707445572738,False
+6793051,eng,Have you already packed your suitcase?,audit,Turkish,0.5684696783882615,Finnish,0.1270632083500989,False
+6229378,eng,I don't think Tom is strong.,audit,Finnish,0.5199246012220287,Turkish,0.2853678879560934,False
+8318993,eng,He hates pizza.,audit,Basque,0.4491823405978547,Swahili,0.17416780098154713,False
+6253053,eng,Tom said that'll likely happen soon.,audit,Finnish,0.7375441871865117,Turkish,0.16766239456752738,True
+9093752,eng,Do you want to do something different?,audit,Basque,0.4503842102764865,Turkish,0.234726745626289,False
+2258098,eng,"After he said it, he was ashamed.",audit,Swahili,0.3541086815881116,Basque,0.1965292779914619,False
+19022,eng,The professor's speech was full of humor.,audit,Finnish,0.3809727634916131,Turkish,0.2727484754780903,False
+2875743,eng,She noticed a change.,audit,Swahili,0.5588880454331471,Turkish,0.13445472431982614,False
+1028635,eng,Tom hopes that Mary will help him.,audit,Finnish,0.35482134369530427,Turkish,0.3403416087276415,False
+792738,eng,I've boldfaced the articles that I found interesting.,audit,Turkish,0.5075253378471684,Basque,0.23377894557365933,False
+3361921,eng,For very long videos you have to choose the first few minutes.,audit,Finnish,0.44509704174160447,Turkish,0.39567527071948444,False
+12817809,eng,Gold is heavier than lead.,audit,Basque,0.34424166778564896,Finnish,0.3383274292471429,False
+6653671,eng,Tom said that he hopes that happens before he retires.,audit,Finnish,0.40102616003026,Basque,0.29731824467266665,False
+308185,eng,Have you heard her speaking English?,audit,Turkish,0.3741643916541611,Swahili,0.21166823315207753,False
+13361051,eng,I used a lambic ferment to capture some really funky flavours.,audit,Turkish,0.5232868446613462,Finnish,0.2224227088582762,False
+73814,eng,"""Was Bill in Japan?"" ""Yes, he was.""",audit,Swahili,0.5335649400849892,Turkish,0.2129243590699416,False
+3153775,eng,Maybe I gave Tom the wrong advice.,audit,Turkish,0.7677259090860984,Swahili,0.07675969944013453,True
+11857327,eng,Jamin's graceful posture and confident demeanor enhance her natural beauty.,audit,Basque,0.6358776154790898,Turkish,0.2648756790292582,True
+6713802,eng,Sami was caught at a hospital pretending to be a doctor.,audit,Basque,0.4876612472158611,Swahili,0.2036691212733273,False
+3638940,eng,"Stout fellow you are, bro!",audit,Finnish,0.3497698951428796,Basque,0.24969018507369842,False
+11369816,eng,Ziri goes fishing.,audit,Basque,0.4166959432306484,Swahili,0.2130282254005575,False
+12915154,eng,He regretted trasferring to that school.,audit,Basque,0.45261112385506064,Finnish,0.33826002015262197,False
+3204516,eng,I told them they could do whatever they wanted.,audit,Turkish,0.4546222685950567,Finnish,0.23227042286993785,False
+7504385,eng,I didn't know you were supposed to do that by yourselves.,audit,Turkish,0.49841105807827335,Finnish,0.210446710430539,False
+10465379,eng,Not all people from England like fish and chips.,audit,Turkish,0.30403133673484095,Finnish,0.3025690805747339,False
+11755047,eng,You don't have the right to read my letter.,audit,Turkish,0.38969733723254185,Finnish,0.37119325281384485,False
+3327118,eng,Your bag's open.,audit,Basque,0.3635609953124192,Turkish,0.3129880707035773,False
+7437373,eng,Tom and Mary said they were very rich.,audit,Turkish,0.8283879035518877,Swahili,0.04835170240823722,True
+10472675,eng,The city council doesn't fund it.,audit,Turkish,0.42768964637410994,Finnish,0.2174947491232326,False
+6651791,eng,Tom said that he was happy to see you.,audit,Finnish,0.5760566743110487,Turkish,0.1737622158203673,False
+8850996,eng,What do they need to buy?,audit,Turkish,0.355893248913598,Basque,0.2771547854701582,False
+7222684,eng,There's a chance Tom might try to kill himself again.,audit,Turkish,0.4202929240075624,Finnish,0.3765502192329332,False
+8892796,eng,Water is the basis for all life.,audit,Turkish,0.36410929220528787,Finnish,0.23064788360477112,False
+6873832,eng,Tom must have been hesitant to do that.,audit,Finnish,0.5682064873370685,Basque,0.2856092719315708,False
+9252257,eng,"Tom isn't a psychiatrist, is he?",audit,Finnish,0.4672802434842117,Turkish,0.2654248118858034,False
+5736488,eng,The challenges are mounting.,audit,Finnish,0.37556982316899107,Basque,0.20453812653540052,False
+7513994,eng,I know Tom isn't going to do that anymore.,audit,Finnish,0.42857187840362065,Turkish,0.2317550643869601,False
+13140505,eng,This made him look bad.,audit,Turkish,0.4108630264604528,Swahili,0.231671735963444,False
+18805,eng,"In case of an emergency, get in touch with my agent right away.",audit,Turkish,0.32227487761254325,Finnish,0.31860968908252113,False
+7443040,eng,They know that they're in trouble.,audit,Finnish,0.5909898984387516,Turkish,0.21356145140942007,False
+410776,eng,Those are my pants.,audit,Finnish,0.43995576932004016,Turkish,0.1965789625528036,False
+2891854,eng,Somebody's going to pay.,audit,Turkish,0.41415983340985807,Finnish,0.26813838268436735,False
+2958367,eng,Tom tossed the rotten apple into the garbage can.,audit,Finnish,0.46205121302456337,Turkish,0.350461123425036,False
+13712941,eng,"The small fox leapt gracefully over the fallen log, disappearing into the misty forest.",audit,Finnish,0.5754577942911634,Turkish,0.26435202633447896,False
+8332084,eng,Tchaikovsky's mother died from cholera when he was fourteen.,audit,Basque,0.3728863778917032,Finnish,0.24265781668282735,False
+11847353,eng,Miroslav got four thousand dinars.,audit,Basque,0.39233976226887396,Turkish,0.28842337005663765,False
+12026655,eng,Today is the last day of work.,audit,Turkish,0.3140939015463675,Finnish,0.2477314924297708,False
+471325,eng,"To the best of my knowledge, she hasn't left yet.",audit,Finnish,0.4314709530998717,Turkish,0.3222824413920556,False
+6491065,eng,Tom and Mary didn't tell me they'd already done that.,audit,Turkish,0.7200358269717445,Basque,0.1254575597242421,True
+7512850,eng,Tom is only pretending he can't understand.,audit,Turkish,0.7530617560428866,Finnish,0.11320283428141914,True
+7391643,eng,He wants to go and see his father.,audit,Finnish,0.30245575027284455,Swahili,0.2298870698148446,False
+7537718,eng,I didn't know Tom lived in the dormitory.,audit,Turkish,0.6036080350610887,Finnish,0.3047847515229529,False
+1778871,eng,He's done it in the past.,audit,Finnish,0.6538647439877295,Basque,0.14289794229477873,True
+9463108,eng,Yanni lives at the farm.,audit,Finnish,0.4340577817126808,Turkish,0.24389843494173458,False
+9807539,eng,How many times have you seen Tom do that?,audit,Finnish,0.47423204230995214,Turkish,0.3183006861453343,False
+12885749,eng,"I don't want to see you in tears, wipe your tears away to avoid making me feel sad.",audit,Finnish,0.35739631928416343,Turkish,0.33769181495753176,False
+3734135,eng,I forgot just how fun you are to hang out with.,audit,Finnish,0.3604263757762345,Basque,0.28123965697790687,False
+4482385,eng,I don't think Tom is as stupid as he looks.,audit,Finnish,0.7343569540072468,Turkish,0.10859704961481435,True
+11793371,eng,Santiago shouldn’t use Rima’s toothbrush.,audit,Finnish,0.6116711270913147,Basque,0.15372530888885375,False
+5293039,eng,The sand was so hot that it burned our feet.,audit,Basque,0.391274559904908,Finnish,0.33849832553147996,False
+2570963,eng,The letters A.E.I.O.U assist us to know how to read words.,audit,Finnish,0.6766235398776078,Basque,0.13932070407344105,True
+10193669,eng,What does this woman want?,audit,Swahili,0.4595089696233314,Finnish,0.24394953154495425,False
+5901255,eng,Do we have everything we need?,audit,Turkish,0.39692827033017797,Swahili,0.21000234438333298,False
+12008516,eng,I've got a lot of those.,audit,Finnish,0.5009618264574773,Basque,0.17686193622031154,False
+12755067,eng,He has many outstanding tickets.,audit,Finnish,0.6425006241419358,Swahili,0.11989619135224357,True
+7299402,eng,Sami thinks that emotional cheating is as serious as physical cheating.,audit,Finnish,0.6573487790799855,Swahili,0.18909184018601907,True
+4493919,eng,Three of them were hospitalized.,audit,Basque,0.2886833054432907,Finnish,0.2695059440465631,False
+6257663,eng,How was the picnic last weekend?,audit,Swahili,0.5697659955280472,Finnish,0.21370597380515183,False
+11821562,eng,Tea's ready.,audit,Basque,0.3251293373151328,Turkish,0.2551005116060495,False
+12647767,eng,Ziri had the biggest crush on Emma.,audit,Basque,0.36809696055748503,Turkish,0.3259517153413447,False
+11013577,eng,Have you got any idea who would do something like that?,audit,Swahili,0.4029470319994735,Basque,0.1905054208283493,False
+304772,eng,"He is my neighbor, but I don't know him well.",audit,Turkish,0.48503923174819813,Swahili,0.17688093176732078,False
+6074474,eng,Tom has a tendency to forget things.,audit,Turkish,0.4136629083581009,Finnish,0.26447376020254343,False
+8519724,eng,She didn't seem to want to talk to him.,audit,Finnish,0.49206307667593024,Turkish,0.2655720795119997,False
+12930611,eng,"Tom started to misbehave, and he lost all his friends.",audit,Finnish,0.41919290670969844,Turkish,0.29877719250301016,False
+3750874,eng,What a peculiar contraption! What on earth is that for?,audit,Finnish,0.362930851289047,Basque,0.3266642204411282,False
+301139,eng,He had to master a lot of new information and spend some time in different parts of the country.,audit,Finnish,0.42257814022644413,Turkish,0.3460372465723907,False
+5854941,eng,The body digests wheat more easily than other carbohydrates.,audit,Basque,0.44935285788619034,Turkish,0.2540245261794625,False
+12812908,eng,What's a habit you'd like to break?,audit,Swahili,0.2999706124002801,Basque,0.2516568339673406,False
+9735668,eng,Yanni and Skura soon became inseparable.,audit,Turkish,0.40301173606016377,Finnish,0.23464502829170897,False
+6257839,eng,Tom should've come to the meeting.,audit,Finnish,0.4945729803790512,Turkish,0.4072245894009535,False
+2258224,eng,Everything she does shows that she has character.,audit,Finnish,0.2520766523476435,Swahili,0.22604622940517397,False
+3313083,eng,We still have time to evacuate.,audit,Finnish,0.580517847648027,Turkish,0.2232341985825263,False
+10855128,eng,Here is the map of Canada.,audit,Turkish,0.3738868732472468,Swahili,0.20452818802297695,False
+6416974,eng,Mary said she thought I should study French.,audit,Turkish,0.3273174305438293,Finnish,0.2711417510219871,False
+7471042,eng,Tom and Mary have said that they won't do that.,audit,Finnish,0.3203896498112354,Turkish,0.30214351201170553,False
+6505127,eng,I didn't know Tom and Mary were such good singers.,audit,Turkish,0.7429500263365619,Basque,0.10433937550279757,True
+7176710,eng,Tom said that you were late this morning.,audit,Turkish,0.33854605896984197,Finnish,0.3086079421575665,False
+5234891,eng,I refuse to respond to that.,audit,Finnish,0.44672338549312013,Basque,0.2630123634018964,False
+13300424,eng,Has everyone gone crazy in this country?,audit,Turkish,0.5633357449638152,Basque,0.16962283193483507,False
+11180140,eng,Which restaurant chain do you like?,audit,Basque,0.37006649745081116,Swahili,0.25954518620558925,False
+6254824,eng,Tom said Mary thought he might want to do that by himself.,audit,Finnish,0.425825747056899,Turkish,0.22943646217360278,False
+8396922,eng,The Quran is not a book of science. It's a book of signs.,audit,Finnish,0.4078039038389541,Turkish,0.251589758993155,False
+8713600,eng,NASA astronaut Chris Cassidy is on his third spaceflight and is in command of the orbiting lab.,audit,Finnish,0.43412278692763784,Turkish,0.2783032009304999,False
+10055127,eng,Footsteps could be heard approaching in the dark.,audit,Turkish,0.33650333323215736,Basque,0.3115086010172232,False
+263703,eng,An accident delayed us for half an hour.,audit,Turkish,0.48722767585799986,Basque,0.32390236058619126,False
+11377162,eng,I was around.,audit,Swahili,0.5687514056744811,Basque,0.13488846699204263,False
+12171265,eng,Are you going to talk with them?,audit,Finnish,0.3915774727937619,Turkish,0.217957759357494,False
+7146261,eng,Sami wasn't home for six nights.,audit,Finnish,0.3092925764832388,Swahili,0.3068013849763494,False
+1655490,eng,They bought a home with a pool.,audit,Finnish,0.3697859664073902,Swahili,0.2703526579388434,False
+7734321,eng,I'm grateful for everything you've done for us.,audit,Turkish,0.7641786212617391,Basque,0.11516715848754604,True
+11969027,eng,Gabor pulled the covers over his head.,audit,Turkish,0.5247966843454027,Finnish,0.24819951910097512,False
+6347788,eng,"If you need me to do that, I will.",audit,Finnish,0.3601748140399379,Turkish,0.27490262951261907,False
+10088318,eng,Algeria is part of the Muslim world.,audit,Turkish,0.4845970421255855,Finnish,0.2134562560936945,False
+5734669,eng,Tom set up a clinic in Boston.,audit,Turkish,0.4692080913393091,Finnish,0.3829406542262686,False
+10503859,eng,No one will try to stop you.,audit,Finnish,0.6001039309227213,Turkish,0.24408335649149718,False
+2796991,eng,Tom took over the family business.,audit,Turkish,0.5307079447292622,Finnish,0.38720697516731994,False
+7117887,eng,"You're the only one who passed the test, aren't you?",audit,Finnish,0.48198143586426884,Turkish,0.3307539306048147,False
+49617,eng,The blow made me see stars.,audit,Turkish,0.5095859275243769,Finnish,0.29611016402352675,False
+11152315,eng,We are dependent on Russian gas.,audit,Basque,0.49037137853160645,Turkish,0.26027778743507746,False
+12993786,eng,He pulled my leg.,audit,Finnish,0.3753503164611451,Turkish,0.28699432135497804,False
+8369702,eng,That fascinated Tom.,audit,Finnish,0.4068302980842765,Turkish,0.25140894778959777,False
+12586843,eng,They're accustomed to having better facilities than they have here.,audit,Turkish,0.49195439344548886,Finnish,0.29730075246449544,False
+7585564,eng,His girlfriend wants to go for a walk this morning.,audit,Swahili,0.39075032710793556,Turkish,0.26760333589899077,False
+12772997,eng,Time is a fleeting combination of memory and hope.,audit,Finnish,0.36275067714869885,Turkish,0.3525854967059074,False
+2960937,eng,Tom can read and write.,audit,Turkish,0.41227856266524165,Basque,0.30879091337651976,False
+6527153,eng,"Tom and Mary are both angry at me, aren't they?",audit,Turkish,0.5626787058671482,Basque,0.25569692217637263,False
+10698275,eng,"If the art of the detective began and ended in reasoning from an arm-chair, my brother would be the greatest criminal agent that ever lived.",audit,Turkish,0.48027665375087497,Basque,0.36501291367500777,False
+10511193,eng,I'm going to fail this class.,audit,Finnish,0.34129268276802893,Turkish,0.2511367297683766,False
+7520382,eng,Tom took care of our children.,audit,Turkish,0.6742907117421066,Basque,0.12601478086760456,True
+12474625,eng,Z is the last letter of the alphabet.,audit,Finnish,0.5267351588966911,Basque,0.23263610295140083,False
+12857754,eng,He has a private airplane.,audit,Basque,0.30341769580499234,Finnish,0.2933213377181664,False
+10667226,eng,What do you need school for when you have the Internet?,audit,Turkish,0.37530313203022997,Finnish,0.25347429607253696,False
+9954945,eng,You always say too much.,audit,Swahili,0.43060660358478275,Finnish,0.2541639713669776,False
+7398115,eng,She told me that she'd stay home.,audit,Finnish,0.5658884279754423,Turkish,0.2320193567713109,False
+3977475,eng,Which is your biggest problem?,audit,Turkish,0.50654679095055,Basque,0.15445644282229498,False
+8160369,eng,I found a strange object in the cornfield.,audit,Turkish,0.46383715657580016,Finnish,0.26046320310212095,False
+9229919,eng,Let's not tell anyone else about this.,audit,Finnish,0.7212011066914646,Turkish,0.13342133896434355,True
+6344894,eng,I wouldn't say anything if I were you.,audit,Swahili,0.4263547103306074,Turkish,0.335628270100926,False
+10545359,eng,There's a lot I would do if I had the money.,audit,Turkish,0.33935697834381956,Finnish,0.24642583172692797,False
+2155282,eng,Groups are a good way to share an interest with a small community or the whole world.,audit,Turkish,0.3428165815823019,Finnish,0.2689818524147992,False
+8658144,eng,We are closed until further notice.,audit,Turkish,0.5073884626438627,Basque,0.23673034766740622,False
+5938147,eng,I've never had a girlfriend.,audit,Turkish,0.7882848391140055,Basque,0.15696300519374765,True
+11665189,eng,That happened way before you were born.,audit,Turkish,0.45462727748922754,Basque,0.3004292040033305,False
+8390463,eng,What do you think your greatest strength is as a police detective?,audit,Basque,0.39543414929892234,Turkish,0.28649787529325316,False
+6244008,eng,Tom probably doesn't know why I did that.,audit,Turkish,0.4598987150826251,Basque,0.25430107535894764,False
+7991960,eng,Sami has an addictive personality.,audit,Finnish,0.4339284535977116,Swahili,0.2249922898691839,False
+9638239,eng,I kissed her on the lips.,audit,Finnish,0.718880094467651,Turkish,0.18245941129917936,True
+6337726,eng,I didn't know Tom was planning on doing that today.,audit,Finnish,0.4958994886250896,Turkish,0.20792541845237766,False
+1527607,eng,Tom turned on the tap.,audit,Finnish,0.6840405164956411,Turkish,0.2257372121677205,True
+2033586,eng,I want to speak to my lawyer now.,audit,Swahili,0.34295426765876347,Finnish,0.2961986497080837,False
+9714185,eng,What did you do while you were in Boston?,audit,Turkish,0.4004161872270658,Basque,0.32321539180778763,False
+266423,eng,How about going to a disco this weekend?,audit,Basque,0.406574692048094,Swahili,0.26387362252140734,False
+8351475,eng,Tom was told to go with Mary.,audit,Turkish,0.3618872695710121,Finnish,0.24105944350838154,False
+8585250,eng,It's good that you came.,audit,Finnish,0.40517222598102615,Basque,0.18570323128502475,False
+7506352,eng,I didn't know that Tom told Mary he couldn't do that.,audit,Turkish,0.36976591501452444,Finnish,0.3473940623220307,False
+5551884,eng,Tom named his puppy Cookie.,audit,Finnish,0.35880512316856883,Turkish,0.30867037947411885,False
+10061262,eng,He works from 9 to 5:30.,audit,Turkish,0.3193556404140601,Finnish,0.2048986789943812,False
+309643,eng,I'm going to go through with it in spite of her opposition.,audit,Finnish,0.651865002420212,Basque,0.1717455211656419,True
+10579805,eng,The wind is getting up.,audit,Finnish,0.3273491044298059,Turkish,0.25885786518782294,False
+3023642,eng,"Tom is in his room, packing a suitcase.",audit,Finnish,0.5276768612482877,Turkish,0.23662787042442449,False
+4305638,eng,I have a stand-alone personal computer.,audit,Turkish,0.31375915066795146,Finnish,0.30731134878330246,False
+10579814,eng,"We are friends, aren't we?",audit,Basque,0.46477077151945706,Turkish,0.297676439566346,False
+3989577,eng,Dan didn't even go upstairs.,audit,Basque,0.6121849837157511,Turkish,0.22886092350873066,False
+1788407,eng,I wanted to add Mary as a friend on Facebook.,audit,Turkish,0.3833384537431912,Basque,0.26542909888451466,False
+17451,eng,I refuse to be treated like a slave by you.,audit,Turkish,0.6035421177637946,Basque,0.17693678391176523,False
+269807,eng,You must leave diagnosis to your doctor.,audit,Turkish,0.37892193109431893,Basque,0.3064074052565038,False
+10798026,eng,Let me ask Tom again.,audit,Finnish,0.4865725780849276,Basque,0.23474556687806455,False
+13235638,eng,Let's get back to the drawing board.,audit,Turkish,0.4515781057231122,Basque,0.3514141137869656,False
+6529031,eng,I went shopping after work yesterday.,audit,Turkish,0.39131117161130574,Basque,0.23452650501769234,False
+6254808,eng,It'll probably be fun to do that.,audit,Basque,0.34825797272425063,Turkish,0.29898386007205735,False
+4012976,eng,Do you think Tom knows how to do that?,audit,Finnish,0.4660019066860179,Turkish,0.16712526881233472,False
+9813020,eng,Yanni's marriage was based on love.,audit,Basque,0.30817773310692315,Turkish,0.24792592292396784,False
+3307541,eng,Do you have any pictures of Tom and Mary together?,audit,Turkish,0.6023993169921189,Finnish,0.14703062419260376,False
+2644140,eng,Do you have to do this now?,audit,Finnish,0.2316596744993509,Basque,0.19735006940849045,False
+10285401,eng,Dasha poured some sugar from one jar into another.,audit,Turkish,0.5622492823634317,Basque,0.24941156207692147,False
+12801628,eng,The masculine has value in grammar.,audit,Turkish,0.39050084200304447,Finnish,0.36186378798775587,False
+28305,eng,Mr Ito teaches history.,audit,Turkish,0.3099807999957824,Finnish,0.30432787432453384,False
+8578859,eng,Algeria provides a good case study.,audit,Basque,0.42053063742806573,Turkish,0.29438051562139694,False
+11792095,eng,Gambia is a country almost entirely enclaved within Senegal.,audit,Turkish,0.3446506561104046,Basque,0.2835886208459133,False
+7976423,eng,Sami said the cops were coming.,audit,Finnish,0.42371669718976906,Turkish,0.22332924197849985,False
+10803235,eng,Ziri has a yellow Lab.,audit,Swahili,0.459358851063035,Basque,0.1930150191935198,False
+27268,eng,Can you tell me where the nearest hotel service phone is?,audit,Turkish,0.42000481089437414,Finnish,0.3963544893143793,False
+10737825,eng,Tom didn't have the courage to break up with Mary.,audit,Turkish,0.4927354962564249,Basque,0.27240968442054314,False
+12033169,eng,Janos passed with his favorite people around him.,audit,Finnish,0.3735015589345692,Swahili,0.2803765625403802,False
+11751119,eng,Diego recalls all the details of that day.,audit,Basque,0.4358531518188398,Finnish,0.27276065526505694,False
+388608,eng,The fat woman was holding a monkey.,audit,Swahili,0.4760748796856554,Finnish,0.2520307643071576,False
+12946805,eng,He fell off the pony.,audit,Finnish,0.4250623909643779,Turkish,0.20631597135663257,False
+11573752,eng,The snow was falling so heavily that Mark couldn't see more than a few feet in front of him.,audit,Finnish,0.5496398258389761,Turkish,0.2063794932668392,False
+7186685,eng,I agreed to go to Australia.,audit,Basque,0.6777296348039132,Finnish,0.14727116952702857,True
+1682678,eng,This is not good at all.,audit,Finnish,0.47857670474609515,Basque,0.2262095892290319,False
+1868444,eng,Tom came at me with a knife in his hand.,audit,Swahili,0.4837268039550124,Turkish,0.2556751753357313,False
+71281,eng,Please phone me when you have settled down.,audit,Turkish,0.4240813881616941,Finnish,0.35007501699623006,False
+57775,eng,A sprain like this should heal within a week or so.,audit,Finnish,0.5434948709899753,Swahili,0.2319296236796375,False
+6659283,eng,Tom doesn't seem to be as courageous as Mary seems to be.,audit,Turkish,0.4397536509129284,Basque,0.27451758559909173,False
+2997153,eng,Does anyone else have any advice?,audit,Turkish,0.45930655905420587,Swahili,0.19637584855112836,False
+2938961,eng,Jesus was a capitalist.,audit,Swahili,0.6871684673511868,Finnish,0.16244895889888766,True
+5852954,eng,I hope someone comes to help us.,audit,Finnish,0.5146797275646542,Turkish,0.23619970106948054,False
+3927952,eng,Tom arrived on a boat.,audit,Basque,0.4987861053486883,Turkish,0.335168982695039,False
+10030682,eng,Yanni won't believe that.,audit,Turkish,0.3065747470308375,Finnish,0.29650220371866476,False
+1522975,eng,This is not true love.,audit,Finnish,0.5155286248225909,Basque,0.1374853458734004,False
+7337700,eng,Tom ruffled Mary's hair.,audit,Turkish,0.8781406513608983,Basque,0.036411886990881784,True
+9997853,eng,"""What kind of person was Tom?"" ""I'll put it this way: somebody who no one here misses.""",audit,Finnish,0.4815073536772938,Turkish,0.3071094897591238,False
+10206185,eng,Stacked inside the doorway to the right were jars of jam selling at half price.,audit,Finnish,0.38839258959377315,Turkish,0.32993292451764183,False
+9056058,eng,This region of Algeria is really hot and humid.,audit,Basque,0.3310018357065708,Finnish,0.2655618864679605,False
+7275818,eng,Sami might be over there.,audit,Turkish,0.4115411867977509,Finnish,0.3418810108719987,False
+2412505,eng,Tom and Mary danced with each other.,audit,Turkish,0.626410471288027,Basque,0.16566698911359112,True
+10080012,eng,Algeria should follow a similar path.,audit,Swahili,0.40090194542647073,Finnish,0.25946361457121486,False
+10142980,eng,That was a meaningless argument.,audit,Swahili,0.40798938665192586,Basque,0.33160910530460064,False
+3727916,eng,I have a hard time believing that.,audit,Turkish,0.35098429140229115,Swahili,0.28359349508233284,False
+5757556,eng,Tom knows business.,audit,Finnish,0.3913433349246621,Turkish,0.38176984854313717,False
+3144561,eng,I suggest you not talk so loud.,audit,Finnish,0.5195839771960578,Basque,0.22185180368156893,False
+10052402,eng,Yanni isn't supposed to answer this question.,audit,Finnish,0.6391699058149546,Turkish,0.1595878153026117,True
+6528825,eng,I didn't know it was so far to Boston.,audit,Basque,0.3257604334870876,Finnish,0.2823771963663611,False
+260800,eng,I am of the opinion that he will succeed.,audit,Finnish,0.653408249275795,Turkish,0.15789471495624782,True
+5799490,eng,The girl is right.,audit,Turkish,0.39434244871500423,Basque,0.16706885326762175,False
+5732829,eng,Tom doesn't believe in doctors.,audit,Turkish,0.7457762775226405,Basque,0.12821192566900108,True
+6574936,eng,Sami's statements were quite accurate.,audit,Basque,0.4785137662507972,Finnish,0.2745958600313861,False
+9370260,eng,I'm obsessed with this melody.,audit,Turkish,0.42771991711188206,Finnish,0.3347312954531627,False
+11591089,eng,"For her age, she's in good health.",audit,Turkish,0.3268958700507863,Basque,0.2798732599855725,False
+6129835,eng,Sami's life was changed for ever.,audit,Turkish,0.5364492951874988,Swahili,0.2536162836933024,False
+2865212,eng,Tom will not do it.,audit,Finnish,0.34248852524893714,Turkish,0.24325409006400603,False
+6474853,eng,Sami is still overcome with guilt.,audit,Finnish,0.6188027076366716,Turkish,0.24306057445122586,False
+6510319,eng,Tom and Mary tried to see if they could do that.,audit,Turkish,0.5922880061063213,Finnish,0.2071174262273608,False
+2269458,eng,Judge for yourself.,audit,Turkish,0.6407378471148647,Basque,0.11458400836792311,True
+4872645,eng,Let us cook dinner together!,audit,Finnish,0.31685555448338604,Turkish,0.3072814806115429,False
+6518820,eng,I think Tom and Mary are organized.,audit,Turkish,0.5746181871288563,Basque,0.28611045430460214,False
+12891471,eng,They wanted to know more about the accident.,audit,Finnish,0.3343699521986078,Turkish,0.2336473326758053,False
+11254912,eng,Ziri took one look at Rima and ran for her.,audit,Basque,0.39571360146063395,Turkish,0.2755677677875058,False
+6863276,eng,Tom gave me three hundred dollars.,audit,Turkish,0.7298711926986253,Finnish,0.10941299445025585,True
+10690885,eng,There's something more.,audit,Turkish,0.350327315841723,Finnish,0.31969608819406686,False
+46135,eng,The umpire was partial to the team from his country.,audit,Finnish,0.3696492142513958,Turkish,0.31267315320324046,False
+11926886,eng,Are you sightseeing?,audit,Finnish,0.3174931195242172,Turkish,0.29691179618857866,False
+6695212,eng,"An injury like this should hurt, but it doesn't at all, for some reason.",audit,Finnish,0.4853137444341852,Basque,0.2901827126635146,False
+11368840,eng,The shopping bag that they brought was too small.,audit,Finnish,0.5987787850616153,Swahili,0.15866760033647634,False
+11069268,eng,Dr. Jackson loses a suspicious number of patients.,audit,Finnish,0.5468895213609944,Basque,0.1923203853127287,False
+5104518,eng,I saw a doctor this morning.,audit,Swahili,0.3182217378946908,Turkish,0.271364563342682,False
+5482630,eng,They named their son Tom.,audit,Turkish,0.4477922721607513,Finnish,0.4458422136441821,False
+9788081,eng,These figs are absolutely delicious.,audit,Turkish,0.3871081136996223,Basque,0.28572610227717077,False
+8988075,eng,They're very sick.,audit,Turkish,0.7791590664451449,Finnish,0.07344201658839954,True
+5747834,eng,Tom has agreed to speak.,audit,Basque,0.330781956402271,Turkish,0.30827220836111585,False
+10139106,eng,What are Algeria's economic strengths?,audit,Basque,0.5047662922010808,Turkish,0.23808737735440466,False
+971744,eng,Scotland has set itself on a course to obtain independence from London.,audit,Turkish,0.4106263342098183,Finnish,0.3947907085051818,False
+8381120,eng,Tom isn't the only one that knows where Mary is.,audit,Finnish,0.467494627648999,Turkish,0.40066202621523234,False
+2626950,eng,I would have wanted to be a famous soccer player.,audit,Turkish,0.5681293197930999,Swahili,0.22761207135049036,False
+302928,eng,He cried out and ran away.,audit,Basque,0.2859608705154612,Finnish,0.2348080825926353,False
+3738857,eng,Isn't today your birthday?,audit,Turkish,0.8295527903030825,Basque,0.058951401302976006,True
+516345,eng,I'd rather stay than go.,audit,Finnish,0.37472426035410866,Turkish,0.2572583781246999,False
+281344,eng,Japanese houses are small.,audit,Finnish,0.3767555122112384,Basque,0.23061001241121187,False
+6229076,eng,I lied to Tom when I said I didn't know how to do that.,audit,Finnish,0.4085710234541215,Basque,0.22642486702424047,False
+3557851,eng,This woman is not from Syria.,audit,Finnish,0.4357694255415655,Turkish,0.25335931264501005,False
+6531108,eng,I might play tennis tomorrow.,audit,Finnish,0.6067640999038536,Turkish,0.19479509183736438,False
+8305566,eng,"If she didn't act like that, we could have done a better job.",audit,Turkish,0.3681958377406047,Basque,0.3294154265357919,False
+7403111,eng,He looks like he's excited.,audit,Finnish,0.5232446711072574,Basque,0.15508890629200794,False
+1029173,eng,"Tom doesn't know anything about Mary, other than her name.",audit,Finnish,0.420402791352245,Turkish,0.2589532622204526,False
+8988909,eng,Is he done?,audit,Turkish,0.18505822946365458,Basque,0.1846504468569508,False
+3370905,eng,Please try to be as brief as possible.,audit,Finnish,0.31941839046046216,Turkish,0.27555275511929406,False
+1357052,eng,Think about it!,audit,Finnish,0.44103171233899835,Basque,0.2948762277341045,False
+11679217,eng,Bruno tried to open the door to the bridge.,audit,Finnish,0.33003570610988264,Turkish,0.320300494288287,False
+5937426,eng,You always seem to be in a hurry.,audit,Turkish,0.5621112994705676,Finnish,0.1638738272710233,False
+8251169,eng,A ruffled mind makes a restless pillow.,audit,Finnish,0.39092569841466357,Turkish,0.2570827260584459,False
+3416920,eng,"Tom is still in high school, isn't he?",audit,Finnish,0.6351603351186671,Turkish,0.25174456231868136,True
+7329136,eng,Sami does anything he wants to do in life.,audit,Finnish,0.471172697415198,Swahili,0.24111640001413107,False
+10041222,eng,Yanni has such a neck for throwing parties.,audit,Swahili,0.44592033900029837,Turkish,0.19045475208823592,False
+11959068,eng,Boldi decided to take Martha back home.,audit,Turkish,0.6097515208416371,Basque,0.22467787017345328,False
+1817400,eng,He invited Mary and her sister Jane to a party.,audit,Turkish,0.4654762315381048,Basque,0.2344686230624329,False
+6682096,eng,He's full of it.,audit,Finnish,0.36311021128223564,Turkish,0.18197969421934918,False
+6271863,eng,I don't drink red wine.,audit,Turkish,0.38653916141199424,Basque,0.3361054265126132,False
+6246442,eng,I want to do that before it gets dark.,audit,Basque,0.7912706707501819,Turkish,0.08642346710253518,True
+12916373,eng,And if she doesn't want to speak to me?,audit,Finnish,0.39027790358677267,Basque,0.21370883108937955,False
+6909429,eng,Who did you give your phone to?,audit,Turkish,0.537996352649594,Basque,0.1773811573900257,False
+6892676,eng,This cod brand is too garlicky.,audit,Turkish,0.5046435991899343,Finnish,0.14832097283036677,False
+11631828,eng,Gunter is not a fan of snow.,audit,Finnish,0.29830905111904377,Basque,0.28839016520356275,False
+3491324,eng,I feel like I'm about to collapse.,audit,Finnish,0.5773503424891568,Turkish,0.2505389597446201,False
+11818923,eng,The highway became eerily quiet.,audit,Turkish,0.3923916942918574,Basque,0.19727046052375063,False
+4889945,eng,How did you learn to do that?,audit,Basque,0.5188433609371885,Finnish,0.18025707924282228,False
+7828823,eng,We adopted Tom when he was three.,audit,Turkish,0.29578490353486997,Finnish,0.27661739721295836,False
+9786840,eng,There are public showers in every neighborhood of Algiers.,audit,Turkish,0.5549793418505042,Basque,0.24528951382490166,False
+7182325,eng,Tom said that he isn't sure that Mary needs to do that.,audit,Finnish,0.46944022497932986,Basque,0.258286349824497,False
+9419544,eng,Tom often forgets to do things.,audit,Finnish,0.3802712151920026,Basque,0.26914491147374553,False
+9136097,eng,Yanni showed the threatening letter to the principal.,audit,Finnish,0.6093735567293384,Turkish,0.17917326880230025,False
+7248945,eng,Sami wants to take psychology.,audit,Finnish,0.5524580700382488,Swahili,0.30592516949529014,False
+10111847,eng,Quite a few people don't like Tom.,audit,Finnish,0.3670875069634119,Turkish,0.3378017428991189,False
+6514799,eng,It looks like Tom and Mary are excited.,audit,Turkish,0.48026144375702473,Basque,0.2377070047070299,False
+6810186,eng,Sami has just been to the mechanic.,audit,Finnish,0.6660125422665559,Swahili,0.14384446605031825,True
+12300761,eng,Knowledge is inseparable from conscience.,audit,Turkish,0.7487494566280577,Finnish,0.0861715165725745,True
+3028950,eng,"After Tom was punched in the face, the doctor ordered that two x-ray images be taken – a frontal view and a lateral view – to check for broken facial bones.",audit,Turkish,0.5234755347437681,Basque,0.25770690080614184,False
+6424088,eng,Mary looked like she was surprised.,audit,Turkish,0.41517697708216245,Finnish,0.2515250711458126,False
+2647587,eng,They were all happy.,audit,Turkish,0.3509554923315178,Swahili,0.21146024955534093,False
+7379373,eng,Mary told everyone she was fine.,audit,Turkish,0.7265235403178908,Finnish,0.10354328315871845,True
+6354428,eng,I don't think Tom knows who taught Mary French.,audit,Finnish,0.35052242656077254,Turkish,0.29411338961942085,False
+10036548,eng,It's a pity you didn't come with us.,audit,Finnish,0.34619295868378197,Turkish,0.2545522157868166,False
+3723731,eng,The cat's already out of the bag.,audit,Finnish,0.3371551686110015,Basque,0.23731745372884194,False
+1513218,eng,"He's young, maybe too young.",audit,Turkish,0.4740689566883482,Finnish,0.1883958091670826,False
+8547983,eng,I don't think that Tom would notice that.,audit,Finnish,0.57129839940246,Turkish,0.16221355191324618,False
+6356301,eng,I went to Boston alone.,audit,Finnish,0.6225513538288742,Basque,0.18928257915208524,False
+251353,eng,My grandfather is so fond of reading that not a day passes in which he doesn't open a book.,audit,Basque,0.3655556145913729,Turkish,0.2906125320581368,False
+11850459,eng,Oleg’s cigarette lighter fell to the floor.,audit,Turkish,0.4237905771114585,Finnish,0.32114120566039195,False
+3924531,eng,Tom was wounded by a bullet in the neck.,audit,Turkish,0.6702457694420165,Finnish,0.15412063484079908,True
+12358896,eng,The fact that you believe such a thing exists says more about you than you're aware.,audit,Finnish,0.3373731503338278,Turkish,0.3077304207918151,False
+7137764,eng,I can't afford to do this.,audit,Turkish,0.2929640652671376,Basque,0.21721358438803826,False
+8146018,eng,Berber is taught in many schools in Algeria.,audit,Turkish,0.34986995161263623,Finnish,0.29046564512874556,False
+10451028,eng,I wrote to my teacher in French.,audit,Turkish,0.4474062385554117,Finnish,0.19827596413918633,False
+9400891,eng,I went in the old house.,audit,Finnish,0.7398088617008148,Turkish,0.09422720533948296,True
+6491100,eng,Tom and Mary can't find anyone to help them.,audit,Turkish,0.7077582865846198,Finnish,0.15127341931054053,True
+9148019,eng,The restaurant is two hundred meters from my office.,audit,Turkish,0.5242353507521348,Finnish,0.24174384509580696,False
+7520657,eng,Everyone knew that except Tom.,audit,Turkish,0.5552031334957215,Finnish,0.2815927881361635,False
+8388454,eng,"An old expression states ""He sold a flourishing garden for an old plot.""",audit,Turkish,0.34720625235895897,Finnish,0.3359025016281732,False
+9373044,eng,Tom has the same kind of dog that Mary does.,audit,Turkish,0.37094252505480174,Finnish,0.2853590568486527,False
+7398610,eng,She said that she was very lucky.,audit,Finnish,0.38080632667687714,Swahili,0.22344917209351467,False
+247812,eng,We alternated two hours of work and ten minutes of rest.,audit,Finnish,0.3907920321241571,Basque,0.3881734507158148,False
+11744113,eng,Carlos admitted to adultery.,audit,Turkish,0.39052493294536034,Finnish,0.2595185954336199,False
+6712673,eng,There are different painting techniques; I particularly prefer oil paintings from Velázquez to those from Goya.,audit,Turkish,0.4509027300012161,Basque,0.3241325853565666,False
+8222795,eng,Algeria has iron mines.,audit,Finnish,0.3924283769487426,Basque,0.2974355570737987,False
+3904606,eng,I don't want him to come.,audit,Finnish,0.26710349034950825,Turkish,0.26057325254272706,False
+5337905,eng,Take my handkerchief.,audit,Swahili,0.35237411558284065,Turkish,0.2502343345482457,False
+4497735,eng,Do we have a contingency plan?,audit,Swahili,0.45783130410199774,Turkish,0.2092605343689464,False
+8400311,eng,I've seen three wars.,audit,Turkish,0.4103520673355269,Finnish,0.34646718587535924,False
+5884133,eng,The Paris Agreement aims to limit the rise in global temperature to less than 2 degrees Celsius.,audit,Finnish,0.6166682544355468,Basque,0.21560223704108084,False
+1201631,eng,We may be short of chairs.,audit,Turkish,0.41949206484476237,Swahili,0.24078121201735406,False
+7513065,eng,I know that Tom knows he shouldn't do that.,audit,Finnish,0.5778808655529281,Turkish,0.11926513305471109,False
+11638857,eng,Karl walked over to Rima and gave her a swift kick.,audit,Turkish,0.5949395542263187,Swahili,0.22642544695290903,False
+5852495,eng,Both men were executed.,audit,Basque,0.4311477705225956,Turkish,0.3055258853567614,False
+11441024,eng,Ziri's legs struggled to hold up the rest of his body.,audit,Turkish,0.4094890806274684,Basque,0.2642893979949559,False
+11844346,eng,The Vandals entered North Africa in 428 A.D.,audit,Basque,0.36184099979835055,Turkish,0.32566797456804203,False
+7141144,eng,Sami wanted to bribe the judge.,audit,Turkish,0.2643089101729917,Finnish,0.23457526384122251,False
+11906933,eng,Are you in trouble again?,audit,Turkish,0.3645487258491926,Basque,0.299591094246121,False
+12268062,eng,I'd welcome the opportunity.,audit,Finnish,0.38483353076662447,Turkish,0.31421110237595556,False
+8581497,eng,"Up until the time Tom arrived, everybody was having fun.",audit,Turkish,0.6294507251522222,Finnish,0.16906548190869908,True
+13921083,eng,I think I'll make myself a coffee.,audit,Turkish,0.3988680226089188,Finnish,0.3021304724821933,False
+10007978,eng,The burden of risk is too great.,audit,Turkish,0.45068128236862004,Basque,0.2726539688597762,False
+12468991,eng,Tom is my benefactor.,audit,Turkish,0.8515059759133623,Basque,0.04578359496864922,True
+11829161,eng,Ivan never talks to his siblings.,audit,Finnish,0.6616559179382275,Turkish,0.20803283494548816,True
+1887773,eng,I think we should leave Tom alone.,audit,Finnish,0.48651447857090074,Turkish,0.2709196555244312,False
+1158755,eng,Where is he going to settle down?,audit,Turkish,0.39075482631085884,Finnish,0.2952914766768434,False
+12925592,eng,Writing a love letter isn't easy.,audit,Finnish,0.4271460965585806,Turkish,0.24855336028967626,False
+4198160,eng,Shoot for the legs!,audit,Finnish,0.4012964659575563,Basque,0.178085687437137,False
+8566068,eng,Algeria is a massive economy.,audit,Turkish,0.3449984876418638,Swahili,0.28353166931705065,False
+6494316,eng,I thought Tom and Mary would be able to do what we asked them to do.,audit,Turkish,0.31621568689301277,Basque,0.3067410382875813,False
+1417457,eng,You did not answer my question.,audit,Basque,0.40795227487340957,Turkish,0.29557991390752003,False
+7402403,eng,"He isn't celebrating, is he?",audit,Turkish,0.4112078541230316,Finnish,0.24973677691408339,False
+12527507,eng,Tom doesn't know the difference between a house and a shack.,audit,Turkish,0.45607134777765984,Basque,0.3136786291834605,False
+1602341,eng,The buzzing of the bees makes me a little nervous.,audit,Finnish,0.38227257958880034,Turkish,0.2537945832825517,False
+8175203,eng,I think that I know where Tom put his keys.,audit,Finnish,0.6684397543277896,Turkish,0.13733202998188443,True
+68218,eng,That girl is certainly a hard worker.,audit,Turkish,0.5224429343458245,Basque,0.31831922689131686,False
+7231568,eng,I don't think Tom is a Canadian.,audit,Finnish,0.3450614314375873,Turkish,0.24166924782666938,False
+10812273,eng,John assembled the shelves.,audit,Finnish,0.4688473227394752,Turkish,0.2897189499819373,False
+6531198,eng,Tom is working hard on that.,audit,Finnish,0.3851742931829253,Turkish,0.32724848607202545,False
+6918863,eng,Tom wants to know what's going to happen.,audit,Finnish,0.43525807831638985,Swahili,0.30417294533440026,False
+11209828,eng,Ziri says he doesn't know what he saw.,audit,Swahili,0.2791923983201048,Finnish,0.27490580692934213,False
+6289356,eng,Hakan was fond of girls.,audit,Swahili,0.3717337575402332,Turkish,0.2328223594771778,False
+12436853,eng,Perhaps you don't love me anymore?,audit,Turkish,0.46812020835060597,Finnish,0.2473738447488191,False
+306169,eng,They left early to catch the first train.,audit,Finnish,0.4640137420726613,Turkish,0.26751679619553415,False
+12070259,eng,Welcome to game night.,audit,Turkish,0.28527687101910837,Swahili,0.19731702348523306,False
+3200327,eng,Tell Tom you're not ready.,audit,Turkish,0.6626864858384697,Finnish,0.21593378513715802,True
+1092663,eng,Tom took an overdose of sleeping pills.,audit,Finnish,0.7219638112703746,Turkish,0.22536139714271536,True
+7230538,eng,Sami clocked in six minutes after Layla.,audit,Finnish,0.5498646186853409,Turkish,0.2910266536589157,False
+6519247,eng,Tom and Mary are on their way to John's.,audit,Turkish,0.6370197866555849,Finnish,0.2039060132415439,True
+2245366,eng,Don't risk it.,audit,Finnish,0.29391388623167286,Basque,0.263426800155813,False
+13710262,eng,I watched a movie in the morning.,audit,Swahili,0.56636723006976,Finnish,0.18696865391040005,False
+6508726,eng,Tom and Mary look like they don't know what to do.,audit,Finnish,0.33664591760361207,Turkish,0.3298068897307083,False
+9139707,eng,I don't need you yet.,audit,Turkish,0.5979611520829977,Basque,0.14433854907734028,False
+7544815,eng,"You're old enough to take care of yourselves, aren't you?",audit,Turkish,0.590502858599451,Finnish,0.1842015237768315,False
+11957725,eng,"Interjections express a variety of feelings, such as joy, sorrow, surprise, pain, contempt and strong desire.",audit,Finnish,0.4512103149670689,Basque,0.27889317552894,False
+326149,eng,"The train was derailed, and panic ensued.",audit,Basque,0.5033850517556344,Turkish,0.18458194494214553,False
+4518831,eng,Butterflies can communicate using ultraviolet signals.,audit,Finnish,0.5387326485253355,Turkish,0.16742418175098925,False
+9839914,eng,You can invite anybody you like.,audit,Turkish,0.4124405869373107,Finnish,0.26669652918048037,False
+26776,eng,The children went to school in spite of the rain.,audit,Finnish,0.7563026483446063,Turkish,0.11386099652953155,True
+6530047,eng,Tom didn't want to be a designer.,audit,Turkish,0.4947765179696878,Basque,0.40947575956827,False
+4666628,eng,The fire has burned out.,audit,Basque,0.44054117721966174,Turkish,0.33557353131049245,False
+6437806,eng,Tom never used to walk anywhere.,audit,Turkish,0.6834321027901546,Basque,0.1325403398621014,True
+10730685,eng,I went shopping two times today.,audit,Finnish,0.4901103557457721,Swahili,0.25048919433215877,False
+8420082,eng,Tom is a notorious deadbeat.,audit,Basque,0.50142306490157,Turkish,0.24538648568763255,False
+10123778,eng,Most powerful is he who controls his own power.,audit,Finnish,0.40039506632247773,Swahili,0.17753867572301774,False
+10037410,eng,That isn't a word that I'd ever use.,audit,Turkish,0.34999195679436135,Basque,0.304965768643859,False
+3902430,eng,They sometimes help us.,audit,Finnish,0.5412627717648865,Turkish,0.2603687109907644,False
+11937854,eng,We're going nowhere.,audit,Basque,0.38131639824118374,Turkish,0.2395432598775709,False
+6239996,eng,Tom recommends that you not do that anymore.,audit,Finnish,0.38744074655006877,Turkish,0.29597417730886827,False
+260290,eng,I asked him if he would return soon.,audit,Turkish,0.4094970001804429,Finnish,0.2734689060775048,False
+10856685,eng,Write confidently.,audit,Turkish,0.4075310542929391,Basque,0.18467464050621532,False
+13617606,eng,Monkeys are crazy about bananas.,audit,Basque,0.40079847162130666,Turkish,0.2256476236210715,False
+2912003,eng,How many times have I told you not to talk to Tom?,audit,Finnish,0.6549527379798957,Turkish,0.20882491977940199,True
+6508674,eng,"Tom and Mary promised to do that, but they didn't.",audit,Turkish,0.5722111874698276,Basque,0.1889677253761274,False
+11603116,eng,I'm pretty sure that Tom's cough is due to smoking.,audit,Turkish,0.43191529436865483,Finnish,0.37944890937725545,False
+8382576,fra,Je veux juste que ça se passe bien.,audit,Turkish,0.3875046606977019,Finnish,0.24868969548331815,False
+459228,fra,Nous aimons jouer au football.,audit,Finnish,0.4200340309003604,Basque,0.30746221156478326,False
+1970556,fra,Je pense à toi en tant qu'amie.,audit,Finnish,0.8289047795902569,Turkish,0.061527322458149965,True
+1673296,fra,Je suis désolée au sujet de la nuit dernière.,audit,Basque,0.5154848149575594,Turkish,0.257628566330754,False
+8468106,fra,"Lorsque je porte des lentilles de contact, mes yeux sont secs et deviennent rouges.",audit,Finnish,0.36397383768112523,Basque,0.32932975083380817,False
+1079984,fra,Ce livre ne sert à rien.,audit,Turkish,0.45856630889469385,Basque,0.320154204388604,False
+13215553,fra,"Je sais jouer aux échecs, mais pas aux dames.",audit,Basque,0.35778469707608573,Swahili,0.24726451860135817,False
+12550151,fra,Ils se sont envolés vers Tawrirt Yighil.,audit,Finnish,0.4369319505729271,Turkish,0.4171082119526853,False
+1311827,fra,Vous êtes jeunes.,audit,Finnish,0.4923808005907468,Basque,0.14418954682643226,False
+12878102,fra,Tu devrais prendre le lait caillé.,audit,Basque,0.5878699185915106,Turkish,0.1803943474387597,False
+12089072,fra,Elle a trouvé une solution.,audit,Finnish,0.7527966894072414,Turkish,0.1122585313214746,True
+5688273,fra,Je ne me souviens plus du nom de ce mec.,audit,Turkish,0.6564886013090735,Finnish,0.11792856492662128,True
+4492627,fra,Tu ne vas tout de même pas préparer de la nourriture avec ces mains sales.,audit,Basque,0.5137736081386631,Turkish,0.24897963207079998,False
+12846158,fra,Je ne comprends pas ces nouvelles règles.,audit,Turkish,0.38199514622686553,Finnish,0.31041840729524006,False
+5311655,fra,Êtes-vous sûre de ne pas vouloir venir ?,audit,Turkish,0.5739113084985573,Finnish,0.21556468878974114,False
+7133,fra,Je ne pouvais pas assister à la cérémonie.,audit,Finnish,0.5528723158552661,Basque,0.17035818694865978,False
+13917754,fra,Le Président fédéral de l'Allemagne n'a que des tâches représentatives.,audit,Turkish,0.5052035916881077,Basque,0.28119585768558586,False
+11343388,fra,J'ai les pieds entravés par la faiblesse.,audit,Finnish,0.3345510638658319,Basque,0.3041217523043395,False
+1732741,fra,J'allais parcourir une dernière fois les notes mais il n'y eut pas le temps.,audit,Finnish,0.4467213536616604,Turkish,0.28141674466828837,False
+11497723,fra,J'ai beaucoup de poils sur les jambes.,audit,Basque,0.3726022366934581,Turkish,0.24864296523325147,False
+9986462,fra,L'infirmier autorisé a généralement un rôle plus administratif que l'infirmier auxiliaire autorisé.,audit,Turkish,0.33397568727709537,Basque,0.31243055316145796,False
+8656560,fra,Mon voisin est riche.,audit,Finnish,0.8800073781212621,Turkish,0.04513916945397489,True
+1231698,fra,Je répare la radio que j'ai trouvée sur le chemin vers chez moi.,audit,Turkish,0.4028473381455043,Finnish,0.276601019777832,False
+14004531,fra,Je ne cherche pas à vous blesser.,audit,Turkish,0.39849414809190886,Finnish,0.2398644870553887,False
+2200324,fra,Je pense que j'en ai pris un de trop.,audit,Finnish,0.39932644533563566,Turkish,0.25022627580805146,False
+5371033,fra,Tom sait que ça ne va pas marcher.,audit,Turkish,0.4984388300357956,Finnish,0.21212466575078848,False
+13660614,fra,"Demande au vent du soir Où commence le bonheur, Mais ne demande pas Pourquoi il se détruit parfois. Demande à la Lune d'argent Où vit l'amour, Mais ne lui demande pas Quand il se détruira.",audit,Turkish,0.5313623040365514,Basque,0.30293793143827297,False
+4897082,fra,Sérions les problèmes !,audit,Finnish,0.3780337522549091,Basque,0.17797836359055608,False
+14057969,fra,Mon portable doit être quelque part. L'as-tu vu ?,audit,Basque,0.44442619701309205,Finnish,0.31545175790792324,False
+5349424,fra,"Pour une fille de Paris, tu n’as guère d’ambition !",audit,Turkish,0.38625548164958257,Basque,0.3740163768708689,False
+12749814,fra,Le pont en bois craque sous le poids des pas.,audit,Finnish,0.5488665045147311,Basque,0.19501212415413888,False
+12840948,fra,Je suis resté chez elle pendant environ un an.,audit,Finnish,0.5280873394345587,Basque,0.2361278840053193,False
+1147937,fra,Les projets open source sont le futur de l'informatique.,audit,Finnish,0.3918146973535025,Turkish,0.3264855544599806,False
+5909076,fra,Je ne me trompe jamais.,audit,Finnish,0.2889993631687446,Turkish,0.23523817053551857,False
+591914,fra,Chacun devrait faire usage de son droit de vote.,audit,Basque,0.5562307316386712,Turkish,0.3067092852516546,False
+1100043,fra,Les magazines étaient écornés.,audit,Basque,0.5399278853544099,Finnish,0.23933930725915317,False
+10527902,fra,Les garçons doivent respecter les filles.,audit,Turkish,0.3793354510689538,Finnish,0.27724333954358693,False
+1181981,fra,Il vit selon ses moyens.,audit,Finnish,0.6325461033468652,Turkish,0.21384497709328307,True
+12449000,fra,Pourrais-je le changer ?,audit,Basque,0.5219014621643484,Swahili,0.16561774617303812,False
+12135122,fra,Elle ne veut pas me prêter une aiguille.,audit,Finnish,0.5507829934926141,Turkish,0.22617665663407718,False
+14049730,fra,Je suis éclaté.,audit,Finnish,0.3003768044516187,Swahili,0.15173644261303817,False
+10825310,fra,"À Rio de Janeiro, 20 % de la population vit dans des bidonvilles.",audit,Basque,0.4853782397465812,Finnish,0.2868946601313583,False
+3382451,fra,Je me souviens l'avoir vue une fois.,audit,Finnish,0.47615692433480417,Turkish,0.34863896832988817,False
+11442213,fra,Tu es vraiment pâle. Est-ce que tu vas bien ?,audit,Basque,0.4477213258510062,Finnish,0.3332290154136727,False
+8899727,fra,Prenons des mesures fortes !,audit,Basque,0.4495539791374637,Turkish,0.21648683069904986,False
+11264168,fra,"Récemment, la demande pour ce produit a augmenté plus rapidement que l'offre.",audit,Basque,0.49229440488807374,Turkish,0.2895469215379395,False
+1418752,fra,Vous ne devez pas répondre à ces questions.,audit,Basque,0.36994887406540294,Turkish,0.33326604922070874,False
+10046254,fra,J'ai cédé.,audit,Swahili,0.24463971969537784,Turkish,0.17608329487108584,False
+11144419,fra,Nous avons demandé à tout le monde de partir.,audit,Turkish,0.49159057517810917,Finnish,0.24716668696963107,False
+2010993,fra,Il s'est fait mal à la main gauche.,audit,Finnish,0.2874811231801434,Swahili,0.26536224535619435,False
+7370,fra,"Tous les étés, je vais à la campagne.",audit,Finnish,0.5900172655821289,Swahili,0.15647358604714864,False
+14004885,fra,"Les maths, c'est chouette.",audit,Finnish,0.5067399042505517,Basque,0.1507777268403337,False
+11146276,fra,Il a un salaire à six chiffres.,audit,Swahili,0.3961118866874449,Turkish,0.2949384842745749,False
+9461559,fra,L'eau est très froide.,audit,Basque,0.5123813810239563,Finnish,0.22126797540709828,False
+1108757,fra,"Ton argent, je n'en ai pas besoin. J'ai besoin de ton temps.",audit,Finnish,0.5506051637465094,Basque,0.3049026402496359,False
+12262116,fra,J'étais peiné pour sa maladie.,audit,Finnish,0.49786447048680166,Swahili,0.22739857253849466,False
+13222801,fra,"C'est un travailleur adroit, il résout les problèmes en vitesse.",audit,Finnish,0.7470326961264188,Basque,0.12270525966484684,True
+13397787,fra,"La queue du paon est couverte d'ocelles, des taches rondes et colorées.",audit,Basque,0.4862400777100227,Turkish,0.24180925574854856,False
+13273755,fra,Emporte-les en partant.,audit,Basque,0.5508970593910648,Finnish,0.29950823920562575,False
+1132187,fra,"Je le connais, mais je ne connais pas son nom.",audit,Finnish,0.5752389897488414,Swahili,0.14799514698151958,False
+12718831,fra,Quand l'avez-vous rencontré ?,audit,Basque,0.30758229910818946,Finnish,0.286034348618851,False
+389746,fra,Marie a refusé une invitation au concert.,audit,Basque,0.41161741980827354,Turkish,0.2128741721484397,False
+421294,fra,"Bonjour, êtes-vous M. Ogawa ?",audit,Finnish,0.2757518075154057,Basque,0.22965827526110444,False
+4860502,fra,Il n'est pas ce qu'il semble.,audit,Turkish,0.5020202306847281,Finnish,0.25213778370251505,False
+12915420,fra,Les placements en actions ne rapportent pas toujours de profit.,audit,Finnish,0.5187153441951384,Basque,0.30917291450237755,False
+11726293,fra,Comment s'est déroulée la présentation ?,audit,Finnish,0.576374371479254,Basque,0.2842866167908006,False
+6297015,fra,"Tom et Marie, très gourmets, sont particulièrement friands de chocolat noir.",audit,Basque,0.38083572028373214,Turkish,0.3053919258110625,False
+12621033,fra,Il y a deux draps sur le lit.,audit,Turkish,0.4354849679368896,Basque,0.3559041180855318,False
+2317537,fra,Je ne sais pas de combien de minutes nous disposons.,audit,Finnish,0.4119542490836007,Turkish,0.2677987220992301,False
+2910446,fra,Tom a été abasourdi.,audit,Turkish,0.6249430561459168,Basque,0.2010162053645586,False
+734949,fra,Depuis ce matin il ronchonne que personne a remarqué qu'il avait changé la décoration du bureau.,audit,Basque,0.48648137145891174,Turkish,0.2856789849516632,False
+11418739,fra,Ce sont des problèmes sérieux.,audit,Turkish,0.4202530146410827,Basque,0.22001614507948736,False
+13786846,fra,Posez les artichauts.,audit,Basque,0.575872893734912,Finnish,0.1830967152737028,False
+10117337,fra,Nous guiderons ceux qui ne savent pas faire.,audit,Basque,0.41520140445276876,Finnish,0.262271873041987,False
+822283,fra,Il se trouve dans de grandes difficultés.,audit,Turkish,0.5987402026756754,Basque,0.27499962470656364,False
+948620,fra,"Du fait de la mauvaise récolte, les prix du blé ont grimpé dans les derniers six mois.",audit,Basque,0.6002299335982035,Turkish,0.205045880608997,False
+2429246,fra,J'ai vraiment passé du bon temps avec ta famille.,audit,Finnish,0.6712514122020476,Turkish,0.13368599714884094,True
+12250496,fra,Elle ne veut pas grandir.,audit,Turkish,0.5674336463633968,Finnish,0.18645258856751967,False
+11976101,fra,Je suis contente de nous.,audit,Finnish,0.33981547116676986,Basque,0.24216648324392812,False
+8690090,fra,Ne le sous-estimez pas.,audit,Finnish,0.5128334146690655,Turkish,0.17742430012223856,False
+1106949,fra,"Lorsque l'on est fatigué, on prend de préférence un bain.",audit,Basque,0.4534663334983735,Turkish,0.3634018393844199,False
+8727471,fra,Peux-tu me le rapporter ?,audit,Basque,0.44849185649844975,Turkish,0.23415655278072847,False
+336416,fra,Voici un cadeau pour vous remercier.,audit,Turkish,0.427819845118536,Basque,0.2286105884340453,False
+2594936,fra,Je ferai tout ce que vous voulez.,audit,Finnish,0.5329063807836066,Basque,0.19163482613432226,False
+11956205,fra,Pourriez-vous me dire où se trouve sa maison ?,audit,Basque,0.4244059086554264,Finnish,0.2858106394483529,False
+11162582,fra,Tom est un peu inquiet à propos de Mary.,audit,Finnish,0.3885960177583265,Turkish,0.3851180625223689,False
+8693196,fra,J'aime voyager à vélo.,audit,Turkish,0.5193048666202417,Finnish,0.15770800798385065,False
+11926140,fra,Quels types de films préfères-tu ?,audit,Turkish,0.42956001423566753,Finnish,0.22662540986322205,False
+3591477,fra,Le feu est passé au vert.,audit,Basque,0.37555823411826594,Finnish,0.3281691300622165,False
+1961033,fra,J'ai tenté de mettre fin à la dispute.,audit,Basque,0.4498143754074705,Finnish,0.3029766980395157,False
+13479778,fra,Tu vas à Aokas.,audit,Finnish,0.4500929350237874,Basque,0.18303929977610173,False
+1390261,fra,C‘est comme ça que je me console tous les jours.,audit,Finnish,0.5432209347760099,Turkish,0.24526620963606255,False
+7093777,fra,Ils m'ont expulsé.,audit,Finnish,0.43073056578362656,Turkish,0.16309377055963264,False
+2689833,fra,Ce livre n'est pas à toi mais à moi.,audit,Finnish,0.7003446307668073,Turkish,0.1281727624345751,True
+1057032,fra,Il rendit son dernier soupir.,audit,Turkish,0.6732614294276177,Basque,0.2249967096108897,True
+536387,fra,Pourquoi ai-je fait cela ?,audit,Basque,0.34652017616088077,Finnish,0.3218571965600096,False
+8760,fra,"Un étranger, derrière moi, me tapa sur l'épaule. Je suis sûr qu'il m'a pris pour quelqu'un d'autre.",audit,Turkish,0.44214998789919296,Basque,0.3195498378348749,False
+11453677,fra,Toutes nos lignes sont actuellement occupées. Veuillez rappeler ultérieurement.,audit,Finnish,0.6423079601267745,Basque,0.22862501080757072,True
+6203955,fra,Je finis de hurler !,audit,Turkish,0.7030282318173061,Basque,0.12018597251860799,True
+11945766,fra,Lâchez-moi la grappe.,audit,Swahili,0.2980442304035536,Basque,0.17721980791833575,False
+7764964,fra,Je vous ai envoyé un mot.,audit,Finnish,0.6355880564060781,Turkish,0.09512974747554392,True
+2334338,fra,Je déteste vous voir si malheureuse.,audit,Finnish,0.513867275574777,Turkish,0.2392123099914416,False
+12971595,fra,Celui qui mange du piquant aura soif.,audit,Basque,0.37006409675134033,Swahili,0.2967134013416687,False
+1899804,fra,Tu es désormais une femme.,audit,Basque,0.3517913548075128,Turkish,0.29954276231876065,False
+12352057,fra,Il l'a aidé.,audit,Turkish,0.2745365020063627,Swahili,0.21996710212693663,False
+7701829,fra,"L'air de Londres n'était pas quelque chose dont on pouvait se vanter, loin de là.",audit,Finnish,0.5061816302060421,Basque,0.3379055664760773,False
+12403204,fra,Tu te prends beaucoup trop au sérieux.,audit,Basque,0.635620590857011,Turkish,0.13809532615190165,True
+2388330,fra,Je n'ai jamais pensé que je dirais ça.,audit,Swahili,0.3108253939638007,Basque,0.292437934873912,False
+9755696,fra,Ces vieilles idées sont devenues caduques.,audit,Turkish,0.3660674095139733,Finnish,0.260102363675553,False
+13533114,fra,Kaci n'aimait pas cela.,audit,Swahili,0.33765472407282143,Finnish,0.29306041388006204,False
+333455,fra,Le journaliste dont l'article t'a tellement intéressé est mon voisin.,audit,Finnish,0.8487119233956548,Turkish,0.08036672940888843,True
+14015313,fra,Elle resta longtemps assise sur une pierre.,audit,Finnish,0.5306530943440442,Basque,0.23948482694763068,False
+2920108,fra,Il est resté à la maison.,audit,Finnish,0.4576968922012133,Basque,0.315456037926575,False
+11562532,fra,J'attendais le bon moment.,audit,Finnish,0.47099680742844824,Basque,0.2603891453252109,False
+2026060,fra,Je ne suis pas habile en sport.,audit,Turkish,0.31876488895408783,Finnish,0.2952199241444822,False
+13838801,fra,Ce n'est pas ce à quoi vous pensez.,audit,Finnish,0.553711982983439,Turkish,0.19594657690707665,False
+10188617,fra,Le feu est jaune.,audit,Basque,0.3804767307462152,Finnish,0.22339068994968136,False
+927332,fra,Le scientifique cherchait dans la vallée pour des os de dinosaures.,audit,Basque,0.5462459402002696,Finnish,0.2141082667059217,False
+12883448,fra,Youba est prêt.,audit,Basque,0.3909212733149271,Finnish,0.23562666676635968,False
+11937958,fra,Vous y trouverez de nombreuses histoires courtes.,audit,Basque,0.4362845484785851,Turkish,0.3046694349126251,False
+3341,fra,Ça ne commence pas avant huit heures trente.,audit,Finnish,0.4749000016253662,Basque,0.2285688375574098,False
+11822351,fra,Donc vous les avez rendues folles ?,audit,Basque,0.3164541491196422,Finnish,0.2815917785288535,False
+11607772,fra,John a gagné de l'or.,audit,Turkish,0.45416044820114665,Basque,0.35828560488366584,False
+10477358,fra,Le professeur commence la leçon.,audit,Turkish,0.5750197773546304,Finnish,0.21594944410654882,False
+1576599,fra,J'ai de nombreuses choses à te raconter.,audit,Turkish,0.3643287689824687,Basque,0.2913055051994508,False
+840908,fra,"Quand elle était à l'étranger, elle téléphona fréquemment par Skype.",audit,Finnish,0.6080572461929008,Basque,0.2006057452623436,False
+12262657,fra,Il dit avoir été enlevé par des extraterrestres.,audit,Basque,0.6532639432533767,Turkish,0.2568996928665059,True
+13150650,fra,"J'ai apposé une étiquette sur la phrase, comme ça, elle est plus claire.",audit,Finnish,0.5080136530628053,Turkish,0.23120461979322943,False
+13666273,fra,Raconte-moi tout !,audit,Finnish,0.7027971366560618,Basque,0.14017054441261284,True
+14112395,fra,Donnez-lui de l’argent pour acheter du pain !,audit,Basque,0.7834905975476399,Turkish,0.12552969652449328,True
+12756715,fra,Tu dois écrire tous les jours.,audit,Basque,0.45880209560292395,Finnish,0.3013639284600075,False
+1715103,fra,"Aussi dur que tu essaies, tu ne peux pas le finir en une semaine et quelque.",audit,Basque,0.5504778258074505,Finnish,0.20393738458805372,False
+7106005,fra,Attends de vieillir pour farfouiller dans les boutons !,audit,Turkish,0.38278903886062515,Basque,0.3108501916619917,False
+1444971,fra,"Ah, vous voudriez qu'on travaille à l'œil aussi, et puis quoi encore ?",audit,Finnish,0.7945359493390621,Basque,0.11267127522606019,True
+4959163,fra,Tom pense que je devrais prendre ma retraite.,audit,Turkish,0.43798599635191204,Basque,0.3922108033998541,False
+606837,fra,Je voudrais vivre dans le luxe.,audit,Finnish,0.3904036245353816,Basque,0.2585118409660003,False
+13293942,fra,Mange des choux.,audit,Swahili,0.2729305626429506,Basque,0.2405666304641495,False
+3639500,fra,Êtes-vous prêts à faire la fête ?,audit,Basque,0.41102927754364266,Finnish,0.27091496870537607,False
+11154410,fra,Tom m'offrit ce collier en souvenir.,audit,Turkish,0.8467701963750546,Finnish,0.09500328090844291,True
+1424439,fra,"Pardonnez-moi mon audace, je vous prie.",audit,Finnish,0.4304177151550087,Basque,0.21319613473756524,False
+4223787,fra,Vous ai-je embarrassées ?,audit,Basque,0.48597214595048704,Finnish,0.2321704939667076,False
+12580337,fra,Je ne l'ai pas analysé minutieusement.,audit,Finnish,0.6673319964964493,Swahili,0.1157436511552998,True
+13389094,fra,Cette histoire est inspirée de faits réels.,audit,Turkish,0.36854044313856976,Basque,0.3008979615098737,False
+12736640,fra,L'apraxie idéomotrice empêche l'exécution de gestes sur commande malgré la compréhension.,audit,Turkish,0.6468156846917072,Basque,0.16904049445674182,True
+2463703,fra,"Si tu dis que tu m’aimes, tu dois aussi aimer mon chien.",audit,Basque,0.3499179589603095,Finnish,0.2717430822040568,False
+9009704,fra,J'essaye de lire au moins quelques pages tous les jours.,audit,Finnish,0.35338100344979234,Basque,0.29365423939113616,False
+2266789,fra,Ne te marre pas !,audit,Basque,0.38421112288894044,Turkish,0.27659463766775916,False
+8064974,fra,Elle aime boire.,audit,Turkish,0.43224605260869137,Finnish,0.24968096649790647,False
+13348189,fra,On n'est pas aidés.,audit,Finnish,0.698671846554604,Basque,0.14059021111364423,True
+1032659,fra,Ils nous dénomment « enfants à problèmes ».,audit,Finnish,0.5484846427134816,Basque,0.20066467437123664,False
+13548660,fra,Je suis née sous la mauvaise étoile.,audit,Finnish,0.7162651910087717,Swahili,0.10153106718250006,True
+14114541,fra,Ses derniers mots étaient plutôt énigmatiques.,audit,Finnish,0.4589149258827782,Basque,0.41235846286727285,False
+483067,fra,Une réelle amitié est plus précieuse que l'argent.,audit,Finnish,0.49695395243222207,Turkish,0.22798707685054495,False
+12916244,fra,Il s'est rué vers Souk Tlata.,audit,Finnish,0.5242444938456302,Turkish,0.265084978170992,False
+12338666,fra,Que tout soit damné !,audit,Finnish,0.5312844858443174,Basque,0.3180315867623085,False
+3969172,fra,Mais qu’est-ce que tu fabriques dans cette équipe de bras cassés ? Tu vaux mieux que ça !,audit,Basque,0.3994540773595933,Turkish,0.30016280941814405,False
+12665,fra,Dick jouait du piano et Lucy chantait.,audit,Basque,0.5898483986126701,Finnish,0.23410883218006842,False
+2922574,fra,"Si tu allais vivre au Brésil, quelle ville choisirais-tu pour y vivre ?",audit,Finnish,0.5436810247869939,Turkish,0.2160845710452041,False
+4855266,fra,Je ne suis pas branché.,audit,Turkish,0.23406742077033474,Swahili,0.2163665693645585,False
+134127,fra,Elle a failli se noyer.,audit,Turkish,0.4696344547834263,Finnish,0.311783871844611,False
+493963,fra,"Chaque dimanche, Takashi adore régler le moteur de sa voiture.",audit,Basque,0.42828984355900196,Turkish,0.325716187700713,False
+3072510,fra,Je crois que je peux prouver son innocence.,audit,Turkish,0.412947434127815,Finnish,0.33931343414746173,False
+12211280,fra,Est-ce que vous vous appelez Tom Jackson ?,audit,Finnish,0.6327627736141951,Turkish,0.18140807896968247,True
+13506,fra,Chacun a son propre caractère.,audit,Turkish,0.3257923131751216,Finnish,0.1954781098430176,False
+13458512,fra,Tu n'as pas distribué tous les livres des militants kabyles.,audit,Finnish,0.4757285133190703,Basque,0.24137674396914496,False
+12972764,fra,Tu t'es causé des problèmes.,audit,Basque,0.32415511013375414,Turkish,0.26469057083580955,False
+7098191,fra,Il en veut.,audit,Finnish,0.3224288701258116,Turkish,0.2688411660317523,False
+8352459,fra,Comment avez-vous vécu le choc culturel ?,audit,Finnish,0.35010695446632417,Turkish,0.2829771375947014,False
+634672,fra,Amnésie signifie « perte de mémoire ».,audit,Turkish,0.5472485294843696,Basque,0.21787561528154636,False
+2109641,fra,Nous sommes séparés.,audit,Finnish,0.5693204462377968,Turkish,0.15865288386024848,False
+12701661,fra,Le choix des couleurs dans une œuvre picturale peut influencer l’humeur et l’interprétation du spectateur.,audit,Basque,0.47496490671903346,Turkish,0.2732517269135605,False
+12058634,fra,Tom est rentré chez lui tard hier soir.,audit,Turkish,0.5113473008783475,Basque,0.29248860900761503,False
+13257106,fra,Vous n'avez pas caché la pêche.,audit,Swahili,0.4302554956504195,Finnish,0.21931255510923703,False
+11177826,fra,Je savais qu'Antoine pouvait gagner.,audit,Finnish,0.5741834742688519,Basque,0.216686567296196,False
+13368678,fra,Tom fait un travail hors du commun.,audit,Turkish,0.3903019148814857,Finnish,0.26673499801330064,False
+13255935,fra,Nous avons appris à patienter.,audit,Finnish,0.5854833152439418,Basque,0.17399561960833881,False
+13345132,fra,"Ok, recule.",audit,Turkish,0.24177628049235522,Finnish,0.20737128333655921,False
+1224402,fra,Les boxeurs doivent être pesés avant le combat.,audit,Finnish,0.3744485223316255,Basque,0.36928710257303937,False
+7694511,fra,Peut-être que nous pouvons faire quelque chose pour rendre service ?,audit,Basque,0.39892892882699094,Turkish,0.338269278194342,False
+2091993,fra,Pensez-vous vraiment que ce soit une bonne idée ?,audit,Turkish,0.36046730752005857,Finnish,0.33880064838755286,False
+2411498,fra,"Pour faire une affaire, il faut être deux.",audit,Basque,0.5665881667598043,Turkish,0.2936537075688624,False
+4961405,fra,L'enfant courut dans la cour.,audit,Basque,0.5718817072451524,Finnish,0.14838220750154982,False
+1160070,fra,Je pense souvent à l'endroit où nous avons fait connaissance.,audit,Finnish,0.7722258819515277,Basque,0.10047402411450315,True
+1741031,fra,"Au moins, ils m'ont écoutée.",audit,Finnish,0.6360735759262761,Turkish,0.12468022528590084,True
+375931,fra,Tu as fait sa connaissance récemment ?,audit,Finnish,0.45466085834852793,Basque,0.24262870910891662,False
+3381761,fra,Je me demande où accrocher la photo qu'il m'a donnée.,audit,Turkish,0.5872962853235318,Basque,0.16147716407398036,False
+13205603,fra,Elle est très satisfaite.,audit,Finnish,0.7353349416933138,Basque,0.17451689008035,True
+446536,fra,"À mon avis, ce n'est pas une bonne idée.",audit,Turkish,0.42211570972263673,Finnish,0.3237884614905851,False
+12734287,fra,"Les gens sur qui mon charme naturel n'agit pas ont un sérieux problème d'appréciation de la beauté divine, et ont tout simplement une mauvaise vue et n'ont tout simplement pas les bons yeux.",audit,Finnish,0.6493371373283922,Basque,0.21094582059763922,True
+5783235,fra,Tom parle français seulement avec ses parents.,audit,Turkish,0.4763257671273914,Finnish,0.3774506853962156,False
+2297685,fra,Tu étouffais.,audit,Finnish,0.3490125054021412,Basque,0.2670830304561512,False
+4592416,fra,Marie parle-t-elle le tagalog ?,audit,Finnish,0.323295247951062,Turkish,0.26466659444977503,False
+4450379,fra,Je suis entré dans la boutique d'Alexandre.,audit,Basque,0.6518428847195021,Turkish,0.16988390695112532,True
+519188,fra,Le saxophoniste fait signe qu'il n'a pas assez de retour.,audit,Basque,0.367137090842679,Turkish,0.30531265392789414,False
+12461056,fra,J'ai besoin que tu me rendes un grand service.,audit,Turkish,0.5038581607405873,Basque,0.300254134965343,False
+11822138,fra,Tu ne maîtrises rien désormais.,audit,Basque,0.5128539737381708,Turkish,0.22462979592747997,False
+2410561,fra,Je pense que vous avez probablement raison.,audit,Finnish,0.4525232903864402,Basque,0.29917234656419994,False
+1533518,fra,Vous avez l'air sacrément en pleine forme !,audit,Turkish,0.38622116136160817,Finnish,0.35414544406137916,False
+13716279,fra,Tu rentreras à l’heure du diner.,audit,Basque,0.8661043766885878,Turkish,0.10486311574911875,True
+1468882,fra,Je crains que nous ne soyons pas en mesure de t'aider demain.,audit,Basque,0.39002023919311063,Turkish,0.35367523706299403,False
+11991583,fra,Tenez-vous prêtes.,audit,Basque,0.4020822116692696,Finnish,0.34220149163989505,False
+3655219,fra,Mes mains sont tachées de peinture.,audit,Finnish,0.5768477638361822,Basque,0.19357467934934158,False
+474309,fra,Puis-je prendre votre photo ?,audit,Finnish,0.2911274780754954,Turkish,0.24279762379922948,False
+13463228,fra,Ce sont des chaussettes chaudes.,audit,Basque,0.26905811287382575,Turkish,0.2556514111340738,False
+5998292,fra,Où habite ta sœur ?,audit,Basque,0.37266684089767327,Turkish,0.20255081926566612,False
+13217024,fra,Je vais vers Tanezroufte.,audit,Finnish,0.49013187680291614,Turkish,0.180381653600501,False
+8315346,fra,"Tom peut aider, selon moi.",audit,Finnish,0.5972840513654003,Turkish,0.22869614712226674,False
+2036258,fra,Comment vous êtes-vous blessée ?,audit,Finnish,0.674731032322059,Turkish,0.12449373943994742,True
+4010953,fra,Tom ne semble pas en colère.,audit,Turkish,0.6598521677070199,Finnish,0.207255622419567,True
+2430053,fra,Je n'avais personne à qui parler.,audit,Turkish,0.4299482231615252,Finnish,0.3521747980066525,False
+2393605,fra,Je regrette avoir dit ça.,audit,Basque,0.4755754069430699,Turkish,0.36256414167776935,False
+129436,fra,Cela prend deux heures pour aller à l'école en bus et en train.,audit,Basque,0.45949480443235113,Turkish,0.3422401119975141,False
+1186989,fra,J'ai comme la tête qui tourne et comme envie de vomir.,audit,Turkish,0.5205223248181606,Finnish,0.3185302457645342,False
+2071916,fra,Pourquoi avez-vous cédé ?,audit,Finnish,0.37678487966774965,Basque,0.22468107915837446,False
+14033596,fra,Nous sommes allés à Gifu.,audit,Finnish,0.41478025440057475,Turkish,0.19365007714151783,False
+1352864,fra,L'Allemagne exporte-t-elle des céréales ?,audit,Turkish,0.35520220007137276,Basque,0.3053575846354224,False
+13437045,fra,La soirée était un vrai régal pour tous les participants.,audit,Finnish,0.6861220414557311,Basque,0.19895864172262576,True
+10965904,fra,Je suis content de ma situation actuelle.,audit,Finnish,0.6322233761795697,Basque,0.19005095126553342,True
+12646040,fra,Ils sont restés raisonnables.,audit,Finnish,0.6426776330989563,Basque,0.14259269829685206,True
+9833123,fra,Nous avons tous eu de la chance.,audit,Finnish,0.3731726142262443,Basque,0.19869254428495142,False
+10491526,fra,Il n'y a pas de plan B.,audit,Turkish,0.4598114463676226,Basque,0.16823345590811623,False
+3684749,fra,Il écrit très rapidement.,audit,Finnish,0.3437351974410802,Turkish,0.27033781674653523,False
+11144633,fra,"Mon pays, c'est la Kabylie.",audit,Finnish,0.4779486964384022,Turkish,0.2607238475723572,False
+11217274,fra,Aucun ne portait de ceinture de sécurité.,audit,Basque,0.6126653803849357,Turkish,0.24458277496468436,False
+6204128,fra,Je crains d'avancer.,audit,Turkish,0.4195276439901665,Basque,0.1908049208028768,False
+943201,fra,Elle ne pense toujours qu'à faire de l'argent.,audit,Turkish,0.458852109827379,Basque,0.34178654223784793,False
+3147096,fra,Je veux que toute ma famille soit fière de moi.,audit,Turkish,0.4127319014324875,Finnish,0.3732547917768473,False
+9529857,fra,L'aigle est le roi des vents.,audit,Finnish,0.4695456792885198,Basque,0.23360579478343846,False
+11585339,fra,J'ai horreur des chiens.,audit,Basque,0.6345583829969305,Turkish,0.1767359228620098,True
+5777915,fra,Tom dit tout ce qu'il savait à la police.,audit,Finnish,0.5747944277656386,Turkish,0.21750800078291463,False
+8689659,fra,Qu'est-ce qui vous permet d'avancer ?,audit,Turkish,0.49793811245300534,Finnish,0.27129158417327875,False
+10055397,fra,Le vent froid faisait terriblement souffrir le clochard.,audit,Turkish,0.4476251031824081,Basque,0.2825620259283539,False
+12057261,fra,Les étudiants de troisième année n'étaient pas invités.,audit,Finnish,0.6541955130391757,Basque,0.22978170301074471,True
+13661259,fra,Améliore ta forme physique.,audit,Turkish,0.3465688089353688,Finnish,0.29415980650920076,False
+4403911,fra,"Tout le monde est là, maintenant.",audit,Finnish,0.5856689023091203,Basque,0.3049153016987658,False
+6073379,fra,Les jeunes trouvent que l'or tombe de la cime des arbres.,audit,Turkish,0.579588510010615,Basque,0.2750893833278573,False
+11166973,fra,J'ai besoin que tu me soutiennes.,audit,Finnish,0.5872185587676008,Basque,0.2363449740638638,False
+1339212,fra,Vous a-t-il dit quoi faire ?,audit,Basque,0.42772166463483796,Finnish,0.26096596065968286,False
+12091262,fra,Si ça ne te dérange pas. On pourrait s'asseoir quelque part.,audit,Basque,0.49477199459947074,Finnish,0.2944036709998181,False
+3260316,fra,Les toilettes sont en bas.,audit,Finnish,0.6889747860318011,Basque,0.13681029194865213,True
+7815799,fra,Nous avons commencé à recycler les journaux.,audit,Turkish,0.3567214714241053,Finnish,0.34521435580953713,False
+2902060,fra,Elles ont accéléré le film.,audit,Finnish,0.44124366120425174,Turkish,0.4053037563243648,False
+12471718,fra,Vous me manquez énormément.,audit,Finnish,0.40724808855610756,Basque,0.29769952838147756,False
+8743601,fra,Je roule à vélo.,audit,Finnish,0.4468931874485077,Turkish,0.19144701646863638,False
+14646,fra,La présence de tous les membres est requise.,audit,Turkish,0.3999442592504385,Finnish,0.2877666319539171,False
+373628,fra,La France était en guerre avec la Russie.,audit,Basque,0.6483442737309909,Turkish,0.19224169954933754,True
+10675320,fra,Vous ne semblez pas certains.,audit,Finnish,0.4101227078383759,Turkish,0.225279848109115,False
+2211480,fra,Pourquoi ne me dis-tu pas quelque chose que j'ignore ?,audit,Basque,0.4666527373237209,Turkish,0.20832494532032195,False
+13480026,fra,Elle t'a envoyé une lettre.,audit,Finnish,0.5220884630719981,Turkish,0.3073761481129294,False
+6689378,fra,Où étiez-vous avant de venir ici ?,audit,Turkish,0.4510796673353624,Basque,0.23831305671242475,False
+1585190,fra,Sa lente élocution caractérise cet homme.,audit,Finnish,0.5046167433951632,Turkish,0.26379935563122314,False
+1569923,fra,Ils peuvent augmenter votre loyer.,audit,Basque,0.3153077147484233,Turkish,0.3110927777449754,False
+12545125,fra,Demande-lui s'il veut venir avec nous.,audit,Turkish,0.6765885968286045,Finnish,0.17077451957921147,True
+2447877,fra,Je viens de le lui dire.,audit,Turkish,0.3648905222905786,Basque,0.3579636537194912,False
+12114174,fra,As-tu trouvé une carte ?,audit,Basque,0.4428465494128962,Turkish,0.19174885603167424,False
+3641897,fra,Ma mère confectionne des gâteaux.,audit,Turkish,0.39983439467268544,Basque,0.3776254539094766,False
+1708805,fra,Ce qui se passe aujourd'hui en Europe concerne aussi les pêcheurs du Sénégal et les programmeurs de l'Inde.,audit,Turkish,0.3921419953220034,Basque,0.3207515193314252,False
+6997420,fra,La conversation retourne toujours au même sujet.,audit,Finnish,0.4871315977144151,Turkish,0.23185042134352818,False
+2048529,fra,Nous essayerons d'être plus prudents la prochaine fois.,audit,Finnish,0.47836709176697234,Basque,0.23346896348823143,False
+9155336,fra,Tu es populaire.,audit,Basque,0.5745694439422129,Finnish,0.1764178781183455,False
+8751255,fra,À votre service.,audit,Turkish,0.43275008969741546,Finnish,0.22804035096295053,False
+5437279,fra,On a senti qu'il n'avait préparé aucune note.,audit,Finnish,0.4975009488605983,Basque,0.22480574839504897,False
+10579901,fra,Quelle est la nature de l'instruction qui permet à un organisme de se construire un nez – n'importe quel nez ?,audit,Basque,0.5640947427551211,Turkish,0.282398763815215,False
+1934220,fra,Je ne scie pas leurs bords.,audit,Turkish,0.5178690065848213,Basque,0.17712753372089202,False
+6443929,fra,Comment savez-vous lequel est le vôtre ?,audit,Finnish,0.5556747464618722,Turkish,0.19144272816605165,False
+13804018,fra,Ainsi soit-il !,audit,Finnish,0.7206057939031522,Swahili,0.0652810965121704,True
+5683205,fra,Ne grimpe pas cet escalier ; il n'est pas sûr.,audit,Turkish,0.5043355312815453,Finnish,0.20225260438604847,False
+2808006,fra,Je veux un livre. Où est la librairie ?,audit,Basque,0.33940827595737577,Finnish,0.31743818960882586,False
+6832727,fra,Tom ne sait pas combien tu es forte.,audit,Basque,0.37183170881354594,Finnish,0.30934682395745733,False
+13154545,fra,"À l'ouest comme à l'est, les faux dévots font mille simagrées pour tromper le peuple avec leur hypocrisie.",audit,Finnish,0.5293439110368435,Turkish,0.32564816089469834,False
+8323144,fra,Cette musique est entraînante.,audit,Basque,0.47345704240284947,Finnish,0.36065106931004265,False
+12475094,fra,Les ponts de la ville furent détruits.,audit,Finnish,0.44264905507495267,Basque,0.3564535916670628,False
+5616203,fra,Tom coupe du bois.,audit,Turkish,0.5285097599620934,Basque,0.1643884621918518,False
+11917567,fra,Je l'ai ennuyée.,audit,Finnish,0.3250329489715165,Turkish,0.23065102692016398,False
+5430698,fra,"Tom, tu devrais voir ceci.",audit,Turkish,0.6184665032246234,Finnish,0.17028419576576231,False
+8395814,fra,Je ne peux pas faire ça avant lundi prochain.,audit,Swahili,0.2778448772830801,Finnish,0.2626482314969173,False
+549449,fra,Je ne savais pas que tu viendrais.,audit,Finnish,0.40447953744711407,Basque,0.23786089684261183,False
+339458,fra,Quel âge ont vos enfants ?,audit,Finnish,0.5669297510584967,Basque,0.19416158245671075,False
+4585385,fra,Je ne comprend pas ce que l'auteur a voulu dire.,audit,Turkish,0.4418364862512717,Basque,0.3892333654771017,False
+11732960,fra,Tom n'en a jamais soufflé mot.,audit,Finnish,0.3889982768740023,Turkish,0.26609567430974695,False
+12119382,fra,La neige va bientôt commencer à tomber.,audit,Turkish,0.7284851867775949,Basque,0.15099355855571425,True
+330197,fra,Ce ticket permet l'entrée gratuite de deux personnes.,audit,Basque,0.3947564693283944,Turkish,0.3917439394240918,False
+8221623,fra,Nous y sommes arrivés tant bien que mal.,audit,Finnish,0.45015635830024725,Turkish,0.25676531908432493,False
+1260083,fra,"Après moult discussions, nous avons décidé de passer les vacances en Espagne.",audit,Finnish,0.42064546880334824,Basque,0.26795709980744353,False
+1243774,fra,« Où se trouve votre livre ? » « Sur la table. »,audit,Turkish,0.4005274550426079,Finnish,0.39246547653502556,False
+12754496,fra,L'assistant de service social aide les personnes en difficulté.,audit,Turkish,0.39933263545854303,Finnish,0.36817491686179543,False
+5270748,fra,"Avant d'atterrir, l'avion doit déployer son train d'atterrissage.",audit,Basque,0.6168003308215178,Finnish,0.2692519687709488,False
+6202174,fra,Il ne rugit presque plus.,audit,Basque,0.3072232712022328,Turkish,0.26672117125436207,False
+10707362,fra,Existe-t-il un moyen plus simple de procéder ?,audit,Turkish,0.5641165289980661,Finnish,0.2968897998654663,False
+332352,fra,Je me suis brûlé le bout du doigt.,audit,Basque,0.47249688917119514,Turkish,0.263033261981212,False
+11628880,fra,Il y a des choses plus agréables que de rester ici sous la pluie.,audit,Turkish,0.359172662181149,Basque,0.31729106208866276,False
+8252841,fra,J'ai beaucoup pensé à ce que tu as dit.,audit,Basque,0.5964728978274129,Swahili,0.13733619809667308,False
+6949305,fra,Pourquoi tu laisses les gens te traiter de cette façon ?,audit,Basque,0.41987998295660783,Finnish,0.3067436280301101,False
+2692789,fra,Un synesthète peut entendre des couleurs et voir des sons.,audit,Finnish,0.40399949807173097,Turkish,0.3095489790514659,False
+8690086,fra,Jouons au tennis.,audit,Finnish,0.6604081562083792,Basque,0.1172931086569252,True
+910569,fra,La France a gagné la Coupe du Monde de 1998.,audit,Turkish,0.4013408163652711,Basque,0.3453463231378086,False
+13037999,fra,Elle n'écoute jamais la prof.,audit,Finnish,0.5069599961763405,Swahili,0.18477057926243579,False
+4600305,fra,Rends-le joli !,audit,Turkish,0.38158901782618343,Finnish,0.19934890874491454,False
+3259960,fra,"Il garde la barbe, donc il n'a pas besoin de se raser.",audit,Turkish,0.6430503891568005,Basque,0.2974800848136411,True
+10708767,fra,Ah ! C'est étonnant !,audit,Finnish,0.5944036721295025,Basque,0.20078931236440253,False
+338109,fra,Nous sommes en comité ayant trait à la protection des droits de l'enfant.,audit,Finnish,0.5607766152613349,Basque,0.2914950211895638,False
+1630599,fra,Ce fut plus court que ce à quoi il s'attendait.,audit,Finnish,0.32752669466769985,Turkish,0.2903798442501249,False
+127557,fra,"J'aime la nourriture et les coutumes japonaises, il s'ensuit que j'aime vivre au Japon.",audit,Basque,0.5514853324858328,Finnish,0.2795771427698426,False
+1239082,fra,C'est un vieux renard sournois.,audit,Finnish,0.4057836387826724,Turkish,0.2729598284121968,False
+9535218,fra,J'ai vu une femme.,audit,Turkish,0.36054929584954953,Finnish,0.18886066655791356,False
+13075312,fra,Nous sommes tous mécontents.,audit,Finnish,0.7522982873278229,Turkish,0.07316502228905161,True
+12425960,fra,Quel est le nom de la capitale de la Lituanie ?,audit,Basque,0.3871643269037914,Turkish,0.254188722697898,False
+13585855,fra,Pourquoi a-t-elle brûlé les lettres ?,audit,Finnish,0.5523468022001512,Basque,0.18253266614419245,False
+7695894,fra,« Depuis combien de temps vivez-vous à Ankara ? » « Deux ans. »,audit,Turkish,0.35256048132144446,Basque,0.31829930610082724,False
+3645722,fra,Il m'a payé des coups.,audit,Turkish,0.4615454411034473,Swahili,0.18253019356291292,False
+12164677,fra,Quels problèmes puis-je avoir ?,audit,Finnish,0.39780228646330906,Turkish,0.2438434954571257,False
+10672739,fra,"Tu es curieux, n'est-ce pas ?",audit,Basque,0.5227444668257181,Finnish,0.1636595701478233,False
+6877127,fra,Je suis inquiet pour l'avenir.,audit,Turkish,0.44880339123910173,Finnish,0.30573229906498006,False
+763614,fra,Je n'envie pas du tout ta vie.,audit,Finnish,0.5427649720182389,Basque,0.24431542026454808,False
+14054350,fra,Un viol est un crime violent.,audit,Finnish,0.6449303834562766,Turkish,0.1973772442058438,True
+1082544,fra,Elle revient de Paris.,audit,Finnish,0.3800071137011987,Turkish,0.3259985826793724,False
+6479959,fra,Penses-tu que ça va marcher ?,audit,Turkish,0.31768973145374746,Swahili,0.2717799393853412,False
+973691,fra,Je me réjouis de prendre part à ce projet.,audit,Turkish,0.39624633108076796,Basque,0.28283194939335843,False
+3731,fra,"David a un vif intérêt pour l'esthétique - les qualités qui rendent une peinture, une sculpture, une composition musicale ou un poème agréable à l'œil, à l'oreille ou à l'esprit.",audit,Finnish,0.5765150756035908,Turkish,0.22113133246899053,False
+3787527,fra,On est enfin seuls.,audit,Finnish,0.7782725277750621,Basque,0.09190143549302073,True
+12419740,fra,Ils se sont empressés d'aller à Tanalt.,audit,Finnish,0.5443560127251874,Turkish,0.2773007756171568,False
+13821302,fra,Il a senti le beurre.,audit,Basque,0.466127081685216,Turkish,0.32116992117332743,False
+10463083,fra,Est-ce que beaucoup de gens résident au Brésil ?,audit,Turkish,0.49241017732725995,Basque,0.41814188335912095,False
+825699,fra,"Je confesse à Dieu tout-puissant et à vous mes frères et sœurs, que j'ai gravement péché en pensée, en paroles, par action et par omission : c’est ma faute, c’est ma faute, c’est ma très grande faute.",audit,Finnish,0.5754796813188333,Basque,0.24164199913858841,False
+3361874,fra,Y a-t-il de la boisson au réfrigérateur ?,audit,Basque,0.5593914714609354,Turkish,0.2895027538986076,False
+5249530,fra,Il vivait dans le péché.,audit,Finnish,0.5280845650126571,Basque,0.16365370406416344,False
+6087651,fra,Je suis satisfaite de mon salaire actuel.,audit,Basque,0.3644725575766421,Finnish,0.293238228410302,False
+9161102,fra,Elle ne se fatigue pas.,audit,Finnish,0.33805086932585576,Turkish,0.3098659143611779,False
+7794018,fra,Je viens avec toi.,audit,Finnish,0.5175568252352035,Turkish,0.1974566481387182,False
+901925,fra,Pas besoin d'être aussi rigide.,audit,Basque,0.5410550748359639,Turkish,0.19830054822641385,False
+11561423,fra,D'autres restrictions peuvent s'appliquer.,audit,Finnish,0.37009206231373615,Basque,0.27065168938116047,False
+8915698,fra,"Ne lui parlez pas de politique, car ça le met dans une colère noire.",audit,Turkish,0.3969115106548738,Basque,0.345931603607646,False
+1184026,fra,Elle a mis des lunettes noires pour protéger ses yeux du soleil.,audit,Finnish,0.3876136608274924,Turkish,0.32397964227144854,False
+5316219,fra,Je regarde sa belle image.,audit,Turkish,0.6125092960640518,Basque,0.23188679220140396,False
+3671190,fra,Quiconque s'en est-il soucié ?,audit,Finnish,0.37464008896404494,Turkish,0.3172523976738742,False
+12141929,fra,Pourquoi ne s'arrête-t-on pas ici ?,audit,Finnish,0.5132009245218271,Basque,0.2296790572580126,False
+10510838,fra,Hitler est en mission à Saint-Tropez.,audit,Finnish,0.7096170584740483,Basque,0.19640164282448377,True
+6195503,fra,Tom parlait de Marie.,audit,Turkish,0.4963604307670303,Basque,0.28875858507961333,False
+12916123,fra,Les remparts de la ville sont si beaux !,audit,Finnish,0.40040888955817405,Turkish,0.2730111291929292,False
+12537654,fra,Achetez des tomates.,audit,Basque,0.48068859181223006,Turkish,0.2240108406170905,False
+2720354,fra,Elle tisse un tapis.,audit,Finnish,0.8086819503450566,Turkish,0.10649320237494084,True
+8112792,fra,La plupart des algériens sont contre la laïcité car ils sont profondément musulmans.,audit,Finnish,0.42947136806563757,Turkish,0.24871843892129278,False
+8670484,fra,Ils sont partis sans prévenir.,audit,Finnish,0.5105995767501295,Turkish,0.31551448360544254,False
+1529364,fra,Est-ce moi que tu désignes ?,audit,Basque,0.38470720805949243,Finnish,0.22338010375988038,False
+12262772,fra,Les a-t-il oubliées ?,audit,Finnish,0.29873321579589235,Turkish,0.21107558515746547,False
+3378649,fra,Le chef d'État est ici en visite officielle.,audit,Finnish,0.5995776812638003,Turkish,0.18416236798004737,False
+3642739,fra,Ils sont une bonne équipe.,audit,Finnish,0.41745509733487607,Turkish,0.2785235346281455,False
+12281141,fra,J'ai fait une bonne affaire.,audit,Basque,0.4024456178296288,Turkish,0.21229561557706797,False
+12415884,fra,Cette équipe n'a que des joueurs forts.,audit,Basque,0.3864086171080262,Turkish,0.30023819616208325,False
+971191,fra,Avec quoi as-tu été frappée ?,audit,Finnish,0.292584235409766,Basque,0.251275454498944,False
+1200845,fra,"Bientôt, le ciel va s'éclaircir.",audit,Turkish,0.5711061379379292,Finnish,0.1697473521048544,False
+13638278,fra,Il n'arrête pas de lui crier dessus lorsqu'il est fâché.,audit,Turkish,0.4577326336488522,Basque,0.3780686010638607,False
+7104354,fra,Ces teintes sont bleuâtres.,audit,Finnish,0.49264407788551284,Turkish,0.20674253476004126,False
+7663881,fra,Tu as dit que je devrais faire ça.,audit,Basque,0.7328989049312868,Turkish,0.1526892636024054,True
+936852,fra,La fièvre a diminué.,audit,Turkish,0.3627086363005117,Basque,0.2725156797444657,False
+1059427,fra,Pourrais-je te demander un service ?,audit,Turkish,0.4572875287849787,Basque,0.3975151223229134,False
+10847404,fra,Pourquoi hésitez-vous tant à le faire ?,audit,Finnish,0.569311614475434,Basque,0.3026034882158659,False
+182141,fra,Les pensées et les sentiments s'expriment avec les mots.,audit,Finnish,0.6294606334344779,Basque,0.14142405130986418,True
+7437924,fra,L'enquête suit son cours.,audit,Finnish,0.5733072278737215,Turkish,0.20430868107274022,False
+10060728,fra,Tom connaît probablement la vérité.,audit,Finnish,0.503162904733837,Turkish,0.2366393125690988,False
+10346,fra,As-tu entendu les nouvelles ?,audit,Basque,0.5492297055934106,Finnish,0.27068250590323956,False
+12480549,fra,Les journalistes sont largement moins nombreux que les attachés de presse.,audit,Finnish,0.4565026581367979,Basque,0.32781055918046864,False
+12651937,fra,L'heure est arrivée pour nous de laisser cette route.,audit,Basque,0.6078341497953827,Finnish,0.19081218600753455,False
+7731076,fra,Thomas s'arrêta dans une station-service.,audit,Basque,0.4106716563546104,Finnish,0.3499828289764394,False
+8701703,fra,Nous regardons la télé.,audit,Basque,0.42523330952445837,Finnish,0.24742571029705818,False
+13618121,fra,Il ne sait pas si elle est seule.,audit,Finnish,0.7557219533447,Turkish,0.10025140691143448,True
+9010080,fra,J'aurais pu faire ça sans ton aide.,audit,Basque,0.3629565004567854,Finnish,0.31896175512967784,False
+12774616,fra,Marie ne suit pas la mode.,audit,Finnish,0.32105206702402633,Basque,0.27424871922797733,False
+5208471,fra,L'écrivain porte son manuscrit à l'imprimerie.,audit,Finnish,0.608841075694584,Turkish,0.24470741761563802,False
+12070151,fra,Voulez-vous du sucre et du lait ?,audit,Basque,0.76180108896329,Finnish,0.10807176285692321,True
+5819620,fra,Tom nous a demandé de l'aider.,audit,Turkish,0.6245850155923847,Basque,0.2779318373274766,False
+10854045,fra,Ma cousine habite en bord de mer.,audit,Turkish,0.7115679776017082,Basque,0.20478652102747322,True
+11143897,fra,Toi et moi ne sommes pas sœurs.,audit,Finnish,0.7192000482374459,Turkish,0.13409714241072737,True
+1189383,fra,Les toilettes dans cet hôtel sont de toute première classe !,audit,Finnish,0.5377534056400493,Turkish,0.24954547307295827,False
+6192153,fra,Le Nil est le plus grand fleuve d'Afrique.,audit,Turkish,0.5251941744228682,Basque,0.21615287005635814,False
+10224225,fra,Tom est innocent de tous les faits qui lui sont reprochés.,audit,Finnish,0.7172344522736089,Basque,0.13695162100581026,True
+8553309,fra,Où est-ce que je peux trouver une bus pour l'aéroport ?,audit,Turkish,0.3846212255385416,Basque,0.3844464884971042,False
+5291861,fra,Ils chantèrent une belle chanson.,audit,Finnish,0.3675492945637621,Turkish,0.24681905531306095,False
+7770590,fra,Tu n'as qu'à lui dire la vérité.,audit,Basque,0.6230322241283713,Turkish,0.15999666724326986,False
+330692,fra,Je veux ce téléphone.,audit,Turkish,0.3565027384329514,Finnish,0.2913440758496138,False
+13435961,fra,Ils vont acheter du couscous.,audit,Basque,0.3011117055186527,Finnish,0.2899859271807804,False
+871309,fra,Voulez-vous que je dise la vérité ?,audit,Finnish,0.42038789863137815,Basque,0.2768181085120998,False
+8976705,fra,On doit acheter un nouveau tapis pour cette pièce.,audit,Finnish,0.4695002644275043,Basque,0.255820552532856,False
+1967224,fra,Je ne vous refuse pas.,audit,Finnish,0.4177425205280706,Turkish,0.19389845981136972,False
+332516,fra,Mon crime me semble irréel.,audit,Turkish,0.7592464188925783,Finnish,0.10838038454249814,True
+1460893,fra,Alice dort dans ma chambre.,audit,Swahili,0.31234723505946443,Basque,0.2935885677119265,False
+2046100,fra,J'aimerais me brosser les dents.,audit,Basque,0.3656757862491359,Turkish,0.3577743924313076,False
+9463926,fra,Tom a perdu le fil.,audit,Turkish,0.7842671480477525,Basque,0.0646557998183811,True
+4729936,fra,Ils sont ennuyeux.,audit,Finnish,0.4819789526928524,Turkish,0.24185956087133464,False
+949804,fra,Je suis tellement indépendant !,audit,Finnish,0.5477851243162458,Turkish,0.20750333055064688,False
+10500869,fra,"Ensuite, il arrive à la station.",audit,Basque,0.49231600632132344,Finnish,0.3358020762210601,False
+4533866,fra,Mon père a scié le bois.,audit,Finnish,0.4411461762796786,Turkish,0.33091412316206237,False
+11445,fra,L'air de cette pièce est pollué.,audit,Turkish,0.5612921990822277,Finnish,0.2167251604179392,False
+970041,fra,C'est ma chambre à coucher.,audit,Swahili,0.4004916015167665,Turkish,0.3120937924444772,False
+457157,fra,J'ignore où je dois l'attendre.,audit,Basque,0.43676712199829637,Turkish,0.2746878014165506,False
+7550814,fra,C'est une théorie fascinante.,audit,Finnish,0.3609597175776566,Turkish,0.2215875104244534,False
+2364554,fra,Cherche dans le dictionnaire les mots que tu ne connais pas.,audit,Basque,0.43991720469556994,Finnish,0.2806298608286722,False
+14001100,fra,"Ma femme est kenyane et est née à Nairobi, la capitale de son pays. Les langues officielles du Kenya sont le swahili (ou kiswahili) et l'anglais. Le swahili fait office de langue nationale et de lien entre les peuples, tandis que l'anglais est largement utilisé dans le domaine juridique, à l'école et au sein du gouvernement.",audit,Basque,0.36338516717534336,Finnish,0.32525697238040674,False
+2045595,fra,Je vous aiderais si je le pouvais.,audit,Finnish,0.6488170760863796,Swahili,0.10565492251197026,True
+12562857,fra,"Nous avons été dans la même classe, n'est-ce pas ?",audit,Finnish,0.5130453477408515,Basque,0.15654855174256396,False
+11548914,fra,"Le hasard, c'est le principal déterminant de la vie que nous vivons.",audit,Finnish,0.5149030124129511,Turkish,0.2509170599233585,False
+414070,fra,Il y a une raison plausible de le renvoyer.,audit,Turkish,0.5939212840414365,Finnish,0.22474339304809376,False
+12170810,fra,Merci encore pour ton aide.,audit,Turkish,0.371011755921757,Basque,0.34615935652551977,False
+12253056,fra,Je suis courageux mais pas téméraire.,audit,Basque,0.35151948781589587,Finnish,0.28034457640541544,False
+6893571,fra,Je ne pense pas que vous devriez faire cela.,audit,Basque,0.41693761786245365,Turkish,0.317173078711172,False
+4410822,fra,Cette époque est marquée par l’abandon d’un mode de vie nomade pour un mode de vie sédentaire.,audit,Turkish,0.5711644224020401,Basque,0.3048912789683827,False
+2291351,fra,Je n'ai pas voulu t'embêter.,audit,Finnish,0.45252816149386965,Turkish,0.24381456442476993,False
+7786577,fra,Je le connais de réputation.,audit,Finnish,0.5157464052480621,Basque,0.2396936024495367,False
+5279284,fra,Thomas écarta rapidement cette idée de son esprit.,audit,Turkish,0.37656912587054575,Basque,0.32298042866944343,False
+1103574,fra,"Aujourd'hui, j'ai une grosse envie d'aller me promener.",audit,Turkish,0.5169794602278579,Basque,0.27515997256979413,False
+11185218,fra,C'est l'usage.,audit,Basque,0.23200502296665357,Turkish,0.21500065356505105,False
+560656,fra,Il y a trois problèmes relatifs à cette question.,audit,Finnish,0.552492719384178,Turkish,0.23821272934513057,False
+11346258,fra,Est-ce que j'ai été hypnotisée longtemps ?,audit,Finnish,0.5208049716511193,Basque,0.16198273742253336,False
+6821362,fra,Penses-tu rester longtemps ?,audit,Basque,0.5520617208749168,Finnish,0.2114118203573033,False
+817483,fra,Ces livres ne sont en aucun cas destinés à de jeunes lecteurs.,audit,Turkish,0.3963387295326282,Finnish,0.30008420089551824,False
+8588144,fra,Thomas aime le slam.,audit,Finnish,0.40397898495330115,Turkish,0.3173242736939574,False
+2073311,fra,Elles ont eu des vertiges.,audit,Basque,0.3251430786547608,Finnish,0.3246524981272327,False
+1942828,fra,Je ne copie pas vos leçons.,audit,Finnish,0.5089846942509015,Turkish,0.19473697004802434,False
+12071525,fra,Il se promènera à Ichelladhen.,audit,Turkish,0.41920113018434485,Finnish,0.2622394046799672,False
+13079007,fra,Quand pouvez-vous faire ça ?,audit,Basque,0.3452684385355727,Turkish,0.22656915286190585,False
+5532591,fra,Je ne suis pas aussi riche que toi.,audit,Finnish,0.529860664330873,Swahili,0.20329310054746497,False
+5805521,fra,Je ferais mieux de lui demander.,audit,Turkish,0.45763262191975895,Basque,0.33931709089046536,False
+2222401,fra,Tu t'enfermais.,audit,Basque,0.31502051762142125,Finnish,0.24404210886360314,False
+3189536,fra,Le piano fut inventé au XVIIIe siècle par Bartoloméo Cristofori.,audit,Finnish,0.39841603907866463,Turkish,0.26941021138534105,False
+13018432,fra,Je n'ai pas attendu.,audit,Basque,0.4470367595286972,Swahili,0.18404805612676584,False
+5150152,fra,J'espère que tu reviendras.,audit,Basque,0.5349349118531245,Turkish,0.27443105860749056,False
+1995754,fra,Où as-tu trouvé ceci ?,audit,Finnish,0.23193754095263006,Turkish,0.2285037511750699,False
+8314930,fra,"Si quelqu'un appelle pendant que je suis absente, dites-lui que je serai de retour à cinq heures.",audit,Basque,0.3755355678529271,Turkish,0.30217735191009076,False
+9728957,fra,Marie se repose dans sa chambre.,audit,Turkish,0.3703557613162138,Basque,0.2729124234632891,False
+12677914,fra,Il a pris un grand risque.,audit,Turkish,0.3387403143772313,Basque,0.23251612364898774,False
+1357946,fra,Elle lui conseilla d'arrêter de boire.,audit,Turkish,0.4684144163890405,Basque,0.3556586380228038,False
+1335633,fra,Je resterai là jusqu'à vingt-deux heures.,audit,Basque,0.4790405060351248,Finnish,0.277586965462187,False
+2447298,fra,Je ne veux tout simplement pas te faire former de faux espoirs.,audit,Turkish,0.4172860596996428,Basque,0.2764704523625848,False
+8718738,fra,Tom intervint.,audit,Finnish,0.41440310629381544,Turkish,0.32884135904340595,False
+11916396,fra,Nous essayerons de régler ça.,audit,Turkish,0.5810145502663986,Basque,0.20573937125508154,False
+3328607,fra,"Sa présentation, c'était de la branlette.",audit,Basque,0.49665583812747394,Finnish,0.31359884064114946,False
+3979005,fra,Es-tu décidé à faire affaire ?,audit,Basque,0.6676048764417931,Turkish,0.19258935814462186,True
+2340983,fra,Ils n'aiment pas le chien de Tom.,audit,Finnish,0.41372099230330295,Turkish,0.3501005932823255,False
+12100252,fra,Je vais prendre une douche demain.,audit,Turkish,0.38009458902924076,Basque,0.3034469044762465,False
+1395243,fra,Avez-vous la moindre idée combien vos notes d'examen sont importantes ?,audit,Finnish,0.40161949279001435,Basque,0.3080199026549113,False
+12591258,fra,Le jour où nous avons vu le directeur.,audit,Turkish,0.3489543857415971,Basque,0.31461112711108863,False
+470585,fra,As-tu déjà vu une baleine ?,audit,Basque,0.3646853761069469,Turkish,0.2813257417084079,False
+2070280,fra,Vous avez froid.,audit,Basque,0.27631270356579557,Finnish,0.21784757714528305,False
+6545452,fra,Plusieurs personnes sont déjà en train d'attendre.,audit,Basque,0.422560066626181,Finnish,0.40492388814185254,False
+11682159,fra,On se voit en Kabylie.,audit,Finnish,0.8347599117872297,Turkish,0.10979640996362382,True
+9416748,fra,La sirène a sonné.,audit,Turkish,0.3273311251237961,Finnish,0.24831073489941147,False
+12207001,fra,Il a appelé Youba.,audit,Swahili,0.38914975788607936,Turkish,0.2511327959720439,False
+12750076,fra,Le travail bien fait est une source de fierté durable.,audit,Basque,0.5293730091437867,Turkish,0.38580139543054537,False
+833905,fra,Il advint qu'il aperçut un papillon rare.,audit,Finnish,0.4769176677236762,Turkish,0.32057716786641366,False
+8729383,fra,Pouvez-vous m'indiquer où se trouve l'office du tourisme ?,audit,Turkish,0.5652578008145429,Finnish,0.19537424884917312,False
+10704823,fra,Elle est narcissique.,audit,Finnish,0.4999122484506378,Basque,0.18655141714301093,False
+9978334,fra,Une pomme est tombée sur le sol.,audit,Turkish,0.5191376685937669,Finnish,0.3537079765804507,False
+12560582,fra,Il n'y a pas de place pour ça dans ma valise.,audit,Turkish,0.4568143979026451,Swahili,0.21222952911418744,False
+1142706,fra,Je te remercie beaucoup !,audit,Basque,0.354806660675976,Turkish,0.35322816839797366,False
+1900994,fra,Tu seras toujours dans mon cœur.,audit,Basque,0.46133465333117013,Finnish,0.28826599014414406,False
+1049734,fra,Il y avait un drapeau en haut du mât.,audit,Basque,0.7845146847563866,Finnish,0.0891217985385317,True
+9995817,fra,Depuis quand viens-tu ici ?,audit,Basque,0.24348552054000105,Finnish,0.24261442873187183,False
+7700017,fra,Tom se sentait entre le marteau et l'enclume.,audit,Basque,0.39258630585465965,Finnish,0.29247850598038116,False
+7886176,fra,As-tu changé d'avis ?,audit,Swahili,0.5320528891010637,Basque,0.20477664421246497,False
+11931337,fra,Les poutres de sa maison sont en train de pourrir.,audit,Basque,0.42372366576646886,Finnish,0.36478651415188496,False
+3208039,fra,J’aurais dû prendre un manteau.,audit,Basque,0.7612075682631708,Turkish,0.09492147486744053,True
+10135399,fra,Travaille-t-il demain ?,audit,Finnish,0.4599634570450057,Basque,0.20360549138920941,False
+14030681,fra,"Pour apprendre à bien écrire, il faut beaucoup lire.",audit,Basque,0.5381505777410964,Turkish,0.38001806549458256,False
+1261956,fra,Le soleil dore ses cheveux.,audit,Turkish,0.5563553139529376,Finnish,0.22813040209429805,False
+1329126,fra,M'y emmèneras-tu ?,audit,Turkish,0.3955362703051727,Basque,0.2592244320976923,False
+7437,fra,Je ne comprends pas ce que tu es en train de dire.,audit,Basque,0.5483335866251803,Turkish,0.3374808746292801,False
+1850679,fra,La vague de froid a ralenti la croissance des plants de riz.,audit,Turkish,0.3817604773429581,Basque,0.3732108032770802,False
+451416,fra,"Je pense que le fait que la seule forme de vie que nous ayons créée jusqu'à présent soit purement destructive, dit quelque chose de la nature humaine.",audit,Basque,0.4391027873089185,Finnish,0.2663570544296069,False
+10476660,fra,Vous ne servez pas à grand-chose !,audit,Basque,0.3319765569719213,Turkish,0.29015070896006095,False
+5410469,fra,Il mangeait ta bonne cerise.,audit,Turkish,0.2748639932886095,Basque,0.27461646694000164,False
+13668713,fra,A-t-elle trouvé ses clés ?,audit,Finnish,0.5726758182907041,Turkish,0.16159273081611894,False
+776958,fra,Les carottes sont cuites.,audit,Finnish,0.4705870173094023,Basque,0.19893320574420367,False
+13406918,fra,Sa main lui fait mal.,audit,Finnish,0.5412884938693074,Swahili,0.23278228840112672,False
+607707,fra,Des photos de cercueils recouverts de drapeaux s'éparpillèrent au-dessus des papiers.,audit,Turkish,0.4037929374482934,Basque,0.34189540111538974,False
+8114920,fra,"Ma patrie, c'est la langue française.",audit,Basque,0.39897060151400243,Swahili,0.25448345720497306,False
+13466501,fra,L'examen n'était pas trop difficile pour moi.,audit,Finnish,0.4302075197641435,Basque,0.26197783154531096,False
+540011,fra,Je joue de la trompette dans un orchestre symphonique d'instruments à vent.,audit,Turkish,0.33306876059851465,Finnish,0.3193256006581905,False
+12720647,fra,Marie a été très éprouvée.,audit,Basque,0.32465198363306075,Finnish,0.2869729429271818,False
+12739375,fra,Il ne me les a pas laissées.,audit,Finnish,0.5189550854809003,Turkish,0.14944516358410412,False
+13216817,fra,Nous avons besoin l'un de l'autre.,audit,Finnish,0.4807332263257026,Basque,0.24655725859262345,False
+8756052,fra,Est-ce qu'il souhaite provoquer une nouvelle vague de violence ?,audit,Turkish,0.42943803031695404,Finnish,0.3235927667593488,False
+1749013,fra,J'ai rencontré un chien en rentrant chez moi.,audit,Basque,0.4607694151559645,Finnish,0.2539049106463889,False
+7745806,fra,Je crois que j'ai perdu mon parapluie.,audit,Finnish,0.357397423637919,Turkish,0.28553574019776384,False
+10497041,fra,Les bandits lui ont mis un bâillon dans la bouche.,audit,Finnish,0.5764007873527496,Basque,0.1881623921362206,False
+8938810,fra,Prions pour elle.,audit,Finnish,0.5478419384637542,Basque,0.15654344742888943,False
+11216099,fra,C'est pour ça que j'étais en retard.,audit,Basque,0.432027580411172,Turkish,0.3150030714206726,False
+5430682,fra,Je veux être avec toi.,audit,Turkish,0.4254321156592931,Finnish,0.27721123858493985,False
+10631935,fra,Écris ton âge.,audit,Finnish,0.46440117770763095,Turkish,0.2164013204666301,False
+10026784,fra,Apportez l'échelle et placez-la contre le pommier.,audit,Turkish,0.3471353559218265,Finnish,0.2828289739342157,False
+8636228,fra,"Soyez patient, votre tour arrive.",audit,Basque,0.5752384254161595,Finnish,0.24029853064662887,False
+5304024,fra,Nous pouvons vivre avec ça.,audit,Finnish,0.4929915353885955,Turkish,0.20396233155679638,False
+3272291,fra,"Il y a deux piscines, plusieurs cinémas, marchés, boutiques, tout.",audit,Finnish,0.427409891638215,Turkish,0.230716927743411,False
+8118858,fra,C'était moi le premier.,audit,Finnish,0.4706615536343114,Turkish,0.20511539999415743,False
+11436258,fra,"Tu as raison, mais ce n'est pas ma faute.",audit,Finnish,0.37099879591464135,Basque,0.29233983610579906,False
+12263508,fra,C'est de la farine.,audit,Turkish,0.39365666377423836,Basque,0.3502438696646774,False
+11405311,fra,Tiziri ne possède rien.,audit,Basque,0.5632916932558121,Turkish,0.2228483598643142,False
+11612526,fra,Je voudrais vous montrer quelque chose d'autre.,audit,Basque,0.38125986079184315,Finnish,0.27286477958471983,False
+2103841,fra,Je n'aimerais pas être mise dans une telle situation.,audit,Finnish,0.6364687204014157,Basque,0.19446123241518415,True
+1951191,fra,Je n'arrive pas à croire que je t'aie écouté.,audit,Basque,0.38311247969095746,Turkish,0.24722337462796815,False
+10668,fra,"Quoi qu'elle mange, elle ne grossit pas.",audit,Finnish,0.7103786497645541,Turkish,0.12736962843610752,True

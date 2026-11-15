@@ -11,26 +11,12 @@ def main():
     training_path = (
         PROJECT_DIR / "artifacts" / "tatoeba_nine" / "training_examples.json"
     )
-    if training_path.is_file():
-        train_rows = json.loads(training_path.read_text(encoding="utf-8"))
-    else:
-        # Recover one real training row per label without retraining or
-        # overwriting the saved model artifacts.
-        from phase_tatoeba import build_splits
-
-        train_rows, _, _, _ = build_splits()
-        train_rows = [
-            row for row in train_rows if row["label"] in SUPPORTED_LANGUAGES
-        ]
-        sample_rows = [
-            next(row for row in train_rows if row["label"] == label)
-            for label in SUPPORTED_LANGUAGES
-        ]
-        training_path.write_text(
-            json.dumps(sample_rows, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+    if not training_path.is_file():
+        raise FileNotFoundError(
+            "Saved current-model training examples are missing. Recreate the "
+            "model and its split artifacts with phase_tatoeba_nine_train.py."
         )
-        train_rows = sample_rows
+    train_rows = json.loads(training_path.read_text(encoding="utf-8"))
     examples = []
     for true_language in SUPPORTED_LANGUAGES:
         row = next(
