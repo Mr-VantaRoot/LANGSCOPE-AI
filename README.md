@@ -1,138 +1,49 @@
 # LANGSCOPE AI
 
-A ten-language text identifier for the AI + Languages track of the VERITAS AI International High School Hackathon 2026. Predictions come from a trained scikit-learn classifier, not script-detection or keyword rules.
+**Multilingual language identification with machine learning** — built for the AI + Languages track of the VERITAS AI International High School Hackathon 2026.
 
-## Supported languages and data
+## Problem and objective
 
-| Language | Tatoeba code | Source rows checked |
-| --- | --- | ---: |
-| Amharic | `amh` | 314 |
-| Mandarin Chinese | `cmn` | 89,315 |
-| Japanese | `jpn` | 248,989 |
-| Finnish | `fin` | 155,021 |
-| Georgian | `kat` | 7,710 |
-| Thai | `tha` | 6,853 |
-| Swahili | `swh` | 4,583 |
-| Basque | `eus` | 6,438 |
-| Turkish | `tur` | 750,286 |
-| English | `eng` | 2,041,097 |
+Short or unfamiliar text can be hard to identify, especially for languages with limited data. LANGSCOPE AI predicts among ten languages, displays its top candidates, and can abstain when the leading score is low.
 
-English is one of the ten supported languages, so the app can identify ordinary English input such as “How are you?”.
+**Supported languages:** Amharic, Basque, English, Finnish, Georgian, Japanese, Mandarin Chinese, Swahili, Thai, and Turkish.
 
-The balanced ten-language run uses **219 unique sentences per language** (2,190 total): 153 train, 33 validation, and 33 test per language. Amharic is the limiting source. To create a fresh test set, 95 previously scored IDs in each of the original nine language exports and 1,000 English IDs already scored by the former OOD experiment were excluded. Exact repeated text within a class and 43 cross-language text collision groups were removed. Train, validation, and test have no normalized exact-text overlap. Dataset counts, checksums, and IDs are recorded in `artifacts/tatoeba_ten/`.
+## Method
 
-Tatoeba sentence rows contain IDs, three-letter language codes, and text. Tatoeba publishes sentences under [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/); some rows are CC0. See [CREDITS.md](CREDITS.md).
+We used Tatoeba's public sentence exports (IDs, language codes, and text). After excluding previously scored IDs and duplicate or cross-language-ambiguous text, we balanced to **219 unique sentences per language** (**2,190 total**); Amharic limited the sample. Each language has 153 training, 33 validation, and 33 held-out test sentences, with no normalized exact-text overlap between splits.
 
-## Model and application
+The model uses `TfidfVectorizer(analyzer="char", ngram_range=(1, 3))` and Logistic Regression. Validation selected `C=10.0`; the uncertainty threshold used in-language validation and separate French out-of-distribution examples. See [CREDITS.md](CREDITS.md) for dataset and tool attribution.
 
-The model is `TfidfVectorizer(analyzer="char", ngram_range=(1, 3))` followed by `LogisticRegression(C=10.0)`. Validation macro-F1 selected C from 0.1, 1.0, and 10.0. The app displays the top language, its raw model score, and three candidates. The score is not a calibrated probability.
+## Held-out results
 
-### Reading the prediction
+On the fresh test set (**330 sentences; 33 per language**), the model got **329 correct (99.70% accuracy)**, with **99.71% macro precision**, **99.70% macro recall**, and **99.70% macro F1**. The majority-class baseline was **10.00%**.
 
-**Top three candidates (model scores)** lists the three supported languages with the highest Logistic Regression scores, in descending order. Each score is the model's relative class score for that input; it is not a calibrated probability, and the three scores should not be interpreted as certainty percentages.
+| Language | Accuracy | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: | ---: |
+| Amharic | 100.00% | 100.00% | 100.00% | 100.00% |
+| Basque | 96.97% | 100.00% | 96.97% | 98.46% |
+| English | 100.00% | 100.00% | 100.00% | 100.00% |
+| Finnish | 100.00% | 97.06% | 100.00% | 98.51% |
+| Georgian | 100.00% | 100.00% | 100.00% | 100.00% |
+| Japanese | 100.00% | 100.00% | 100.00% | 100.00% |
+| Mandarin Chinese | 100.00% | 100.00% | 100.00% | 100.00% |
+| Swahili | 100.00% | 100.00% | 100.00% | 100.00% |
+| Thai | 100.00% | 100.00% | 100.00% | 100.00% |
+| Turkish | 100.00% | 100.00% | 100.00% | 100.00% |
 
-**“Uncertain — no supported language assigned”** means the highest score was below the rejection threshold (**0.660368**). The app then withholds a language assignment, although it still shows the model's top candidates for context. The threshold was chosen using in-language validation examples and separate French Tatoeba examples. It can reject difficult or short text even when it is one of the ten supported languages, and it can still accept unsupported text. For example, “How are you?” ranks **English** first with a raw score of **0.841009**, above the threshold. This gate is a caution, not a guarantee that the input is or is not one of the supported languages.
+The only test error was Basque “Ikasi,” predicted as Finnish; the app abstains on its low score. See the [confusion matrix](artifacts/tatoeba_ten/confusion_matrix.csv), [failure case](artifacts/tatoeba_ten/failure_cases.json), and [full metrics](artifacts/tatoeba_ten/metrics.json).
 
-```mermaid
-flowchart LR
-    A[Tatoeba language TSVs] --> B[Validate IDs, codes, text, duplicates]
-    B --> C[Exclude previously scored IDs]
-    C --> D[Balanced train / validation / fresh test]
-    D --> E[Character TF-IDF 1–3]
-    E --> F[Logistic Regression]
-    D --> G[Validation-only model selection and ID score validation]
-    X[Separate French OOD calibration] --> G
-    F --> H[One-time held-out evaluation]
-    H --> I[langdetect on identical test sentences]
-    F --> J[Saved ten-language artifacts]
-    J --> K[Gradio app]
-```
+**Baseline:** `langdetect` 1.0.9 scored **92.21%** on the same 231 test examples where it supports the label (70% test coverage). Amharic, Georgian, and Basque are unsupported and excluded. Per-language results are in [metrics](artifacts/tatoeba_ten/metrics.json).
 
-## Final ten-language evaluation
+## What we added
 
-The model was evaluated once on its new, balanced held-out test set: 330 Tatoeba sentences (33 per language). It classified **329/330 correctly**, for accuracy **0.996970**. Macro precision was **0.997059**, macro recall **0.996970**, and macro F1 **0.996969**. The balanced majority-class baseline was **0.100000**. This is a small test set drawn from the same curated source as training, not a broad real-world benchmark.
-
-| Language | Test n | Accuracy | Precision | Recall | F1 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Amharic | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Mandarin Chinese | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Japanese | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Finnish | 33 | 1.0000 | 0.9706 | 1.0000 | 0.9851 |
-| Georgian | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Thai | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Swahili | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| Basque | 33 | 0.9697 | 1.0000 | 0.9697 | 0.9846 |
-| Turkish | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-| English | 33 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
-
-There was one error: the five-character Basque sentence `Ikasi` was predicted as Finnish with score 0.297268; the gate leaves it uncertain. The error and full confusion matrix are in `artifacts/tatoeba_ten/failure_cases.json` and `confusion_matrix.csv`.
-
-### langdetect baseline
-
-`langdetect` 1.0.9 received exactly the same 330 test sentences. Three target labels—Amharic, Georgian, and Basque—are unsupported by that library and were omitted from its accuracy denominator. It scored **213/231 = 0.922078** on the seven supported labels (70% test coverage). Its per-language metrics are in `artifacts/tatoeba_ten/metrics.json`.
-
-### Short test sentences
-
-These are groups within the same test set, not additional evaluations. At most 10 characters: **44/45 (0.977778)**; 11–20 characters: **84/84**; over 20 characters: **201/201**. These estimates are noisy because there are only 33 test examples per language.
-
-### Out-of-distribution check
-
-The score gate threshold (**0.660368**) retains 314/330 in-language validation examples (**95.15%**). On a separate French calibration sample, it rejected 232/500 (**46.4%**); a disjoint French audit rejected 217/500 (**43.4%**). Many French inputs still pass as supported, so the gate cannot establish that a language is outside the ten supported classes. This check did not use the ten-language test set. Full sample-level results are under `artifacts/tatoeba_ten/ood_*`.
-
-### Preserved nine-language results
-
-The previous nine-language model and evaluation remain unchanged in `artifacts/tatoeba_nine/`. Its original result was 350/351 correct (accuracy 0.997151). Those examples were not reused in the ten-language test set. The current app loads the new ten-language artifacts at `artifacts/tatoeba_ten/`.
-
-## Install and run
-
-Python 3.14 and pinned packages from `requirements.txt` were used.
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python app.py
-```
-
-Gradio prints the local URL. Runtime does not need raw datasets or a Hugging Face token. On Windows PowerShell, activate using `.venv\Scripts\Activate.ps1`.
-
-## Reproduce
-
-Raw Tatoeba exports are excluded from Git under `data/tatoeba/`. Download the ten model-language exports and French OOD export from the [Tatoeba downloads page](https://tatoeba.org/en/downloads):
-
-```bash
-mkdir -p data/tatoeba
-for lang in amh cmn jpn fin kat tha swh eus tur eng fra; do
-  curl --fail --location --retry 0 \
-    --output "data/tatoeba/${lang}_sentences.tsv.bz2" \
-    "https://downloads.tatoeba.org/exports/per_language/${lang}/${lang}_sentences.tsv.bz2" \
-    || exit 1
-done
-for file in data/tatoeba/*_sentences.tsv.bz2; do bzip2 -t "$file" || exit 1; done
-```
-
-The saved one-time experiment is documented in `phase_tatoeba_ten_train.py`; its existing metrics make it refuse to retrain or reuse the test set. The separate OOD calibration is `calibrate_ood_ten.py`. The prior nine-language pipeline and results are retained separately.
-
-Run the checks with:
-
-```bash
-python -m unittest discover -s tests -v
-```
+- **English support:** English is the tenth class; “How are you?” ranks English first (raw score 0.841009).
+- **Short-text evaluation:** On the same test set, accuracy was 44/45 for inputs up to 10 characters, 84/84 for 11–20, and 201/201 above 20. These are small groups, not separate tests.
+- **Uncertainty handling:** The app shows the three highest raw Logistic Regression scores (not calibrated probabilities). Below **0.660368**, it displays “Uncertain — no supported language assigned.” The gate retained 95.15% of in-language validation examples but rejected only 43.4% of a separate French audit, so it does not reliably detect every unsupported language. See the [OOD evaluation](artifacts/tatoeba_ten/ood_rejection_evaluation.json) and [audit predictions](artifacts/tatoeba_ten/ood_audit_predictions.csv).
+- **Gradio app:** Displays the prediction, score, alternatives, and short-text or uncertainty guidance. Run with `python app.py` after installing [requirements.txt](requirements.txt); see [deployment instructions](DEPLOYMENT.md).
 
 ## Limitations
 
-- Amharic limits the balanced experiment to 219 sentences per language, well below 2,000.
-- The test set is small and uses curated Tatoeba sentences. Chats, typos, dialects, names, code-switching, and domain changes may behave differently.
-- `langdetect` does not support three target labels; its score covers only seven languages.
-- The French OOD gate accepts more than half of the separate audit examples. It is not universal language detection.
-- Mixed-language input was not separately evaluated. Very short messages can be inherently ambiguous even when English is supported.
-- The repository has no selected software license. Tatoeba's data terms do not license the project's original code.
+The dataset is small (219 sentences per language; 33 test examples per class) and consists of curated Tatoeba text. Results may differ on casual conversation, dialects, spelling variation, names, mixed-language text, or other domains. OOD rejection is imperfect: unsupported text may pass and supported text may be rejected. These are results from this held-out run, not a broad external benchmark.
 
-## GitHub metadata suggestions
-
-Description: “A ten-language text identifier using Tatoeba, character n-gram TF-IDF, Logistic Regression, and Gradio.”
-
-Topics: `language-identification`, `nlp`, `scikit-learn`, `gradio`, `tatoeba`, `low-resource-languages`.
-
-No source-code license has been selected. The app has not been deployed; see [DEPLOYMENT.md](DEPLOYMENT.md) for preparation instructions.
+For reproducibility and detail, see the [split manifest](artifacts/tatoeba_ten/split_manifest.json), [training metadata](artifacts/tatoeba_ten/training_metadata.json), and [all test predictions](artifacts/tatoeba_ten/predictions.csv). Tatoeba's dataset terms do not license this repository's source code; no software license has been selected.
