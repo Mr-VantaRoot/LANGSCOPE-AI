@@ -1,0 +1,101 @@
+sentence_id,source,true_language,text,model_prediction,model_score,langdetect_prediction,langdetect_code
+12403460,Tatoeba,Amharic,ተማሪ መሆን አይፈልግም።,Amharic,0.9849270980281123,no detection,
+9197439,Tatoeba,Amharic,ስምህ ማነው？,Amharic,0.8320105860316682,no detection,
+12403459,Tatoeba,Amharic,ብቻዬን መሆን አልፈልግም።,Amharic,0.9886600833179072,no detection,
+4897528,Tatoeba,Amharic,ወደ አዲስ አበባ መቼ ነው የምትሄድ?,Amharic,0.9907576707182171,no detection,
+2968659,Tatoeba,Amharic,ጤና ይስጥልኝ!,Amharic,0.9412790104153399,no detection,
+12975489,Tatoeba,Amharic,ሁሉም ሰው እንግሊዝኛ ይናገራል።,Amharic,0.9824467088189951,no detection,
+3643015,Tatoeba,Amharic,አንፈልገውም።,Amharic,0.9774136834263054,no detection,
+3143536,Tatoeba,Amharic,አሜሪካዊ ነኝ።,Amharic,0.9577668263017141,no detection,
+13594036,Tatoeba,Amharic,ቤቱ የት ነው?,Amharic,0.9857774186695989,no detection,
+4451453,Tatoeba,Amharic,ቦስቶን ውስጥ ለመጉብኘት ብዙ ቦታዎች አሉ።,Amharic,0.9897630797560254,no detection,
+12975765,Tatoeba,Afaan Oromo (West Central Oromo),Finfinneen magaalaa guddoo Itoophiyaati.,Afaan Oromo (West Central Oromo),0.8020119896059591,unsupported prediction,so
+12975761,Tatoeba,Afaan Oromo (West Central Oromo),Maqaan kee eenyu?,Afaan Oromo (West Central Oromo),0.3140375973993976,unsupported prediction,so
+12975776,Tatoeba,Afaan Oromo (West Central Oromo),Afaan Oromootiin dubbachuu nan barbaada.,Afaan Oromo (West Central Oromo),0.8615578983593906,unsupported prediction,so
+8898760,Tatoeba,Afaan Oromo (West Central Oromo),Niin deema.,Turkish,0.2927043339105901,unsupported prediction,nl
+12975759,Tatoeba,Afaan Oromo (West Central Oromo),Maqaan koo eenyu?,Afaan Oromo (West Central Oromo),0.320199192981195,unsupported prediction,so
+12975768,Tatoeba,Afaan Oromo (West Central Oromo),Toom leencaan ajjeefame.,Finnish,0.3294899272741187,unsupported prediction,nl
+12975762,Tatoeba,Afaan Oromo (West Central Oromo),Eessa turte?,Basque,0.3957021834091705,unsupported prediction,et
+12975775,Tatoeba,Afaan Oromo (West Central Oromo),Afaan Oromootiin dubbachuun barbaada.,Afaan Oromo (West Central Oromo),0.8538880673511817,unsupported prediction,so
+8898761,Tatoeba,Afaan Oromo (West Central Oromo),Saaloonii keeyssaan hojjadha.,Afaan Oromo (West Central Oromo),0.7613446530153266,unsupported prediction,so
+8898773,Tatoeba,Afaan Oromo (West Central Oromo),Lakki.,Finnish,0.21684631063174886,Finnish,fi
+2474902,Tatoeba,Mandarin Chinese,我的额头烧得很烫。,Mandarin Chinese,0.9978153955635318,Mandarin Chinese,zh-cn
+3479485,Tatoeba,Mandarin Chinese,再次感谢您的关注。,Mandarin Chinese,0.9100226457201672,Mandarin Chinese,zh-cn
+7768240,Tatoeba,Mandarin Chinese,他是最年长的儿子。,Mandarin Chinese,0.9864420445898905,Mandarin Chinese,zh-cn
+13521863,Tatoeba,Mandarin Chinese,是個自由的人。,Mandarin Chinese,0.9726627932067522,Mandarin Chinese,zh-tw
+5630379,Tatoeba,Mandarin Chinese,湯姆知道了這箇想法很欣喜。,Mandarin Chinese,0.9897582140371959,unsupported prediction,ko
+1330044,Tatoeba,Mandarin Chinese,我认为她会来的。,Mandarin Chinese,0.9830024431219155,Mandarin Chinese,zh-cn
+332901,Tatoeba,Mandarin Chinese,最后她没有来。,Mandarin Chinese,0.9719311303909358,Mandarin Chinese,zh-cn
+13239819,Tatoeba,Mandarin Chinese,手機訊號越來越微弱了。,Mandarin Chinese,0.9516122188084667,Mandarin Chinese,zh-tw
+5842629,Tatoeba,Mandarin Chinese,让我想想。,Mandarin Chinese,0.9715728694935103,Mandarin Chinese,zh-cn
+14062441,Tatoeba,Mandarin Chinese,見人說人話，見鬼說鬼話。,Mandarin Chinese,0.8006541331798288,Mandarin Chinese,zh-tw
+2494080,Tatoeba,Japanese,トムは新しい携帯を見せびらかした。,Japanese,0.9954836260851934,Japanese,ja
+122203,Tatoeba,Japanese,日本文化を十分に理解するためには、日本語を学ぶべきだ。,Japanese,0.9728828064921052,Japanese,ja
+124846,Tatoeba,Japanese,電気ヒーターはどこか調子が悪い。,Japanese,0.9181083293039229,Japanese,ja
+11045465,Tatoeba,Japanese,あのヘディングのゴールは技ありといったところ。,Japanese,0.9881331707355546,Japanese,ja
+119036,Tatoeba,Japanese,彼にとって成功の誇りを隠すのは困難だった。,Japanese,0.998799027210022,Japanese,ja
+96245,Tatoeba,Japanese,彼らは疲れていたので普通より早く床についた。,Japanese,0.9973258833376997,Japanese,ja
+121919,Tatoeba,Japanese,猫を抱き上げてはだめよ。,Japanese,0.9498847906313339,Japanese,ja
+10993452,Tatoeba,Japanese,鮎の美味しい季節になりました。,Japanese,0.995809483782571,Japanese,ja
+217761,Tatoeba,Japanese,これらの本を主題別に分類してください。,Japanese,0.990638540387389,Japanese,ja
+179534,Tatoeba,Japanese,苦しむことは人間の定めである。,Japanese,0.9905721538833266,Japanese,ja
+12221871,Tatoeba,Finnish,"Näytin Tomille joitakin kuvia, joista pidän.",Finnish,0.9932309871606406,Finnish,fi
+8345346,Tatoeba,Finnish,Koirat eivät kykene erottamaan värejä.,Finnish,0.9464562093344987,Finnish,fi
+2599844,Tatoeba,Finnish,Seisoin hetken ja katsoin pakokaasuputkea.,Finnish,0.9584547389421287,Finnish,fi
+2601995,Tatoeba,Finnish,Hänen äänensä alkoi nousta hänen puhuessaan.,Finnish,0.9973447816730997,Finnish,fi
+7782919,Tatoeba,Finnish,Tomil on rento faija.,Finnish,0.7570515814556273,unsupported prediction,es
+9659200,Tatoeba,Finnish,Tsunamivaroitus peruttiin.,Finnish,0.7734518920172653,Finnish,fi
+7930408,Tatoeba,Finnish,"Se nyt näyttää kovasti siltä, että sinä hävisit. Pahoittelen. No en oikeasti.",Finnish,0.9994865245207734,Finnish,fi
+10636164,Tatoeba,Finnish,Kesti kauan ennen kuin totuin tuohon ääneen.,Finnish,0.9893849342311775,Finnish,fi
+3199463,Tatoeba,Finnish,Tom tyhjensi veden pullosta ennen kuin hän täytti sen raikkaalla vedellä.,Finnish,0.995419075538236,Finnish,fi
+8662256,Tatoeba,Finnish,Jumala ampui itsensä.,Finnish,0.7032500604000778,Finnish,fi
+4830995,Tatoeba,Georgian,ყოველთვის სკოლაშია.,Georgian,0.982452185491838,unsupported prediction,et
+8408341,Tatoeba,Georgian,მე მოვდივარ.,Georgian,0.9842826340754638,unsupported prediction,et
+8470739,Tatoeba,Georgian,ლამაზი კაბაა.,Georgian,0.9731546057006883,unsupported prediction,et
+8465849,Tatoeba,Georgian,მე უნდა წავიდე. ბნელდება.,Georgian,0.9956596854742585,unsupported prediction,et
+11655055,Tatoeba,Georgian,ესტონურად ლაპარკობ?,Georgian,0.9690467220271926,unsupported prediction,et
+9205855,Tatoeba,Georgian,"არა, მე ვნახე ეს. მართლა!",Georgian,0.9927942088903781,unsupported prediction,et
+8477314,Tatoeba,Georgian,მე მათთვის არაფერი მითქვამს.,Georgian,0.9987075212308816,unsupported prediction,et
+13704385,Tatoeba,Georgian,მან კარგად იცის სპარსული.,Georgian,0.9939447734938979,unsupported prediction,et
+8468162,Tatoeba,Georgian,დაეშვით!,Georgian,0.9143639942873655,unsupported prediction,et
+8487100,Tatoeba,Georgian,ზოგჯერ ბავშვებს ჰყავთ წარმოსახვითი მეგობრები.,Georgian,0.999046169467782,unsupported prediction,et
+8850913,Tatoeba,Thai,เอามือออกไป,Thai,0.9452595910994737,Thai,th
+10275696,Tatoeba,Thai,ทอมรู้ทันทีว่ามีบางอย่างผิดปกติ,Thai,0.9986082394699239,Thai,th
+1127616,Tatoeba,Thai,ผมชอบนักร้องคนนั้นมาก,Thai,0.9937711070222623,Thai,th
+8695477,Tatoeba,Thai,คุณสนใจการเมืองหรือไม่?,Thai,0.9915425377555551,Thai,th
+10103725,Tatoeba,Thai,ผมคิดว่าคุณกำลังทำงาน,Thai,0.9868879130144795,Thai,th
+10714757,Tatoeba,Thai,วันนี้ฉันสามารถช่วยคุณได้สองสามชั่วโมง,Thai,0.9985819973727275,Thai,th
+10986709,Tatoeba,Thai,ทำไมคุณไม่อยู่กับเราสักสองสามสัปดาห์,Thai,0.9969821804837786,Thai,th
+8671192,Tatoeba,Thai,ฉันจะติดตามคุณ,Thai,0.9717879984848322,Thai,th
+10469515,Tatoeba,Thai,หนังสือที่ผมซื้ออยู่บนโต๊ะ,Thai,0.9830397785264191,Thai,th
+8743340,Tatoeba,Thai,ทอมหนีออกจากปราสาท ปลอมตัวเป็นผู้หญิง,Thai,0.9979936861495667,Thai,th
+10837482,Tatoeba,Swahili,Nadhani sehemu ngumu zaidi ya uuguzi ni kuona damu nyingi kila siku.,Swahili,0.971882619973368,Swahili,sw
+10868850,Tatoeba,Swahili,Kwa bahati ya mtende nilipata funguo zangu kwenye pipa la taka.,Swahili,0.9921982984844012,Swahili,sw
+10895976,Tatoeba,Swahili,Jamaa wa rangi ya kijivu alikuwa na ulimi wa fedha. Alikuwa mjanja kama alivyokuwa na busara.,Swahili,0.996737449327341,Swahili,sw
+10815688,Tatoeba,Swahili,"Kwa kusaini mkataba, nilijitolea kufanya kazi huko kwa miaka mingine mitano.",Swahili,0.9924437534318323,Swahili,sw
+10858158,Tatoeba,Swahili,Walt hapigani vurugu kwa vurugu.,Swahili,0.9174614892725856,Swahili,sw
+10837816,Tatoeba,Swahili,Ninaona kutoka kwa vidole vyako kwamba unavuta sigara.,Swahili,0.979595741174532,Swahili,sw
+10821270,Tatoeba,Swahili,Alishika breki mguu mtupu kwa ghafla.,Swahili,0.9409442768917949,Swahili,sw
+10835127,Tatoeba,Swahili,Sehemu hii ya muziki inahitaji ustadi fulani wa kweli. Ilinichukua miaka kujifunza jinsi ya kuucheza kwenye piano.,Swahili,0.9975737556533643,Swahili,sw
+10874758,Tatoeba,Swahili,Mwanasiasa huyu alishutumiwa kwa kuiba mamilioni ya dola katika fedha za umma.,Swahili,0.9923124119736669,Swahili,sw
+10886502,Tatoeba,Swahili,Nani alienda nawe jana?,Swahili,0.9713178998573416,Swahili,sw
+666107,Tatoeba,Basque,Nola etorri zara?,Basque,0.9161482989946214,unsupported prediction,it
+927751,Tatoeba,Basque,Publikoan ondo hitz egitea baino zailagoa da entzule ona izatea.,Basque,0.9902509521949204,unsupported prediction,ro
+3375826,Tatoeba,Basque,Tokion jaio nintzen 1968an.,Basque,0.6500868286313138,Finnish,fi
+6328954,Tatoeba,Basque,Bera inozoa zen.,Basque,0.9843764770986945,unsupported prediction,sl
+6833348,Tatoeba,Basque,Iman bat bezalakoa naiz.,Basque,0.9417142996625928,unsupported prediction,tl
+6018769,Tatoeba,Basque,Zure frantsez maila nahiko ona da.,Basque,0.9578929865051938,unsupported prediction,sl
+6847064,Tatoeba,Basque,Joan zaitez eskolara!,Basque,0.9872133550389108,unsupported prediction,hr
+6884676,Tatoeba,Basque,"Berandu helduko nintzateke, Tomek eraman ez banindu.",Basque,0.9720452492240618,Turkish,tr
+6831737,Tatoeba,Basque,"Hor nagoenetik, aldi batean soilik hitz egin dut Tomekin.",Basque,0.9418924951696955,Turkish,tr
+1329630,Tatoeba,Basque,Sally izena dut.,Basque,0.8077267176374155,unsupported prediction,en
+3595211,Tatoeba,Turkish,Tom eski bir altın sikke buldu.,Turkish,0.9069763055682326,Turkish,tr
+4651161,Tatoeba,Turkish,Tom çok giysi giymiyordu.,Turkish,0.9730578520694885,Turkish,tr
+5044161,Tatoeba,Turkish,Biri ona bir içki alabilir mi?,Turkish,0.9488488862834555,Turkish,tr
+4951164,Tatoeba,Turkish,Kızartma sevmem.,Turkish,0.8867156045519252,Turkish,tr
+4356401,Tatoeba,Turkish,Aman Allah'ım yağmur yağıyor.,Turkish,0.9767154666879808,Turkish,tr
+8896983,Tatoeba,Turkish,Tom kirli giysilerini çamaşır sepetine koydu.,Turkish,0.9619929162180731,Turkish,tr
+4732452,Tatoeba,Turkish,Sana oraya asla yalnız gitmemeni söylediğimi düşündüm.,Turkish,0.990110230326036,Turkish,tr
+3799850,Tatoeba,Turkish,Gece geç saatlere kadar yatmazdım.,Turkish,0.9605051963470148,Turkish,tr
+1475061,Tatoeba,Turkish,"O, bana misilleme yaptı.",Turkish,0.7139867973758539,Turkish,tr
+5508277,Tatoeba,Turkish,Yapılacak daha çok işimiz var.,Turkish,0.9659628129035475,Turkish,tr

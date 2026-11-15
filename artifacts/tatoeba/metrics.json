@@ -1,0 +1,480 @@
+{
+  "dataset": "Tatoeba per-language sentences with FLORES+ dev supplement for Oromo train/validation",
+  "languages": [
+    "Amharic",
+    "Afaan Oromo (West Central Oromo)",
+    "Mandarin Chinese",
+    "Japanese",
+    "Finnish",
+    "Georgian",
+    "Thai",
+    "Swahili",
+    "Basque",
+    "Turkish"
+  ],
+  "seed": 42,
+  "split_counts": {
+    "before_balancing": {
+      "train_per_language": {
+        "Amharic": 243,
+        "Afaan Oromo (West Central Oromo)": 798,
+        "Mandarin Chinese": 71444,
+        "Japanese": 199183,
+        "Finnish": 124009,
+        "Georgian": 6160,
+        "Thai": 5474,
+        "Swahili": 3658,
+        "Basque": 5142,
+        "Turkish": 600221
+      },
+      "validation_per_language": {
+        "Amharic": 61,
+        "Afaan Oromo (West Central Oromo)": 199,
+        "Mandarin Chinese": 17861,
+        "Japanese": 49796,
+        "Finnish": 31002,
+        "Georgian": 1540,
+        "Thai": 1369,
+        "Swahili": 915,
+        "Basque": 1286,
+        "Turkish": 150055
+      },
+      "test_per_language": {
+        "Amharic": 10,
+        "Afaan Oromo (West Central Oromo)": 10,
+        "Mandarin Chinese": 10,
+        "Japanese": 10,
+        "Finnish": 10,
+        "Georgian": 10,
+        "Thai": 10,
+        "Swahili": 10,
+        "Basque": 10,
+        "Turkish": 10
+      }
+    },
+    "after_balancing": {
+      "train_per_language": {
+        "Amharic": 243,
+        "Afaan Oromo (West Central Oromo)": 243,
+        "Mandarin Chinese": 243,
+        "Japanese": 243,
+        "Finnish": 243,
+        "Georgian": 243,
+        "Thai": 243,
+        "Swahili": 243,
+        "Basque": 243,
+        "Turkish": 243
+      },
+      "validation_per_language": {
+        "Amharic": 61,
+        "Afaan Oromo (West Central Oromo)": 61,
+        "Mandarin Chinese": 61,
+        "Japanese": 61,
+        "Finnish": 61,
+        "Georgian": 61,
+        "Thai": 61,
+        "Swahili": 61,
+        "Basque": 61,
+        "Turkish": 61
+      },
+      "test_per_language": {
+        "Amharic": 10,
+        "Afaan Oromo (West Central Oromo)": 10,
+        "Mandarin Chinese": 10,
+        "Japanese": 10,
+        "Finnish": 10,
+        "Georgian": 10,
+        "Thai": 10,
+        "Swahili": 10,
+        "Basque": 10,
+        "Turkish": 10
+      }
+    },
+    "source_sentence_counts": {
+      "Amharic": {
+        "Tatoeba_total": 314,
+        "Tatoeba_after_test_reservation": 304
+      },
+      "Afaan Oromo (West Central Oromo)": {
+        "Tatoeba_total": 10,
+        "FLORES+_dev_total": 997
+      },
+      "Mandarin Chinese": {
+        "Tatoeba_total": 89315,
+        "Tatoeba_after_test_reservation": 89305
+      },
+      "Japanese": {
+        "Tatoeba_total": 248989,
+        "Tatoeba_after_test_reservation": 248979
+      },
+      "Finnish": {
+        "Tatoeba_total": 155021,
+        "Tatoeba_after_test_reservation": 155011
+      },
+      "Georgian": {
+        "Tatoeba_total": 7710,
+        "Tatoeba_after_test_reservation": 7700
+      },
+      "Thai": {
+        "Tatoeba_total": 6853,
+        "Tatoeba_after_test_reservation": 6843
+      },
+      "Swahili": {
+        "Tatoeba_total": 4583,
+        "Tatoeba_after_test_reservation": 4573
+      },
+      "Basque": {
+        "Tatoeba_total": 6438,
+        "Tatoeba_after_test_reservation": 6428
+      },
+      "Turkish": {
+        "Tatoeba_total": 750286,
+        "Tatoeba_after_test_reservation": 750276
+      }
+    },
+    "removed_exact_duplicates": {
+      "train_removed": 0,
+      "validation_removed": 0
+    },
+    "exact_duplicate_overlap_across_final_splits": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "seed": 42,
+    "test_source": "Tatoeba per-language exports",
+    "oromo_train_validation_source": "FLORES+ gaz_Latn dev"
+  },
+  "model": {
+    "vectorizer": "TfidfVectorizer(analyzer='char', ngram_range=(1, 3))",
+    "classifier": "LogisticRegression",
+    "selected_C": 10.0,
+    "validation_grid": [
+      {
+        "C": 0.1,
+        "accuracy": 0.9934426229508196,
+        "macro_f1": 0.9934417415829365
+      },
+      {
+        "C": 1.0,
+        "accuracy": 0.9934426229508196,
+        "macro_f1": 0.9934419565507129
+      },
+      {
+        "C": 10.0,
+        "accuracy": 0.9967213114754099,
+        "macro_f1": 0.9967210911778539
+      }
+    ],
+    "selection_metric": "validation macro-F1, then validation accuracy"
+  },
+  "test": {
+    "source": "Tatoeba",
+    "examples": 100,
+    "examples_per_language": 10,
+    "accuracy": 0.96,
+    "per_language": {
+      "Amharic": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "": 10
+        }
+      },
+      "Afaan Oromo (West Central Oromo)": {
+        "support": 10,
+        "model_correct": 6,
+        "model_accuracy": 0.6,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "so": 6,
+          "nl": 2,
+          "et": 1,
+          "fi": 1
+        }
+      },
+      "Mandarin Chinese": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 9,
+        "langdetect_accuracy": 0.9,
+        "langdetect_raw_codes": {
+          "zh-cn": 6,
+          "zh-tw": 3,
+          "ko": 1
+        }
+      },
+      "Japanese": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "ja": 10
+        }
+      },
+      "Finnish": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 9,
+        "langdetect_accuracy": 0.9,
+        "langdetect_raw_codes": {
+          "fi": 9,
+          "es": 1
+        }
+      },
+      "Georgian": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "et": 10
+        }
+      },
+      "Thai": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "th": 10
+        }
+      },
+      "Swahili": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "sw": 10
+        }
+      },
+      "Basque": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "it": 1,
+          "ro": 1,
+          "fi": 1,
+          "sl": 2,
+          "tl": 1,
+          "hr": 1,
+          "tr": 2,
+          "en": 1
+        }
+      },
+      "Turkish": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "tr": 10
+        }
+      }
+    },
+    "confusion_matrix_labels": [
+      "Amharic",
+      "Afaan Oromo (West Central Oromo)",
+      "Mandarin Chinese",
+      "Japanese",
+      "Finnish",
+      "Georgian",
+      "Thai",
+      "Swahili",
+      "Basque",
+      "Turkish"
+    ],
+    "test_used_once": true,
+    "limitations": [
+      "Ten Tatoeba test sentences per language give noisy per-language estimates.",
+      "Oromo training and validation use FLORES+ because Tatoeba has only ten Oromo sentences.",
+      "The Oromo source differs from the other training sources, so source and language effects may be confounded.",
+      "Mixed-language text was not evaluated because no authentic labeled mixed-language test set was included."
+    ],
+    "majority_class_baseline_accuracy": 0.1
+  },
+  "langdetect": {
+    "version": "1.0.9",
+    "accuracy_on_supported_true_language_examples": 0.9666666666666667,
+    "supported_examples": 60,
+    "unsupported_languages": [
+      "Amharic",
+      "Afaan Oromo (West Central Oromo)",
+      "Georgian",
+      "Basque"
+    ],
+    "out_of_target_predictions_on_supported_examples": 2,
+    "per_language": {
+      "Amharic": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "": 10
+        }
+      },
+      "Afaan Oromo (West Central Oromo)": {
+        "support": 10,
+        "model_correct": 6,
+        "model_accuracy": 0.6,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "so": 6,
+          "nl": 2,
+          "et": 1,
+          "fi": 1
+        }
+      },
+      "Mandarin Chinese": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 9,
+        "langdetect_accuracy": 0.9,
+        "langdetect_raw_codes": {
+          "zh-cn": 6,
+          "zh-tw": 3,
+          "ko": 1
+        }
+      },
+      "Japanese": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "ja": 10
+        }
+      },
+      "Finnish": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 9,
+        "langdetect_accuracy": 0.9,
+        "langdetect_raw_codes": {
+          "fi": 9,
+          "es": 1
+        }
+      },
+      "Georgian": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "et": 10
+        }
+      },
+      "Thai": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "th": 10
+        }
+      },
+      "Swahili": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "sw": 10
+        }
+      },
+      "Basque": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "unsupported",
+        "langdetect_correct": null,
+        "langdetect_accuracy": "unsupported",
+        "langdetect_raw_codes": {
+          "it": 1,
+          "ro": 1,
+          "fi": 1,
+          "sl": 2,
+          "tl": 1,
+          "hr": 1,
+          "tr": 2,
+          "en": 1
+        }
+      },
+      "Turkish": {
+        "support": 10,
+        "model_correct": 10,
+        "model_accuracy": 1.0,
+        "langdetect_support_status": "supported",
+        "langdetect_correct": 10,
+        "langdetect_accuracy": 1.0,
+        "langdetect_raw_codes": {
+          "tr": 10
+        }
+      }
+    }
+  },
+  "short_prefix_results": {
+    "5": {
+      "description": "first 5 Unicode code points of each Tatoeba test sentence",
+      "examples": 100,
+      "accuracy": 0.8
+    },
+    "10": {
+      "description": "first 10 Unicode code points of each Tatoeba test sentence",
+      "examples": 100,
+      "accuracy": 0.88
+    },
+    "20": {
+      "description": "first 20 Unicode code points of each Tatoeba test sentence",
+      "examples": 100,
+      "accuracy": 0.95
+    }
+  },
+  "real_model_failure_count": 4,
+  "libraries": {
+    "scikit_learn": "1.9.1"
+  }
+}

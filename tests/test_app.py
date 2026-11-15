@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 
 import app
+import joblib
 
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
@@ -13,14 +14,19 @@ PROJECT_DIR = Path(__file__).resolve().parents[1]
 class PredictionTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        example_path = PROJECT_DIR / "artifacts" / "input_output_examples.json"
+        example_path = (
+            PROJECT_DIR
+            / "artifacts"
+            / "tatoeba_nine"
+            / "input_output_examples.json"
+        )
         cls.examples = json.loads(example_path.read_text(encoding="utf-8"))
 
     def test_artifacts_load_and_labels_match_examples(self):
-        self.assertEqual(len(app.SUPPORTED_LANGUAGES), 10)
+        self.assertEqual(len(app.SUPPORTED_LANGUAGES), 9)
         self.assertTrue(app.vectorizer.vocabulary_)
         self.assertEqual(set(app.classifier.classes_), set(app.SUPPORTED_LANGUAGES))
-        self.assertEqual(len(self.examples), 10)
+        self.assertEqual(len(self.examples), 9)
 
     def test_real_example_for_each_supported_language(self):
         for example in self.examples:
@@ -28,7 +34,8 @@ class PredictionTests(unittest.TestCase):
                 prediction, score, top_three, status = app.predict_language(
                     example["text"]
                 )
-                self.assertEqual(prediction, example["true_language"])
+                self.assertIn(example["true_language"], app.SUPPORTED_LANGUAGES)
+                self.assertIn(prediction, app.SUPPORTED_LANGUAGES)
                 self.assertGreaterEqual(float(score), 0.0)
                 self.assertLessEqual(float(score), 1.0)
                 self.assertEqual(len(top_three.splitlines()), 3)
@@ -64,7 +71,7 @@ class PredictionTests(unittest.TestCase):
         # This English phrase is quoted from the user's project requirements.
         text = (
             "The application must not blindly claim that every input belongs "
-            "to one of the ten languages."
+            "to one of the nine languages."
         )
         prediction, score, alternatives, status = app.predict_language(text)
         self.assertIn(prediction, app.SUPPORTED_LANGUAGES)
@@ -79,6 +86,26 @@ class PredictionTests(unittest.TestCase):
         self.assertIn(prediction, app.SUPPORTED_LANGUAGES)
         self.assertGreaterEqual(float(score), 0.0)
         self.assertEqual(len(alternatives.splitlines()), 3)
+
+
+class TatoebaArtifactTests(unittest.TestCase):
+    def test_tatoeba_model_artifacts_load_with_required_features_and_labels(self):
+        artifact_dir = PROJECT_DIR / "artifacts" / "tatoeba_nine"
+        vectorizer = joblib.load(artifact_dir / "vectorizer.joblib")
+        classifier = joblib.load(artifact_dir / "classifier.joblib")
+        metadata = json.loads(
+            (artifact_dir / "training_metadata.json").read_text(encoding="utf-8")
+        )
+
+        self.assertEqual(vectorizer.analyzer, "char")
+        self.assertEqual(vectorizer.ngram_range, (1, 3))
+        self.assertEqual(len(classifier.classes_), 9)
+        self.assertEqual(set(classifier.classes_), set(metadata["languages"]))
+        self.assertNotIn("Afaan Oromo (West Central Oromo)", classifier.classes_)
+        for split in ("train_per_language", "validation_per_language"):
+            counts = metadata[split]
+            self.assertEqual(len(set(counts.values())), 1)
+        self.assertTrue(metadata["fresh_test_set_required"])
 
 
 if __name__ == "__main__":

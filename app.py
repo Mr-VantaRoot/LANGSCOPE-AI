@@ -8,7 +8,7 @@ import joblib
 
 
 PROJECT_DIR = Path(__file__).resolve().parent
-ARTIFACT_DIR = PROJECT_DIR / "artifacts"
+ARTIFACT_DIR = PROJECT_DIR / "artifacts" / "tatoeba_nine"
 vectorizer = joblib.load(ARTIFACT_DIR / "vectorizer.joblib")
 classifier = joblib.load(ARTIFACT_DIR / "classifier.joblib")
 threshold_data = json.loads(
@@ -66,13 +66,13 @@ def predict_language(text):
 
     if len(cleaned_text) < SHORT_TEXT_CHARACTERS:
         messages.append(
-            f"This is very short text ({len(cleaned_text)} characters). In the "
-            "held-out benchmark, accuracy was lower on short prefixes; add more "
-            "text for a more reliable result."
+            f"This is very short text ({len(cleaned_text)} characters). Short "
+            "text contains less character context; add more text for a more "
+            "reliable result."
         )
 
     messages.append(
-        "This model only compares the ten supported languages. It may assign an "
+        "This model only compares the nine supported languages. It may assign an "
         "unsupported language to one of them; a high score does not prove the "
         "input belongs to a supported language."
     )
@@ -85,8 +85,8 @@ with gr.Blocks(
 ) as demo:
     gr.Markdown(
         "# LANGSCOPE AI\n"
-        "Identify text in ten languages with a character n-gram TF-IDF and "
-        "logistic regression model trained on FLORES+."
+        "Identify text in nine languages with a character n-gram TF-IDF and "
+        "logistic regression model trained on Tatoeba sentences."
     )
 
     with gr.Row():
@@ -138,11 +138,11 @@ with gr.Blocks(
     with gr.Accordion("Supported languages and limitations", open=False):
         gr.Markdown(
             "\n".join(f"- {language}" for language in SUPPORTED_LANGUAGES)
-            + "\n\nThe model always ranks these ten classes. Its score is not a "
+            + "\n\nThe model always ranks these nine classes. Its score is not a "
             "guaranteed probability or a reliable test for languages outside "
-            "this list. Evaluation used FLORES+ benchmark sentences; performance "
-            "on casual messages, dialects, mixed-language text, names, and "
-            "very short input may differ."
+            "this list. Final held-out evaluation is pending; performance on casual "
+            "messages, dialects, mixed-language text, names, and very short "
+            "input has not been established."
         )
 
 

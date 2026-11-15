@@ -1,0 +1,34 @@
+[
+  {
+    "sentence_id": "8898760",
+    "source": "Tatoeba",
+    "text": "Niin deema.",
+    "true_language": "Afaan Oromo (West Central Oromo)",
+    "predicted_language": "Turkish",
+    "likely_reason": "This is a short sentence with limited character context; that may leave fewer distinctive n-grams for the model."
+  },
+  {
+    "sentence_id": "12975768",
+    "source": "Tatoeba",
+    "text": "Toom leencaan ajjeefame.",
+    "true_language": "Afaan Oromo (West Central Oromo)",
+    "predicted_language": "Finnish",
+    "likely_reason": "The Oromo training examples came from FLORES+ while this test sentence came from Tatoeba. Source or wording differences may contribute to this error; this is a hypothesis, not a proven cause."
+  },
+  {
+    "sentence_id": "12975762",
+    "source": "Tatoeba",
+    "text": "Eessa turte?",
+    "true_language": "Afaan Oromo (West Central Oromo)",
+    "predicted_language": "Basque",
+    "likely_reason": "This is a short sentence with limited character context; that may leave fewer distinctive n-grams for the model."
+  },
+  {
+    "sentence_id": "8898773",
+    "source": "Tatoeba",
+    "text": "Lakki.",
+    "true_language": "Afaan Oromo (West Central Oromo)",
+    "predicted_language": "Finnish",
+    "likely_reason": "This is a short sentence with limited character context; that may leave fewer distinctive n-grams for the model."
+  }
+]

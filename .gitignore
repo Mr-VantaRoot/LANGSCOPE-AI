@@ -1,5 +1,6 @@
 # Local Python environment and downloaded FLORES+ data exports.
 .venv/
 data/flores_plus/
+data/tatoeba/
 __pycache__/
 *.py[cod]
