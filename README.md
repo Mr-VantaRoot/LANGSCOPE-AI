@@ -18,6 +18,8 @@ The model uses `TfidfVectorizer(analyzer="char", ngram_range=(1, 3))` and Logist
 
 On the fresh test set (**330 sentences; 33 per language**), the model got **329 correct (99.70% accuracy)**, with **99.71% macro precision**, **99.70% macro recall**, and **99.70% macro F1**. The majority-class baseline was **10.00%**.
 
+Each language has only **33 test examples**. A 100.00% accuracy or recall means all 33 were classified correctly in this sample; 100.00% precision means every test sentence predicted as that language was correct. These small-sample results do not mean the model is perfect on that language generally.
+
 | Language | Accuracy | Precision | Recall | F1 |
 | --- | ---: | ---: | ---: | ---: |
 | Amharic | 100.00% | 100.00% | 100.00% | 100.00% |
